@@ -1,0 +1,348 @@
+@charset "utf-8";
+
+.mw-content main {
+	padding: 0;
+}
+
+.fv_area {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: 360px;
+	background-image: linear-gradient(to right, white 0% , rgba(255, 255, 255, 0.9) 10%, transparent 40%), url("newgrads-fv.jpg");
+	background-position: right, right top;
+	background-size: 720px 480px, 720px 480px;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.fv_area .back {
+	display: block;
+	position: relative;
+	width: 100%;
+	filter: contrast(0.3) brightness(1.5);
+}
+
+h1 {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	bottom: 20%;
+	left: 10%;
+	color: white;
+	text-shadow: 1px 1px 6px black;
+	line-height: 1;
+}
+
+h1 .logo {
+	height: 24px;
+}
+
+h1 .text {
+	display: block;
+	font-size: 32px;
+}
+
+@media (min-width: 500px) {
+	h1 {
+		bottom: 30%;
+	}
+
+	h1 .logo {
+		height: 32px;
+	}
+	
+	h1 .text {
+		font-size: 48px;
+	}
+}
+
+main h2 {
+	display: block;
+	margin: 0 0 1em 0;
+	border-left: 0.3em solid #1d439a;
+	padding-left: 0.2em;
+}
+
+section.base {
+	margin: 0;
+	padding: 1.5em;
+}
+
+section.pickup {
+	background: #FEC;
+}
+
+section.companies {
+	background: #EEF;
+}
+
+/* ページナビ */
+.pagenavi {
+	text-align: center;
+}
+
+.pagenavi p {
+	width: fit-content;
+	margin: 1rem auto;
+	text-align: left;
+}
+
+.pagenavi .btn {
+	display: inline-block;
+	margin: 0.5em;
+	width: 8em;
+	font-size: x-large;
+	border: 3px solid #1d439a;
+	border-radius: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.pagenavi .btn > b {
+	font-size: xx-large;
+}
+
+.pagenavi .btn.companies {
+	background: #EEF;
+}
+
+.pagenavi .btn.by_job {
+	background: #DFE;
+}
+
+/* タイル */
+ul.tiles {
+	display: block;
+	margin: 0 -0.5em;
+	padding: 0;
+	width: auto;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+}
+
+ul.tiles > li {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 300px;
+	max-width: 500px;
+	margin: 0.5em 0.5em;
+	padding: 0.5em;
+	vertical-align: top;
+	background-color: white;
+	display: flex;
+	flex: 1 0 250px;
+	flex-flow: column nowrap;
+	justify-content: stretch;
+	align-items: stretch;
+}
+
+ul.tiles > li.spacer {
+	background-color: transparent;
+	margin: 0 0.5em;
+	padding: 0;
+}
+
+/* 狭いタイル */
+.scroll_container {
+	margin: 0 -0.5em;
+	width: auto;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+ul.compact {
+	width: max-content;
+	margin: 0;
+}
+
+ul.compact li {
+	margin: 0 0.5em;
+	width: 250px;
+}
+
+/* タイルの中身 */
+ul.tiles > li > .wrapper {
+	display: flex;
+	flex-grow: 1;
+	flex-flow: column nowrap;
+	justify-content: normal;
+	align-items: stretch;
+}
+
+ul.tiles > li .title {
+	font-size: x-large;
+	line-height: 1.2;
+	color: #1d439a;
+}
+
+ul.tags {
+	margin: 0;
+	padding: 0;
+}
+
+ul.tags li {
+	display: inline-block;
+	width: auto;
+	margin: 4px 2px;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 0 6px;
+	font-size: small;
+}
+
+ul.tags li.area {
+	background-color: #ffbb80;
+	border-color: #ffbb80;
+}
+
+ul.tags li.industry {
+	background-color: white;
+	border-color: #888;
+}
+
+ul.tiles > li img.eyecatch {
+	display: block;
+	margin: auto 0 0 0;
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+}
+
+ul.tiles > li p.desc {
+	flex-grow: 1;
+}
+
+ul.tiles > li a:link {
+	text-decoration: none;
+	color: black;
+	margin: 0
+}
+
+ul.tiles > li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+ul.tiles > li .button {
+	box-sizing: border-box;
+	display: block;
+	margin: 0.5em auto;
+	width: 100%;
+	max-width: 16em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+ul.tiles > li .btn_view {
+	border: 1px solid blue;
+	background-color: white;
+}
+
+ul.tiles > li .btn_view:hover {
+	transition: background-color 0.5s, color 0.5s;
+	background-color: blue;
+	color: white;
+}
+
+ul.tiles > li .btn_entry {
+	border: 1px solid #F5A22B;
+	background-color: #F5A22B;
+	color: white;
+}
+
+ul.tiles > li .btn_entry:hover {
+	transition: background-color 0.5s, color 0.5s;
+	background-color: white;
+	color: #f5a22b;
+}
+
+.companies .notice {
+	margin: 1rem 0;
+	padding: 0.5em;
+	background: white;
+	font-size: large;
+	text-align: center;
+}
+
+section.by_job {
+	background: #DFE;
+}
+
+dl.by_job_list {
+	display: block;
+}
+
+dl.by_job_list > div {
+	display: block;
+	margin: 1em 0;
+}
+
+dl.by_job_list > div > dt {
+	display: block;
+	padding: 0.5em;
+	margin: 0;
+	text-align: center;
+	background: #1d439a;
+	font-size: 150%;
+	font-weight: bold;
+	color: white;
+}
+
+dl.by_job_list > div > dd {
+	display: block;
+	padding: 0.5em;
+	margin: 0;
+	text-align: center;
+	background: white;
+	font-size: 120%;
+}
+
+dl.by_job_list > div > dd > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+dl.by_job_list > div > dd > ul > li {
+	margin: 16px;
+	color: #1d439a;
+}
+
+dl.by_job_list > div > dd > ul > li a {
+	color: #1d439a;
+	text-decoration: none;
+}
+
+@media (min-width: 600px) {
+	@supports (display: flex) {
+		dl.by_job_list {
+			display: flex;
+			flex-flow: column nowrap;
+		}
+
+		dl.by_job_list > div {
+			display: flex;
+			flex-flow: row nowrap;
+			margin: 0.2em 0;
+		}
+
+		dl.by_job_list > div > dt {
+			flex: 30% 0 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		dl.by_job_list > div > dd {
+			flex: 60% 1 0;
+		}
+		dl.by_job_list > div > dd > ul {
+			text-align: left;
+			list-style: disc;
+			padding: 0 1em;
+		}
+	}
+}
