@@ -1893,7 +1893,7 @@ dl.speclist > div {
 figure.portrait {
 	float: right;
 	box-sizing: border-box;
-	width: 30%;
+	width: 25%;
 	min-width: 120px;
 	margin: -2em 0.5em 1em 1.5em;
 }
