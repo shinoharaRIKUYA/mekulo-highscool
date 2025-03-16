@@ -567,19 +567,7 @@ li {
 	font-weight: bold;
 	padding: 4px;
 	background-color: rgba(255, 255, 255, 0.8);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	font-family: "ヒラギノ角ゴシック";
-=======
 	font-family: "Yu Gothic UI";
->>>>>>> Stashed changes
-=======
-	font-family: "Yu Gothic UI";
->>>>>>> Stashed changes
-=======
-	font-family: "Yu Gothic UI";
->>>>>>> Stashed changes
 }
 
 .highschool main .fv_area .fv-tag {
@@ -1007,19 +995,7 @@ li {
 .requirements .requirement h3 {
 	display: flex;
 	align-items: center;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-	column-gap: 10px;
-=======
 	column-gap: 20px;
->>>>>>> Stashed changes
-=======
-	column-gap: 20px;
->>>>>>> Stashed changes
-=======
-	column-gap: 20px;
->>>>>>> Stashed changes
 	color: #00009D;
 }
 
