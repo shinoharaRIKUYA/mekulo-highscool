@@ -567,7 +567,11 @@ li {
 	font-weight: bold;
 	padding: 4px;
 	background-color: rgba(255, 255, 255, 0.8);
+<<<<<<< Updated upstream
 	font-family: "ヒラギノ角ゴシック";
+=======
+	font-family: "Yu Gothic UI";
+>>>>>>> Stashed changes
 }
 
 .highschool main .fv_area .fv-tag {
@@ -995,7 +999,11 @@ li {
 .requirements .requirement h3 {
 	display: flex;
 	align-items: center;
+<<<<<<< Updated upstream
 	column-gap: 10px;
+=======
+	column-gap: 20px;
+>>>>>>> Stashed changes
 	color: #00009D;
 }
 
@@ -1511,7 +1519,7 @@ ol li a {
 	border: 1px solid #00509B;
 	margin: 30px 8px;
 	background-color: #fff;
-	padding-bottom: 32px;
+	padding-bottom: 10px;
 }
 
 .content h2,
@@ -2148,20 +2156,20 @@ img.scene {
 
 .highschool main .fv_wr .catch {
 	margin: 0;
-	font-size: clamp(1.125rem, 0.852rem + 1.36vw, 1.875rem);
+	font-size: clamp(1.125rem, 0.852rem + 1.36vw, 1.5rem);
 	font-weight: bold;
-	padding: 4px;
+	padding: 5px 10px;
 	background-color: rgba(255, 255, 255, 0.8);
 	width: fit-content;
 }
 
 .highschool main .fv_wr .tag  {
-	font-size: clamp(1.5rem, 1.5455rem + 1.9394vw, 3rem);
+	font-size: clamp(1.5rem, 1.5455rem + 1.9394vw, 2rem);
 	color: white;
-	padding: 10px 15px;
+	padding: 15px 30px;
 	font-weight: bold;
-	border: 1px solid white;;
 	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
+	text-shadow: 2px 0 0 #000000;
 }
 
 /*
@@ -2227,7 +2235,13 @@ img.scene {
 	display: block;
 	position: absolute;
 	bottom: -15px;
-	right: -65px;
+	right: -50px;
+}
+
+@media(min-width:350px) {
+	.highschool #list .catch::after {
+		right: -63px;
+	}
 }
 
 /*
@@ -2248,3 +2262,151 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	background-color: #00509B;
 	color: white;
 }
+
+.highschool #content .img-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	margin: 0 8px;
+}
+
+.highschool #content .img-box img {
+	width: 100%;
+	max-width: 360px;
+}
+
+.highschool #content .cont {
+	margin: 1em 8px;
+}
+
+.highschool #content .opendate {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.highschool #content .opendate p {
+	font-size: 18px;
+	color: white;
+	padding: 10px 15px;
+	border: 1px solid white;
+	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
+	margin: 0;
+}
+
+.highschool #content .opendate ul {
+	margin: 0;
+	padding: 15px 30px;
+	background-color: #E6F7FF;
+}
+
+.highschool #content .opendate ul li {
+	margin: 0.5em 0;
+	list-style: disc;
+}
+
+.highschool #content .flow  {
+	margin: 2em 8px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	gap: 10px;
+}
+
+.highschool #content .flow p {
+	width: fit-content;
+	font-size: 18px;
+	color: white;
+	padding: 4px 20px;
+	border: 1px solid white;
+	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
+	margin: 0;
+	height: fit-content;
+}
+
+.highschool #content .flow ul {
+	margin: 0;
+}
+
+.highschool #content .flow ul li {
+	margin: 1.5em 0;
+	color: #00509B;
+	font-weight: bold;
+}
+
+.highschool #content .flow ul li span {
+	background-color: #00509B;
+	color: white;
+	padding: 3px 7px;
+	margin-left: 2em;
+}
+
+.highschool #content .point {
+	margin: 1em 8px;
+}
+
+.highschool #content .point p {
+	width: fit-content;
+	font-size: 18px;
+	color: white;
+	padding: 4px 20px;
+	border: 1px solid white;
+	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
+	margin: 1em auto; 
+	height: fit-content;
+}
+
+.highschool #content .point .point-box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color:#E6F7FF;
+	margin: 1em 8px;
+	padding: 15px;
+	gap: 15px;
+}
+
+.highschool #content .point .point-box img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.highschool #content .point .point-box dl  {
+	margin: 0;
+	max-width: 330px;
+}
+
+.highschool #content .point .point-box dl dt {
+	margin: 0.5em 0 1em 0;
+	color: #00509B;
+	font-size: 20px;
+}
+
+.highschool #content .point .point-box dl dd {
+	margin: 0;
+}
+
+/*
+
+この見学に申し込む！！
+
+*/
+.highschool .entry-btn {
+	width: 280px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 2em auto;
+	padding: 8px;
+	align-items: center;
+	column-gap: 2%;
+	padding: 4px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0px 1px 2px black;
+	background: repeating-linear-gradient(130deg, #1C9E96, #1C9E96 10px,#188B8A 10px, #188B8A 20px);
+}
+

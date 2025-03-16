@@ -104,9 +104,52 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section id="content" class="content">
 	<p class="catchcopy"><span>実際にお客様と会う！？</span><br>
 		<span>企画営業を体験してみよう！</span></p>
-		<div class="content-wr">
-			
+	<div class="img-box">
+		<img src="../firstview.jpg" alt="">
+		<img src="../firstview.jpg" alt="">
+	</div>
+	<p class="cont">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れ</p>
+	<div class="opendate">
+		<p>開催日時</p>
+		<ul>
+			<li>2025年4月1日（火） 10時00分～</li>
+			<li>2025年4月1日（火） 10時00分～</li>
+			<li>2025年4月1日（火） 10時00分～</li>
+			<li>2025年4月1日（火） 10時00分～</li>
+			<li>2025年4月1日（火） 10時00分～</li>
+		</ul>
+	</div>
+	<div class="flow">
+		<p>見学の流れ</p>
+		<ul>
+			<li>会社説明<span>30分程度</span></li>
+			<li>先輩社員と会社見学<span>20分程度</span></li>
+			<li>先輩社員との座談会<span>20分程度</span></li>
+			<li>質疑応答<span>10分程度</span></li>
+		</ul>
+	</div>
+	<div class="point">
+		<p>この見学の見どころ！</p>
+		<div class="point-box">
+			<img src="../firstview.jpg" alt="">
+			<dl>
+				<dt>見どころビッグタイトル</dt>
+				<dd>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミ</dd>
+			</dl>
 		</div>
+		<div class="point-box">
+		<img src="../firstview.jpg" alt="">
+			<dl>
+				<dt>見どころビッグタイトル</dt>
+				<dd>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミ</dd>
+			</dl>
+		</div>
+	</div>
+	<a href="../apply/#entry" class="entry-btn">
+		<img src="../../../flag.png" class="flag">
+		<span>応募前見学情報を見る</span>
+		<img src="../../../arrow.svg">
+	</a>
 </section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
