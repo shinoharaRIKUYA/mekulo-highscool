@@ -450,7 +450,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_machine-operato/">
 				<figure>
-					<img src="job_machine-operato/firstview.jpg" alt="">
+					<img src="job_machine-operator/firstview.jpg" alt="">
 					<figcaption>機械操作スタッフ</figcaption>
 				</figure>
 			</a>
