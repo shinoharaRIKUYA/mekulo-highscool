@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../firstview.jpg">
+    <img alt="" class="fv_image" src="firstview.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -137,28 +137,28 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				目視検査では検査できない、原料の配合量やお湯を入れたときの戻り具合、味やにおい、包装の強度などを確認する仕事です。特に、1時間ごとの基本的な検査や、問題が起きたときの原因究明が重要です。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents01.jpg" alt="" class="scene">
 			</div>
 			<p>
 				基本的な検査では、1時間ごとにランダムで製品を抜き取り、検査項目にそってチェックしていきます。包装を開けて中身を確認するのは、品質管理ならでは。<br>
 				水検査と呼ばれる検査では、水の中に入れたかやくに圧力をかけて包装をパンパンに膨らませ、包装の強度や空気が漏れていないかを確認します。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents02.jpg" alt="" class="scene">
+				<img src="contents03.jpg" alt="" class="scene">
 			</div>
 			<p>
 				検査結果に問題があれば、機械操作スタッフと協力して原因を突き止めます。工場中の製品に関わり、製造スタッフや機械操作スタッフとのやりとりも多い仕事なので、常に工場の中を動き回っています。<br>
 				1時間ごとのルーティンを繰り返すことで不良品を未然に防ぎ、品質を安定させることができます。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents04.jpg" alt="" class="scene">
 			</div>
 			<p>
 				書類の作成も、品質管理の大事な仕事の一つです。スタッフの日報を確認したり、検査結果をまとめたりしながら、取引先に提出する書類を作成します。これらの書類は、製品の品質を証明する大切なものです。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents05.jpg" alt="" class="scene">
 			</div>
 			<h3>
 				判断力を磨く
@@ -168,7 +168,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				一年くらい経つと、一人で仕事をこなせるようになります。「ちょっと微妙かな」と感じる製品を判断するのは難しいですが、その判断ができるようになると、一人前になった実感がわいてきます。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents06.jpg" alt="" class="scene">
 			</div>
 		</section>
 		<section class="g">
@@ -177,13 +177,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div class="image_area">
 					<ul class="slides">
 					<li>
-				<img src="yousetsu1.jpg" alt="">
+				<img src="gallery01.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu2.jpg" alt="">
+				<img src="gallery02.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu3.jpg" alt="">
+				<img src="gallery03.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery04.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery05.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery06.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery07.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery08.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery09.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery10.jpg" alt="">
 			</li>
 				</ul>
 				<div class="button left_btn">&lt;</div>
@@ -196,7 +217,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="gyoda.jpg" alt="">
 				<hgroup>
 					<h3>行田さん</h3>
 					<p>

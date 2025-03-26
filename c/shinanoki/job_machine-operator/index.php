@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../firstview.jpg">
+    <img alt="" class="fv_image" src="firstview.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -138,22 +138,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				機械操作スタッフは、1人で約6台の機械を担当します。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents01.jpg" alt="" class="scene">
 			</div>
 			<p>
 				主にドライバーやスパナを使用し、「どうすれば不良を減らせるか？」を考えながら、細かい調整を繰り返します。<br>
 				例えば、機械の速度を変更したり、包装に具材を入れる部分を広げたり狭めたりすることで、具材が包装に挟まる不良を減らすことができます。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents02.jpg" alt="" class="scene">
+				<img src="contents03.jpg" alt="" class="scene">
 			</div>
 			<p>
 				別の製品に切り替えるときは、包装のロールを交換します。ロールにはそれぞれクセがあるので、交換後はそのクセを見極めて調整します。<br>
 				また、機械に具材が挟まったり、具材の量が違ったりすると、機械からエラー音が鳴ることもあります。そんな時こそ、焦らず落ち着いて機械と向き合い、原因を突き止めて対処することが大切です。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
+				<img src="contents04.jpg" alt="" class="scene">
 			</div>
 			<p>
 				かやくの種類や具材によって、細かい調整や工夫が欠かせません。状況に応じた臨機応変な対応が求められる仕事です。 
@@ -165,14 +165,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				入社後は、先輩と二人三脚で仕事を覚えていきます。特別な資格は必要ありませんが、作業の流れや機械の調整方法を一つずつ丁寧に習得していくことが大切です。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents05.jpg" alt="" class="scene">
 			</div>
 			<p>
 				最初は工場全体の流れを学び、徐々に「この状況ではこう調整する」といったコツを覚えていきます。一通りの仕事ができるようになるまでは、約2年。じっくりと経験を積みながら成長できます。<br>
 				また、3か月ごとに機械の点検を行い、安全性や性能を確認しています。最近の機械は内部構造が見えにくいものが多いですが、当社では独自の機械を使っていて内部がよく見えるので、機械が好きな人には特に面白い仕事だと思います。
 			</p>
 			<div class="images">
-				<img src="yousetsu3.jpg" alt="" class="scene">
+				<img src="contents06.jpg" alt="" class="scene">
 			</div>
 		</section>
 		<section class="g">
@@ -181,13 +181,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div class="image_area">
 					<ul class="slides">
 					<li>
-				<img src="yousetsu1.jpg" alt="">
+				<img src="gallery01.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu2.jpg" alt="">
+				<img src="gallery02.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu3.jpg" alt="">
+				<img src="gallery03.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery04.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery05.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery06.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery07.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery08.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery09.jpg" alt="">
 			</li>
 				</ul>
 				<div class="button left_btn">&lt;</div>
@@ -200,7 +218,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="kikuchi.jpg" alt="">
 				<hgroup>
 					<h3>菊地さん</h3>
 					<p>

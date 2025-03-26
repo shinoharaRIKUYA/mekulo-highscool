@@ -102,16 +102,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="first.jpg" alt="" class="fs show">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery03.jpg" alt="" class="th">
+			<img src="gallery04.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="first.jpg" alt="" class="fs">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="gallery02.jpg" alt="" class="sc">
+			<img src="gallery03.jpg" alt="" class="th">
+			<img src="gallery04.jpg" alt="" class="fo">
 		</div>
 	</div>
 	<h3>募集職種</h3>
@@ -146,33 +146,30 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		身近な食品であるカップ麺。ふたを開けると、小袋に入った「かやく」が一番に目に入ります。
 	</p>
-	<div class="images">
-		<img src="introduce1.jpg" class="scene" alt="">
-	</div>
 	<p>
 		この「かやく」を作っているのが、私たち科の木です。
 	</p>
-	<div class="images grid-img">
-		<img src="job_yousetsu/yousetsu2.jpg" class="scene" alt="">
+	<div class="images">
+		<img src="contents01.jpg" class="scene" alt="">
 	</div>
 	<p>
 		実は、日清食品のカップ麺に入っているかやくを作っている会社は、日本に3社しかありません。そのため、多い日は一日に約40万食、30種類以上のかやくを作っています。
 		作る量も種類も多いので、毎朝のミーティングが欠かせません。毎週月曜日に1週間の流れを確認し、火曜日以降はその日のタスクを確認します。自分のやるべき仕事を把握することで、迷わず作業に集中できます。
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="contents02.jpg" class="scene" alt="">
 	</div>
 	<p>
 		食品を扱うので、清潔な作業着を着て、エアーシャワーを浴びてから工場に入ります。室温は年間を通して約24℃に保たれているので、暑い日も寒い日も快適に働けます。
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="contents03.jpg" class="scene" alt="">
 	</div>
 	<p>
 		かやくを作る工程には、具材投入、機械操作、検査、梱包などがあります。どの工程でも素早く正確な作業が求められます。しかし、一人ですべての責任を負うようなことはありません。ミスがあっても必ず次の工程の人や機械がチェックし、みんなで品質を守るという文化が根付いています。
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="contents04.jpg" class="scene" alt="">
 	</div>
 	<p>
 		また、2021年には、新しく秋和工場を立ち上げました。冷凍のブルーベリーやブロッコリーを取り扱っていて、地元のスーパーだけでなく、東京のスーパーにも並んでいます。<br>
@@ -184,7 +181,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="firstview.jpg" alt="">
+				<img src="busi01.jpg" alt="">
 				<hgroup>
 					<h3>かやく（ラーメン）</h3>
 					<p>
@@ -196,7 +193,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="gomen.jpg" alt="">
+				<img src="busi02.jpg" alt="">
 				<hgroup>
 					<h3>かやく（そば）</h3>
 					<p>
@@ -208,7 +205,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="anaake.jpg" alt="">
+				<img src="busi03.jpg" alt="">
 				<hgroup>
 					<h3>かやく（エガちゃんねるコラボ）</h3>
 					<p>
@@ -220,7 +217,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="fukitsuke.jpg" alt="">
+				<img src="busi04.jpg" alt="">
 				<hgroup>
 					<h3>かやく（ラ王）</h3>
 					<p>
@@ -232,7 +229,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="robot.jpg" alt="">
+				<img src="busi05.jpg" alt="">
 				<hgroup>
 					<h3>謎肉</h3>
 					<p>
@@ -244,7 +241,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="robot.jpg" alt="">
+				<img src="busi06.jpg" alt="">
 				<hgroup>
 					<h3>かやく（ANA）</h3>
 					<p>
@@ -355,7 +352,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -402,7 +399,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<h3>若い世代の声を大切に</h3>
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="message.jpg" alt="">
 			<figcaption><span class="word">原田孝子</span></figcaption>
 		</figure>
 		<p>
@@ -446,7 +443,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<a href="<?= $company_base ?>job_food-manufacturing/">
 				<figure>
 					<img src="<?= $company_base ?>job_food-manufacturing/firstview.jpg" alt="">
-					<figcaption>製造スタッフ</figcaption>
+					<figcaption>具材投入・かやく検査スタッフ</figcaption>
 				</figure>
 			</a>
 		</li>

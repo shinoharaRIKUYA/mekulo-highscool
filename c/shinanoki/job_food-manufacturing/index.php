@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../firstview.jpg">
+    <img alt="" class="fv_image" src="firstview.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -142,23 +142,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				機械が自動で流してくれますが、具材によってはバラつきが出ることも。そのため、人の手で調整しながら均等に入るようにしています。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="yousetsu1.jpg" alt="" class="scene">
+				<img src="contents00.jpg" alt="" class="scene">
+				<img src="contents02.jpg" alt="" class="scene">
 			</div>
 			<p>
 				・検査<br>
 				機械から出てきた『かやく』を見て、具材がはみ出していないか、空気が漏れていないかなどを検査します。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="yousetsu1.jpg" alt="" class="scene">
+				<img src="contents03.jpg" alt="" class="scene">
+				<img src="contents04.jpg" alt="" class="scene">
 			</div>
 			<p>
 				1分間に約80個のかやくが流れてくるので、素早く正確な作業が求められます。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="yousetsu1.jpg" alt="" class="scene">
+				<img src="contents05.jpg" alt="" class="scene">
+				<img src="contents06.jpg" alt="" class="scene">
 			</div>
 			<p>
 				この写真を見てください！具材が挟まっているのがわかりますか？こうした異常を見つける、集中力が必要な工程です。
@@ -169,8 +169,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				かやくは1つ1つが軽いため、段ボール1箱でも約10kgほどです。
 			</p>
 			<div class="images">
-				<img src="../firstview.jpg" alt="" class="scene">
-				<img src="yousetsu1.jpg" alt="" class="scene">
+				<img src="contents07.jpg" alt="" class="scene">
+				<img src="contents08.jpg" alt="" class="scene">
 			</div>
 			<p>
 				こうして、安全で美味しいカップ麺のかやくが、皆さんのもとへ届けられています！
@@ -182,15 +182,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				入社後は、まず1か月間の研修を受けます。研修では、製造の各工程について学び、実際に作業を体験しながら流れを覚えていきます。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents09.jpg" alt="" class="scene">
+				<img src="contents10.jpg" alt="" class="scene">
 			</div>
 			<p>
 				研修が終わると、一人ひとりの適性に合わせて担当の工程が決まります。人によって向き不向きがあるので、無理なく自分に合った工程を担当できるようにしています。<br>
 				特に検査工程は難易度が高いですが、約4か月の経験を積むことで、一人で対応できるようになります。
 			</p>
 			<div class="images">
-				<img src="yousetsu2.jpg" alt="" class="scene">
+				<img src="contents11.jpg" alt="" class="scene">
 			</div>
 		</section>
 		<section class="g">
@@ -199,13 +199,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div class="image_area">
 					<ul class="slides">
 					<li>
-				<img src="yousetsu1.jpg" alt="">
+				<img src="gallery01.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu2.jpg" alt="">
+				<img src="gallery02.jpg" alt="">
 			</li>
         <li>
-				<img src="yousetsu3.jpg" alt="">
+				<img src="gallery03.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery04.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery05.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery06.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery07.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery08.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery09.jpg" alt="">
+			</li>
+			<li>
+				<img src="gallery10.jpg" alt="">
 			</li>
 				</ul>
 				<div class="button left_btn">&lt;</div>
@@ -218,7 +239,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="tuchiya.jpg" alt="">
 				<hgroup>
 					<h3>土屋さん</h3>
 					<p>
