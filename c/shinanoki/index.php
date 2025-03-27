@@ -296,7 +296,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="circle">
 			<p>新卒・中途の比率</p>
 			<div class="two">
-				<p class="num"><span>TBD</span></p>
+				<p class="num"><span>1:9</span></p>
 			</div>
 		</li>
 	</ul>
