@@ -154,7 +154,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 	<p>
 		実は、日清食品のカップ麺に入っているかやくを作っている会社は、日本に3社しかありません。そのため、多い日は一日に約40万食、30種類以上のかやくを作っています。
-		作る量も種類も多いので、毎朝のミーティングが欠かせません。毎週月曜日に1週間の流れを確認し、火曜日以降はその日のタスクを確認します。自分のやるべき仕事を把握することで、迷わず作業に集中できます。
+		作る量も種類も多いので、毎朝のミーティングが欠かせません。1日の流れを把握することで、迷わず作業に集中できます。
 	</p>
 	<div class="images">
 		<img src="contents02.jpg" class="scene" alt="">
@@ -166,7 +166,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="contents03.jpg" class="scene" alt="">
 	</div>
 	<p>
-		かやくを作る工程には、具材投入、機械操作、検査、梱包などがあります。どの工程でも素早く正確な作業が求められます。しかし、一人ですべての責任を負うようなことはありません。ミスがあっても必ず次の工程の人や機械がチェックし、みんなで品質を守るという文化が根付いています。
+		かやくを作る工程には、具材投入、機械操作、検査、梱包などがあります。どの工程でも素早く正確な作業が求められます。一人ひとりが責任感を持って、品質の徹底に努めています。
 	</p>
 	<div class="images">
 		<img src="contents04.jpg" class="scene" alt="">
@@ -276,7 +276,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>108</span>日</p>
+			<p class="num"><span>120</span>日</p>
 			<p class="at">※2025年計画</p>
 		</li>
 		<li class="small">
@@ -367,6 +367,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dd>
 				<ul class="li_style">
 					<li>乾燥食品の包装</li>
+					<li>冷凍食品の包装</li>
 				</ul>
 			</dd>
 		</div>
@@ -382,6 +383,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>本社所在地</dt>
 			<dd><?= $co['post-code']?><br><?= $co['adress']?><br>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11197.538529380718!2d138.2110391440787!3d36.3979483823927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da2dd6237e6d9%3A0x461e787729e1dee7!2z56eR44Gu5pyo!5e0!3m2!1sja!2sjp!4v1742865261455!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</dd>
+			<dt>Frozen Packing Factory 秋和工場</dt>
+			<dd>〒386-0041<br>長野県上田市秋和201-2<br>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8105.479495030496!2d138.2238579523568!3d36.40972578843984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da2c7d461950f%3A0xedd3df9f03032c9c!2z44CSMzg2LTAwNDEg6ZW36YeO55yM5LiK55Sw5biC56eL5ZKM77yS77yQ77yR4oiS77yS!5e0!3m2!1sja!2sjp!4v1743670072846!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
@@ -403,10 +408,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<figcaption><span class="word">原田孝子</span></figcaption>
 		</figure>
 		<p>
-			時代はどんどん変わっていきます。その変化に対応するためには、若い人たちの意見をしっかり取り入れていくことが必要だと考えています。みなさんからの意見を真摯に受け止め、より良い職場環境を作るために改善を進めています。
+			時代はどんどん変化しています。その変化に対応するには、若いみなさんの意見をしっかり取り入れていくことが必要だと考えています。みなさんからの意見を真摯に受け止め、より良い職場環境を作るために改善を進めています。
 		</p>
 		<p>
-			また、私たちの会社では、『報告・連絡・相談』を大切にしています。これは、仕事で何か問題が起きた時に、みんなで協力して解決するための大事なコミュニケーション手段です。仲良くするという意味ではなく、仕事を進める上で、必要な情報をしっかり伝え合うことが大切だと思っています。
+			また、私たちの会社では『報告・連絡・相談』を大切にしています。それによって、問題が起こる前に解決できることがたくさんあります。<br>
+			周りのみんなと協力し、仕事に必要な情報をしっかり伝え合えるみなさんのことを、お待ちしております。
 		</p>
 	</div>
 </section>

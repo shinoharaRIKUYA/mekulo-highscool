@@ -278,15 +278,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>諸手当</dt>
-							<dd></dd>
+							<dd>通勤手当、残業手当</dd>
 						</div>
 						<div>
 							<dt>昇給</dt>
-							<dd></dd>
+							<dd>年1回</dd>
 						</div>
 						<div>
 							<dt>賞与</dt>
-							<dd></dd>
+							<dd>年2回</dd>
 						</div>
 						<div>
 							<dt>試用期間</dt>
@@ -316,7 +316,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>休日・休暇</dt>
-							<dd>日・祝日・その他、年間休日105日（2025年度計画）</dd>
+							<dd>日・祝日・その他、年間休日120日（2025年度計画）</dd>
 						</div>
 						<div>
 							<dt>適用保険</dt>
@@ -335,11 +335,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dl>
 						<div>
 							<dt>前年度の採用実績</dt>
-							<dd>〇名</dd>
+							<dd>0名</dd>
 						</div>
 						<div>
 							<dt>直近3年間の新卒離職者数</dt>
-							<dd>〇名</dd>
+							<dd>1名</dd>
 						</div>
 						<div>
 							<dt>採用者の出身学校実績</dt>
@@ -362,7 +362,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						</div>
 						<div>
 							<dt>役員/管理職の女性比率</dt>
-							<dd>役員 〇%、管理職 〇%</dd>
+							<dd>役員 33%、管理職 0%</dd>
 						</div>
 						<div>
 							<dt>平均勤続年数</dt>
