@@ -18,7 +18,8 @@ html {
 /* 横幅 640px 未満 */
 body.highschool {
 	background: white;
-	font-family: "BIZ UDPGothic","ヒラギノ角ゴシック";
+	font-family: "BIZ UDPGothic","ヒラギノ角ゴシック",sans-serif;
+	line-height: 1.5;
 }
 
 footer {
@@ -70,6 +71,7 @@ footer {
 
 	body.highschool {
 		background: #eee;
+		list-style: 1.5;
 	}
 
 	.highschool .content_area {
@@ -575,7 +577,7 @@ li {
 	text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6), 0px 1px 0px rgba(0, 0, 0, 0.6);
 	background: #35A7F4;
 	box-shadow: 0px 0px 6px #000000;
-	font-size: 16px;
+	font-size: clamp(1rem, 0.6818rem + 1.5909vw, 1.875rem);
 	font-weight: bold;
 	padding: 4px 12px;
 	width: fit-content;
@@ -592,7 +594,7 @@ li {
 	margin: 0;
 	border: 1px solid white;
 	padding: 8px 24px;
-	width: 40%;
+	width: 45%;
 	bottom: 5%;
 	left: 16px;
 	font-weight: bold;
@@ -831,7 +833,10 @@ li {
 
 /* 社員紹介 */
 #employee_introduction .Lightbox  {
-	margin: 1em 40px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
 }
 
 #employee_introduction .Lightbox .thumbnails {
@@ -840,8 +845,8 @@ li {
 
 #employee_introduction .Lightbox .thumbnails::after {
 	display: block;
-	content: "";
-	background: url(glass.svg) no-repeat center;
+	content: url(glass.svg);
+	filter: drop-shadow(0 0 9px white);
 	background-size: contain;
 	width: clamp(40px, 4em, 50px);
 	height: clamp(40px, 4em, 50px);
@@ -853,10 +858,6 @@ li {
 #employee_introduction .Lightbox .thumbnails .thumbnail img {
 	max-width: 220px;
 }
-
-
-
-
 
 .thumbnails img.glass,
 #theLightbox img.glass {
@@ -929,7 +930,8 @@ li {
 	top: 45%;
 	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
-	width: 50%;
+	width: 80%;
+	max-width: 800px;
 	height: 80vh;
 	overflow: scroll;
 	overscroll-behavior: none;
@@ -941,7 +943,7 @@ li {
 }
 
 #theLightbox.active hgroup {
-	height: 800px;
+	height: 450px;
 	display: block;
 	color: #000;
 }
@@ -950,7 +952,7 @@ li {
 	#theLightbox.active {
 		height: 100vh;
 		top: 70%;
-		overflow: unset;
+		overflow: auto;
 	}
 
 	#theLightbox.active .thumbnail {
@@ -969,6 +971,11 @@ li {
 }
 
 /* 募集要項 */
+.requirements .tabs {
+	display: flex;
+	max-height: 125px;
+}
+
 .requirements .tabs button {
 	border: solid 1px #00509B;
 	border-width: 1px 1px 0 1px;
@@ -1406,10 +1413,6 @@ ol li a {
 
 /* 募集職種ボタン */
 
-#company_gallery h3 {
-
-}
-
 .job_btn li {
 	display: flex;
 	width: 100%;
@@ -1541,9 +1544,8 @@ ol li a {
 
 .content h3,.g h3,h4 {
 	display: flex;
-	gap: 10px;
+	gap: 20px;
 	align-items: center;
-	padding-left: 8px;
 	color: #00509B;
 }
 
@@ -1579,18 +1581,18 @@ ol li a {
 
 #business li::after {
 	display: block;
-	content: "";
-	background: url(glass.svg) no-repeat center;
+	content: url(glass.svg);
+	filter: drop-shadow(0 0 9px white);
 	background-size: contain;
 	width: clamp(40px, 4em ,50px);
 	height: clamp(40px, 4em ,50px);
 	position: absolute;
-	bottom: 20%;
+	bottom: 26%;
 	right: 2%;
 }
 
 #business img {
-	aspect-ratio: 1 / 1;
+	aspect-ratio: 3 / 2;
 	width: 100%;
 	object-fit: cover;
 }
@@ -1702,6 +1704,11 @@ ol li a {
 	padding: 0 10px;
 }
 
+.gr_con li {
+	text-align: center;
+	position: relative;
+}
+
 .gr_con .small {
 	border: 6px solid #35A7F4;
 	aspect-ratio: 1 / 1;
@@ -1721,13 +1728,13 @@ ol li a {
 
 #numeric_data .num span {
 	color: #35A7F4;
-	font-size: clamp(2.5rem, 1.591rem + 4.55vw, 2.5rem);
+	font-size: clamp(2.5rem, 1.591rem + 4.55vw, 2.125rem);
 }
 
 #numeric_data .gr_con .num {
 	position: relative;
-	top: 30%;
-	transform: translateY(-65%);	
+	top: 40%;
+	transform: translateY(-80%);	
 }
 
 #numeric_data .at {
@@ -1735,7 +1742,7 @@ ol li a {
 	font-weight: 400;
 	color: #000;
 	position: relative;
-	top: 28%;
+	top: 40%;
 	transform: translateY(-90%);
 }
 
@@ -1754,8 +1761,19 @@ ol li a {
 	margin-top: 0;
 }
 
+#numeric_data .gr_con .chart .chart-word {
+	font-size: clamp(1.25rem, -0.75rem + 20vw, 1.5rem);
+	position: absolute;
+	top: 80px;
+	right: 73px;
+}
+
+.chart .chart-word span {
+	color: #35A7F4;
+	font-size: clamp(2.5rem, 1.591rem + 4.55vw, 2.125rem);
+}
+
 .chart svg text {
-	font-family: sans-serif;
   font-weight: bold;
   fill: #ffffff;
   text-shadow: 0 0 2px black;
@@ -1774,11 +1792,18 @@ ol li a {
 }
 
 
+#about_company h3 {
+	margin-left: 8px;
+}
 /* 社長メッセージ */
 
 .pre_con {
 	max-width: 640px;
 	margin: 0 auto;
+}
+
+.pre_con h3 {
+	margin-left: 20px;
 }
 
 /* 会社概要 */
@@ -1843,6 +1868,10 @@ dl.speclist {
 	margin: 0.5em 0;
 }
 
+dl.speclist > div > div {
+	margin: 1em 0;
+}
+
 dl.speclist > div > div > dt {
 	font-weight: bold;
 	color: #00509B;
@@ -1852,6 +1881,10 @@ dl.speclist > div > div > dd {
 	margin: 0;
 	padding: 0 0 0 1em;
 	width: 100%;
+}
+
+dl.speclist > div > div > dd ul li {
+	list-style: inside;
 }
 
 dl.speclist > div > dd iframe {
@@ -1895,7 +1928,7 @@ figure.portrait {
 	box-sizing: border-box;
 	width: 25%;
 	min-width: 120px;
-	margin: -2em 0.5em 1em 1.5em;
+	margin: -1em 0.5em 1em 1.5em;
 }
 
 figure.center {
@@ -1913,10 +1946,19 @@ figure figcaption {
 }
 
 .word {
+	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	column-gap: 6px;
-	font-size: large;
+	letter-spacing: 0.14em;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	column-gap: 6px;
 	letter-spacing: 0.14em;
 }
 
@@ -1968,6 +2010,7 @@ figure figcaption {
 }
 
 .image_navi > li {
+	display: inline-block;
 	margin: 0.5em auto;
 	padding: 0;
 	min-width: 180px;
@@ -1984,7 +2027,7 @@ figure figcaption {
 	position: absolute;
 	font-size: 20px;
 	vertical-align: middle;
-	bottom: 0;
+	bottom: 2px;
 	width: 100%;
 	color: white;
 	font-weight: bold;
@@ -2023,6 +2066,7 @@ figure figcaption {
     justify-content: space-evenly;
     align-items: center;
     column-gap: 2%;
+		font-size: clamp(0.875rem, 0.8068rem + 0.3409vw, 1.0625rem);
     margin: 32px auto;
     padding: 4px;
     width: 70%;
@@ -2079,48 +2123,7 @@ img.scene {
 	display: inline-block;
 }
 
-/* 育休・新中の円グラフ */
 
-.gr_con .circle .one {
-	background-image: radial-gradient(#fff 0% 35%, transparent 36%),
-	conic-gradient(#2378C7 0% 10%, #d9d9d9 10% 100%);
-	aspect-ratio: 1 / 1;
-	border-radius: 50%;
-	width: 150px;
-}
-
-.gr_con .circle .two {
-	background-image: radial-gradient(#fff 0% 35%, transparent 36%),
-	conic-gradient(#2378C7 0% 60%, #F34444 60% 100%);
-	aspect-ratio: 1 / 1;
-	border-radius: 50%;
-	width: 150px;
-}
-
-#numeric_data .gr_con .one .num,
-#numeric_data .gr_con .two .num {
-	top: 85px;
-}
-/*      
-
-数字で見るの動くグラフ
-
-        */
-
-.gr_con .circle {
-	max-width: 160px;
-	margin: 0 auto;
-}
-
-.fl_con .circle{
-    display:inline-block;
-    transform:rotate(-90deg);
-  }
-
-.fl_con .circle .type{
-    fill:transparent;
-    stroke-width:100;
-  }
 
 /*   
 
@@ -2166,6 +2169,17 @@ img.scene {
 
 /*
 
+募集職種（ページ下部）
+
+*/
+#job_list .image_navi{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*
+
 ○○会社の応募前見学の内容
 
 */
@@ -2201,15 +2215,18 @@ img.scene {
 	left: 0;
 	margin: 0;
 	font-weight: bold;
-	padding: 10px 15px;
+	padding: 5px 10px;
 	background-color: rgb(255, 255, 255, 80%);
-	
 }
 
+.highschool #list .list-wr .date dt {
+	color: black;
+}
 
 .highschool #list .list-wr .date dd {
 	color: #00509B;
 	margin: 0;
+	padding: 5px 0;
 }
 
 .highschool #list .catch {
@@ -2241,13 +2258,13 @@ img.scene {
 具体的な応募前見学コンテンツ
 
 */
-.highschool #content .catchcopy {
+.highschool .content .catchcopy {
 margin: 1em 0;
 font-weight: bold;
 font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 }
 
-.highschool #content .catchcopy span {
+.highschool .content .catchcopy span {
 	display: inline-block;
 	padding: 5px 15px;
 	margin: 2px 0;
@@ -2255,7 +2272,7 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	color: white;
 }
 
-.highschool #content .img-box {
+.highschool .content .img-box {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -2263,42 +2280,48 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	margin: 0 8px;
 }
 
-.highschool #content .img-box img {
+.highschool .content .img-box img {
 	width: 100%;
 	max-width: 360px;
 }
 
-.highschool #content .cont {
+.highschool .content .cont {
 	margin: 1em 8px;
 }
 
-.highschool #content .opendate {
+.highschool .content .opendate {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 1em 8px;
 }
 
-.highschool #content .opendate p {
+.highschool .content .opendate p {
+	width: 100%;
+	max-width: 320px;
+	text-align: center;
 	font-size: 18px;
 	color: white;
-	padding: 10px 15px;
+	padding: 15px;
 	border: 1px solid white;
 	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
 	margin: 0;
 }
 
-.highschool #content .opendate ul {
+.highschool .content .opendate ul {
+	width: 100%;
+	max-width: 290px;
 	margin: 0;
-	padding: 15px 30px;
+	padding: 5px 30px;
 	background-color: #E6F7FF;
 }
 
-.highschool #content .opendate ul li {
+.highschool .content .opendate ul li {
 	margin: 0.5em 0;
 	list-style: disc;
 }
 
-.highschool #content .flow  {
+.highschool .content .flow  {
 	margin: 2em 8px;
 	display: flex;
 	flex-wrap: wrap;
@@ -2307,8 +2330,10 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	gap: 10px;
 }
 
-.highschool #content .flow p {
-	width: fit-content;
+.highschool .content .flow p {
+	width:100%;
+	text-align: center;
+	max-width: 320px;
 	font-size: 18px;
 	color: white;
 	padding: 4px 20px;
@@ -2318,39 +2343,58 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	height: fit-content;
 }
 
-.highschool #content .flow ul {
+.highschool .content .flow ul {
 	margin: 0;
 }
 
-.highschool #content .flow ul li {
-	margin: 1.5em 0;
+.highschool .content .flow ul li {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-size: 20px;
 	color: #00509B;
 	font-weight: bold;
+	border-left: 2px solid #35A7F4;
+	padding: 0 0 2em 2.5em;
+	position: relative;
 }
 
-.highschool #content .flow ul li span {
+.highschool .content .flow ul li::after {
+	content: "●";
+	color: #35A7F4;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 2px;
+	left: -11px;
+}
+
+.highschool .content .flow ul li span {
+	width: fit-content;
+	font-size: 16px;
 	background-color: #00509B;
 	color: white;
 	padding: 3px 7px;
-	margin-left: 2em;
 }
 
-.highschool #content .point {
+.highschool .content .point {
 	margin: 1em 8px;
 }
 
-.highschool #content .point p {
-	width: fit-content;
+.highschool .content .point p {
+	width: 100%;
+	max-width: 320px;
+	text-align: center;
 	font-size: 18px;
 	color: white;
-	padding: 4px 20px;
+	padding: 4px 0;
 	border: 1px solid white;
 	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
 	margin: 1em auto; 
 	height: fit-content;
 }
 
-.highschool #content .point .point-box {
+.highschool .content .point .point-box {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -2360,26 +2404,60 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	gap: 15px;
 }
 
-.highschool #content .point .point-box img {
+.highschool .content .point .point-box img {
 	width: 100%;
 	max-width: 300px;
 }
 
-.highschool #content .point .point-box dl  {
+.highschool .content .point .point-box dl  {
 	margin: 0;
 	max-width: 330px;
 }
 
-.highschool #content .point .point-box dl dt {
+.highschool .content .point .point-box dl dt {
 	margin: 0.5em 0 1em 0;
 	color: #00509B;
 	font-size: 20px;
 }
 
-.highschool #content .point .point-box dl dd {
+.highschool .content .point .point-box dl dd {
 	margin: 0;
+	line-height: 24px;
 }
 
+@media(min-width:400px) {
+	.highschool .content .flow ul li {
+		flex-direction: row;
+	}
+}
+
+
+@media(min-width:1000px) {
+	.highschool .content .opendate p {
+		flex-basis: 20%;
+		width: auto;
+		max-width: none;
+	}
+
+	.highschool .content .opendate ul {
+		flex-basis: 65%;
+		width: auto;
+		max-width: none;
+	}
+
+	.highschool .content .flow p {
+		width: fit-content;
+		font-size: 24px;
+	}
+
+	.highschool .content .flow  {
+		gap: 70px;
+	}
+
+	.highschool .content .point p {
+		font-size: 24px;
+}
+}
 /*
 
 この見学に申し込む！！

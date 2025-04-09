@@ -6,13 +6,18 @@ let theBackground;
 let theLightboxContainer;
 
 function onClickForLightbox(e) {
-	
 	// クリックされた要素から子要素を移植
-	for (let i=0; i<this.children.length; i++) {
-		let el = this.children[i].cloneNode(true);
-		theLightboxContainer.append(el);
+	for (let i = 0; i < this.children.length; i++) {
+			let el = this.children[i].cloneNode(true);
+			theLightboxContainer.append(el);
 	}
-	
+
+	// ライトボックス直下の子要素の p を非表示
+	const directParagraphs = theLightboxContainer.querySelectorAll(":scope > p");
+	directParagraphs.forEach(p => {
+			p.style.display = "none";
+	});
+
 	// ライトボックスを表示
 	theLightbox.classList.add("active");
 	theBackground.classList.add("active");
@@ -22,10 +27,16 @@ function closeLightbox(e) {
 	// ライトボックスを非表示
 	theLightbox.classList.remove("active");
 	theBackground.classList.remove("active");
-	
+
+	// ライトボックス直下の子要素の p の表示を復元
+	const directParagraphs = theLightboxContainer.querySelectorAll(":scope > p");
+	directParagraphs.forEach(p => {
+			p.style.display = ""; // デフォルト値に戻す
+	});
+
 	// すべての子要素を削除
 	while (theLightboxContainer.firstChild) {
-		theLightboxContainer.removeChild(theLightboxContainer.firstChild);
+			theLightboxContainer.removeChild(theLightboxContainer.firstChild);
 	}
 }
 
