@@ -37,7 +37,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../seikan.jpg">
+    <img alt="" class="fv_image" src="fv.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -131,56 +131,63 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
 	<h3>
-		クレーンで持ち上げて繋げろ!ダイナミックな製缶溶接
+		工事現場をスムーズに進める指揮官！
 	</h3>
 	<p>
-		製缶溶接では、金属加工部がつくったパーツを一つひとつ溶接によってつなぎ合わせ、フレーム枠に仕上げていきます。<br>
-		それぞれのパーツは大きく、人間の力だけでは持てないくらい重いので、クレーンを使って運ぶことが多いです。
+		建物をつくるとき、実際に工事をするのは大工さんや水道・電気などの職人さんたちです。でも、その工事がスムーズに進むように全体を管理するのが「建築施工管理」の仕事です。<br>
+		文化祭の実行委員長を思い浮かべてみてください。みんなの作業の様子を見て回り、把握して指示を出すことで、文化祭が成功します。こうした人がいないと、文化祭の準備が間に合わなくなったり、足りないものが出てきたりするかもしれません。施工管理も同じです。現場全体をまとめ、工事がスムーズに進むように職人さんに指示を出すのが役割です。
 	</p>
 	<div class="images">
-		<img src="../firstview.jpg" alt="" class="scene">
-		<img src="yousetsu1.jpg" alt="" class="scene">
+		<img src="work1.jpg" alt="" class="scene">
+		<img src="../fourth.jpg" alt="" class="scene">
 	</div>
+	<p>
+		まず、設計図や完成予定日をもとに、どの作業をいつまでに終わらせるかの計画を立てて書類にまとめます。大きな工事だと、ファイル一冊分になることもあります。
+	</p>
+	<div class="images">
+		<img src="work3.jpg" alt="" class="scene">
+		<img src="work4.jpg" alt="" class="scene">
+	</div>
+	<p>
+		その計画に合わせて、職人さんに作業の連絡をしたり、必要な材料を発注したりします。工事が始まる前には、作業の拠点となる「現場事務所」という仮設の建物を準備するのも施工管理の仕事です。
+	</p>
+	<div class="images">
+		<img src="../third.jpg" alt="" class="scene">
+		<img src="work6.jpg" alt="" class="scene">
+	</div>
+	<p>
+		工事が始まったら、図面通りに、計画通りに工事が進んでいるかをチェックします。予定通りにいかないこともあるので、そんなときは調整が必要です。
+	</p>
+	<div class="images">
+		<img src="../fourth.jpg" alt="" class="scene">
+	</div>
+	<p>
+		施工管理の役割は、「実際につくる人」ではなく「把握してまとめる人」。工事現場を支え、成功へ導く工事の指揮官です！
+	</p>
 	<h3>
-		大きい溶接だけでなく、小さな溶接も!
+		何十年も地域に残る
 	</h3>
 	<p>
-		巨大な製品の中にも、小さなパーツを組み込む部分もあります。こうした部分は、繊細で精度が求められます。電磁石やマグネットでしっかり固定して、ずれないように慎重に溶接していきます。
+		私たちは、学校や体育館、店舗、工場など、地域の暮らしに欠かせないさまざまな建物の施工管理を行っています。特に公共施設を手がけることが多く、現場が大きくなるほど関わる職人さんが増えます。
 	</p>
 	<div class="images">
-		<img src="yousetsu2.jpg" alt="" class="scene">
+		<img src="work8.jpg" alt="" class="scene">
+		<img src="work9.jpg" alt="" class="scene">
 	</div>
+	<p>
+		建物が完成した瞬間、たくさんの協力会社や職人さんと一緒に成し遂げた達成感は、言葉では表せません。地図に残るような建物をつくり、それが何十年も地域に残る。そんな『街の未来をつくる』ことが、建築施工管理の魅力の一つです。
+	</p>
 	<h3>
-		まずは廃材を使って溶接練習から
+		資格取得を目指す
 	</h3>
 	<p>
-		入社後は、廃材を使って溶接の練習をスタートします。<br>
-		溶接時には強い光と火花が出るため、安全対策として直視しないためのマスクと火花から身を守るための革手袋を装着します。しっかりと身につけていれば、やけどの心配はありません。
+		施工管理をするには、『施工管理技士』と呼ばれる国家資格が必要になります。北澤土建では、入社後に資格を取得できるように会社全体でサポートしています。<br>
+		まずは、先輩と一緒に現場で仕事を学びながら経験を積んでいきます。最初は先輩のお手伝いから始めて、仕事の流れを覚えていきます。<br>
+		上司や先輩、周りの職人さんたちも優しく教えてくれるので、安心してスキルを身につけてください。<br>
 	</p>
 	<div class="images">
-		<img src="yousetsu3.jpg" alt="" class="scene">
+		<img src="work10.jpg" alt="" class="scene">
 	</div>
-	<p>
-		マスク越しにのぞくと、実は真っ暗で強い光しか見えません。最初は、まっすぐに溶接をすることすら難しいですが、はやい人だと1か月ほどでコツを掴めます。
-	</p>
-	<div class="images">
-		<img src="yousetsu4.jpg" alt="" class="scene">
-	</div>
-	<p>
-		溶接は一見、誰がやっても同じように見えますが、実は人によって仕上がりに大きな違いが出ます。<br>
-		例えば、溶接後に溶接機を離すタイミングによって、表面が黒くなったりすることもあります。こうした細かな違いが職人のスキルで変わるポイントです。
-	</p>
-	<div class="images">
-		<img src="yousetsu5.jpg" alt="" class="scene">
-		<img src="yousetsu6.jpg" alt="" class="scene">
-	</div>
-	<p>
-		そのため、最初は綺麗に仕上がらなかったり、設計図通りの大きさにならなかったりすることもありますが、誰もが通る道です。<br>
-		上手くいかないと感じた時は、遠慮せず先輩に相談してください。未経験からスタートした社員ばかりなので、どうすれば上手くできるか、いろいろアドバイスしてもらえます。
-	</p>
-	<p>
-		また、溶接作業だけでなく、フォークリフトを運転して材料を運ぶこともあります。「運転してみたい！」という人も大歓迎です。資格取得支援もあるので、いろいろなことに挑戦していきましょう！
-	</p>
 </section>
 <section class="g">
 	<h2>写真で雰囲気を知る</h2>
@@ -213,16 +220,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="../fourth.jpg" alt="">
 				<hgroup>
-					<h3>塩川さん</h3>
+					<h3>堀さん</h3>
 					<p>
-						高校は工業科ではなかったのですが、製造業に興味があり、さまざまな地元の会社に見学に行きました。内藤工業所の見学をしたときに溶接を見て、「めちゃくちゃ綺麗だな、すげえな」と印象に残り、応募しました。<br>
-						ゲームが好きで、休みの日は家族とスマブラで遊ぶことが多いです。
+						入社したばかりのときは、上司が作成したスケジュールをパソコンで清書することから始めました。少しずつ仕事を覚えていき、今では約5千万円規模の現場を管理できるようになりました。<br>
+						施工管理の仕事は、ひとつの分野に特化するのではなく、さまざまな知識を身につけられるのが楽しいです。今は建築士の資格取得に向けても勉強中です。<br>
+						会社の雰囲気が良いし、上司も優しいし、人間関係で困ったことは一度もありません。<br>
+						休みの日は、友達とスノーボードに行ったり、マラソン大会に出たり、アクティブに過ごすのが好きです。
 					</p>
 				</hgroup>
 			</div>
-			<p>2019年新卒入社<br>塩川さん</p>
+			<p>2020年新卒入社<br>堀さん</p>
 		</li>
 	</ul>
 </section>
@@ -239,7 +248,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>溶接作業</dd>
+					<dd>施工管理（建築）</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -255,24 +264,24 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>3カ月（待遇の変更なし）</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>同条件</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒3850051<br>
-					長野県佐久市中込３３６８−３</dd>
+					<dd>〒389-0502<br>
+					長野県上田市武石沖471-1</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>北中込駅から車で2分</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>建物内喫煙不可</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
@@ -307,11 +316,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>169,000円～（平均226,000円）</dd>
+					<dd>210,000円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd>-</dd>
+					<dd>現場手当（20,000円）</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
@@ -323,11 +332,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>169,000円</dd>
+					<dd>210,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>皆勤手当（16,000円～）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -335,7 +344,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月20日</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -347,26 +356,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回</dd>
+					<dd>年2回（2.5か月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時10分〜17時15分</dd>
+					<dd>8時00分〜17時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均20時間</dd>
+					<dd>月平均10時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・他）</dd>
+					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日113日（2025年度計画）</dd>
+					<dd>年間休日120日（2025年度計画）</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -381,23 +390,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続年数3年以上）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>あり（65歳）</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>あり（定年年齢60歳）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>あり（上限年齢65歳）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -427,13 +436,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						10年<br>
+						17年<br>
 						※創業以降の実績
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>50歳</dd>
+					<dd>48歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -447,7 +456,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						仕事に必要な資格について、取得費用を全額補助いたします。
+						〇各種講習会への参加<br>
+						協会などが主催する「1級土木施工管理試験の講習」「ドローンの操縦方法」など。1日のときもあれば3～4日のときもある。
 					</dd>
 				</div>
 				<div>
@@ -488,7 +499,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>製造職</dd>
+					<dd>建設業</dd>
 				</div>
 			</dl>
 		</div>
@@ -497,13 +508,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>1人</dd>
+					<dd>3名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火） 14時00分～<br>
-						2025年8月5日（火） 14時00分～
+						2025年7月28日（月）10時00分～<br>
+						2025年7月30日（水）10時00分～<br>
+						2025年8月4日（月）10時00分～<br>
+						2025年8月6日（水）10時00分～<br>
+						2025年8月8日（金）10時00分～
 					</dd>
 				</div>
 				<div>
@@ -521,8 +535,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						専務取締役<br>
-						内藤
+						代表取締役社長<br>
+						北澤隆洋
 					</dd>
 				</div>
 			</dl>
@@ -558,7 +572,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

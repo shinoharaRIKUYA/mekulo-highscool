@@ -12,7 +12,7 @@ include_once $highschool_base . '!master-data.php';
 $title = $co['company_name'] . 'の新卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -22,7 +22,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -95,12 +95,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		スケールが違う！バス並にデカい鉄の土台を作る仕事
+		誠実に、地域とともに成長する
 	</h2>
 	<p>
-		私たちは、工場で使われている巨大な機械の土台を作っている会社です。<br>
-		デカい鉄骨に穴を開け、溶接で組み立て、最終的には自分の身長を超えるような巨大な土台（フレーム）を完成させます。<br>
-		そんな、超デカいものを作る仕事をやってみませんか？
+		上田市武石にある建設会社で、主に土木事業と建築事業を担当しています。90年以上にわたり、地域の道路や橋などのインフラ整備、公民館や保育園などの建物の建設に取り組んできました。<br>
+		市街地での工事ももちろんありますが、自然の中での工事が多いのが特徴です。
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -130,47 +129,74 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">「失敗歓迎!」な職場</h4>
+	<h4 class="point">知れば知るほど面白い！</h4>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		部活や授業で新しいことに挑戦するとき、最初から完璧にできる人は少ないですよね。学校では、先生や先輩がアドバイスをくれたり、一緒に練習してくれたりするから、少しずつ成長できます。<br>
-		職場でも同じです。社員のほとんどが未経験で入社している内藤工業所では、失敗しても怒られることはありません。代わりに、「次はどうすればいいか一緒に考えよう」という雰囲気があります。<br>
-		安心して挑戦できる環境で、自分の可能性を広げてみませんか。
+		施工管理の仕事では、職人さんとの打ち合わせが欠かせません。打ち合わせでは専門用語がたくさん出てくるので、理解するためには日々の勉強が必要です。<br>
+		わからない言葉をそのままにしてしまうと、職人さんとの意思疎通がうまくいかなくなることもあります。そのため、少しでも気になることや知らない言葉があれば、その場で質問することが大切です。北澤土建の社員さんは勉強熱心な人ばかりで、先輩や職人さんも優しく教えてくれます。<br>
+		施工管理の仕事は、知れば知るほど面白くなる仕事です。現場での経験を重ねることで、どんどん知識が増えていくのも、この仕事の大きな魅力です。 
 	</p>
 </div>
 <section class="content" id="about_company">
 	<h2>会社情報記事</h2>
 	<h3>
-		一つひとつがオリジナル！巨大フレームを作り上げる仕事
+		地域になくてはならない仕事
 	</h3>
 	<p>
-		私たちは佐久市中込で、主に産業機械のフレームや筐体の製造、大型部品の加工を手掛けています。
+		私たちは、主に土木工事と建築工事の施工管理を行っています。<br>
+		施工管理の仕事を簡単に説明すると、工事現場がスムーズに進むように『工事全体を管理する』仕事です。具体的には、完成までの計画を立てたり、現場で指示を出したり、役所に書類を提出したりします。
 	</p>
 	<div class="images">
 		<img src="introduce1.jpg" class="scene" alt="">
 		<img src="introduce2.jpg" class="scene" alt="">
 	</div>
 	<p>
-		分厚い金属の板や鉄骨を設計図に合わせて切断し、四角形に組み上げて溶接したり、ボルトで止めたりして、フレームの形を作ります。<br>
-		言葉でいうと簡単ですが、鉄骨は1本あたり数十kgありますし、溶接をすると形が歪んでしまうこともあるので、設計図通りに作るにはいろいろな工夫が必要です。
+		工事の期間中は、工事現場近くに建てられた「現場事務所」と呼ばれる仮設の建物で仕事を行います。タイムカードはスマホで管理しているので、会社に行くことはほとんどありません。<br>
+		現場事務所では、その日の作業内容の確認や図面の作成、工事の進み具合の確認・調整などを行います。
 	</p>
-	<div class="images grid-img">
-		<img src="job_yousetsu/yousetsu2.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu3.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu1.jpg" class="scene" alt="">
-	</div>
 	<p>
-		最後に塗装をして完成です。
+		施工管理で大切なのは、「いかに周りの信頼を獲得し、動かしていくことができるか」です。<br>
+	    周りを巻き込んで引っ張っていくのが得意な人、自然と人が集まってくるタイプの人、コツコツ努力するのが好きな人。信頼を獲得する方法は一つではなく、同じ施工管理技士でも性格は人それぞれです。<br>
+	    あなたらしさを活かして、施工管理の仕事をやってみませんか？
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="fourth.jpg" class="scene" alt="">
+		<img src="second.jpg" class="scene" alt="">
 	</div>
+	<h3>
+		縁の下のヒーロー
+	</h3>
 	<p>
-		作っているものは一点物ばかりなので、毎回みんなで考えながら作業に取り組んでいきます。新しいことに積極的に挑戦できる人や、困ったときにすぐ相談できる人に向いている仕事だと思います。<br>
-		主要取引先には、株式会社ステック、パナソニックコネクト株式会社、ミマキエンジニアリングなどがあり、ものづくりを通して地域産業の発展に貢献することを大切にしています。
+	    大きな災害が起きたとき、真っ先に被災地に向かうのは誰か知っていますか？ <br>
+		消防や自衛隊…と思うかもしれませんが、実は一番に現場へ駆けつけるのは建設業の人たちなんです！
+	</p>
+    <p>
+		令和元年の台風19号では、災害後すぐに、橋が流されて孤立した集落に住む透析の患者さんを病院へ運ぶために、鉄骨で仮設の橋を架けたことも。<br> 
+	    その後も、橋や道路の修繕を県・市町村から依頼され、緊急対応に全力を注ぎました。<br>
+        陥没した道路を直し、土砂を取り除き、緊急車両が通れるようにする。その結果、消防や救急が安全に救助活動を行うことができるのです。<br>
+        普段は街をつくり、いざという時は命を守るために動く──建設業はまさに、縁の下のヒーローです！
+	</p>
+	<h3>
+		最先端の技術
+	</h3>
+    <p>
+	    建設業と聞くと、「肉体労働で過酷な仕事」というイメージはありませんか？<br>
+        確かに昔はそうでした。<br> 
+        しかし今では、最新技術の導入により、働き方が大きく変わっています。
+	</p>
+	<div class="images">
+		<img src="introduce6.jpg" class="scene" alt="">
+	</div>
+    <p>
+	    例えば、ドローンを使うことで測量の時間が今までの半分以下に短縮され、今まで入れなかった場所も簡単に測ることができます。さらに、ICT技術を活用することで、機械に指示を出すだけで穴を掘ったり、測量結果を自動でまとめたりできるんです。
+	</p>
+	<p>
+		こうした技術の進歩により作業者の負担が減り、女性も多く活躍する業界になっています。<br>
+	    『建設業＝きつい仕事』というイメージは、もう昔の話。<br>
+	    今は、最新技術を駆使したかっこいい仕事です！
 	</p>
 </section>
 <section id="business" class="content">
@@ -178,95 +204,106 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="seikan.jpg" alt="">
+				<img src="business1.jpg" alt="">
 				<hgroup>
-					<h3>製缶溶接</h3>
+					<h3>学校</h3>
 					<p>
-						低温で一時的に溶接する「仮付け溶接」のあとに「本付け溶接」を行い、立体的な形を作っていきます。図面をもとに精密に仕上げる技術が求められます。
 					</p>
 				</hgroup>
 			</div>
-			<p>製缶溶接</p>
+			<p>学校</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="gomen.jpg" alt="">
+				<img src="business2.jpg" alt="">
 				<hgroup>
-					<h3>五面加工</h3>
+					<h3>体育館</h3>
 					<p>
-						プログラムを書いて、指示通りに機械を動かします。加工素材の付け替えを一切行わずに、下の面以外の五面を全て加工できるのが特徴です。
+						
 					</p>
 				</hgroup>
 			</div>
-			<p>五面加工</p>
+			<p>体育館</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="anaake.jpg" alt="">
+				<img src="business3.jpg" alt="">
 				<hgroup>
-					<h3>穴あけ加工</h3>
+					<h3>自治センター</h3>
 					<p>
-						ガバリという治具を使って、ポンチで印をつけてからドリルで穴を開けます。ラジアルボール盤という機械を使っています。
+						
 					</p>
 				</hgroup>
 			</div>
-			<p>穴あけ加工</p>
+			<p>自治センター</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="fukitsuke.jpg" alt="">
+				<img src="business4.jpg" alt="">
 				<hgroup>
-					<h3>吹き付け塗装</h3>
+					<h3>橋</h3>
 					<p>
-						塗料に硬化剤を混ぜて、機械で霧状にして吹き付けながら塗装します。普段目につかない部分でも、綺麗に仕上げることを大切にしています。
+						
 					</p>
 				</hgroup>
 			</div>
-			<p>吹き付け塗装</p>
+			<p>橋</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="robot.jpg" alt="">
+				<img src="business5.jpg" alt="">
 				<hgroup>
-					<h3>ロボット溶接</h3>
+					<h3>護岸</h3>
 					<p>
-						溶接の一部はロボットが担当しています。手作業ほど細かい調整はできませんが、同じ製品を複数作る場合はとても役立ちます。
+						
 					</p>
 				</hgroup>
 			</div>
-			<p>ロボット溶接</p>
+			<p>護岸</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="first.jpg" alt="">
+				<hgroup>
+					<h3>道</h3>
+					<p>
+						
+					</p>
+				</hgroup>
+			</div>
+			<p>道</p>
 		</li>
 	</ul>
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<p class="remark">（2025年1月1日現在）</p>
+	<p class="remark">（2025年2月20日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>3</span>億円</p>
+		<p class="num"><span>13</span>億円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>50</span>歳</p>
+			<p class="num"><span>48</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>10</span>年</p>
+			<p class="num"><span>17</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20</span>時間</p>
+			<p class="num"><span>10</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>113</span>日</p>
+			<p class="num"><span>120</span>日</p>
 			<p class="at">※2025年計画</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1961</span>年</p>
+			<p class="num"><span>1933</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
@@ -279,8 +316,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -290,8 +327,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 4, 'caption' => '新卒4', 'color' => '#2378C7'],
+						[ 'value' => 1, 'caption' => '中途1', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -301,8 +338,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 6.5, 'caption' => '男性：6.5', 'color' => '#0062B5'],
+						[ 'value' => 1, 'caption' => '女性：1', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -312,12 +349,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 10, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 20, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 30, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 40, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 100, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 40, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
+					[ 'value' => 2, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 2, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 6, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 9, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 11, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -337,8 +374,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -361,53 +398,49 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>産業機械</li>
-					<li>工作機械</li>
-					<li>建設機械等各種機械のフレーム</li>
-					<li>架台の製作及び大型NC機械</li>
-					<li>マシニングセンターによる金属の機械加工</li>
+					<li>土木、建築</li>
 				</ul>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>内藤央</dd>
+			<dd>北澤隆洋</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>16名（男性 11名／女性 5名、役員、パート・アルバイト含む）（2024年1月1日現在）</dd>
+			<dd>30名（2024年2月20日現在）</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.8271390555137!2d138.24653807650262!3d36.29224397239642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601db007d4c39b27%3A0x23da42e2eb7fea02!2z5YyX5r6k5Zyf5bu6!5e0!3m2!1sja!2sjp!4v1744243897973!5m2!1sja!2sjp"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0267-67-1800</dd>
+			<dd>0268-85-2039</dd>
 		</div>
-		<div>
+		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://www.kitazawadoken.co.jp/">https://www.kitazawadoken.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3>仕事はゲームと一緒！？</h3>
+		<h3>必要不可欠な仕事</h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">内藤央</span></figcaption>
+			<figcaption><span class="name">北澤隆洋</span></figcaption>
 		</figure>
 		<p>
-			みなさんは、初めてスマホを使ったときや新しいゲームを始めたとき、「難しかったらどうしよう」と思ったことがありますか？「どんなことができるのかな」とわくわくした人が多いのではないでしょうか。<br>
-			簡単すぎるゲームが物足りないのと同じで、少しずつ挑戦しながらレベルアップしていくのが楽しいですよね。
+			当社が長く続けて来られたのは、お客様や地域のみなさまのおかげです。<br>
+			令和元年の台風19号のときは、緊急対応として県・市町村から橋や道路など多くの修繕依頼をいただきました。周りからは「信頼があるからだよ」と言ってもらい、今まで築き上げてきたものの大切さを実感しました。
 		</p>
 		<p>
-			実は、仕事もこれと似ています。ゲームのチュートリアルのように1つずつ新しいスキルを身につけながら挑戦を重ねることでどんどん成長していけます。機械の操作方法や溶接のコツを学び、自分の「レベル」を上げていけば、さらに面白いことに挑戦できます。<br>
-			一緒にスキルを高め合える仲間たちが、あなたを待っています！ 
+			橋があるから川を渡れるし、工場があるから働ける。そんな“当たり前”の生活を支えているのが、私たち北澤土建です。<br>
+			チームワークを大切にできる人、誠実な人に向いていると思います。難しい仕事ですが、先輩と一緒に少しずつ覚えていけば大丈夫。ぜひ、一緒に働きましょう！
 		</p>
 	</div>
 </section>
@@ -455,18 +488,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_kinzoku/">
+			<a href="<?= $company_base ?>job_dobokusekou/">
 				<figure>
-					<img src="<?= $company_base ?>job_kinzoku/firstview.jpg" alt="">
-					<figcaption>金属加工</figcaption>
+					<img src="<?= $company_base ?>second.jpg" alt="">
+					<figcaption>土木施工管理</figcaption>
 				</figure>
 			</a>
 		</li>
 		<li>
-			<a href="<?= $company_base ?>job_yousetsu/">
+			<a href="<?= $company_base ?>job_kentikusekou/">
 				<figure>
-					<img src="firstview.jpg" alt="">
-					<figcaption>溶接作業</figcaption>
+					<img src="job_kentikusekou/fv.jpg" alt="">
+					<figcaption>建築施工管理</figcaption>
 				</figure>
 			</a>
 		</li>
@@ -478,5 +511,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php'; ?>
 </body>
