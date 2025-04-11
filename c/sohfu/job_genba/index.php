@@ -5,7 +5,7 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['description'] ?? '';
@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../second.jpg">
+    <img alt="" class="fv_image" src="fv.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -130,77 +130,48 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
-	<h3>
-		工事現場をスムーズに進める指揮官！
-	</h3>
+	<h3>ダクト設置のプロ</h3>
 	<p>
-		土木工事を行うとき、実際に作業をするのは重機のオペレーターや土木作業員さんたちです。でも、その工事がスムーズに進むように全体を管理するのが「土木施工管理」の仕事です。<br>
-		文化祭の実行委員長を思い浮かべてみてください。みんなの作業の様子を見て回り、把握して指示を出すことで、文化祭が成功します。こうした人がいないと、文化祭の準備が間に合わなくなったり、足りないものが出てきたりするかもしれません。施工管理も同じです。現場全体をまとめ、工事がスムーズに進むように職人さんに指示を出すのが役割です。
+		ダクト職人は、県内に約300人しかいない珍しい仕事です。<br>
+		一枚の金属板を筒の形に組み立てて、それを現場で繋げていく。簡単そうに聞こえますが、現場ごとにダクトの形も設置方法も違い、同じ作業はひとつもありません。<br>
+		設計図を見ながらチームで考えて、試行錯誤しながら形にしていく。「知らない」「わからない」ことにワクワクできる人なら、きっとこの仕事を楽しめるはずです。
 	</p>
 	<div class="images">
-		<img src="work1.jpg" alt="" class="scene">
+		<img src="../first.jpg" alt="" class="scene">
+	</div>
+	<h3>職人の技</h3>
+	<p>
+		ダクト職人は、「腰道具」と呼ばれるさまざまな工具を身につけて作業します。ナラシハンマーやラチェットレンチと呼ばれる工具を使いながら、チームで声を掛け合い、素早くダクトを設置していきます。 
+	</p>
+	<p>
+		取り付けの技術は1on1の個別指導ではなく、周りのみんなで教え合います。昔は「見て覚えろ」と言われることもありましたが、今はしっかり教える環境が整っています。<br>
+		3年もすれば仕事の流れがわかり、5年ほどで一人前の職人に。小規模の現場なら、リーダーを任されることもあります。
+	</p>
+	<div class="images">
 		<img src="work2.jpg" alt="" class="scene">
 	</div>
 	<p>
-		まず、設計図や完成予定日をもとに、どの作業をいつまでに終わらせるかの計画を立てて書類にまとめます。大きな工事だと、ファイル一冊分になることもあります。
+		また、ダクト職人にはさらなるスキルアップの道もあります。国家資格の取得には10年の実務経験が必要ですが、現場の監督業務の仕事を行うことも可能です。<br>
+		「職人として活躍する」「監督としてマネジメントを学ぶ」など、自分の目標に合わせて成長できます。技術を磨き、自分だけのキャリアを築いていきましょう。
+	</p>
+	<h3>まずはダクト作りから</h3>
+	<p>
+		入社後は、まず工場内で安全面を学び、作業に必要な道具の使い方を覚えることから始めます。
 	</p>
 	<div class="images">
-		<img src="../job_kentikusekou/work3.jpg" alt="" class="scene">
-		<img src="../job_kentikusekou/work4.jpg" alt="" class="scene">
+		<img src="work3.jpg" alt="" class="scene">
 	</div>
 	<p>
-		その計画に合わせて、職人さんに作業の連絡をしたり、必要な材料を発注したりします。工事が始まる前には、作業の拠点となる「現場事務所」という仮設の建物を準備するのも施工管理の仕事です。現場事務所は、作業員さんとの朝礼や休憩にも使われます。
-	</p>
-	<div class="images">
-		<img src="work5.jpg" alt="" class="scene">
-		<img src="work6.jpg" alt="" class="scene">
-	</div>
-	<p>
-		工事が始まったら、図面通りに、計画通りに工事が進んでいるかをチェックします。予定通りにいかないこともあるので、そんなときは調整が必要です。
-	</p>
-	<div class="images">
-		<img src="work7.jpg" alt="" class="scene">
-		<img src="../introduce1.jpg" alt="" class="scene">
-		<img src="work9.jpg" alt="" class="scene">
-	</div>
-	<p>
-		施工管理の役割は、「実際につくる人」ではなく「把握してまとめる人」。工事現場を支え、成功へ導く工事の指揮官です！
-	</p>
-	<h3>
-		自然を相手にする
-	</h3>
-	<p>
-		私たちは、橋や道路、川などの土木工事の施工管理を行っています。特に県や市から依頼される公共工事が多く、自然を相手にするダイナミックな工事が特徴です。
+		ダクト職人の仕事は、取り付けだけではありません。工場で金属板を加工し、ダクトを組み立てる工程も大切な仕事のひとつです。最初は工場で作業を行いながら、ダクトがどのように作られているのかをしっかり学びます。
 	</p>
 	<div class="images">
 		<img src="../firstview.jpg" alt="" class="scene">
-		<img src="../first.jpg" alt="" class="scene">
 	</div>
 	<p>
-		土木工事は天気に大きく左右されるので、スケジュール調整が一番重要な仕事です。雨が降ると作業ができなくなったり、大雨の後は流れ込んだ土砂をどかす復旧作業が必要になったりすることもあります。そんな状況でも、納期に間に合うように作業員の増員を検討したり、資材の納品スケジュールを調整したりしながら進めていきます。
+		基礎を身につけたら、実際の現場へ。先輩と一緒に作業をしながら、取り付けの技術を学び、経験を積んでいきます。しっかりとしたサポート体制のもとで、一歩ずつ職人としての力を身につけていきましょう。
 	</p>
 	<div class="images">
-		<img src="work12.jpg" alt="" class="scene">
-		<img src="work13.jpg" alt="" class="scene">
-	</div>
-	<p>
-		地域のインフラを支え、“当たり前”の生活を守る。そんな仕事をできるのが、土木施工管理です。
-	</p>
-	<h3>
-		資格取得を目指す
-	</h3>
-	<p>
-		施工管理をするには、『施工管理技士』と呼ばれる国家資格が必要になります。北澤土建では、入社後に資格を取得できるように会社全体でサポートしています。<br>
-		まずは、先輩と一緒に現場で仕事を学びながら経験を積んでいきます。最初は先輩のお手伝いから始めて、仕事の流れを覚えていきます。<br>
-	</p>
-	<div class="images">
-		<img src="yousetsu3.jpg" alt="" class="scene">
-	</div>
-	<p>
-		上司や先輩、周りの職人さんたちも優しく教えてくれるので、安心してスキルを身につけてください。
-	</p>
-	<div class="images">
-		<img src="work6.jpg" alt="" class="scene">
+		<img src="work5.jpg" alt="" class="scene">
 	</div>
 </section>
 <section class="g">
@@ -208,24 +179,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="NRGallery" data-width="640" data-height="480">
 		<div class="image_area">
 			<ul class="slides">
-			<li>
-		<img src="yousetsu1.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu2.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu3.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu7.jpg" alt="">
-	</li>
-	<li>
-		<img src="../robot.jpg" alt="">
-	</li>
-		</ul>
-		<div class="button left_btn">&lt;</div>
-		<div class="button right_btn">&gt;</div>
+				<li>
+					<img src="gallery1.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery2.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery3.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery4.jpg" alt="">
+				</li>
+			</ul>
+			<div class="button left_btn">&lt;</div>
+			<div class="button right_btn">&gt;</div>
 		</div>
 	</div>
 </section>
@@ -236,16 +204,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="thumbnail">
 				<img src="employee1.jpg" alt="">
 				<hgroup>
-					<h3>金澤さん</h3>
+					<h3>工藤さん</h3>
 					<p>
-						北澤土建のことは求人票で知りました。高校生のときは「とにかく給料がいいところ！」しか考えていなかったです(笑)<br>
-						土木工事はとにかく天候に左右される仕事です。今は道路工事を担当していますが、雨が降ると作業ができなくなることもあります。そんなときは、作業員さんとのコミュニケーションが大切です。「復旧作業にどのくらい時間がかかるか」「どこまでなら進められるか」などを確認しながら、計画を立て直します。<br>
-						大変なことも多いですが、その分、完成した時の達成感は格別です！<br>
-						以前は土曜出勤もありましたが、今はほとんど休みになったので、プライベートの時間もしっかり確保できます。
+						高校は工業科ではなかったので、入社後はすべてが初めての経験でした。今では大きい現場を任せられるようになって、成長を実感しています。<br>
+						社員同士の仲が良く、社員旅行も楽しみのひとつです。前回は2泊3日で北海道を満喫しました。
 					</p>
 				</hgroup>
 			</div>
-			<p>1995年新卒入社<br>金澤さん</p>
+			<p>2013年新卒入社<br>工藤さん</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="employee2.jpg" alt="">
+				<hgroup>
+					<h3>佐野さん</h3>
+					<p>
+						今は工場でダクトを作っています。入社4か月で、基本的なダクトは一通り作り方を覚えました作れるようになりました。初めて自分で完成させられたときは、「私にもできるんだ！」とすごく嬉しかったです。今後は、より品質を高めていきたいです。<br>
+						社長も社員のみなさんも、気さくで話しかけやすいです。 
+					</p>
+				</hgroup>
+			</div>
+			<p>2024年中途入社<br>佐野さん</p>
 		</li>
 	</ul>
 </section>
@@ -262,7 +241,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>施工管理（土木）</dd>
+					<dd>現場作業員</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -278,16 +257,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>なし</dd>
+					<dd>3か月</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>-</dd>
+					<dd>期間中は日給制</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒389-0502<br>
-					長野県上田市武石沖471-1</dd>
+					<dd>
+						〒386-2201<br>
+						長野県上田市真田町長2411-12
+					</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
@@ -330,11 +311,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>210,000円～</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd>現場手当（20,000円）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
@@ -362,15 +343,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限なし）</dd>
+					<dd>あり（上限30,000円）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>年1回</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（2.5か月分）</dd>
+					<dd>年2回（3.5か月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -381,7 +362,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均10時間</dd>
+					<dd>月平均7時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
@@ -389,7 +370,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日120日（2025年度計画）</dd>
+					<dd>年間休日95日（2025年度計画）</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -408,7 +389,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（65歳）</dd>
+					<dd>あり（60歳）</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
@@ -450,34 +431,36 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						17年<br>
-						※創業以降の実績
+						17年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>48歳</dd>
+					<dd>44歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>
+						〇雇入時教育<br>
+						〇特別教育<br>
+						〇技能講習<br>
+						玉掛け、高所作業車、など
+					</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						〇資格取得支援<br>
-						仕事に必要な資格について、取得費用を全額補助いたします。
-						〇各種講習会への参加<br>
-						協会などが主催する「1級土木施工管理試験の講習」「ドローンの操縦方法」など。1日のときもあれば3～4日のときもある。
+						業務に必要な資格の取得費用について、全額補助いたします。
 					</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
@@ -485,7 +468,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>なし</dd>
+					<dd>1級建築板金（ダクト鈑金）技能士（実務経験7年以上）</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
@@ -493,7 +476,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>10日</dd>
+					<dd>19.5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -513,7 +496,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>建設業</dd>
+					<dd>管工事業</dd>
 				</div>
 			</dl>
 		</div>
@@ -522,16 +505,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>3名</dd>
+					<dd>名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月28日（月）10時00分～<br>
-						2025年7月30日（水）10時00分～<br>
-						2025年8月4日（月）10時00分～<br>
-						2025年8月6日（水）10時00分～<br>
-						2025年8月8日（金）10時00分～
+						2025年7月29日（火） 10時00分～、<span class="br">13時30分～</span><br>
+						2025年7月31日（木） 10時00分～、<span class="br">13時30分～</span><br>
+						2025年8月7日（木） 10時00分～、<span class="br">13時30分～</span><br>
+						2025年8月21日（木） 10時00分～、<span class="br">13時30分～</span>
 					</dd>
 				</div>
 				<div>
@@ -550,7 +532,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>選考担当者</dt>
 					<dd>
 						代表取締役社長<br>
-						北澤隆洋
+						
 					</dd>
 				</div>
 			</dl>
@@ -563,27 +545,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>		
-<section class="g nextpage">
-    <h2>その他の職種を見てみる</h2>
-    <ul class="image_navi">
-        <?php foreach ($occupation as $key => $prop): ?>
-            <?php if ($key !== $last_segment): // 現在のURLと異なる職種のみ表示 ?>
-                <li>
-                    <a href="<?= $company_base . $prop['url'] ?>">
-                        <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
-                            <figcaption><?= $prop['name'] ?></figcaption>
-                        </figure>
-                    </a>
-                </li>
-            <?php endif; ?>
-        <?php endforeach; ?>
-    </ul>
-</section>			
-			</ul>
-		</section>
-	</main>
+</section>					
+</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
 <?php //include $base . '../footer.php' ?>
