@@ -285,7 +285,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>屋外に喫煙所設置</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
