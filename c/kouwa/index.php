@@ -416,7 +416,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="<?= $highschool_base ?>flag.png" class="flag">
 		<span>
 			就活前に会社を見てみよう!<br>
-			応募前
+			応募前見学
 		</span>
 		<img src="<?= $highschool_base ?>arrow.svg">
 	</a>
