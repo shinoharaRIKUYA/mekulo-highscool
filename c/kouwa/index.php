@@ -172,7 +172,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business1.png" alt="">
+				<div class="inner">
+					<img src="business1.png" alt="">
+				</div>
 				<hgroup>
 					<h3>『味のかけはし』</h3>
 					<p>
@@ -185,7 +187,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="introduce6.jpg" alt="">
+				<div class="inner">
+					<img src="introduce6.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>人気商品トップ３</h3>
 					<p>
@@ -198,7 +202,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="introduce1.jpg" alt="">
+				<div class="inner">
+					<img src="introduce1.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>業務用もあります</h3>
 					<p>

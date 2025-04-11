@@ -95,11 +95,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		誠実に、地域とともに成長する
+		アーチェリー部品や音響機器などの部品を手掛ける町工場
 	</h2>
 	<p>
-		上田市武石にある建設会社で、主に土木事業と建築事業を担当しています。90年以上にわたり、地域の道路や橋などのインフラ整備、公民館や保育園などの建物の建設に取り組んできました。<br>
-		市街地での工事ももちろんありますが、自然の中での工事が多いのが特徴です。
+		オーパーツの採用ページをご覧いただき、ありがとうございます。<br>
+		私たちオーパーツは、上田市住吉でアーチェリーの照準器（サイト）や半導体製造装置に使われる部品、高級オーディオ機器のパネル部品などを手掛けている町工場です。<br>
+		試作品として単品モノを製造することもあれば、一か月数千個を製造するような量産を行うこともあり、時には、わずか0.001mm（1000分の1ミリ）のズレすら許されない精密な加工を行うこともあります。<br>
+		当社では「総合製造スタッフ」という職種を募集していますが、これは製造する部品・パーツの製造設計からプログラム開発、製造に必要となる治具や工具、機械操作など、ものづくりの全工程を手掛ける技術職です。
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -129,75 +131,71 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">知れば知るほど面白い！</h4>
-	<figure class="portrait">
+	<h4 class="point"></h4>
+	<figure class="portrait" style="width: 20%;">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
-	<p>
-		施工管理の仕事では、職人さんとの打ち合わせが欠かせません。打ち合わせでは専門用語がたくさん出てくるので、理解するためには日々の勉強が必要です。<br>
-		わからない言葉をそのままにしてしまうと、職人さんとの意思疎通がうまくいかなくなることもあります。そのため、少しでも気になることや知らない言葉があれば、その場で質問することが大切です。北澤土建の社員さんは勉強熱心な人ばかりで、先輩や職人さんも優しく教えてくれます。<br>
-		施工管理の仕事は、知れば知るほど面白くなる仕事です。現場での経験を重ねることで、どんどん知識が増えていくのも、この仕事の大きな魅力です。 
+	<p style="min-height: 160px;">
+		世の中には、「とにかく決められた通りに作るだけ」の会社もあります。<br>
+		ですが、オーパーツは違う！<br>
+		アーチェリーの照準器、高級オーディオ機器…。<br>
+		「自分の作ったパーツが、プロのアーチェリーの勝負を左右するかもしれない」<br>
+		そんな実感を持ちながら、モノづくりに携われる仕事です。<br>
+		幼いころにガンプラを作ったり、ゲーム機を分解してみたり、そんな経験があるにはハマる仕事だと思います。<br>
+		大日方社長も、モノづくり大好き人間です。だからこそ、お話してみると絶対に面白いはず！ 
 	</p>
 </div>
 <section class="content" id="about_company">
 	<h2>会社情報記事</h2>
 	<h3>
-		地域になくてはならない仕事
+		ただ作るだけじゃない！その部品の使われ方まで考え抜く
 	</h3>
 	<p>
-		私たちは、主に土木工事と建築工事の施工管理を行っています。<br>
-		施工管理の仕事を簡単に説明すると、工事現場がスムーズに進むように『工事全体を管理する』仕事です。具体的には、完成までの計画を立てたり、現場で指示を出したり、役所に書類を提出したりします。
+		私たちの仕事は、ただ図面通りに部品を仕上げるだけではありません。<br>
+		私たちが目指すのは“最高の性能を発揮する部品”に仕上げ、お客様にご提供することです。<br>
+		そのためには、これから製造する部品が「どんな風に使われるのか」「どこまでの精度が必要か」をしっかり考える必要があります。
 	</p>
 	<div class="images">
 		<img src="introduce1.jpg" class="scene" alt="">
-		<img src="introduce2.jpg" class="scene" alt="">
 	</div>
 	<p>
-		工事の期間中は、工事現場近くに建てられた「現場事務所」と呼ばれる仮設の建物で仕事を行います。タイムカードはスマホで管理しているので、会社に行くことはほとんどありません。<br>
-		現場事務所では、その日の作業内容の確認や図面の作成、工事の進み具合の確認・調整などを行います。
-	</p>
-	<p>
-		施工管理で大切なのは、「いかに周りの信頼を獲得し、動かしていくことができるか」です。<br>
-	    周りを巻き込んで引っ張っていくのが得意な人、自然と人が集まってくるタイプの人、コツコツ努力するのが好きな人。信頼を獲得する方法は一つではなく、同じ施工管理技士でも性格は人それぞれです。<br>
-	    あなたらしさを活かして、施工管理の仕事をやってみませんか？
+		多くの場合、お客様からご提供いただく部品の図面には、寸法や形状は詳細に記されていますが、上記のようなことは記されていないことが多いのです。<br>
+		例えば、それがスライドする部品だったにも関わらず、「スライドする」という想像を全くせずに部品を作ると、結果的に動きがスムーズでなかったり、途中で引っかかってしまったりする部品になってしまうこともあります。<br>
+		だからこそオーパーツでは、一つひとつの部品について、「どう使われるのか」を常に想像し、お客様とコミュニケーションを取りながら、最適な加工方法を見極めることを大切にしています。
 	</p>
 	<div class="images">
-		<img src="fourth.jpg" class="scene" alt="">
-		<img src="second.jpg" class="scene" alt="">
+		<img src="first.jpg" class="scene" alt="">
+		<img src="introduce3.jpg" class="scene" alt="">
 	</div>
 	<h3>
-		縁の下のヒーロー
+		最高の部品に仕上げるために、ドリルや工具にもこだわる
 	</h3>
 	<p>
-	    大きな災害が起きたとき、真っ先に被災地に向かうのは誰か知っていますか？ <br>
-		消防や自衛隊…と思うかもしれませんが、実は一番に現場へ駆けつけるのは建設業の人たちなんです！
+		金属に穴を開けたり、削ったりするためには、それぞれの用途に適した市販のドリルや工具を使うのが一般的ですが、私たちのものづくりでは、時に市販の工具だけでは実現できないことがあります。<br>
+		そんな時には、自分たちでドリルや工具を設計し、加工を実現しています。
 	</p>
-    <p>
-		令和元年の台風19号では、災害後すぐに、橋が流されて孤立した集落に住む透析の患者さんを病院へ運ぶために、鉄骨で仮設の橋を架けたことも。<br> 
-	    その後も、橋や道路の修繕を県・市町村から依頼され、緊急対応に全力を注ぎました。<br>
-        陥没した道路を直し、土砂を取り除き、緊急車両が通れるようにする。その結果、消防や救急が安全に救助活動を行うことができるのです。<br>
-        普段は街をつくり、いざという時は命を守るために動く──建設業はまさに、縁の下のヒーローです！
+	<div class="images">
+		<img src="introduce4.jpg" class="scene" alt="">
+	</div>
+	<p>
+		また、ものづくりには、精度や品質だけでなく、同時に加工スピードも求められます。<br>
+		例えば、1,400台分の部品を作る場合、１個あたりの加工時間が1分短縮されるだけで、約23時間も生産時間を短縮できます。<br>
+		「どうすれば、より正確に、より速く作れるのか」試行錯誤を重ねながら追求するのも、ものづくりの楽しさです。
 	</p>
-	<h3>
-		最先端の技術
-	</h3>
-    <p>
-	    建設業と聞くと、「肉体労働で過酷な仕事」というイメージはありませんか？<br>
-        確かに昔はそうでした。<br> 
-        しかし今では、最新技術の導入により、働き方が大きく変わっています。
+	<div class="images">
+		<img src="introduce5.jpg" class="scene" alt="">
+	</div>
+	<h3>加工機械を動かす、プログラムにも挑戦できる</h3>
+	<p>
+		加工機械はボタンを押せば勝手に動くわけではありません。<br>
+		私たちが機械にこんな動作を、この順序で動いてほしいとプログラムを作ることで初めて動きます。<br>
+		オーパーツでは、部品の図面を見て、加工の順序を考え、プログラムを組み、実際に機械を動かして部品を作る。そんなものづくりに必要なすべての仕事に関われます。
 	</p>
 	<div class="images">
 		<img src="introduce6.jpg" class="scene" alt="">
+		<img src="introduce7.jpg" class="scene" alt="">
 	</div>
-    <p>
-	    例えば、ドローンを使うことで測量の時間が今までの半分以下に短縮され、今まで入れなかった場所も簡単に測ることができます。さらに、ICT技術を活用することで、機械に指示を出すだけで穴を掘ったり、測量結果を自動でまとめたりできるんです。
-	</p>
-	<p>
-		こうした技術の進歩により作業者の負担が減り、女性も多く活躍する業界になっています。<br>
-	    『建設業＝きつい仕事』というイメージは、もう昔の話。<br>
-	    今は、最新技術を駆使したかっこいい仕事です！
-	</p>
 </section>
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
@@ -208,12 +206,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business1.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>学校</h3>
+					<h3>エレベーション（アーチェリー部品）</h3>
 					<p>
+						照準器の高さを上下に微調整するための重要な部品。4面の平行度を0.005mm以内に抑えるという、高精度な加工が求められます。
 					</p>
 				</hgroup>
 			</div>
-			<p>学校</p>
+			<p>エレベーション（アーチェリー部品）</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -221,13 +220,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business2.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>体育館</h3>
+					<h3>サイトボックス（アーチェリー部品）</h3>
 					<p>
-						
+						アーチェリーの照準器（サイト）に使われる部品を製造しています。
 					</p>
 				</hgroup>
 			</div>
-			<p>体育館</p>
+			<p>サイトボックス（アーチェリー部品）</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -235,13 +234,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business3.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>自治センター</h3>
+					<h3>アローレスト（アーチェリー部品）</h3>
 					<p>
-						
+						2cm程度の小さな部品ですが、アーチェリーの矢を安定させ、正確に射るためには欠かせないパーツです。ミクロン単位の精度が求められる難易度が高い部品です。
 					</p>
 				</hgroup>
 			</div>
-			<p>自治センター</p>
+			<p>アローレスト（アーチェリー部品）</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -249,13 +248,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business4.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>橋</h3>
+					<h3>フロントパネル（オーディオアンプ部品）</h3>
 					<p>
-						
+						2cm程度の小さな部品ですが、アーチェリーの矢を安定させ、正確に射るためには欠かせないパーツです。ミクロン単位の精度が求められる難易度が高い部品です。
 					</p>
 				</hgroup>
 			</div>
-			<p>橋</p>
+			<p>フロントパネル（オーディオアンプ部品）</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -263,27 +262,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business5.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>護岸</h3>
+					<h3>薬局梱包機の部品</h3>
 					<p>
-						
+						薬を梱包する半透明の袋を密封する機械の部品を製造しています。
 					</p>
 				</hgroup>
 			</div>
-			<p>護岸</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="first.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>道</h3>
-					<p>
-						
-					</p>
-				</hgroup>
-			</div>
-			<p>道</p>
+			<p>薬局梱包機の部品</p>
 		</li>
 	</ul>
 </section>
@@ -292,17 +277,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年2月20日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>13</span>億円</p>
+		<p class="num"><span>1.2</span>億円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>48</span>歳</p>
+			<p class="num"><span>50</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>17</span>年</p>
+			<p class="num"><span>11.3</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
@@ -310,12 +295,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>120</span>日</p>
+			<p class="num"><span>127</span>日</p>
 			<p class="at">※2025年計画</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1933</span>年</p>
+			<p class="num"><span>2010</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
@@ -328,8 +313,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '対象者なし', 'color' => '#d9d9d9'],
 					]); ?>
 				</svg>
 			</div>
@@ -339,8 +324,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 4, 'caption' => '新卒4', 'color' => '#2378C7'],
-						[ 'value' => 1, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 0.001, 'caption' => '新卒0', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途5', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -350,8 +335,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 6.5, 'caption' => '男性：6.5', 'color' => '#0062B5'],
-						[ 'value' => 1, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 2, 'caption' => '男性：2', 'color' => '#0062B5'],
+						[ 'value' => 3, 'caption' => '女性：3', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -362,11 +347,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
 					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
-					[ 'value' => 2, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 2, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 6, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 9, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 11, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 0.001, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 1, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 2, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 1, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 1, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -384,19 +369,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<div class="chart">
 				<p>出身地の割合</p>
-					<svg width="150" height="150" viewBox="0 0 200 200">
-						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
-													]); ?>
-					</svg>
-				</div>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 40, [
+						[ 'value' => 75, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+						[ 'value' => 25, 'caption' => '県外', 'color' => '#FEE929'],
+												]); ?>
+				</svg>
+			</div>
 		</li>
 	</ul>	
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -404,55 +389,57 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>業種</dt>
-			<dd><?= INDUSTRIES[$co['industry'][0]] ?></dd>
+			<dd><?= INDUSTRIES[$co['industry'][0]] ?>（運動用具）</dd>
 		</div>
 		<div>
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>土木、建築</li>
+					<li>
+						世界で使用されるアーチェリーの照準器やアローレストや、高級オーディオ機器から歯科医療機器、調剤薬局向け機器の部品製造などを手掛ける。
+					</li>
 				</ul>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>北澤隆洋</dd>
+			<dd>大日方 新治</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>30名（2024年2月20日現在）</dd>
+			<dd> 5名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.8271390555137!2d138.24653807650262!3d36.29224397239642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601db007d4c39b27%3A0x23da42e2eb7fea02!2z5YyX5r6k5Zyf5bu6!5e0!3m2!1sja!2sjp!4v1744243897973!5m2!1sja!2sjp"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.626011254447!2d138.18169607650785!3d36.44242497235139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d98e15a627d21%3A0xeda24e557340129a!2z5Lqk5ZKM54mp55SjKOagqik!5e0!3m2!1sja!2sjp!4v1744353211137!5m2!1sja!2sjp"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0268-85-2039</dd>
+			<dd>0268-75-9702</dd>
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.kitazawadoken.co.jp/">https://www.kitazawadoken.co.jp/</a></dd>
+			<dd>なし</dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3>必要不可欠な仕事</h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">北澤隆洋</span></figcaption>
+			<figcaption><span class="name">大日方 新治</span></figcaption>
 		</figure>
 		<p>
-			当社が長く続けて来られたのは、お客様や地域のみなさまのおかげです。<br>
-			令和元年の台風19号のときは、緊急対応として県・市町村から橋や道路など多くの修繕依頼をいただきました。周りからは「信頼があるからだよ」と言ってもらい、今まで築き上げてきたものの大切さを実感しました。
-		</p>
-		<p>
-			橋があるから川を渡れるし、工場があるから働ける。そんな“当たり前”の生活を支えているのが、私たち北澤土建です。<br>
-			チームワークを大切にできる人、誠実な人に向いていると思います。難しい仕事ですが、先輩と一緒に少しずつ覚えていけば大丈夫。ぜひ、一緒に働きましょう！
+			オーパーツは、ただ機械を動かして部品を作る会社ではありません。<br>
+			私たちが目指すのは、「使う人のことまで考えた最高のものづくり」です。<br>
+			例えば、アーチェリーの部品。<br>
+			メーカー様から預かった図面通りに作るだけでは、本当に使いやすいものにはなりません。選手がどんな動きをするのか、どんな精度が必要なのかを考え、細かな調整を加える。<br>
+			そうやって、自分の手で世界に通じる部品を生み出していくのです。<br>
+			最初は何もわからなくても大丈夫。<br>
+			ものづくりが好きな人、自分の手で世界に通じる技術を身につけたい人、オーパーツで”最高のものづくり”にチャレンジしてみませんか？
 		</p>
 	</div>
 </section>
@@ -500,18 +487,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_dobokusekou/">
+			<a href="<?= $company_base ?>job_seizou/">
 				<figure>
-					<img src="<?= $company_base ?>second.jpg" alt="">
-					<figcaption>土木施工管理</figcaption>
-				</figure>
-			</a>
-		</li>
-		<li>
-			<a href="<?= $company_base ?>job_kentikusekou/">
-				<figure>
-					<img src="job_kentikusekou/fv.jpg" alt="">
-					<figcaption>建築施工管理</figcaption>
+					<img src=".jpg" alt="">
+					<figcaption>総合製造スタッフ</figcaption>
 				</figure>
 			</a>
 		</li>

@@ -189,7 +189,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business1.jpg" alt="">
+				<div class="inner">
+					<img src="business1.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>設置後のダクト</h3>
 					<p>
@@ -201,7 +203,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="introduce1.jpg" alt="">
+				<div class="inner">
+					<img src="introduce1.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>お店</h3>
 					<p>
@@ -213,7 +217,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business3.jpg" alt="">
+				<div class="inner">
+					<img src="business3.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>直管</h3>
 					<p>
@@ -225,7 +231,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business4.jpg" alt="">
+				<div class="inner">
+					<img src="business4.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>異径管</h3>
 					<p>
@@ -237,7 +245,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business5.jpg" alt="">
+				<div class="inner">
+					<img src="business5.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>エルボ</h3>
 					<p>
@@ -249,7 +259,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="business6.jpg" alt="">
+				<div class="inner">
+					<img src="business6.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>S字管</h3>
 					<p>

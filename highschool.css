@@ -1583,11 +1583,11 @@ ol li a {
 	gap: 20px;
 }
 
-#business li {
+#business li .inner {
 	position: relative;
 }
 
-#business li::after {
+#business li .inner::after {
 	display: block;
 	content: url(glass.svg);
 	filter: drop-shadow(0 0 9px white);
@@ -1595,7 +1595,7 @@ ol li a {
 	width: clamp(40px, 4em ,50px);
 	height: clamp(40px, 4em ,50px);
 	position: absolute;
-	bottom: 26%;
+	bottom: 9px;
 	right: 2%;
 }
 
@@ -1603,6 +1603,11 @@ ol li a {
 	aspect-ratio: 3 / 2;
 	width: 100%;
 	object-fit: cover;
+}
+
+#theLightboxContainer .inner img {
+	width: 100%;
+	height: unset;
 }
 
 #business li p {

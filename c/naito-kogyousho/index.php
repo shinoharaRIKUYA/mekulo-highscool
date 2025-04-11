@@ -22,7 +22,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -178,7 +178,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="seikan.jpg" alt="">
+				<div class="inner">
+					<img src="seikan.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>製缶溶接</h3>
 					<p>
@@ -190,7 +192,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="gomen.jpg" alt="">
+				<div class="inner">
+					<img src="gomen.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>五面加工</h3>
 					<p>
@@ -202,7 +206,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="anaake.jpg" alt="">
+				<div class="inner">
+					<img src="anaake.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>穴あけ加工</h3>
 					<p>
@@ -214,7 +220,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="fukitsuke.jpg" alt="">
+				<div class="inner">
+					<img src="fukitsuke.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>吹き付け塗装</h3>
 					<p>
@@ -226,7 +234,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="robot.jpg" alt="">
+				<div class="inner">
+					<img src="robot.jpg" alt="">
+				</div>
 				<hgroup>
 					<h3>ロボット溶接</h3>
 					<p>
@@ -478,5 +488,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>
