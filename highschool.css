@@ -1557,6 +1557,10 @@ ol li a {
 	background: linear-gradient(180deg, #00509B 0%, #5572B6 100%);
 }
 
+.newgrads h3 {
+	margin: 0 12px;
+}
+
 .content p,.g p {
 	margin: 0 10px;
 }
@@ -1896,6 +1900,10 @@ dl.speclist > div > dd iframe {
 dl.speclist > div {
 	border-bottom: 1px solid black;
 	padding: 18px;
+}
+
+dl.speclist .hp dd {
+	word-break: break-all;
 }
 
 .li_style li {

@@ -1,4 +1,28 @@
 <?php
+//記事製作者情報
+const WRITER = [
+    'sato' => [
+        'image' => 'sato.png',
+        'name' => '佐藤',
+    ],
+    'shomura' => [
+        'image' => 'shomura.png',
+        'name' => '正村 欣生',
+    ],
+     'ichikawa' => [
+        'image' => 'ichikawa.png',
+        'name' => '市川 祐己',
+    ],
+     'kobayashi' => [
+        'image' => 'sato.png',
+        'name' => '小林 祐穂',
+    ],
+     'noguchi' => [
+        'image' => 'sato.png',
+        'name' => '野口 拓真',
+    ],
+];
+
 // 産業情報
 const INDUSTRIES = [
     'A' => '農業、林業',
@@ -428,4 +452,3 @@ const OCCUPATION = [
     '739' => 'その他の運搬・清掃・包装等従事者',
     '999' => '分類不能の職業',
 ];
-
