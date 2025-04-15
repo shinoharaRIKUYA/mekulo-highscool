@@ -129,11 +129,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </div>
 	<h3>取材担当者からのポイント！</h3>
 	<h4 class="point">毎日が新しい発見の連続</h4>
-	<figure class="portrait">
+	<figure class="portrait" style="width: 20%;">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
-	<p>
+	<p style="min-height: 160px;">
 		山口電気では、住宅の配線工事から工場の電気設備まで、さまざまな電気工事を手掛けています。同じ現場は一つとしてなく、作業内容も毎回異なるため、新しいことに挑戦する機会がたくさんあります。「今日はどんな現場だろう？」とワクワクしながら働けるのが魅力です。経験を積むごとに、できることが増えていく楽しさも実感できます。電気工事のプロとして成長しながら、毎日新しい発見をしてみませんか？
 	</p>
 </div>
