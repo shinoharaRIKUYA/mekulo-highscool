@@ -142,7 +142,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				機械が自動で流してくれますが、具材によってはバラつきが出ることも。そのため、人の手で調整しながら均等に入るようにしています。
 			</p>
 			<div class="images">
-				<img src="contents00.jpg" alt="" class="scene">
+				<img src="contents01.jpg" alt="" class="scene">
 				<img src="contents02.jpg" alt="" class="scene">
 			</div>
 			<p>
@@ -218,9 +218,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			</li>
 			<li>
 				<img src="gallery07.jpg" alt="">
-			</li>
-			<li>
-				<img src="gallery08.jpg" alt="">
 			</li>
 			<li>
 				<img src="gallery09.jpg" alt="">

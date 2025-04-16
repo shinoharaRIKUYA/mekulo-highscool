@@ -129,7 +129,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </div>
 	<h3>取材担当者からのポイント！</h3>
 	<h4>離職者ほぼ0！？</h4>
-	<figure class="portrait">
+	<figure class="portrait" style="width: 20%;">
 			<img src="sato.png" alt="">
 			<figcaption><span class="word">佐藤</span></figcaption>
 		</figure>
@@ -454,7 +454,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			</a>
 		</li>
 		<li>
-			<a href="<?= $company_base ?>job_machine-operato/">
+			<a href="<?= $company_base ?>job_machine-operator/">
 				<figure>
 					<img src="job_machine-operator/firstview.jpg" alt="">
 					<figcaption>機械操作スタッフ</figcaption>

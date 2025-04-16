@@ -180,9 +180,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="NRGallery" data-width="640" data-height="480">
 				<div class="image_area">
 					<ul class="slides">
-					<li>
-				<img src="gallery01.jpg" alt="">
-			</li>
         <li>
 				<img src="gallery02.jpg" alt="">
 			</li>
