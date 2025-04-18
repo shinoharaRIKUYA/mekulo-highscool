@@ -210,6 +210,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>学校</h3>
 					<p>
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
 					</p>
 				</hgroup>
 			</div>
@@ -223,7 +224,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>体育館</h3>
 					<p>
-						
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
 					</p>
 				</hgroup>
 			</div>
@@ -237,7 +238,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>自治センター</h3>
 					<p>
-						
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
 					</p>
 				</hgroup>
 			</div>
@@ -251,7 +252,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>橋</h3>
 					<p>
-						
+						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
 					</p>
 				</hgroup>
 			</div>
