@@ -132,8 +132,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h3>取材担当者からのポイント！</h3>
 	<h4 class="point"></h4>
 	<figure class="portrait">
-		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
-		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+		<img src=<?= $highschool_base . WRITER['shomura']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['shomura']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
 	    長野レジンではアルコールティッシュのケースや、車のワイパーの部品、プリンターの部品などを作っています。その日の温度や湿度によって機械の設定を調整したり、作る物によって設定を変更したりする奥の深い仕事なのです。<br>
@@ -289,8 +289,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 90, 'caption' => '新卒-', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途-', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -300,8 +300,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性：-', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性：-', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
