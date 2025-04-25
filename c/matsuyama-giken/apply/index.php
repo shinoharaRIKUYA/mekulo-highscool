@@ -77,28 +77,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>自分の身長より大きい！？</span><br>
-		<span>製品の製造現場をのぞいてみよう！</span></p>
+	<p class="catchcopy"><span></span><br>
+		<span></span></p>
 	<p class="cont">
-		内藤工業所の応募前見学では、小さな部品の加工から大きな製品の溶接までを間近で見学しながら、仕事内容について説明します。<br>
-		工場内の雰囲気を実際に感じながら、社長から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、自分の身長の2倍ほどもある製品が溶接される、迫力満点の作業を見ることができるかもしれません。
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月28日（月）10時00分～</li>
-			<li>2025年7月30日（水）10時00分～</li>
-			<li>2025年8月4日（月）10時00分～</li>
-			<li>2025年8月6日（水）10時00分～</li>
-			<li>2025年8月8日（金）10時00分～</li>
+			<li></li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社案内・説明<span>30分</span></li>
-			<li>現場見学<span>75分</span></li>
+			<li><span></span></li>
+			<li><span></span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">

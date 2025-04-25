@@ -8,7 +8,7 @@ $co = [
     'post_code' => '386-0407',
     'address' => '長野県上田市長瀬1050',
     'homepage' => 'https://www.matsuyama-giken.co.jp/',
-    'logo_filename' => 'logo.svg',
+    'logo_filename' => 'logo.png',
     'latitude' => 36.3694332,//緯度
     'longitude' => 138.2142701,//経度
     'human' => [
@@ -23,7 +23,7 @@ $occupation = [
         'name' => '熱処理事業',
         'url' => 'job_netsu',
         'catch-copy' => '熱で金属の硬さが変わるって知ってた？',
-        'work' => ['493'],
+        'work' => ['529'],
         'fv_url' => 'introduce2.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
@@ -33,8 +33,8 @@ $occupation = [
         'name' => '表面処理事業',
         'url' => 'job_hyoumen',
         'catch-copy' => 'よく遊び、よく働く',
-        'work' => ['493'],
-        'fv_url' => 'second.jpg',
+        'work' => ['529'],
+        'fv_url' => 'job_hyoumen/fv.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
         'MBTI' => '',
@@ -43,7 +43,7 @@ $occupation = [
         'name' => '真空炉事業',
         'url' => 'job_shinku',
         'catch-copy' => '熱と冷却で構造を組み替える',
-        'work' => ['493'],
+        'work' => ['529'],
         'fv_url' => 'second.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
@@ -53,8 +53,8 @@ $occupation = [
         'name' => 'コーティング事業',
         'url' => 'job_coating',
         'catch-copy' => '硬く、滑らかな金属コーティングを部品に',
-        'work' => ['493'],
-        'fv_url' => '../job_coating/work4.jpg',
+        'work' => ['529'],
+        'fv_url' => 'job_coating/work4.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
         'MBTI' =>  '',
@@ -67,29 +67,9 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月28日（月）10時00分～', 
-                'date' => '2025-07-28',
-                'deadline' => '2025-07-25',//募集締切日
-            ],
-            [
-                'name' => '2025年7月30日（水）10時00分～', 
-                'date' => '2025-07-30',
-                'deadline' => '2025-07-27',//募集締切日
-            ],
-            [
-                'name' => '2025年8月4日（月）10時00分～', 
-                'date' => '2025-08-04',
-                'deadline' => '2025-08-01',//募集締切日
-            ],
-            [
-                'name' => '2025年8月6日（水）10時00分～', 
-                'date' => '2025-08-06',
-                'deadline' => '2025-08-03',//募集締切日
-            ],
-            [
-                'name' => '2025年8月8日（金）10時00分～', 
-                'date' => '2025-08-08',
-                'deadline' => '2025-08-05',//募集締切日
+                'name' => '', 
+                'date' => '',
+                'deadline' => '',//募集締切日
             ],
         ],
         'catch_copy' => '',

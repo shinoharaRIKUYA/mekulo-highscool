@@ -98,9 +98,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		より硬く、サビにくく、しなやかに。金属の変化を楽しめ！
 	</h2>
 	<p>
-		金属は、高温で熱したり、表面にコーティングすることで、硬くなったり、柔らかくなったり、錆びにくくなったりと、自在に金属の性質を変えられることをご存じですか？<br>
+		金属は、高温で熱したり、表面にコーティングすることで、硬くなったり、柔らかくなったり、錆びにくくなったりと、<b>自在に金属の性質を変えられる</b>ことをご存じですか？<br>
 		実は、自動車やロボット、建設機械に使われている多くの部品には、こうした処理を施された金属部品が使われています。<br>
-		この”金属の性質を変える技術“で、日本のものづくりを支えているのが、私たち松山技研です。<br>
+		この<b>“金属の性質を変える技術”</b>で、日本のものづくりを支えているのが、私たち松山技研です。<br>
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -131,8 +131,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </div>
 	<h3>取材担当者からのポイント！</h3>
 	<figure class="portrait">
-		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
-		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+		<img src=<?= $highschool_base . WRITER['shomura']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['shomura']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
 		金属加工処理という仕事をはじめて知りました。<br>
@@ -148,20 +148,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		マイクラのように、金属にエンチャントを付与する仕事
 	</h3>
 	<p>
-		松山技研には4つの工場があり、それぞれの工場では異なる処理・加工を行っています。<br>
+		松山技研には4つの工場があり、<b>それぞれの工場では異なる処理・加工</b>を行っています。<br>
 		金属をより強く、硬く、滑らかに、しなやかに、錆びにくくなど、金属の性質を変えるのが仕事です。<br>
 		ここから先は、それぞれの工場でどのような処理を行っているのかをご紹介しています。
 	</p>
 	<div class="images">
-		<img src="introduce1.jpg" class="scene" alt="">
+		<img src="firstview.jpg" class="scene" alt="">
 	</div>
 	<h3>
 		熱処理加工で金属の硬さを変える
 	</h3>
 	<p>
-		熱処理加工は、金属を加熱・冷却して、金属の硬さ、しなやかさを引き出していく技術です。<br>
+		熱処理加工は、金属を<b>加熱・冷却</b>して、金属の硬さ、しなやかさを引き出していく技術です。<br>
 		熱処理によって、金属が原子レベルで変化し性質が変わります。通常の熱加工と、真空炉で酸化を防ぎながら行う加工があります。<br>
-		熱処理は800～900度、真空炉はおよそ1200度！の温度で処理します。もっとも処理自体は機械の中でおこないますし、担当者に向けてエアコンの風が当たるようになっていますので、夏でも安心です。昔は、工場内はとても暑く、夏は塩を舐めながら作業をしていたそうです。
+		<b>熱処理は800～900度、真空炉はおよそ1200度！</b>の温度で処理します。もっとも処理自体は機械の中でおこないますし、担当者に向けてエアコンの風が当たるようになっていますので、夏でも安心です。昔は、工場内はとても暑く、夏は塩を舐めながら作業をしていたそうです。
 	</p>
 	<div class="images">
 		<img src="introduce2.jpg" class="scene" alt="">
@@ -170,7 +170,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		表面処理加工で金属を長持ちさせる
 	</h3>
 	<p>
-		表面処理とコーティングは、「サビ」を防いだり、表面を滑りやすくしたり、ひっかき傷に強くしたり、表面を美しく保ったりするためのものです。<br>
+		表面処理とコーティングは、「サビ」を防いだり、<b>表面を滑りやすくしたり、ひっかき傷に強くしたり、表面を美しく保ったり</b>するためのものです。<br>
 		大量の部品を一気に表面処理することもあれば、一つ一つの部品を丁寧に手作業で機械にかけ、コーティングすることもあります。自動車の部品やバルブ、建物の部品、ロボットなどの精密機械から、穴をあけるドリルの部品にも使われている処理です。
 	</p>
 	<div class="images">
@@ -180,9 +180,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		力仕事もあれば、頭を使った仕事もある
 	</h3>
 	<p>
-		大量の部品を設備に投入するとき、取り出すとき、運ぶとき、腕力が必要な場面があります。松山技研の社員の１/３は女性なので、協力しながら作業をしますが、腕力に自信のある人は大歓迎です。<br>
-		また、金属の性質を引き出す作業は、原子結晶の配列変化をはかる作業です。実は想像力が不可欠で頭を使う仕事でもあります。<br>
-		たくさんの部品を地道に並べる根気強さ、出荷前の検査に必要な繊細さなど、それぞれの仕事に、違った能力が求められます。
+		大量の部品を設備に投入するとき、取り出すとき、運ぶとき、腕力が必要な場面があります。<b>松山技研の社員の１/３は女性</b>なので、協力しながら作業をしますが、<b>腕力に自信のある人</b>は大歓迎です。<br>
+		また、金属の性質を引き出す作業は、原子結晶の配列変化をはかる作業です。実は<b>想像力が不可欠</b>で頭を使う仕事でもあります。<br>
+		たくさんの部品を地道に並べる<b>根気強さ</b>、出荷前の検査に必要な<b>繊細さ</b>など、それぞれの仕事に、違った能力が求められます。
 	</p>
 </section>
 <section id="business" class="content">
@@ -236,7 +236,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20～30</span>時間</p>
+			<p class="num"><span>20</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
@@ -304,8 +304,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 151, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 1, 'caption' => '電車・バス', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -376,12 +376,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</figure>
 		<p>
 			工場の仕事って、一人で黙々と作業をするイメージがあるかもしれません。<br>
-			でも、<br>
-			松山技研の仕事は一人で完結するものはありません。必ずあなたの仕事を、次の人が待っているからです。<br>
+			でも、松山技研の仕事は一人で完結するものはありません。必ず<b>あなたの仕事を、次の人が待っているからです。</b><br>
 			話すことが上手とか、特別なコミュニケーション力をが必要な訳ではありません。失敗も不安も話してくれる、そんな人を松山技研では求めています。<br>
 			経験や学歴よりも、「どうしたら仕事がうまくいくか」、「もっと良くなるのか」を考えながら働いてくれる人なら大歓迎です。<br>
-			松山技研に入ったら、働いている先輩の姿をよく見てくだい。真剣に働く大人の姿ってカッコイイですよ。<br>
-			松山技研で待っています。
+			松山技研に入ったら、働いている先輩の姿をよく見てくだい。<b>真剣に働く大人の姿ってカッコイイ<b>ですよ。<br>
+			松山技研で待っています!
 		</p>
 	</div>
 </section>
@@ -429,18 +428,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_dobokusekou/">
+			<a href="<?= $company_base ?>job_netsu/">
 				<figure>
-					<img src="<?= $company_base ?>second.jpg" alt="">
-					<figcaption>土木施工管理</figcaption>
+					<img src="<?= $company_base ?>introduce2.jpg" alt="">
+					<figcaption>熱処理事業</figcaption>
 				</figure>
 			</a>
 		</li>
 		<li>
-			<a href="<?= $company_base ?>job_kentikusekou/">
+			<a href="<?= $company_base ?>job_hyoumen/">
 				<figure>
-					<img src="job_kentikusekou/fv.jpg" alt="">
-					<figcaption>建築施工管理</figcaption>
+					<img src="job_hyoumen/fv.jpg" alt="">
+					<figcaption>表面処理事業</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li>
+			<a href="<?= $company_base ?>job_shinku/">
+				<figure>
+					<img src="second.jpg" alt="">
+					<figcaption>真空炉事業</figcaption>
+				</figure>
+			</a>
+		</li>
+		<li>
+			<a href="<?= $company_base ?>job_coating/">
+				<figure>
+					<img src="job_coating/work4.jpg" alt="">
+					<figcaption>コーティング事業</figcaption>
 				</figure>
 			</a>
 		</li>

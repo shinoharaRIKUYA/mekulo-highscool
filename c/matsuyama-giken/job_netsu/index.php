@@ -166,7 +166,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="../introduce2.jpg" alt="" class="scene">
 	</div>
 	<p>
-		熱処理を行った後、硬さを測定する機械で検査を行います。部品によっては金属を切断し、表面を磨き、顕微鏡を用いて金属組織が狙ったとおりに変わったか確認します。
+		熱処理を行った後、硬さを測定する機械で検査を行います。部品によっては金属を切断し、表面を磨き、<b>顕微鏡を用いて金属組織が狙ったとおりに変わったか確認</b>します。
 	</p>
 	<div class="images">
 		<img src="work3.jpg" alt="" class="scene">
@@ -224,7 +224,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="thumbnail">
 				<img src="employee1.jpg" alt="">
 				<hgroup>
-					<h3>さん</h3>
+					<h3>M・Yさん</h3>
 					<p>
 						休日は、ゲームをしたりYouTubeを見たりしてすごしています。<br>
 						普段は有給を全く使わず、貯めた有給は、推しアイドルのコンサートやライブに捧げています！<br> 
@@ -232,7 +232,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>2015年中途入社<br>藤原さん</p>
+			<p>2017年新卒入社<br>M・Yさん</p>
 		</li>
 	</ul>
 </section>
@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd></dd>
+					<dd>金属加工</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -261,7 +261,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -274,20 +274,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>就業場所</dt>
 					<dd>
-						
+						〒386-0407
+						長野県上田市長瀬１０５０
 					</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd>上田丸子線　上長瀬駅から徒歩15分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>（屋内禁煙）</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -310,7 +311,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>20.8日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -346,34 +347,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>-</dd>
+					<dd>毎月　20日</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（月額10,000円まで）</dd>
+					<dd>あり（月額18,000円まで）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>役員面談年4回による。2023年実績：平均20,000円程度</dd>
+					<dd>あり（新卒者の前年度実績）3%</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年1回</dd>
+					<dd>年2回 4.5ヶ月分</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時00分〜17時00分</dd>
+					<dd>8時20分〜17時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月20～30時間</dd>
+					<dd>月20時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
+					<dd>週休2日制</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
@@ -384,19 +385,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、財形保険、雇用保険、労災保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>-</dd>
+					<dd>あり（勤続3年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>なし</dd>
+					<dd>あり（一律60歳）</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
@@ -404,11 +405,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>-</dd>
+					<dd>あり（上限65歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>-</dd>
+					<dd>あり（上限70歳まで）</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -421,19 +422,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:6人、2年度前：5人、3年度前：7人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:1人、2年度前：0人、3年度前：1人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:6人、2年度前：2人、3年度前：4人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：3人、3年度前：3人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
@@ -447,19 +448,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
 					<dd>
-						
+						外部機関による研修・社内研修・メンタルヘルス教育・得意先、関連会
+					社の見学
 					</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
-						業務に必要な資格の取得費用について、全額補助いたします。
+						あり<br>
+						通信教育費用を会社で負担
 					</dd>
 				</div>
 				<div>
@@ -476,23 +478,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
-					<dd>8時間</dd>
+					<dd>20時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>13日</dd>
+					<dd>10日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：0人、男性：0人</dd>
+					<dd>女性：2人、男性：1人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>5名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -509,34 +511,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>3名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火） 10時00分～<br>
-						2025年7月31日（木） 10時00分～<br>
-						2025年8月6日（水） 10時00分～<br>
-						2025年8月8日（金） 10時00分～
+						
 					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>書類選考、面接</dd>
+					<dd>面接、適性検査</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
-						
+						総務部<br>
+						吉池一樹
 					</dd>
 				</div>
 			</dl>
@@ -549,7 +548,25 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>					
+</section>
+<section class="g nextpage">
+    <h2>その他の職種を見てみる</h2>
+    <ul class="image_navi">
+        <?php foreach ($occupation as $key => $prop): ?>
+            <?php if ($key !== $last_segment): // 現在のURLと異なる職種のみ表示 ?>
+                <li>
+                    <a href="<?= $company_base . $prop['url'] ?>">
+                        <figure>
+                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <figcaption><?= $prop['name'] ?></figcaption>
+                        </figure>
+                    </a>
+                </li>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </ul>
+</section>			
+</main>					
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
