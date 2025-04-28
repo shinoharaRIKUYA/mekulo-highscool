@@ -19,6 +19,9 @@ html {
 	display: inline-block;
 }
 
+b {
+	color: #00509B;
+}
 /* 横幅 640px 未満 */
 body.highschool {
 	background: white;
@@ -1948,6 +1951,10 @@ figure.portrait {
 	width: 25%;
 }
 
+figure.portrait > img {
+	aspect-ratio: unset;
+}
+
 figure.center {
 	width: 50%;
 	min-width: 300px;
@@ -1956,6 +1963,7 @@ figure.center {
 
 figure > img {
 	width: 100%;
+	aspect-ratio: 3 / 2;
 }
 
 figure figcaption {
