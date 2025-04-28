@@ -213,7 +213,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="work02.png" alt="">
+					<img src="work02.jpg" alt="">
 				</div>
 				<hgroup>
 				<h3>鍛造</h3>

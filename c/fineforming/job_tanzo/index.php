@@ -152,7 +152,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<div class="images">
 		<img src="contents02.jpg" alt="" class="scene">
-		<img src="contents03.png" alt="" class="scene">
+		<img src="contents03.jpg" alt="" class="scene">
 	</div>
 	<p>
 		①鍛造工程：高温のアルミ鋳造部品を鍛造プレス機で成型する<br>
@@ -170,7 +170,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		そのため、金ハシを使ってアルミ鋳造部品を持ち上げるのですが、強くつかみすぎると跡がついてしまい、不良品になってしまいます。職人の感覚が試される場面です。
 	</p>
 	<div class="images">
-		<img src="contents04.png" alt="" class="scene">
+		<img src="contents04.jpg" alt="" class="scene">
 	</div>
 	<p>
 		二つ目に、「離型剤の吹きかけ」です。<br>
@@ -186,7 +186,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		左手では金ハシを使って、熱したアルミ鋳造部品を持ち、右手で離型剤を吹きかける。そして左手で金型の正しい位置に部品を設置し、両手を使ってプレスをする。
 	</p>
 	<div class="images">
-		<img src="contents07.png" alt="" class="scene">
+		<img src="contents07.jpg" alt="" class="scene">
 	</div>
 	<p>
 		スピード感が求められるため、全ての動作がスムーズでなければ不良品が生まれてしまいます。<br>
@@ -226,7 +226,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="gallery01.jpg" alt="">
 				</li>
 				<li>
-					<img src="gallery02.png" alt="">
+					<img src="gallery02.jpg" alt="">
 				</li>
 				<li>
 					<img src="gallery03.jpg" alt="">
@@ -260,7 +260,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="murofushi.png" alt="">
+				<img src="murofushi.jpg" alt="">
 				<hgroup>
 					<h3>室伏琉音</h3>
 					<p>

@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="hoyano.png" alt="">
+				<img src="hoyano.jpg" alt="">
 				<hgroup>
 					<h3>保屋野朗光さん</h3>
 					<p>
