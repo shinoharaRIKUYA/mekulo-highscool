@@ -90,5 +90,5 @@ $toc = [
         'icon' => 'carrier.png',
         'url' => '',
         'submenu' => $occupation,
-		],
-	];
+	],
+];

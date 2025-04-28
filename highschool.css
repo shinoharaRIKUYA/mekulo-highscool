@@ -953,6 +953,7 @@ li {
 	height: 450px;
 	display: block;
 	color: #000;
+	flex-basis: 50%;
 }
 
 @media (min-width: 640px) {
@@ -1611,6 +1612,8 @@ ol li a {
 #theLightboxContainer .inner img {
 	width: 100%;
 	height: unset;
+	max-width: 400px;
+	flex-basis: 50%;
 }
 
 #business li p {
