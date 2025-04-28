@@ -304,7 +304,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 			<div>
 				<dt>募集職種</dt>
-					<dd>鍛造職人</dd>
+					<dd>鋳造職人</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -312,11 +312,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</div>
 				<div>
 					<dt>雇用期間</dt>
-					<dd></dd>
+					<dd>定めなし</dd>
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -333,11 +333,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>上田駅から車で24分</dd>
+					<dd>上田駅から車で25分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
@@ -364,7 +364,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd></dd>
+					<dd>21日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -376,11 +376,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd>作業手当（22,000～35,000円）</dd>
+					<dd>手袋手当（2,000円）</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
-					<dd>手袋手当（2,000円）</dd>
+					<dd>作業手当（22,000～35,000円）</dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
@@ -400,7 +400,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd></dd>
+					<dd>毎月25日</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -412,7 +412,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（1か月分又は80,000～165,000円）</dd>
+					<dd>
+						年2回（1か月分又は80,000～）
+						※新規学卒者実績
+					</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -427,7 +430,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制、</dd>
+					<dd>週休2日制(土日・お盆休み・年末年始・ゴールデンウィークは休みとなります。)</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
@@ -442,11 +445,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd></dd>
+					<dd>あり（勤続年数5年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -458,7 +461,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd></dd>
+					<dd>あり（上限年齢65歳）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
@@ -491,18 +494,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>
-						7年<br>
-						※創業以降の実績
-					</dd>
+					<dd>7年</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd></dd>
+					<dd>44歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
@@ -513,10 +513,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
-					<dd>
-						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
-					</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
@@ -528,7 +525,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>なし</dd>
+					<dd>
+						フォークリフト、クレーン、玉掛けなど、業務に必要な資格の取得を会社が支援します。また、品質管理検定については会社負担で受験でき、合格するとお祝い金を支給する制度があります。スキルアップを目指す社員を積極的にサポートします。
+					</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
@@ -536,15 +535,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd></dd>
+					<dd>9日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：人、男性：人</dd>
+					<dd>女性：0人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>名</dd>
+					<dd>0名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
@@ -584,13 +583,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						<br>
-						
+						代表取締役<br>
+						笹邉 紀三子
 					</dd>
 				</div>
 			</dl>
