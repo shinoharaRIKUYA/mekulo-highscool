@@ -5,7 +5,7 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['description'] ?? '';
@@ -193,14 +193,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		施工管理をするには、『施工管理技士』と呼ばれる国家資格が必要になります。北澤土建では、入社後に資格を取得できるように会社全体でサポートしています。<br>
 		まずは、先輩と一緒に現場で仕事を学びながら経験を積んでいきます。最初は先輩のお手伝いから始めて、仕事の流れを覚えていきます。<br>
 	</p>
-	<div class="images">
-		<img src="yousetsu3.jpg" alt="" class="scene">
-	</div>
 	<p>
 		上司や先輩、周りの職人さんたちも優しく教えてくれるので、安心してスキルを身につけてください。
 	</p>
 	<div class="images">
-		<img src="work6.jpg" alt="" class="scene">
+		<img src="work10.jpg" alt="" class="scene">
 	</div>
 </section>
 <section class="g">
@@ -209,19 +206,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="yousetsu1.jpg" alt="">
+		<img src="gallery01.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu2.jpg" alt="">
+		<img src="gallery02.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu3.jpg" alt="">
+		<img src="gallery03.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu7.jpg" alt="">
+		<img src="gallery04.jpg" alt="">
 	</li>
 	<li>
-		<img src="../robot.jpg" alt="">
+		<img src="gallery05.jpg" alt="">
+	</li>
+	<li>
+		<img src="gallery06.jpg" alt="">
 	</li>
 		</ul>
 		<div class="button left_btn">&lt;</div>

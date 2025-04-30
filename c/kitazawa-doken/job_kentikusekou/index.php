@@ -5,7 +5,7 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['description'] ?? '';
@@ -195,19 +195,22 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="yousetsu1.jpg" alt="">
+		<img src="gallery01.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu2.jpg" alt="">
+		<img src="gallery02.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu3.jpg" alt="">
+		<img src="gallery03.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu7.jpg" alt="">
+		<img src="gallery04.jpg" alt="">
 	</li>
 	<li>
-		<img src="../robot.jpg" alt="">
+		<img src="gallery06.jpg" alt="">
+	</li>
+	<li>
+		<img src="gallery07.jpg" alt="">
 	</li>
 		</ul>
 		<div class="button left_btn">&lt;</div>
