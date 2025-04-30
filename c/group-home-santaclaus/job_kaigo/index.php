@@ -5,7 +5,7 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['description'] ?? '';
@@ -131,101 +131,148 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
 	<h3>
-		工事現場をスムーズに進める指揮官！
+		見守り、そっと手を差し伸べる
 	</h3>
 	<p>
-		土木工事を行うとき、実際に作業をするのは重機のオペレーターや土木作業員さんたちです。でも、その工事がスムーズに進むように全体を管理するのが「土木施工管理」の仕事です。<br>
-		文化祭の実行委員長を思い浮かべてみてください。みんなの作業の様子を見て回り、把握して指示を出すことで、文化祭が成功します。こうした人がいないと、文化祭の準備が間に合わなくなったり、足りないものが出てきたりするかもしれません。施工管理も同じです。現場全体をまとめ、工事がスムーズに進むように職人さんに指示を出すのが役割です。
+		グループホームは、入居者さんが少人数で共同生活を送り、自宅で過ごしているような雰囲気で過ごせる施設です。そこで、入居者さんの生活を支えるのが、サンタクロースのスタッフです。<br>
+		主な仕事内容は、食事の準備や部屋の掃除、洗濯など、入居者さんの日常生活のお手伝いです。 です。あくまでも“お手伝い”なので、すべてをスタッフが代行するわけではありません。担当するわけではありません。<br>
+		たとえば食事の準備では、入居者さんにも食材のカットをお任せしたり、盛り付けをお願いしたりもします。  
 	</p>
 	<div class="images">
-		<img src="work1.jpg" alt="" class="scene">
+		<img src="../introduce1.jpg" alt="" class="scene">
 		<img src="work2.jpg" alt="" class="scene">
 	</div>
 	<p>
-		まず、設計図や完成予定日をもとに、どの作業をいつまでに終わらせるかの計画を立てて書類にまとめます。大きな工事だと、ファイル一冊分になることもあります。
+		入居者さんが自分らしく生活できるように、できることは見守りながら、必要な部分だけサポートします。
 	</p>
 	<div class="images">
-		<img src="../job_kentikusekou/work3.jpg" alt="" class="scene">
-		<img src="../job_kentikusekou/work4.jpg" alt="" class="scene">
+		<img src="work3.jpg" alt="" class="scene">
 	</div>
 	<p>
-		その計画に合わせて、職人さんに作業の連絡をしたり、必要な材料を発注したりします。工事が始まる前には、作業の拠点となる「現場事務所」という仮設の建物を準備するのも施工管理の仕事です。現場事務所は、作業員さんとの朝礼や休憩にも使われます。
+		また、レクリエーションや季節ごとのイベントを企画することもあります。
 	</p>
 	<div class="images">
-		<img src="work5.jpg" alt="" class="scene">
+		<img src="work4.jpg" alt="" class="scene">
+		<img src="../first.jpg" alt="" class="scene">
 		<img src="work6.jpg" alt="" class="scene">
 	</div>
 	<p>
-		工事が始まったら、図面通りに、計画通りに工事が進んでいるかをチェックします。予定通りにいかないこともあるので、そんなときは調整が必要です。
+		毎月イベントを開催していて、節分のときは鬼になって大げさに倒れてみたり、クリスマスのときはサンタクロースになりきってみたり。入居者さんと一緒に全力で楽しむのも、大切な仕事の一つです。
 	</p>
 	<div class="images">
 		<img src="work7.jpg" alt="" class="scene">
-		<img src="../introduce1.jpg" alt="" class="scene">
-		<img src="work9.jpg" alt="" class="scene">
+		<img src="work8.jpg" alt="" class="scene">
 	</div>
 	<p>
-		施工管理の役割は、「実際につくる人」ではなく「把握してまとめる人」。工事現場を支え、成功へ導く工事の指揮官です！
+		大きい施設では１日中同じ業務を担当することもありますが、サンタクロースのスタッフは“何でも屋さん” 。「今、誰か困っていないかな？」と、いつもまわりに目を向けながら、入居者さんの毎日を支えます。
 	</p>
-	<h3>
-		自然を相手にする
-	</h3>
+	<h3>まずは体験してみる</h3>
 	<p>
-		私たちは、橋や道路、川などの土木工事の施工管理を行っています。特に県や市から依頼される公共工事が多く、自然を相手にするダイナミックな工事が特徴です。
+		サンタクロースのスタッフは、早番・日勤・遅番・夜勤の4つのシフトで交代しながら働いています。<br>
+		まずはどの時間帯が自分に合っているか を知るために、全てのシフトを3日間ずつ体験してもらいます。
+	</p>
+	<p>
+		1日目：まずは見学<br>
+		先輩のそばで仕事の流れを見たり、入居者さんや他のスタッフとの関わり方を感じたりする日です。
 	</p>
 	<div class="images">
-		<img src="../firstview.jpg" alt="" class="scene">
-		<img src="../first.jpg" alt="" class="scene">
+		<img src="../second.jpg" alt="" class="scene">
 	</div>
 	<p>
-		土木工事は天気に大きく左右されるので、スケジュール調整が一番重要な仕事です。雨が降ると作業ができなくなったり、大雨の後は流れ込んだ土砂をどかす復旧作業が必要になったりすることもあります。そんな状況でも、納期に間に合うように作業員の増員を検討したり、資材の納品スケジュールを調整したりしながら進めていきます。
+		2日目：できそうなことをやってみる<br>
+		ちょっとしたサポートや手伝いなど、自分ができそうなことにチャレンジします。もちろん先輩がそばにいるので安心です。
+	</p>
+	<div class="images">
+		<img src="../introduce4.jpg" alt="" class="scene">
+	</div>
+	<p>
+		3日目：ひと通り一人でやってみる<br>
+		実際に自分で仕事をしてみる日。ただし、わからないことがあればすぐに聞ける環境です。「やれるだけやってみよう！」という気持ちで大丈夫です。
+	</p>
+	<div class="images">
+		<img src="work11.jpg" alt="" class="scene">
+	</div>
+	<p>
+		スタッフ同士や入居者さんとの相性も大切。気の合わない人間関係で、無理にシフトを組むことはありません。 
+	</p>
+	<h3>
+		夜勤ってどんな感じ？
+	</h3>
+	<p>
+		夜勤の日は、勤務が始まる前に仮眠を取ります 。昼過ぎに少し寝てから出勤するスタッフが多いです。<br>
+		夜勤は、入居者さんが寝ている時間が中心の仕事です。静かな時間の中で、お部屋の見回りやトイレ誘導、コール対応などを行います。他のスタッフと交代で仮眠を取ることもあります。<br>
+		勤務が終わったら、家に帰ってゆっくりごはんを食べたり、  お昼寝したりしてリズムを整えます。<br>
+		日勤と夜勤では、仕事内容も働き方も違います。だからこそ、自分に向いている時間帯や役割を見つけてください。  
+	</p>
+	<h3>まずは同じ空間で過ごして、入居者さんを知る</h3>
+	<p>
+		サンタクロースの仕事は、まず「入居者さんを知る」ことから始まります。<br>
+		どんなことが好きなのか。どんなことが苦手なのか。
 	</p>
 	<div class="images">
 		<img src="work12.jpg" alt="" class="scene">
 		<img src="work13.jpg" alt="" class="scene">
 	</div>
 	<p>
-		地域のインフラを支え、“当たり前”の生活を守る。そんな仕事をできるのが、土木施工管理です。
-	</p>
-	<h3>
-		資格取得を目指す
-	</h3>
-	<p>
-		施工管理をするには、『施工管理技士』と呼ばれる国家資格が必要になります。北澤土建では、入社後に資格を取得できるように会社全体でサポートしています。<br>
-		まずは、先輩と一緒に現場で仕事を学びながら経験を積んでいきます。最初は先輩のお手伝いから始めて、仕事の流れを覚えていきます。<br>
+		たとえば「耳が遠い」と一言で言っても、人によって対応の仕方は違います。<br>
+		口元を見せながら話すと伝わりやすい人もいれば、大きな声でゆっくり話した方がいい人も。実際に関わってみないとわからないことばかりです。
 	</p>
 	<div class="images">
-		<img src="yousetsu3.jpg" alt="" class="scene">
+		<img src="work14.jpg" alt="" class="scene">
 	</div>
 	<p>
-		上司や先輩、周りの職人さんたちも優しく教えてくれるので、安心してスキルを身につけてください。
+		いきなり入居者さんのお世話をするのではなく、まずは同じ空間で過ごして、よく知ることが大切です。<br>
+		また、スタッフも人それぞれ。背の高さも声の大きさも、全く同じ人はいません。<br>
+		だからこそ、「これが正解！」と決めつけず、いろんなやり方があるということを知ることが大事なんです。
 	</p>
 	<div class="images">
-		<img src="work6.jpg" alt="" class="scene">
+		<img src="../third.jpg" alt="" class="scene">
+		<img src="work16.jpg" alt="" class="scene">
 	</div>
+	<p>
+		また、介護の世界では、経験を積みながら資格をとっていくことができます。<br>
+		「こんな資格を取りたい！」という希望があれば、シフトも調整しますし、資格取得のための費用も援助する制度があります。<br>
+		ほかにも、認知症のケアに関する研修など、学べるチャンスはたくさんあります。自分のペースで成長しながら、安心してステップアップしてください。
+	</p>
 </section>
 <section class="g">
 	<h2>写真で雰囲気を知る</h2>
 	<div class="NRGallery" data-width="640" data-height="480">
 		<div class="image_area">
 			<ul class="slides">
-			<li>
-		<img src="yousetsu1.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu2.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu3.jpg" alt="">
-	</li>
-	<li>
-		<img src="yousetsu7.jpg" alt="">
-	</li>
-	<li>
-		<img src="../robot.jpg" alt="">
-	</li>
-		</ul>
-		<div class="button left_btn">&lt;</div>
-		<div class="button right_btn">&gt;</div>
+				<li>
+					<img src="gallery01.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery02.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery03.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery04.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery05.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery06.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery07.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery08.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery09.jpg" alt="">
+				</li>
+				<li>
+					<img src="gallery10.jpg" alt="">
+				</li>
+			</ul>
+			<div class="button left_btn">&lt;</div>
+			<div class="button right_btn">&gt;</div>
 		</div>
 	</div>
 </section>
@@ -234,18 +281,46 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="../introduce4.jpg" alt="">
 				<hgroup>
-					<h3>金澤さん</h3>
+					<h3>井出さん</h3>
 					<p>
-						北澤土建のことは求人票で知りました。高校生のときは「とにかく給料がいいところ！」しか考えていなかったです(笑)<br>
-						土木工事はとにかく天候に左右される仕事です。今は道路工事を担当していますが、雨が降ると作業ができなくなることもあります。そんなときは、作業員さんとのコミュニケーションが大切です。「復旧作業にどのくらい時間がかかるか」「どこまでなら進められるか」などを確認しながら、計画を立て直します。<br>
-						大変なことも多いですが、その分、完成した時の達成感は格別です！<br>
-						以前は土曜出勤もありましたが、今はほとんど休みになったので、プライベートの時間もしっかり確保できます。
+						もともと看護師を目指していたので、介護もできるかな？と思って入社しました。認知症の方と関わるのは初めてでしたが、毎日が新鮮で、想像していたよりもずっと楽しいです。<br>
+						もちろん大変なこともあります。でも、同じ話を何度もしたり、予想外の反応が返ってきたり――そういうやりとりが、この仕事の面白さでもあると思っています。<br>
+						家では犬と猫を2匹ずつ飼っていて、休日は一緒に散歩をしたり、ゲームをしたり。ひとりカラオケにもよく行きます！ロックやラップを思いっきり歌って、ストレス発散しています（笑）
 					</p>
 				</hgroup>
 			</div>
-			<p>1995年新卒入社<br>金澤さん</p>
+			<p>中途入社<br>井出さん</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="employee2.jpg" alt="">
+				<hgroup>
+					<h3>武田さん</h3>
+					<p>
+						介護の仕事を始めて、もう19年になります。<br>
+						出勤前にはいつも「今日はどんな様子かな」「どんな表情してるかな」と入居者さんのことを思い浮かべていて、毎日の楽しみになっています。<br>
+						お休みの日は、家の掃除をしたり、孫と遊んだり。そんな時間も大切にしています。
+					</p>
+				</hgroup>
+			</div>
+			<p>中途入社<br>武田さん</p>
+		</li>
+		<li class="thumbnails">
+			<div class="thumbnail">
+				<img src="employee3.jpg" alt="">
+				<hgroup>
+					<h3>佐藤さん</h3>
+					<p>
+						もともと介護の仕事をしていましたが、大きな施設より、もっとアットホームな場所で働きたいと思っていたときにサンタクロースを知りました。<br>
+						小さいころ、おじいちゃんおばあちゃんと過ごす時間が多くて、病気になったときにお手伝いをしたことがあったんです。もしかしたら、あれが介護に興味を持つきっかけだったのかもしれません。<br>
+						利用者さんとは、かしこまらずに自然体で話せる関係です。まるで自分のおじいちゃんおばあちゃんみたいで、冗談を言い合ったり、一緒に笑ったり、毎日が楽しいです。<br>
+						お休みの日は、韓国ドラマをのんびり観てリフレッシュしています。
+					</p>
+				</hgroup>
+			</div>
+			<p>中途入社<br>佐藤さん</p>
 		</li>
 	</ul>
 </section>
@@ -262,7 +337,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>施工管理（土木）</dd>
+					<dd>介護職員</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -278,7 +353,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
@@ -330,11 +405,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>210,000円～</dd>
+					<dd>165,000円～</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd>現場手当（20,000円）</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
@@ -346,7 +421,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>210,000円</dd>
+					<dd>165,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -362,15 +437,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（上限なし）</dd>
+					<dd>あり（月額12,000円まで）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>年1回</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（2.5か月分）</dd>
+					<dd></dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -408,7 +483,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（65歳）</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
@@ -522,7 +597,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>3名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>

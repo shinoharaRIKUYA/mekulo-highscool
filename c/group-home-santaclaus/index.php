@@ -95,11 +95,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		誠実に、地域とともに成長する
+		自宅で過ごすような“日常”を
 	</h2>
 	<p>
-		上田市武石にある建設会社で、主に土木事業と建築事業を担当しています。90年以上にわたり、地域の道路や橋などのインフラ整備、公民館や保育園などの建物の建設に取り組んできました。<br>
-		市街地での工事ももちろんありますが、自然の中での工事が多いのが特徴です。
+		私たちは坂城町にある『グループホーム（地域密着型認知症対応型共同生活介護）』で、認知症の高齢者の生活を支える仕事をしています。大型施設のような特別な環境ではなく、自宅のように落ち着いた日常を大切にしているのが特徴です。料理や洗濯など、入居者さんができることは手伝いすぎず、一緒に楽しみながら生活しています。
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -129,74 +128,56 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">知れば知るほど面白い！</h4>
+	<h4 class="point">にぎやかで、あたたかい職場</h4>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		施工管理の仕事では、職人さんとの打ち合わせが欠かせません。打ち合わせでは専門用語がたくさん出てくるので、理解するためには日々の勉強が必要です。<br>
-		わからない言葉をそのままにしてしまうと、職人さんとの意思疎通がうまくいかなくなることもあります。そのため、少しでも気になることや知らない言葉があれば、その場で質問することが大切です。北澤土建の社員さんは勉強熱心な人ばかりで、先輩や職人さんも優しく教えてくれます。<br>
-		施工管理の仕事は、知れば知るほど面白くなる仕事です。現場での経験を重ねることで、どんどん知識が増えていくのも、この仕事の大きな魅力です。 
+		まるで本当の家族のようなスタッフと入居者さん。いつも笑顔で、日々の生活を楽しんでいる様子が伝わってきます。<br>
+		社長も現場でスタッフと一緒に働いているので、距離が近く、職場内のコミュニケーションが活発です。なかには、社長をからかって笑わせるやんちゃなスタッフや、ウケないギャグを連発しているスタッフも(笑)<br>
+		にぎやかで、あたたかい雰囲気の職場です。
 	</p>
 </div>
 <section class="content" id="about_company">
 	<h2>会社情報記事</h2>
 	<h3>
-		地域になくてはならない仕事
+		手伝いすぎない介護 
 	</h3>
 	<p>
-		私たちは、主に土木工事と建築工事の施工管理を行っています。<br>
-		施工管理の仕事を簡単に説明すると、工事現場がスムーズに進むように『工事全体を管理する』仕事です。具体的には、完成までの計画を立てたり、現場で指示を出したり、役所に書類を提出したりします。
+		私たちは、認知症の方を受け入れているグループホームです。<br>
+		グループホームとは、少人数で共同生活を送り、自宅で過ごしているような雰囲気で入居者さんの自立を支援する施設です。認知症は完治しません。ですが、環境の変化を減らし、日常生活の一部を自分でやってもらうことで 、進行を遅らせることができると言われているんです。
 	</p>
 	<div class="images">
 		<img src="introduce1.jpg" class="scene" alt="">
+	</div>
+	<p>
+		「認知症」と言っても、進行度合いは人それぞれ。サンタクロースで一番大切にしているのは、『手伝いすぎない』ことです。すべてを手伝うのではなく、時には見守り、入居者さん一人ひとりのペースに合わせたサポートを心がけています。
+	</p>
+	<div class="images">
 		<img src="introduce2.jpg" class="scene" alt="">
 	</div>
 	<p>
-		工事の期間中は、工事現場近くに建てられた「現場事務所」と呼ばれる仮設の建物で仕事を行います。タイムカードはスマホで管理しているので、会社に行くことはほとんどありません。<br>
-		現場事務所では、その日の作業内容の確認や図面の作成、工事の進み具合の確認・調整などを行います。
-	</p>
-	<p>
-		施工管理で大切なのは、「いかに周りの信頼を獲得し、動かしていくことができるか」です。<br>
-	    周りを巻き込んで引っ張っていくのが得意な人、自然と人が集まってくるタイプの人、コツコツ努力するのが好きな人。信頼を獲得する方法は一つではなく、同じ施工管理技士でも性格は人それぞれです。<br>
-	    あなたらしさを活かして、施工管理の仕事をやってみませんか？
+		サンタクロースは、入居者さんにとって『第二の家』。そしてスタッフは、まるで家族のような存在です。しっかり者のお母さんになることもあれば、お調子者のお兄ちゃんになることもあります。
 	</p>
 	<div class="images">
-		<img src="fourth.jpg" class="scene" alt="">
-		<img src="second.jpg" class="scene" alt="">
+		<img src="introduce3.jpg" class="scene" alt="">
 	</div>
-	<h3>
-		縁の下のヒーロー
-	</h3>
 	<p>
-	    大きな災害が起きたとき、真っ先に被災地に向かうのは誰か知っていますか？ <br>
-		消防や自衛隊…と思うかもしれませんが、実は一番に現場へ駆けつけるのは建設業の人たちなんです！
-	</p>
-    <p>
-		令和元年の台風19号では、災害後すぐに、橋が流されて孤立した集落に住む透析の患者さんを病院へ運ぶために、鉄骨で仮設の橋を架けたことも。<br> 
-	    その後も、橋や道路の修繕を県・市町村から依頼され、緊急対応に全力を注ぎました。<br>
-        陥没した道路を直し、土砂を取り除き、緊急車両が通れるようにする。その結果、消防や救急が安全に救助活動を行うことができるのです。<br>
-        普段は街をつくり、いざという時は命を守るために動く──建設業はまさに、縁の下のヒーローです！
-	</p>
-	<h3>
-		最先端の技術
-	</h3>
-    <p>
-	    建設業と聞くと、「肉体労働で過酷な仕事」というイメージはありませんか？<br>
-        確かに昔はそうでした。<br> 
-        しかし今では、最新技術の導入により、働き方が大きく変わっています。
+		特に若いスタッフは、入居者さんから孫のようにかわいがられています。
 	</p>
 	<div class="images">
+		<img src="introduce4.jpg" class="scene" alt="">
+	</div>
+	<p>
+		イベントでは、サンタや鬼に変身することも！
+	</p>
+	<div class="images">
+		<img src="introduce5.jpg" class="scene" alt="">
 		<img src="introduce6.jpg" class="scene" alt="">
 	</div>
-    <p>
-	    例えば、ドローンを使うことで測量の時間が今までの半分以下に短縮され、今まで入れなかった場所も簡単に測ることができます。さらに、ICT技術を活用することで、機械に指示を出すだけで穴を掘ったり、測量結果を自動でまとめたりできるんです。
-	</p>
 	<p>
-		こうした技術の進歩により作業者の負担が減り、女性も多く活躍する業界になっています。<br>
-	    『建設業＝きつい仕事』というイメージは、もう昔の話。<br>
-	    今は、最新技術を駆使したかっこいい仕事です！
+		日々変わっていく入居者さんとのやりとりを楽しんでいるうちに、あっという間に時間が過ぎます。楽しんでいる場所に自然と溶け込める人には、ぴったりの仕事だと思います！
 	</p>
 </section>
 <section id="business" class="content">
@@ -208,13 +189,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business1.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>学校</h3>
+					<h3>お部屋</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						入居者さんが過ごすお部屋です。一人一部屋で、みなさん思い思いの部屋作りを行っています。
 					</p>
 				</hgroup>
 			</div>
-			<p>学校</p>
+			<p>お部屋</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -222,13 +203,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business2.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>体育館</h3>
+					<h3>トイレ</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						入居者さんが立ち上がりやすいように、LL字型の手すりと跳ね上げ式の手すりを設置しています。
 					</p>
 				</hgroup>
 			</div>
-			<p>体育館</p>
+			<p>トイレ</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -236,55 +217,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="business3.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>自治センター</h3>
+					<h3>お風呂</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						入浴用のリフトがあり、安心して肩までゆっくりと入浴することができます。 
 					</p>
 				</hgroup>
 			</div>
-			<p>自治センター</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="business4.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>橋</h3>
-					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
-					</p>
-				</hgroup>
-			</div>
-			<p>橋</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="business5.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>護岸</h3>
-					<p>
-						
-					</p>
-				</hgroup>
-			</div>
-			<p>護岸</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="first.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>道</h3>
-					<p>
-						
-					</p>
-				</hgroup>
-			</div>
-			<p>道</p>
+			<p>お風呂</p>
 		</li>
 	</ul>
 </section>
@@ -293,34 +232,32 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年2月20日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>13</span>億円</p>
-		<p class="year">※2024年実績</p>
+		<p class="num"><span></span>億円</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>48</span>歳</p>
+			<p class="num"><span>51</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>17</span>年</p>
+			<p class="num"><span>10</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>10</span>時間</p>
+			<p class="num"><span></span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>120</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="num"><span>105</span>日</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1933</span>年</p>
+			<p class="num"><span>2020</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>10</span>日</p>
+			<p class="num"><span>6.7</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -329,8 +266,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '0', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -340,8 +277,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 4, 'caption' => '新卒4', 'color' => '#2378C7'],
-						[ 'value' => 1, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 0.001, 'caption' => '新卒0', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途100', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -351,8 +288,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 6.5, 'caption' => '男性：6.5', 'color' => '#0062B5'],
-						[ 'value' => 1, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 3, 'caption' => '男性：3', 'color' => '#0062B5'],
+						[ 'value' => 7, 'caption' => '女性：7', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -364,10 +301,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<?php create_donut_graph(100, 100, 100, 40, [
 					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
 					[ 'value' => 2, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 2, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 0.001, 'caption' => '', 'color' => '#00AEEF'],
 					[ 'value' => 6, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 9, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 11, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 1, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 4, 'caption' => '60代以上', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -376,8 +313,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 12, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 1, 'caption' => '自転車', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -387,8 +324,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
+							[ 'value' => 9, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 4, 'caption' => '県外', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -411,49 +348,45 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>土木、建築</li>
+					<li>認知症高齢者に対する、日常生活のお世話</li>
 				</ul>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>北澤隆洋</dd>
+			<dd>高山賢仁</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>30名（2024年2月20日現在）</dd>
+			<dd>13名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.8271390555137!2d138.24653807650262!3d36.29224397239642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601db007d4c39b27%3A0x23da42e2eb7fea02!2z5YyX5r6k5Zyf5bu6!5e0!3m2!1sja!2sjp!4v1744243897973!5m2!1sja!2sjp"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3210.199062644198!2d138.19424!3d36.428568999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d988c05be86a9%3A0x2d3dfbf78d35a5c1!2z44Kw44Or44O844OX44Ob44O844Og44K144Oz44K_44Kv44Ot44O844K5!5e0!3m2!1sja!2sjp!4v1745994860143!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0268-85-2039</dd>
+			<dd>0268-81-3611</dd>
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.kitazawadoken.co.jp/">https://www.kitazawadoken.co.jp/</a></dd>
+			<dd><a href="https://sakaki-santaclaus.jp/">https://sakaki-santaclaus.jp/</a></dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3>必要不可欠な仕事</h3>
+		<h3>一緒に過ごす時間が、何よりも大切</h3>
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">北澤隆洋</span></figcaption>
+			<img src="introduce3.jpg" alt="">
+			<figcaption><span class="name">高山賢仁</span></figcaption>
 		</figure>
 		<p>
-			当社が長く続けて来られたのは、お客様や地域のみなさまのおかげです。<br>
-			令和元年の台風19号のときは、緊急対応として県・市町村から橋や道路など多くの修繕依頼をいただきました。周りからは「信頼があるからだよ」と言ってもらい、今まで築き上げてきたものの大切さを実感しました。
-		</p>
-		<p>
-			橋があるから川を渡れるし、工場があるから働ける。そんな“当たり前”の生活を支えているのが、私たち北澤土建です。<br>
-			チームワークを大切にできる人、誠実な人に向いていると思います。難しい仕事ですが、先輩と一緒に少しずつ覚えていけば大丈夫。ぜひ、一緒に働きましょう！
+			コミュニケーションって、ただ相手の顔を見て話すことだけだと思っていませんか？同じ空間で過ごしたり、一緒に食事をしたりする、そんな日常のひとときが実はとても大切だと考えています。<br>
+			私たちの仕事に向いているのは、何よりも人と関わるのが好きな人です。おとなしい性格の人には、その人らしい関わり方があり、元気な性格の人にはまた違った関わり方があります。介護の仕事に正解はありません。だからこそ、たくさんのスタッフのやり方を見て学び、自分に合ったスタイルを見つけていってください！
 		</p>
 	</div>
 </section>
@@ -501,18 +434,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_dobokusekou/">
+			<a href="<?= $company_base ?>job_kaigo/">
 				<figure>
-					<img src="<?= $company_base ?>second.jpg" alt="">
-					<figcaption>土木施工管理</figcaption>
-				</figure>
-			</a>
-		</li>
-		<li>
-			<a href="<?= $company_base ?>job_kentikusekou/">
-				<figure>
-					<img src="job_kentikusekou/fv.jpg" alt="">
-					<figcaption>建築施工管理</figcaption>
+					<img src="<?= $company_base ?>third.jpg" alt="">
+					<figcaption>介護スタッフ</figcaption>
 				</figure>
 			</a>
 		</li>

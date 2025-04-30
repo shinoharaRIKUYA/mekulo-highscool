@@ -2,12 +2,12 @@
 $co = [
     'slug' => 'group-home-santaclaus',
     'image' => 'office.jpg',
-    'company_name' => '北澤土建株式会社',
-    'catch_copy' => '自然と向き合い、地元を支える建設会社',
-    'industry' => ['D'],
-    'post_code' => '389-0502',
-    'address' => '長野県上田市武石沖471-1',
-    'homepage' => 'https://www.kitazawadoken.co.jp/ ',
+    'company_name' => '株式会社あさまかい グループホームサンタクロース',
+    'catch_copy' => '認知症の高齢者の、『第二の家』を支える',
+    'industry' => ['P'],
+    'post_code' => '389-0603',
+    'address' => '長野県坂城町大字南条657-1',
+    'homepage' => 'https://sakaki-santaclaus.jp/',
     'logo_filename' => 'logo.svg',
     'latitude' => 36.3694332,//緯度
     'longitude' => 138.2142701,//経度
@@ -19,12 +19,12 @@ $co = [
 
 // 募集職種
 $occupation = [
-    'job_dobokusekou' => [
-        'name' => '土木施工管理',
-        'url' => 'job_dobokusekou',
-        'catch_copy' => '地域のインフラを支える',
-        'work' => ['092'],
-        'fv_url' => 'second.jpg',
+    'job_kaigo' => [
+        'name' => '介護スタッフ',
+        'url' => 'job_kaigo',
+        'catch_copy' => 'お年寄りの毎日の暮らしを、そっとサポートする',
+        'work' => ['036'],
+        'fv_url' => 'third.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
         'MBTI' =>  '-sfj',
@@ -40,26 +40,6 @@ $visit = [
                 'name' => '2025年7月28日（月）10時00分～', 
                 'date' => '2025-07-28',
                 'deadline' => '2025-07-25',//募集締切日
-            ],
-            [
-                'name' => '2025年7月30日（水）10時00分～', 
-                'date' => '2025-07-30',
-                'deadline' => '2025-07-27',//募集締切日
-            ],
-            [
-                'name' => '2025年8月4日（月）10時00分～', 
-                'date' => '2025-08-04',
-                'deadline' => '2025-08-01',//募集締切日
-            ],
-            [
-                'name' => '2025年8月6日（水）10時00分～', 
-                'date' => '2025-08-06',
-                'deadline' => '2025-08-03',//募集締切日
-            ],
-            [
-                'name' => '2025年8月8日（金）10時00分～', 
-                'date' => '2025-08-08',
-                'deadline' => '2025-08-05',//募集締切日
             ],
         ],
         'catch_copy' => '',
