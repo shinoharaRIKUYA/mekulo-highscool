@@ -103,13 +103,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div id="gallery">
 		<div class="gallery_window">
 			<img src="first.jpg" alt="" class="fs show">
-			<img src="second.jpg" alt="" class="sc">
+			<img src="job_kaigo/work3.jpg" alt="" class="sc">
 			<img src="third.jpg" alt="" class="th">
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
 			<img src="first.jpg" alt="" class="fs">
-			<img src="second.jpg" alt="" class="sc">
+			<img src="job_kaigo/work3.jpg" alt="" class="sc">
 			<img src="third.jpg" alt="" class="th">
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
@@ -129,7 +129,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </div>
 	<h3>取材担当者からのポイント！</h3>
 	<h4 class="point">にぎやかで、あたたかい職場</h4>
-	<figure class="portrait">
+	<figure class="portrait" style="width: 20%;">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
@@ -219,7 +219,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>お風呂</h3>
 					<p>
-						入浴用のリフトがあり、安心して肩までゆっくりと入浴することができます。 
+						人力だと不安定な入浴。入浴用のリフトを使用することで、スタッフも入居者さんも安心して入浴することができます。 
 					</p>
 				</hgroup>
 			</div>
@@ -230,10 +230,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
 	<p class="remark">（2025年2月20日現在）</p>
-	<div class="large">
-		<p>売上高</p>
-		<p class="num"><span></span>億円</p>
-	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
