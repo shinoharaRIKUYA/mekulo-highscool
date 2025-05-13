@@ -71,7 +71,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="firstview.jpg">
+	<img alt="" class="fv_image" src="contents10.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -249,7 +249,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>39.2</span>歳</p>
+			<p class="num"><span>40</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
