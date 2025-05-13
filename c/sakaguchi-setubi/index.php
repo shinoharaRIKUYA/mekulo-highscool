@@ -151,7 +151,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		私たちは千曲市を中心に、主に地域の工場や一般家庭の<b>配管の修理・メンテナンス</b>を担当しています。
 	</p>
 	<div class="images">
-		<img src="firstview.jpg" class="scene" alt="">
 		<img src="contents02.jpg" class="scene" alt="">
 	</div>
 	<p>
