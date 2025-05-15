@@ -212,9 +212,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		アスファルト舗装や水道設備などは協力会社に依頼しますが、人工芝やフェンスの設置、玄関のアプローチづくりは、自社で設計から工事までを行っています。
 	</p>
-	<div class="images grid-img">
-		<img src="ishi1.jpg" class="scene" alt="">
-		<img src="ihi2.jpg" class="scene" alt="">
+	<div class="images">
+		<img src="ishi2.jpg" class="scene" alt="">
 		<img src="ishi3.jpg" class="scene" alt="">
 	</div>
 	<p>
