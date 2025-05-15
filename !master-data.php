@@ -18,7 +18,7 @@ const WRITER = [
         'name' => '小林 祐穂',
     ],
      'noguchi' => [
-        'image' => 'sato.png',
+        'image' => 'noguchi.png',
         'name' => '野口 拓真',
     ],
 ];
