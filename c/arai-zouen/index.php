@@ -95,7 +95,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		暮らしに緑を
+		空間をつくる仕事
 	</h2>
 	<p>
 	    荒井造園は、お庭づくりを通して、地域の人たちが快適に過ごせる空間をつくっている会社です。<br>
@@ -121,7 +121,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	
 	<h3>取材担当者からのポイント！</h3>
 	
-	<figure class="portrait">
+	<figure class="portrait" style="width: 20%;">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
@@ -146,7 +146,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="gallery3.jpg" class="scene" alt="">
 	</div>
 	<p>
-	    下の写真は、実際に手掛けた住宅のビフォーアフター。
+	    下の写真は、実際に手掛けた玄関まわりのビフォーアフター。
 	</p>
 	<div class="images">
 	   <img src="contents09.jpg" class="scene" alt="">
@@ -252,24 +252,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="images">
 		<img src="contents17.jpg" class="scene" alt="">
 	</div>
-	</section>
-<section id="workscene" class="content">
-	<h2>仕事の様子</h2>
-	<div class="images">
-		<img src="gallery01.jpg" class="scene" alt="">
-		<img src="gallery02.jpg" class="scene" alt="">
-		<img src="gallery03.jpg" class="scene" alt="">
-		<img src="gallery04.jpg" class="scene" alt="">
-		<img src="gallery05.jpg" class="scene" alt="">
-		<img src="gallery1.jpg" class="scene" alt="">
-		<img src="gallery3.jpg" class="scene" alt="">
-		<img src="zumen.jpg" class="scene" alt="">
-		<img src="ishi1.jpg" class="scene" alt="">
-		<img src="gallery10.jpg" class="scene" alt="">
-		<img src="ishi2.jpg" class="scene" alt="">
-		<img src="gallery01.jpg" class="scene" alt="">
-	</div>
-	</section>
+</section>
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
 	<ul class="Lightbox">
@@ -336,34 +319,34 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p class="remark">（2025年1月1日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>3</span>億円</p>
+		<p class="num"><span>5,000</span>万円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>50</span>歳</p>
+			<p class="num"><span>44</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>10</span>年</p>
+			<p class="num"><span>20</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20</span>時間</p>
+			<p class="num"><span>0</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>113</span>日</p>
+			<p class="num"><span>80</span>日</p>
 			<p class="at">※2025年計画</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1961</span>年</p>
+			<p class="num"><span>1975</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>10</span>日</p>
+			<p class="num"><span>6</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -383,8 +366,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 50, 'caption' => '新卒5', 'color' => '#2378C7'],
+						[ 'value' => 50, 'caption' => '中途5', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -405,12 +388,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 10, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 20, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 30, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 40, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 100, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 40, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 10, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 10, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 10, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 10, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -430,8 +411,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 0.01, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -463,16 +444,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd></dd>
+			<dd>荒井宏紀</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>16名（男性 11名／女性 5名、役員、パート・アルバイト含む）（2024年1月1日現在）</dd>
+			<dd>4名（パート・アルバイト含む）（2025年4月1日現在）</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8542.690453679188!2d138.15858933340482!3d36.46998040221632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d99540fff3ebd%3A0x78fb03bf14ba4c60!2z77yI5qCq77yJ6I2S5LqV6YCg5ZyS!5e0!3m2!1sja!2sjp!4v1747291006606!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
@@ -491,7 +472,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		
 		<figure class="portrait">
 			<img src="message.jpg" alt="">
-			<figcaption><span class="name">内藤央</span></figcaption>
+			<figcaption><span class="name">荒井宏紀</span></figcaption>
 		</figure>
 		<p>
 		    荒井造園で大切にしているのは、「お客様に喜んでもらうこと」「働く人が気持ちよく働けること」です。<br>
@@ -680,11 +661,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>日曜日、その他 特殊な現場など、場合によっては土曜休日</dd>
+					<dd>日曜日、その他</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年末年始、GW、お盆 天候により休日になることもあります。</dd>
+					<dd>年末年始、GW、お盆、など 天候により休日になることもあります。</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -703,19 +684,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -745,13 +726,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						17年<br>
+						20年<br>
 						※創業以降の実績
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>48歳</dd>
+					<dd>44歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -759,15 +740,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						〇資格取得支援<br>
 						仕事に必要な資格について、取得費用を全額補助いたします。
-						〇各種講習会への参加<br>
-						協会などが主催する「1級土木施工管理試験の講習」「ドローンの操縦方法」など。1日のときもあれば3～4日のときもある。
+						〇各種講習会への参加
 					</dd>
 				</div>
 				<div>
@@ -776,7 +756,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>なし</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
@@ -784,11 +764,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
-					<dd>20時間</dd>
+					<dd>0時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>10日</dd>
+					<dd>6日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -800,7 +780,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>25%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -842,7 +822,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>選考担当者</dt>
 					<dd>
 						代表取締役社長<br>
-						北澤隆洋
+						荒井宏紀
 					</dd>
 				</div>
 			</dl>
