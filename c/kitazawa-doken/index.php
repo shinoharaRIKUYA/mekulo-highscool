@@ -178,9 +178,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		消防や自衛隊…と思うかもしれませんが、実は一番に現場へ駆けつけるのは建設業の人たちなんです！
 	</p>
     <p>
-		令和元年の台風19号では、災害後すぐに、橋が流されて孤立した集落に住む透析の患者さんを病院へ運ぶために、鉄骨で仮設の橋を架けたことも。<br> 
+		令和元年の台風19号では、災害後すぐに、橋が流されて孤立した集落に住む透析の患者さんを病院へ運ぶために、鉄骨で仮設の橋を架けたことも。
+	</p>
+	<div class="images">
+		<img src="saigai1.jpg" class="scene" alt="">
+		<img src="saigai2.jpg" class="scene" alt="">
+	</div>
+	<p>
 	    その後も、橋や道路の修繕を県・市町村から依頼され、緊急対応に全力を注ぎました。<br>
-        陥没した道路を直し、土砂を取り除き、緊急車両が通れるようにする。その結果、消防や救急が安全に救助活動を行うことができるのです。<br>
+        陥没した道路を直し、土砂を取り除き、緊急車両が通れるようにする。その結果、消防や救急が安全に救助活動を行うことができるのです。
+	</p>
+	<div class="images">
+		<img src="saigai3.jpg" class="scene" alt="">
+		<img src="saigai4.jpg" class="scene" alt="">
+	</div>
+	<p>
         普段は街をつくり、いざという時は命を守るために動く──建設業はまさに、縁の下のヒーローです！
 	</p>
 	<h3>
@@ -218,7 +230,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>学校</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						川西小学校の工事を担当しました。
 					</p>
 				</hgroup>
 			</div>
@@ -232,7 +244,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>体育館</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						学校の体育館を作りました。
 					</p>
 				</hgroup>
 			</div>
@@ -246,25 +258,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>自治センター</h3>
 					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
+						武石地域の自治センターを作りました。いろいろな人が集まる場所なので、見た目、仕上がりには特に気を使いました。
 					</p>
 				</hgroup>
 			</div>
 			<p>自治センター</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="business4.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>橋</h3>
-					<p>
-						テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキステキストテキストテキストテキストテキストテキスト
-					</p>
-				</hgroup>
-			</div>
-			<p>橋</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -274,7 +272,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>護岸</h3>
 					<p>
-						
+						今後起こるかもしれない災害を防ぐために、護岸工事を行いました。
 					</p>
 				</hgroup>
 			</div>
@@ -288,7 +286,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>道</h3>
 					<p>
-						
+						上田と松本を結ぶ、バイパス道路の工事を行いました。今までの道路は住宅地を通っていて、道幅が狭く急カーブも多かったので、安全確保のための工事です。
 					</p>
 				</hgroup>
 			</div>
