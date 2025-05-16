@@ -828,15 +828,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 </section>
-	<section class="requirements" id="recruitment_requirements">
-	<div>
-		<a href="../apply/#entry" class="btn_entry">
-			<img src="../../../flag.png" class="flag">
-			<span>応募前見学情報を見る</span>
-			<img src="../../../arrow.svg">
-		</a>
-	</div>
-</section>
 <?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
