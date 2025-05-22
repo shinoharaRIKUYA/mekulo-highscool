@@ -372,7 +372,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>165,000円～（平均226,000円）</dd>
+					<dd>170,000円～220,000円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>

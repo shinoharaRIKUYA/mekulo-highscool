@@ -105,7 +105,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<ruby>「鋳造」<rt>ちゅうぞう</rt></ruby>とは、アルミを溶かして型に流し込み、部品を作る技法です。<br>
 		「<ruby>鍛造<rt>たんぞう</rt></ruby>」とは、熱したアルミ部品を600tの圧力で叩いて、金属の強度を高める技法です。<br>
 		ファインフォーミングでは、この「鋳造」×「鍛造」の技術を組み合わせることで、部品を生み出しています。<br>
-		実は、この技術を扱えるのは全国を見ても、当社のみ！<br>
+		実は、鋳造鍛造法の鋳造と鍛造を1社で行なっているのは、全国を見ても当社のみ！<br>
 		そんなファインフォーミングの仕事を、ぜひ覗いてみてください。
 	</p>
 	<div id="gallery">
@@ -277,8 +277,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 10, 'caption' => '新卒1', 'color' => '#2378C7'],
+						[ 'value' => 90, 'caption' => '中途9', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
