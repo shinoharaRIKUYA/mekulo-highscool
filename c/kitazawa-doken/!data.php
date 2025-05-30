@@ -19,9 +19,9 @@ $co = [
 
 // 募集職種
 $occupation = [
-    'job_dobokusekou' => [
+    'job_genba' => [
         'name' => '土木施工管理',
-        'url' => 'job_dobokusekou',
+        'url' => 'job_genba',
         'catch_copy' => '地域のインフラを支える',
         'work' => ['092'],
         'image' => 'second.jpg',

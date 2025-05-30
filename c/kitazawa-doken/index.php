@@ -507,7 +507,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_dobokusekou/">
+			<a href="<?= $company_base ?>job_genba/">
 				<figure>
 					<img src="<?= $company_base ?>second.jpg" alt="">
 					<figcaption>土木施工管理</figcaption>

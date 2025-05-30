@@ -2508,3 +2508,16 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	background: repeating-linear-gradient(130deg, #1C9E96, #1C9E96 10px,#188B8A 10px, #188B8A 20px);
 }
 
+/*aceworkersのロゴ*/
+.aceworkers .company_name a {
+	display: block;
+    text-align: left;
+}
+
+.aceworkers .company_name img {
+	max-width: 160px;
+}
+
+.aceworkers .company_nav .company_logo {
+	max-width: 200px;
+}
