@@ -85,7 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool">
+<body class="newgrads highschool aceworkers">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
