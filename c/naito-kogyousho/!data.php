@@ -27,17 +27,17 @@ $occupation = [
         'fv_url' => 'job_kinzoku/firstview.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
-        'MBTI' => 'i--P',    
+        'MBTI' => 'IStp',    
     ],
     'job_yousetsu' => [
         'name' => '溶接作業',
         'url' => 'job_yousetsu',
         'catch-copy' => '巨大なフレームの決め手は溶接！',
         'work' => ['493','494'],
-        'fv_url' => 'job_yousetsu/firstview.jpg',
+        'fv_url' => 'seikan.jpg',
         'latitude' => 36.3694332,//緯度
         'longitude' => 138.2142701,//経度    
-        'MBTI' => 'eN-P'
+        'MBTI' => 'IStp'
     ],
 ];
 
