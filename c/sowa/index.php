@@ -157,19 +157,45 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h3>
 		消えてなくなる製品：鋳造系事業
 	</h3>
-	<h3>ペレットづくりで社会とつながる仕事、ここにあります</h3>
 	<p>
+		鋳造ってご存知ですか？金属を熱でとかし鋳型(いがた)に流し込んで器物を作ることです。<br>
+		鋳造品を作るとき内側に空間を作る必要があるものがあります。例えば、自動車のシリンダーのように筒状のものを想像してもらえるとわかりやすいと思います。<br>
+		その空間を作るための部品を砂と樹脂を作っています。説明をするのが本当に難しい製造品ですが、「百聞は一見にしかず」の言葉どおり、実際に見てもらえれば「あ～、そういうこと」とわかってもらえると思います。<br>
+		せっかく作ったこの中子といわれる製品。鋳造の過程で消えてなくなってしまう製品なんです！
 	</p>
 	<div class="images">
-		<img src="third.jpg" class="scene" alt="">
+		<img src="introduce3.jpg" class="scene" alt="">
+	</div>
+	<h3>ペレットづくりで社会とつながる仕事、ここにあります</h3>
+	<p>
+		ペレットというのは、米粒みたいな小さなプラスチックの粒。この粒を元に、いろんな製品が作られています。たとえば、車の部品、食品パッケージ、化粧品の容器など。私たちのペレットが使われた製品は、全国のあちこちで活躍しています。
+	</p>
+	<div class="images">
 		<img src="introduce4.jpg" class="scene" alt="">
 		<img src="introduce5.jpg" class="scene" alt="">
 	</div>
 	<p>
-		私たちの商品は、スーパーの『ツルヤ』や食品メーカーを通じて、たくさんの人に届けられています。これからは新商品の開発にも力を入れ、もっと多くの人に信州の美味しさを届けていきます！
+		社員数は約18名。大きな会社ではないけれど、その分、チームワークはばっちり。新人さんへのフォロー体制も整っていて、「わからないことは何でも聞ける雰囲気」が自慢です。
 	</p>
 	<div class="images">
 		<img src="introduce6.jpg" class="scene" alt="">
+	</div>
+	<h3>「プラスチック＝悪」じゃない。正しく使えば、地球にやさしい素材です。</h3>
+	<p>
+		「プラスチックって、環境に悪いんじゃないの？」と感じる人もいるかもしれません。でも実は、プラスチックは暮らしに欠かせない大事な素材なんです。<br>
+		たとえば、みんなが毎日使っているスマホやボールペン、メガネ、スニーカー、洗濯機、冷蔵庫、バスルーム、そして自動車にも──ほぼすべてのものに、プラスチックが使われています。
+	</p>
+	<div class="images">
+		<img src="introduce7.jpg" class="scene" alt="">
+	</div>
+	<p>
+		相和化成が作っているのは、ただのプラスチックではなく「機能性プラスチック」。これは、たとえばポテトチップスやマヨネーズなどの食品を、湿気や光から守って“おいしいまま”長持ちさせるためのフィルムを何層も重ねて接着して、1枚に見えるようにする為の素材です。食品のムダ（＝食品ロス）を減らすことにもつながっているんです。<br>
+		「当たり前の暮らし」を守る素材を、地球にやさしく届ける──それが私たちの仕事です。
+	</p>
+	<h3>東御市にあることに意味があるんです！</h3>
+	<p>株式会社相和は大手樹脂メーカーのバックアップを担っている会社です。津波の心配のない長野県で樹脂の安定供給を支えています。</p>
+	<div class="images">
+		<img src="introduce8.jpg" class="scene" alt="">
 	</div>
 </section>
 <section id="business" class="content">
@@ -178,47 +204,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business1.png" alt="">
+					<img src="business1.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>『味のかけはし』</h3>
+					<h3>プラスチックペレット製造</h3>
 					<p>
-						「ふるさとの味に懐かしさを感じる人たちに、私たちの商品を届けたい。 そして、一緒に“未来の信州の食文化”を育てていきたい！」<br>
-						そんな想いを込めて、『味のかけはし』というブランドを展開しています。
+						相和の主な仕事は、プラスチック製品のもとになる「ペレット」という材料をつくることです。<br>
+						できたペレットは、車の部品や食品のパッケージ、化粧品の容器などに使われ、あなたの身の回りに広がっています。
 					</p>
 				</hgroup>
 			</div>
-			<p>『味のかけはし』</p>
+			<p>プラスチックペレット製造</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="introduce6.jpg" alt="">
+					<img src="introduce3.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>人気商品トップ３</h3>
+					<h3>鋳造用中子（ちゅうぞうようなかご）</h3>
 					<p>
-						上田市内のスーパーをはじめ、さまざまな場所で販売しています。<br>
-						特に軽井沢のお店では、他県から来た観光客の方が『箱買い』していくことも多いです。
+						金属製品をつくるときに使う“砂の型”を作る仕事です。主に自動車関連の部品づくりに欠かせないもので、こちらの分野でも高い技術で評価されています。
 					</p>
 				</hgroup>
 			</div>
-			<p>人気商品トップ３</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="introduce1.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>業務用もあります</h3>
-					<p>
-						旅館やレストラン、病院向けに業務用製品も作っています。<br>
-						そのまま食べられる果物のデザートはもちろん、料理素材として利用できる水煮商品や、薄味の商品も人気があります。
-					</p>
-				</hgroup>
-			</div>
-			<p>業務用もあります</p>
+			<p>鋳造用中子（ちゅうぞうようなかご）</p>
 		</li>
 	</ul>
 </section>
@@ -233,28 +243,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>47</span>歳</p>
+			<p class="num"><span>42.5</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>13</span>年</p>
+			<p class="num"><span>6</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>8</span>時間</p>
+			<p class="num"><span>19.7</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>111</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="num"><span>112</span>日</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1962</span>年</p>
+			<p class="num"><span>1976</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>12</span>日</p>
+			<p class="num"><span>9</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -263,8 +272,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 20, 'caption' => '20%', 'color' => '#2378C7'],
-						[ 'value' => 80, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '0', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
 					]); ?>
 				</svg>
 			</div>
@@ -346,33 +355,36 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dd>
 				<ul class="li_style">
 					<li>
-						一般調理食品製造<br>
-						(きのこ・山菜の味付加工・あんず及び果実類の加工・業務用食材加工・各種惣菜類の加工)
+						プラスチックペレットの製造
 					</li>
+					<li>鋳造用中子の製造</li>
 				</ul>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>西澤秀一</dd>
+			<dd>
+				代表取締役<br>
+				関　俊樹
+			</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>43名</dd>
+			<dd>18名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3209.626011254447!2d138.18169607650785!3d36.44242497235139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d98e15a627d21%3A0xeda24e557340129a!2z5Lqk5ZKM54mp55SjKOagqik!5e0!3m2!1sja!2sjp!4v1744353211137!5m2!1sja!2sjp"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.0642275590494!2d138.32506707639502!3d36.38343917236887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601db95d1fbc266b%3A0x4348d5861d8aff1f!2zKOagqinnm7jlkow!5e0!3m2!1sja!2sjp!4v1749623177369!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0268-82-2533</dd>
+			<dd>0268-62-4105</dd>
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://ajinokakehashi.com/">https://ajinokakehashi.com/</a></dd>
+			<dd><a href="https://sowac.co.jp/">https://sowac.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
@@ -381,14 +393,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">西澤秀一</span></figcaption>
 		</figure>
 		<p>
-			みなさんは、食べること、料理をすることは好きですか？<br>
-			「食に関わる仕事がしたい」「興味があって勉強している」という人はもちろん、「今このページを読んで気になった！」という人も、ぜひ一度見学に来てみてください。<br>
-			飲食店でアルバイトをしたことがあり、衛生管理を意識できる人は特に大歓迎です！<br>
-			これからの交和物産は、新商品の開発に力を入れ、信州の美味しさを全国に広げていきます。目の前の仕事だけでなく、新しいことに挑戦したい人をお待ちしています。<br>
-			『食』を通じて、一緒に地域文化の発展に貢献しませんか？
+			うちの仕事は、パッと見で“すごい！”って思われることは少ないかもしれません。<br>
+			でも、“目に見えないけど必要なもの”をつくるって、すごいことだと思いませんか？<br>
+			私たちの製品は、直接目にすることは少ないかもしれませんが、社会のあらゆる場面で活躍しています。ポテトチップスの袋やマヨネーズの容器など、みなさんの身近で私たちの製品が使われています。<br>
+			これまで若い人が安心して成長できるように、職場の環境を整えてきました。“ちゃんと教える” “無理させない” “人間関係で辞めない”──そんな会社を目指しています。モノづくりにちょっとでも興味があるなら、まずは見に来てください。
 		</p>
 	</div>
 </section>
@@ -436,10 +446,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>募集職種</h2>
 	<ul class="image_navi">
 		<li>
-			<a href="<?= $company_base ?>job_seizou/">
+			<a href="<?= $company_base ?>job_machine/">
 				<figure>
-					<img src="first.jpg" alt="">
-					<figcaption>食品製造職</figcaption>
+					<img src="<?= $company_base ?>job_machine/firstview.jpg" alt="">
+					<figcaption>マシンオペレーター</figcaption>
 				</figure>
 			</a>
 		</li>
