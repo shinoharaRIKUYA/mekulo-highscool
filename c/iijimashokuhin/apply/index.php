@@ -77,18 +77,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span></p>
-	<p class="cont"></p>
+	<p class="catchcopy"><span>工場の裏側、ぜんぶ見せます！</span></p>
+	<p class="cont">
+		収穫したばかりの「えのき」が、商品としてお店に並ぶまでの全工程を間近で見ることができます。<br>
+		帽子に髪の毛を入れ、エアーシャワーを浴びてから工場へ。実際に働くスタッフと同じように工場に入って、仕事の様子を体感できます。<br>
+		もしかしたら、あなたがいつも食べているあの商品が、目の前で作られているかも…！？<br>
+		見学を通して、自分が働くイメージをふくらませてみてくださいね。
+	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 10時00分～</li>
+			<li>2025年7月29日（火） 9時00分～</li>
+			<li>2025年7月30日（水） 9時00分～</li>
+			<li>2025年7月31日（木） 9時00分～</li>
+			<li>2025年8月1日（金） 9時00分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>工場見学<span>30分</span></li>
+			<li>会社説明<span>30分</span></li>
+			<li>工場見学<span>60分</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">

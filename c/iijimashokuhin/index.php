@@ -293,11 +293,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<p class="remark">（2025年2月20日現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>7.3</span>億円</p>
-		<p class="year">※2024年実績</p>
+		<p class="num"><span>3</span>億円</p>
+		<p class="year">※2025年4月実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
@@ -331,8 +330,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 20, 'caption' => '20%', 'color' => '#2378C7'],
-						[ 'value' => 80, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '0%', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
 					]); ?>
 				</svg>
 			</div>
@@ -342,8 +341,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 3, 'caption' => '新卒3', 'color' => '#2378C7'],
-						[ 'value' => 7, 'caption' => '中途7', 'color' => '#F34444'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途100', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -353,8 +352,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 28, 'caption' => '男性：28', 'color' => '#0062B5'],
-						[ 'value' => 15, 'caption' => '女性：15', 'color' => '#FF6E7E'],
+						[ 'value' => 5, 'caption' => '男性：5', 'color' => '#0062B5'],
+						[ 'value' => 16, 'caption' => '女性：16', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -365,11 +364,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
 					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
-					[ 'value' => 7, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 3, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 11, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 11, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 11, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 2, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 4, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 8, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 5, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 2, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -378,8 +377,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 41, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 2, 'caption' => '電車・バス', 'color' => '#D04255'],
+						[ 'value' => 90, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 10, 'caption' => '徒歩', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -413,9 +412,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>
-						
-					</li>
+					<li>なめ茸や山菜・きのこの製造・販売</li>
 				</ul>
 			</dd>
 		</div>
@@ -425,7 +422,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>名</dd>
+			<dd>21名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
@@ -498,11 +495,314 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="<?= $highschool_base ?>arrow.svg">
 	</a>
 </div>
+<section class="requirements g" id="recruitment_requirements">
+	<h2>募集要項</h2>
+	<div class="tabs">
+		<button class="tab1">募集要項</button>
+		<button class="tab2">青少年雇用情報</button>
+		<button class="tab3">選考方法</button>
+	</div>
+	<div class="requirement">
+		<div class="content recruitment">
+			<h3>仕事内容</h3>
+			<dl>
+				<div>
+					<dt>募集職種</dt>
+					<dd>食品加工業</dd>
+				</div>
+				<div>
+					<dt>雇用形態</dt>
+					<dd>正社員</dd>
+				</div>
+				<div>
+					<dt>雇用期間</dt>
+					<dd>定めなし</dd>
+				</div>
+				<div>
+					<dt>契約更新の可能性</dt>
+					<dd>あり(原則更新)</dd>
+				</div>
+				<div>
+					<dt>試用期間</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>試用期間中の労働条件</dt>
+					<dd>同条件</dd>
+				</div>
+				<div>
+					<dt>就業場所</dt>
+					<dd>〒389-0822<br>
+					長野県千曲市大字上山田417-1</dd>
+				</div>
+				<div>
+					<dt>アクセス</dt>
+					<dd>戸倉駅から車で15分</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策に関する特記事項</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>マイカー通勤</dt>
+					<dd>可</dd>
+				</div>
+				<div>
+					<dt>転勤の可能性</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>必要な知識・技能等</dt>
+					<dd>不問</dd>
+				</div>
+			</dl>
+			<h3>賃金・手当</h3>
+			<dl>
+				<div>
+					<dt>賃金形態</dt>
+					<dd>月給</dd>
+				</div>
+				<div>
+					<dt>月平均労働日数</dt>
+					<dd>22日</dd>
+				</div>
+				<div>
+					<dt>毎月の賃金</dt>
+					<dd>現行</dd>
+				</div>
+				<div>
+					<dt>基本給</dt>
+					<dd>180,000円～</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当①</dt>
+					<dd>皆勤手当(8000円)</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当②</dt>
+					<dd>精勤手当(3000円)</dd>
+				</div>
+				<div>
+					<dt>固定残業代</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>初任給</dt>
+					<dd>180,000円</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当①</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当②</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>賃金締切日</dt>
+					<dd>毎月20日</dd>
+				</div>
+				<div>
+					<dt>通勤手当</dt>
+					<dd>あり（上限10,000円）</dd>
+				</div>
+				<div>
+					<dt>昇給</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>賞与</dt>
+					<dd>年2回または2か月分</dd>
+				</div>
+			</dl>
+			<h3>労働時間</h3>
+			<dl>
+				<div>
+					<dt>就業期間</dt>
+					<dd>8時00分〜17時15分<br>
+						8時00分〜12時00分
+					</dd>
+				</div>
+				<div>
+					<dt>時間外労働</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>休日</dt>
+					<dd>日曜日、祝日、その他</dd>
+				</div>
+				<div>
+					<dt>その他休日</dt>
+					<dd>土曜日（月2回）休み　交代制</dd>
+				</div>
+			</dl>
+			<h3>保険・年金・定年等</h3>
+			<dl>
+				<div>
+					<dt>加入保険等</dt>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+				</div>
+				<div>
+					<dt>企業年金</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>退職金制度</dt>
+					<dd>あり（勤続年数1年以上）</dd>
+				</div>
+				<div>
+					<dt>定年制</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>一律定年制</dt>
+					<dd>あり(60歳)</dd>
+				</div>
+				<div>
+					<dt>再雇用制度</dt>
+					<dd>あり(65歳まで)</dd>
+				</div>
+				<div>
+					<dt>勤務延長</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>入居可能住宅</dt>
+					<dd>なし</dd>
+				</div>
+			</dl>
+		</div>
+		<div class="content career">
+			<h3>青少年雇用情報</h3>
+			<dl>
+				<div>
+					<dt>直近3年間の新卒者等採用者数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>直近3年間の新卒者等離職者数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>男性の新卒者等採用数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>女性の新卒者等採用数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>平均継続勤務年数</dt>
+					<dd>
+						10年
+					</dd>
+				</div>
+				<div>
+					<dt>従業員の平均年齢</dt>
+					<dd>45歳</dd>
+				</div>
+				<div>
+					<dt>研修の有無</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>研修内容</dt>
+					<dd>外部研修（フォークリフト免許取得など）</dd>
+				</div>
+				<div>
+					<dt>自己啓発支援の有無</dt>
+					<dd>
+						なし
+					</dd>
+				</div>
+				<div>
+					<dt>メンター制度の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>キャリアコンサルティング制度の有無</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>社内検定等の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>前年度の月平均所定労働時間</dt>
+					<dd>14時間</dd>
+				</div>
+				<div>
+					<dt>前事業年度の有給休暇の平均取得日数</dt>
+					<dd>12日</dd>
+				</div>
+				<div>
+					<dt>前事業年度の育児休業取得者数</dt>
+					<dd>女性：0人、男性：0人</dd>
+				</div>
+				<div>
+					<dt>前事業年度の出産者数</dt>
+					<dd>0名</dd>
+				</div>
+				<div>
+					<dt>女性役員割合</dt>
+					<dd>75%</dd>
+				</div>
+				<div>
+					<dt>女性の管理職割合</dt>
+					<dd>0%</dd>
+				</div>
+				<div>
+					<dt>区分の名称</dt>
+					<dd>高卒以上</dd>
+				</div>
+			</dl>
+		</div>
+		<div class="content selection">
+			<h3>選考方法</h3>
+			<dl>
+				<div>
+					<dt>求人数</dt>
+					<dd>1名</dd>
+				</div>
+				<div>
+					<dt>応募前職場見学</dt>
+					<dd>
+					    2025年7月28日（月）～8月1日（金）の中で要相談 13時00分～
+					</dd>
+				</div>
+				<div>
+					<dt>選考方法</dt>
+					<dd>面接</dd>
+				</div>
+				<div>
+					<dt>選考旅費</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>選考結果通知</dt>
+					<dd>面接後7日以内</dd>
+				</div>
+				<div>
+					<dt>選考担当者</dt>
+					<dd>
+						代表取締役<br>
+						平林　忍
+					</dd>
+				</div>
+			</dl>
+		</div>
+	</div>
+</section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
+<script src="<?= $highschool_base ?>animation.js"></script>
 <?php //include $base . '../footer.php'; ?>
 </body>
