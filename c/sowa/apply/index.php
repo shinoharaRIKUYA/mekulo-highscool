@@ -77,26 +77,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>チームワークを体感しよう！</span></p>
+	<p class="catchcopy"><span>普段は見れない、原料加工、化学の世界を見てみよう</span></p>
 	<p class="cont">
-		交和物産の応募前見学では、食材の選別から袋詰めまでの工程を見学することができます。<br>
-		何の商品を作っているかは、その日のお楽しみ！スーパーで見たことのある商品を作っているかも…？<br>
-		複数人のチームワークで、テキパキと作業している様子が印象的です。<br>
-		開催日以外の見学も可能です。お気軽にご連絡ください。
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 10時00分～</li>
-			<li>2025年7月31日（木） 10時00分～</li>
-			<li>2025年8月6日（水） 10時00分～</li>
-			<li>2025年8月8日（金） 10時00分～</li>
+			<li>2025年8月20日（水） 10時00分～</li>
+			<li>2025年8月20日（水） 13時30分～</li>
+			<li>2025年8月21日（木） 10時00分～</li>
+			<li>2025年8月21日（木） 13時30分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>工場見学<span>30分</span></li>
+			<li><span>40分</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
