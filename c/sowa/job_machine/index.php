@@ -197,7 +197,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="thumbnail">
 				<img src="employee1.jpg" alt="">
 				<hgroup>
-					<h3>さん</h3>
+					<h3>小林明人さん</h3>
 					<p>
 						前職も製造業で残業が多くて大変でした。ここに転職して、体も楽になったし、時間の使い方に余裕ができました。最初は不安でしたが、先輩たちがみんな親切で、“教えるのが好きな人”が多い職場です。だから、質問しやすくて、仕事もすぐに覚えられました。<br>
 						24時間稼働の工場なので、夜勤もありますが、昼間の時間が自由に使えるので、神社めぐりに出かけたり、自分の趣味も楽しめます。<br>
@@ -205,7 +205,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>年入社<br>さん</p>
+			<p>2021年中途入社<br>小林明人さん</p>
 		</li>
 	</ul>
 </section>
@@ -248,7 +248,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>就業場所</dt>
 					<dd>
 						〒389-0505<br>
-						長野県東御市和7801番地
+						長野県東御市和７９２８
 					</dd>
 				</div>
 				<div>
@@ -358,7 +358,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均25時間</dd>
+					<dd>月平均10.4時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
@@ -426,13 +426,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>
-						6年
-					</dd>
+					<dd>10.5年</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>42.5歳</dd>
+					<dd>41.5歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -465,11 +463,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定労働時間</dt>
-					<dd>19.7時間</dd>
+					<dd>10.4時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>9日</dd>
+					<dd>12日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -503,7 +501,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火） 10時00分～<br>
+						2025年8月20日（水） 10時00分～<br>
+						2025年8月20日（水） 13時30分～<br>
+						2025年8月21日（木） 10時00分～<br>
+						2025年8月21日（木） 13時30分～
 					</dd>
 				</div>
 				<div>

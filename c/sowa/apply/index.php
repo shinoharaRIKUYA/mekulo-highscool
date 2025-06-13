@@ -93,7 +93,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li><span>40分</span></li>
+			<li>会社見学<span>40分</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
