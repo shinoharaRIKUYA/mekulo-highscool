@@ -15,13 +15,6 @@ html {
 	overflow: hidden;
 }
 
-.br {
-	display: inline-block;
-}
-
-b {
-	color: #00509B;
-}
 /* 横幅 640px 未満 */
 body.highschool {
 	background: white;
@@ -293,6 +286,59 @@ footer {
 
 }
 
+
+/*-------------------------------
+
+	高卒特集TOPページ
+
+-------------------------------*/
+
+/*---------- 共通パーツ ----------*/
+.hs_main .fv_top .fv_box {
+	margin: 0 8px;
+	background: radial-gradient(circle, #3A5799 1px, transparent 1px);
+  background-size: 10px 10px;
+	box-shadow: 7px 7px 0 0 rgba(58,85,153,1);
+	border: 3px solid black;
+}
+
+/*---------- FV関係 ----------*/
+.hs_main .fv_top .fv_box img {
+	width: 100%;
+}
+.hs_main .fv_top .fv_box h1 {
+	text-align: center;
+	border: solid 3px #3C5DA8;
+	border-radius: 30px 0 30px 0;
+	padding: 18px 0 10px 0;
+	background-color: white;
+	margin: 8px;
+}
+
+.hs_main .fv_top .fv_box h1 img:nth-child(1) {
+	width: 100%;
+	max-width: 220px;
+}
+
+.hs_main .fv_top .fv_box h1 img:nth-child(2) {
+	width: 100%;
+	max-width: 120px;
+}
+
+.hs_main .fv_top .fv_box .discovery {
+	display: flex;
+}
+
+.hs_main .fv_top .fv_box .discovery a {
+	display: block;
+	background-image: url(hole.svg);
+	background-repeat: no-repeat;
+	background-size: 75px;
+}
+
+.hs_main .fv_top .fv_box .discovery img {
+	width: 15px;
+}
 
 /*====================
  * メイン部のレイアウト
@@ -939,8 +985,8 @@ li {
 	transform: translateY(-50%) translateX(-50%);
 	width: 80%;
 	max-width: 800px;
-	height: 80vh;
-	overflow: scroll;
+	height: 90vh;
+	overflow-y: auto;
 	overscroll-behavior: none;
 }
 
@@ -950,10 +996,10 @@ li {
 }
 
 #theLightbox.active hgroup {
-	height: 450px;
+	height: auto;
+	max-height: 60vh;
 	display: block;
 	color: #000;
-	flex-basis: 50%;
 }
 
 @media (min-width: 640px) {
@@ -975,6 +1021,11 @@ li {
 	#theLightboxContainer img {
 		width: 45%;
 		height: 45%;
+	}
+
+	#theLightboxContainer .inner img {
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -1565,10 +1616,6 @@ ol li a {
 	background: linear-gradient(180deg, #00509B 0%, #5572B6 100%);
 }
 
-.newgrads h3 {
-	margin: 24px 12px 0;
-}
-
 .content p,.g p {
 	margin: 0 10px;
 }
@@ -1587,11 +1634,11 @@ ol li a {
 	gap: 20px;
 }
 
-#business li .inner {
+#business li {
 	position: relative;
 }
 
-#business li .inner::after {
+#business li::after {
 	display: block;
 	content: url(glass.svg);
 	filter: drop-shadow(0 0 9px white);
@@ -1599,7 +1646,7 @@ ol li a {
 	width: clamp(40px, 4em ,50px);
 	height: clamp(40px, 4em ,50px);
 	position: absolute;
-	bottom: 9px;
+	bottom: 26%;
 	right: 2%;
 }
 
@@ -1607,13 +1654,6 @@ ol li a {
 	aspect-ratio: 3 / 2;
 	width: 100%;
 	object-fit: cover;
-}
-
-#theLightboxContainer .inner img {
-	width: 100%;
-	height: unset;
-	max-width: 400px;
-	flex-basis: 50%;
 }
 
 #business li p {
@@ -1917,10 +1957,6 @@ dl.speclist > div {
 	padding: 18px;
 }
 
-dl.speclist .hp dd {
-	word-break: break-all;
-}
-
 .li_style li {
 	list-style: inside;
 }
@@ -1949,13 +1985,9 @@ dl.speclist .hp dd {
 figure.portrait {
 	float: right;
 	box-sizing: border-box;
+	width: 25%;
 	min-width: 120px;
 	margin: -1em 0.5em 1em 1.5em;
-	width: 25%;
-}
-
-figure.portrait > img {
-	aspect-ratio: unset;
 }
 
 figure.center {
@@ -1966,7 +1998,6 @@ figure.center {
 
 figure > img {
 	width: 100%;
-	aspect-ratio: 3 / 2;
 }
 
 figure figcaption {
@@ -2192,7 +2223,7 @@ img.scene {
 	padding: 15px 30px;
 	font-weight: bold;
 	background: repeating-linear-gradient(135deg, #3396F3, #3396F3 10px, #35A7F4 10px, #35A7F4 20px);
-	text-shadow: 2px 0 0 #000000;
+	text-shadow: 0 1px 0 #000000;
 }
 
 /*
@@ -2508,16 +2539,3 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	background: repeating-linear-gradient(130deg, #1C9E96, #1C9E96 10px,#188B8A 10px, #188B8A 20px);
 }
 
-/*aceworkersのロゴ*/
-.aceworkers .company_name a {
-	display: block;
-    text-align: left;
-}
-
-.aceworkers .company_name img {
-	max-width: 160px;
-}
-
-.aceworkers .company_nav .company_logo {
-	max-width: 200px;
-}
