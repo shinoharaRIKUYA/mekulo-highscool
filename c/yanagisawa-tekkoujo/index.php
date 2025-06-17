@@ -162,6 +162,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="contents03.jpg" class="scene" alt="">
 		<img src="contents04.jpg" class="scene" alt="">
 	</div>
+	<p>
+		現場での設置も担当しており、地域に残る建築に関われる仕事です。
+	</p>
+	<div class="images">
+		<img src="kuusatu.jpg" class="scene" alt="">
+	</div>
 	<h3>
 		複雑な溶接が得意
 	</h3>
