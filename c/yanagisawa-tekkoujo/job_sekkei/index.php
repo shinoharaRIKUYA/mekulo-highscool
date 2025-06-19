@@ -131,7 +131,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section class="g" id="job_detail">
 	<h2>仕事内容</h2>
 	<h3>
-		[TBD]
+		全体をイメージする
 	</h3>
 	<p>
 		設計は、CADというソフトを使って鉄骨の図面を作成します。<br>
