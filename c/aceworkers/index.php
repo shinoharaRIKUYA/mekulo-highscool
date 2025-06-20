@@ -218,7 +218,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>7</span>年</p>
+			<p class="num"><span>8</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
@@ -234,7 +234,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>5</span>日</p>
+			<p class="num"><span>10</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -397,6 +397,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				<p>※他の日程はお問い合わせください。</p>
             </dd>
         </div>
         <div>
