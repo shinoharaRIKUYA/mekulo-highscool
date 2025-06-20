@@ -137,7 +137,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		エース・ワーカーズの松本社長は、20代前半で独立した若い社長。<br>
 		社員一人ひとりに寄り添い、誰もが気持ちよく働ける職場づくりを大切にしています。<br>
-		職場の雰囲気は、「きっちりしてるけど、息がしやすい」。そんなバランスの良さが魅力です。<br> 
+		職場の雰囲気は、きっちりしてるけど、息がしやすい。そんなバランスの良さが魅力です。<br> 
 		試用期間を終えると、1人1台の社用車が支給されるので、毎朝会社に集まる必要はありません。家から現場へ直行して、仕事が終わったらそのまま帰れます。<br>
 		しかも、残業もほとんどないので、プライベートの時間もしっかりとれます。<br>
 		塗装や防水の仕事は、現場によって使う道具も、やり方も異なります。そのため、自然と多くの技術が身についていきます。 気がつくと、自分の中に「できること」が増えていて、そんな自分の変化が、ちょっと誇らしく思えるかもしれません。<br>
@@ -243,8 +243,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.001, 'caption' => '100%', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '0%', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -254,7 +254,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '新卒0', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 						[ 'value' => 14, 'caption' => '中途14', 'color' => '#F34444'],
 					]); ?>
 				</svg>
@@ -353,7 +353,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.aceworkers.co.jp/">https://www.kitazawadoken.co.jp/</a></dd>
+			<dd><a href="https://www.aceworkers.co.jp/">https://www.aceworkers.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>

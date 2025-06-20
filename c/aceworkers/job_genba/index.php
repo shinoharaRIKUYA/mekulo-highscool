@@ -253,7 +253,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>Hさん<br>(入社3年目)</p>
+			<p>Hさん<br>(入社11年目)</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">

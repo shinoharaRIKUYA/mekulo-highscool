@@ -1959,6 +1959,10 @@ dl.speclist > div {
 	padding: 18px;
 }
 
+dl.speclist .hp a {
+	word-break: break-all;
+}
+
 .li_style li {
 	list-style: inside;
 }
@@ -2548,9 +2552,9 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 }
 
 .aceworkers .company_name img {
-	max-width: 160px;
+	max-width: 150px;
 }
 
 .aceworkers .company_nav .company_logo {
-	max-width: 200px;
+	max-width: 180px;
 }
