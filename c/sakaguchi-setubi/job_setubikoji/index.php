@@ -137,7 +137,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		「水が漏れてる！」「変な音がする…」そんな連絡が入ったら、まずはすぐに現場へ向かいます。どこが悪くなっているのかを見て、その場で直せそうなら、工具を使ってすぐに作業スタート。たとえば、配管にヒビが入っていたら溶接でつなぎ直したり、ネジがダメになっていたら交換したり。その場で対応できるなら、それが一番早いし確実です。
 	</p>
 	<div class="images">
-		<img src="../firstview.jpg" alt="" class="scene">
 		<img src="../contents06.jpg" alt="" class="scene">
 	</div>
 	<p>
