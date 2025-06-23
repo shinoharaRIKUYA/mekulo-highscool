@@ -202,7 +202,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="comingsoon.png" alt="">
 				<hgroup>
 					<h3>工藤さん</h3>
 					<p>
@@ -215,7 +215,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee2.jpg" alt="">
+				<img src="comingsoon.png" alt="">
 				<hgroup>
 					<h3>佐野さん</h3>
 					<p>
