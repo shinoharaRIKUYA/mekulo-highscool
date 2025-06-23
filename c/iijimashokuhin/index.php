@@ -97,20 +97,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>スーパーに並んでいる『なめ茸』、作っています！</h2>
 	<p>
 		スーパーで売っている、瓶に入った「なめ茸」。<br>
-		それを“生のえのき茸”から加工して商品にしているのが、私たち飯島食品です。地元の農家さんと協力して、毎日800kg以上のえのきを全国へ届けています。<br>
-		農家さんから届いた新鮮なえのきを選別し、煮込んで、ビンに詰める。私たちがいつも何気なく食べている食品の裏側には、地域に根差した丁寧な加工現場があります。ぜひ一度、見学に来てください！
+		それを“生のえのき茸”から加工して商品にしているのが、私たち飯島食品です。地元の生産者さんから毎朝800kg以上のえのき茸を仕入れて、全国へ届けています。<br>
+		生産者さんから届いた新鮮なえのきを選別し、煮込んで、ビンに詰める。私たちがいつも何気なく食べている食品の裏側には、地域に根差した丁寧な加工現場があります。ぜひ一度、見学に来てください！
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="first.jpg" alt="" class="fs show">
+			<img src="business1.jpg" alt="" class="fs show">
 			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
+			<img src="first.jpg" alt="" class="th">
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="first.jpg" alt="" class="fs">
+			<img src="business1.jpg" alt="" class="fs">
 			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
+			<img src="first.jpg" alt="" class="th">
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
 	</div>
@@ -140,7 +140,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="introduce1.jpg" class="scene" alt="">
 	</div>
 	<p>
-		毎朝8時に、地元の農家さんから新鮮なえのきが届きます。これは、農家さんが2か月以上かけて育ててくれた大切な原料です。
+		毎朝8時に、地元の生産者さんから新鮮なえのきが届きます。これは、生産者さんが2か月以上かけて育ててくれた大切な原料です。
 	</p>
 	<div class="images">
 		<img src="introduce2.jpg" class="scene" alt="">
@@ -148,9 +148,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<p>
 		届いたえのきは1～2センチにカットされていて、1日でおよそ800kg分を加工します。製造の中心は「煮込み」「充填（ビン詰め）」「密封（フタ閉め）」の3つの工程で、製造スタッフ全員がそれぞれの役割を担っています。
 	</p>
-	<div class="images">
-		<img src="introduce3.jpg" class="scene" alt="">
-	</div>
 	<h3>お客様の目線で、異物を取り除く</h3>
 	<p>
 		製造前の「選別」で一番大切なのは、「お客様だったらどう感じるか」という気持ちです。異物が少しでも混ざっていたら、たとえ体に害がなくても気になってしまいますよね。<br>
@@ -159,7 +156,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="images">
 		<img src="first.jpg" class="scene" alt="">
 		<img src="introduce4.jpg" class="scene" alt="">
-		<img src="introduce5.jpg" class="scene" alt="">
+		<img src="introduce5-1.jpg" class="scene" alt="">
 	</div>
 	<p>
 		入社後に初めて教わるのも、この選別工程。細かい作業ですが、「丁寧に」「正確に」を意識することで、食品づくりの基本がしっかり身につきます。
@@ -278,16 +275,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="business4.jpg" alt="">
+					<img src="ninnikunametake.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>きのこ三昧</h3>
+					<h3>焼きにんにくなめたけ</h3>
 					<p>
-						きのこ（えのき茸、しいたけ）と山菜（わらび、きくらげ）のミックスを、しょうゆベースのたれで味付けしたもの。
+						スライスしたにんにくを加え、風味がアップしました。
 					</p>
 				</hgroup>
 			</div>
-			<p>きのこ三昧</p>
+			<p>焼きにんにくなめたけ</p>
 		</li>
 	</ul>
 </section>
@@ -445,11 +442,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name"></span></figcaption>
+			<figcaption><span class="name">平林　忍</span></figcaption>
 		</figure>
 		<p>
 			私たちが求めているのは、ルールを守れて、素直な人。食品を扱う仕事だからこそ、髪の毛を帽子にきちんと入れる、工場へ入る前には手をしっかり洗う、そういった基本的なルールを守ることが何より大切です。<br>
-			また、もし間違えてしまったときは、「間違えました」と伝えられる素直さも大切です。食品会社は、一度の失敗で信頼を失ってしまうこともあります。だからこそ、工場の中でミスの気付けたほうが良いのです。失敗しても、次から気を付ければ大丈夫。やさしくフォローしてくれる先輩たちがそばにいます。<br>
+			また、もし間違えてしまったときは、「間違えました」と伝えられる素直さも大切です。食品会社は、一度の失敗で信頼を失ってしまうこともあります。だからこそ、工場の中でミスに気付けたほうが良いのです。失敗しても、次から気を付ければ大丈夫。やさしくフォローしてくれる先輩たちがそばにいます。<br>
 			さらに、目標を持って前向きに挑戦できる人も大歓迎です。将来的には、リーダーとして活躍する道もあります。<br>
 			少しでも興味を持っていただけた方は、ぜひ一度、見学に来てみてください。お待ちしています。
 		</p>
