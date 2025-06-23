@@ -1576,6 +1576,7 @@ ol li a {
 	margin: 30px 8px;
 	background-color: #fff;
 	padding-bottom: 10px;
+	scroll-margin-top: 240px;
 }
 
 .content h2,

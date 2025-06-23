@@ -181,10 +181,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="contents07.jpg" class="scene" alt="">
 	</div>
 	<p>
-		ものづくりに興味がある人、いろんな技術を身につけてみたい人をお待ちしています！一緒に建物を支える仕事をしてみませんか？
+		ものづくりに興味がある人、いろんな技術を身につけてみたい人をお待ちしています！資格が無くても大丈夫！一緒に建物を支える仕事をしてみませんか？
 	</p>
 </section>
-<section id="business" class="content">
+<section class="content" id="business">
 	<h2>私たちのビジネス</h2>
 	<ul class="Lightbox">
 		<li class="thumbnails">
@@ -307,9 +307,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク[TBD]", 'color' => '#E06A3A'],
-						[ 'value' => 100, 'caption' => "徒歩[TBD]", 'color' => '#009F6B'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 95, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 5, 'caption' => "徒歩", 'color' => '#009F6B'],
 					]); ?>
 				</svg>
 			</div>
@@ -358,7 +357,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.4144269235026!2d138.4700250762507!3d36.253716298313456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb50a2c9bbd1%3A0xf198e51de647ff60!2z77yI5qCq77yJ5p-z5r6k6ZC15bel5omA!5e0!3m2!1sja!2sjp!4v1750378583431!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
