@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool">
+<body class="highschool aceworkers">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
@@ -85,14 +85,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月28日（月）10時00分～</li>
+			<li>2025年8月4日（月）10時00分～</li>
+			<li>2025年8月5日（火）10時00分～</li>
+			<li style="list-style-type: none;">※他の日程はお問い合わせください。</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li><span></span></li>
-			<li><span></span></li>
+			<li>会社説明<span>30～60分</span></li>
 		</ul>
 	</div>
 	<a href="../apply/#entry" class="entry-btn">

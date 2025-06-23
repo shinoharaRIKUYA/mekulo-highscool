@@ -910,6 +910,8 @@ li {
 
 #employee_introduction .Lightbox .thumbnails .thumbnail img {
 	max-width: 220px;
+	aspect-ratio: 3 / 2;
+    object-fit: cover;
 }
 
 .thumbnails img.glass,
@@ -1957,6 +1959,10 @@ dl.speclist > div {
 	padding: 18px;
 }
 
+dl.speclist .hp a {
+	word-break: break-all;
+}
+
 .li_style li {
 	list-style: inside;
 }
@@ -2539,3 +2545,16 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	background: repeating-linear-gradient(130deg, #1C9E96, #1C9E96 10px,#188B8A 10px, #188B8A 20px);
 }
 
+/*aceworkersのロゴ*/
+.aceworkers .company_name a {
+	display: block;
+    text-align: left;
+}
+
+.aceworkers .company_name img {
+	max-width: 150px;
+}
+
+.aceworkers .company_nav .company_logo {
+	max-width: 180px;
+}

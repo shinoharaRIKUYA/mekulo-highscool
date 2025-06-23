@@ -245,7 +245,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<div class="thumbnail">
 				<img src="employee1.jpg" alt="">
 				<hgroup>
-					<h3>Nさん</h3>
+					<h3>Hさん</h3>
 					<p>
 						現場に着いたら、1日の流れを確認してから作業をスタートします。今日の天気、気温、明日の予報までチェックし、ただ言われた通りではなく、「どう進めたら一番きれいに仕上がるか」、「どうすれば納期に間に合うか」。そんなことを自分で考えながら進めていくのが、この仕事の面白さです。<br>
 						ひとくちに防水・塗装といっても、仕事内容が現場によりさまざまなので、経験の少ない作業内容にチャレンジできる機会が多いです。そのたびにスキルアップしていけるのが楽しく、技術を向上させるチャンスに恵まれていると感じています。<br>
@@ -253,7 +253,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>Nさん<br>(入社3年目)</p>
+			<p>Hさん<br>(入社11年目)</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -268,7 +268,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>Yさん<br>(入社6年目)</p>
+			<p>Yさん<br>(入社10年目)</p>
 		</li>
 	</ul>
 </section>
@@ -483,7 +483,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						7年
+						8年
 					</dd>
 				</div>
 				<div>
@@ -523,7 +523,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>5日</dd>
+					<dd>10日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -557,7 +557,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月28日（月）10時00分～
+						2025年8月4日（月）10時00分～<br>
+						2025年8月5日（火）10時00分～<br>
+						<p style="margin-left: 0; padding-left: 0;">※他の日程はお問い合わせください。</p>
 					</dd>
 				</div>
 				<div>
