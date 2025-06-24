@@ -216,7 +216,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>秋吉さん<br>(入社年目)</p>
+			<p>秋吉さん<br>(入社1年目)</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -232,7 +232,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>北野さん<br>(入社年目)</p>
+			<p>北野さん<br>(入社3年目)</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -248,7 +248,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					</p>
 				</hgroup>
 			</div>
-			<p>宮澤さん<br>(入社年目)</p>
+			<p>宮澤さん<br>(入社4年目)</p>
 		</li>
 	</ul>
 </section>
