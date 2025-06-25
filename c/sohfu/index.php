@@ -11,10 +11,10 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
+
 $description = '建物の裏側で空気の通り道をつくる仕事です。金属板からダクトを設計・製造・取り付けまで一貫して行い、学校や商業施設、工場などに快適な空調環境を届けます。設計図をもとにパズルのように組み立て、チームで効率よく現場設置。図形やものづくりが好きな方にぴったりの職場です。';//メタディスクリプションの追加
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -31,9 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -54,13 +52,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>

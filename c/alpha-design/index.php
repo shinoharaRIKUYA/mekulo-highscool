@@ -9,13 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
+$description = '長野県東御市のアルファーデザイン株式会社は、半導体製造装置や電子基板検査装置などを設計・製造するエンジニアリング企業。高精度かつカスタマイズ対応で、世界に一台の機械を形にします。若手からベテランまでが協力し、最先端のモノづくりを支えています。';//メタディスクリプションの追加
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,9 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -54,13 +48,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -331,8 +325,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒9', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途1', 'color' => '#F34444'],
+						[ 'value' => 90, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -342,8 +336,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -367,7 +361,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>

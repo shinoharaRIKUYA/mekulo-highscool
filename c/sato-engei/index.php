@@ -11,10 +11,10 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
+
 $description = '佐藤園芸は、お庭づくりと植物販売を通じて「緑ある暮らし」を支える会社です。剪定や植栽、エクステリア工事から、花や観葉植物の販売、オフィス緑化まで幅広く手掛けています。緑あふれる空間で人々の暮らしを豊かにし、心を癒す仕事に興味がある方を歓迎します。';//メタディスクリプションの追加 
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -31,9 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -54,13 +52,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>

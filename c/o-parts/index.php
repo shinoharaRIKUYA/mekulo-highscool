@@ -11,10 +11,10 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
+
 $description = 'アーチェリー部品や音響・半導体装置のパーツを手がける上田市の町工場・オーパーツ。設計からプログラム、工具製作まで、ものづくりの全工程に関われる職場です。0.001mm単位の精密加工で、最高の性能を追求します。';//メタディスクリプションの追加
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -31,9 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -54,13 +52,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>

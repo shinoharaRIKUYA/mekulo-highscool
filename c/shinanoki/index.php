@@ -5,15 +5,15 @@ $company_base = './';
 $cur_page = 'top';
 include_once $company_base . '!data.php';
 include_once $highschool_base . 'circle.php';
+include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = $co['meta_keyword'];
 $description = '日本にわずか3社の、日清カップ麺のかやく製造会社です。多い日には1日40万食分を手掛け、安全・清潔な環境で具材投入から検査・梱包まで丁寧に作業。2021年には新工場を開設し、冷凍食品も扱っています。安定した環境で、食品製造に挑戦したい方に最適な職場です。'; 
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -30,9 +30,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -53,13 +51,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -73,7 +71,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<img alt="" class="fv_image" src="firstview.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch-copy'] ?></h1>
-		<p class="fv-tag"><?= $co['industry'] ?></p>
+		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
 	</hgroup>
 </div>
 <section class="toc">
@@ -130,9 +128,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h3>取材担当者からのポイント！</h3>
 	<h4>離職者ほぼ0！？</h4>
 	<figure class="portrait" style="width: 20%;">
-			<img src="sato.png" alt="">
-			<figcaption><span class="word">佐藤</span></figcaption>
-		</figure>
+		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+	</figure>
 	<p>
 		科の木は、地元でも有名な安定した企業です。若い社員が多く活躍していて、とにかく離職率が低いのが特徴です。仕事とプライベートをしっかり分けられるもの魅力の一つ。<br>
 		休憩時間はそれぞれ一人の時間を大切にしている社員が多く、無理なく働ける雰囲気があります。こうした環境が、離職率の低さに繋がっているのかもしれません。
@@ -366,7 +364,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>業種</dt>
-			<dd><?= $co['industry']?></dd>
+			<dd><?= INDUSTRIES[$co['industry'][0]] ?></dd>
 		</div>
 		<div>
 			<dt>事業内容</dt>
@@ -428,16 +426,30 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         <?php foreach ($visit as $plan): ?>
         <div class="visit-item">
             <h3><?= $plan['about'] ?>について</h3>
-						<div>
-							<dt>開催日</dt>
-							<dd><?= $plan['date'] ?></dd>
-						</div>
-						<div>
-							<dt>内容</dt>
-							<dd><?= $plan['content'] ?></dd>
-						</div>
+			<div>
+            <dt>開催日</dt>
+            <dd>
+				<ul>
+						<?php 
+						if (is_array($plan['date'])) {
+								foreach ($plan['date'] as $date) {
+										if (is_array($date)) { 
+											echo "<li>" . $date['name'] . "</li>";
+										}
+								}
+						} else {
+								echo "<li>" . $plan['date'] . "</li>";
+						}
+						?>
+				</ul>
+            </dd>
         </div>
-        <?php endforeach; ?>
+        <div>
+            <dt>内容</dt>
+            <dd><?= $plan['content'] ?></dd>
+        </div>
+    </div>
+	<?php endforeach; ?>
     </dl>
 	<a href="apply/#entry" class="flag_btn_entry">
 		<img src="<?= $highschool_base ?>flag.png" class="flag">
@@ -483,5 +495,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>

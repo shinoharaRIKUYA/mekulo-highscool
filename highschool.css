@@ -2581,9 +2581,11 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 
 /*北澤土建のロゴ*/
 .kitazawa-doken .company_name img {
-	height: 70px;
+	height: 130px;
+	object-fit: contain;
 }
 
 .kitazawa-doken .company_nav .company_logo {
-	height: 70px;
+	height: 120px;
+	object-fit: contain;
 }

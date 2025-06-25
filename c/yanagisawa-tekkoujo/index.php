@@ -11,10 +11,10 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
+
 $description = '柳澤鐵工所は、最大14メートルにもなる大型の鉄骨をオーダーメイドで製作しています。体育館や工場などの柱や骨組みに使われ、地域の建物を支える重要な役割を担います。設計図をもとに加工・溶接・検査・塗装を行い、現場での設置も担当。複雑な溶接技術が自慢で、初心者も資格なしで挑戦可能です。ものづくりに興味がある方を歓迎します。';//メタディスクリプションの追加 
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -31,9 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -54,13 +52,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>

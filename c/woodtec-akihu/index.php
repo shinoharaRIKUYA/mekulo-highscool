@@ -11,10 +11,10 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
-$description = 'このページは、株式会社 ウッドテック秋富の企業紹介ページです。株式会社 ウッドテックは、長野県上田市にある木製建具・家具を製造している会社です。ドアや棚、学校の家具などをオーダーメイドで作っています。地元の木を使い、昔ながらの技と新しい機械を合わせて、あたたかみのあるものづくりをしています。';//メタディスクリプションの追加 
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
+$description = '株式会社 ウッドテック秋富の企業紹介ページです。株式会社 ウッドテックは、長野県上田市にある木製建具・家具を製造している会社です。ドアや棚、学校の家具などをオーダーメイドで作っています。地元の木を使い、昔ながらの技と新しい機械を合わせて、あたたかみのあるものづくりをしています。';//メタディスクリプションの追加 
+
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -31,9 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -54,13 +52,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>

@@ -1,7 +1,7 @@
 <?php
 $co = [
     'slug' => 'woodtec-akihu',
-    'image' => 'sanada.jpg',
+    'image' => 'job_kakou/sanada.jpg',
     'company_name' => '株式会社 ウッドテック秋富',
     'catch_copy' => '木を使って、みんながいつも使うものをつくる',
     'industry' => ['E','A'],

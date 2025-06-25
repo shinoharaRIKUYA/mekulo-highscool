@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
 $description = 'スーパーでおなじみの「なめ茸」を製造する飯島食品。毎朝届く新鮮なえのき茸を選別し、煮込み・瓶詰め・密封の工程で丁寧に加工。真面目さやチームワークを活かして働ける職場で、食品づくりの基本から学べます。';//メタディスクリプションの追加
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,9 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -54,13 +48,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -327,8 +321,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '0%', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '取得者なし', 'color' => '#d9d9d9'],
 					]); ?>
 				</svg>
 			</div>
@@ -385,7 +379,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+						[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 												]); ?>
 				</svg>

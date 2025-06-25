@@ -12,13 +12,8 @@ include_once $company_base . '!data.php';
 // ページのメタデータ
 $title = $job_title . ' - ' . $co['company_name'] . 'の新卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-$keywords = '';//TBD
-
 $description = '';//TBD
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/' . $cur_page . '/';
-
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $cur_page . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -33,9 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -57,18 +49,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "新卒求人特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	},{
 		"@type": "ListItem",
 		"position": 4,
 		"name": "<?= $job_title ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/<?= $cur_page ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/<?= $cur_page ?>/"
 	}]
 }
 </script>
@@ -186,7 +178,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>
 				電気工事士が持っている工具は、ペンチ、ドライバー、電工ナイフ、ニッパー、プライヤー、ラチェットなど、人それぞれ。「これは工具箱の中」「これは腰道具に着けておきたい」など、自分で使いやすいように工夫しています。
 			</p>
-			<p></p>
 			<p>
 				工具の使い方を覚えたら先輩と一緒に現場に出て、こんな時はこの工具を使うなど、実際の作業を一つずつ学んでいきます。電気工事は適切に行えば安全な仕事ですが、不注意や準備不足から感電などのリスクにつながることもあります。そういった危険を防ぐためには、入念な準備と繰り返しの練習が欠かせません。安全に作業できるようになるまで、先輩がしっかりサポートします。
 			</p>

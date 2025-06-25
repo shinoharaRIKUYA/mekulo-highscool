@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードの追加
 $description = '坂城町のグループホーム「サンタクロース」では、認知症の高齢者が自宅のように過ごせる日常を大切にしています。手伝いすぎず、見守りながら共に暮らす温かな介護を実践しています';//メタディスクリプションの追加
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,9 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -54,13 +48,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -262,8 +256,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '0', 'color' => '#d9d9d9'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.001, 'caption' => '取得者なし', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -273,8 +267,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '新卒0', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途100', 'color' => '#F34444'],
+						[ 'value' => 0.001, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -284,8 +278,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 3, 'caption' => '男性：3', 'color' => '#0062B5'],
-						[ 'value' => 7, 'caption' => '女性：7', 'color' => '#FF6E7E'],
+						[ 'value' => 3, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 7, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>

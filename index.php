@@ -75,7 +75,7 @@ $keywords = '上田市,坂城町,高卒,就職活動,求人,めくろうワー�
 
 $description = '上田市・坂城町で就職したい人は必見！地元で高卒を採用している企業を紹介しています。働きやすい仕事環境作りに取り組んでいる会社、実は高いシェアを誇っている会社など、就職先として魅力的な企業をご覧ください。';
 
-$canonical_url = 'https://works.mekulo.jp/newgra/';
+$canonical_url = 'https://works.mekulo.jp/hs/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -107,8 +107,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	}]
 }
 </script>

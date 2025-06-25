@@ -1,16 +1,20 @@
 <?php
-// 企業情報
 $co = [
     'slug' => 'shinanoki',
+    'image' => 'company.jpg',
     'company_name' => '株式会社 科の木',
     'catch-copy' => '有名カップ麺の『かやく』、実は上田で作っています！',
-    'industry' => '食品製造業',
-    'post-code' => '〒386-1101',
+    'industry' => ['E'],
+    'post-code' => '386-1101',
     'adress' => '長野県上田市下之条42',
     'homepage' => 'https://p-shinanoki.co.jp/',
     'logo_filename' => 'logo.png',
-    'meta_keyword' => '科の木,高卒特集',//meta情報のキーワード
-    'meta_desc' => '科の木では新卒を募集しています。',//meta情報のディスクリプション
+    'latitude' => 36.39712976,//緯度
+    'longitude' => 138.21962598,//経度
+    'human' => [
+        'image' => 'sato.png',
+        'name' => '佐藤',
+    ]
 ];
 
 // 募集職種
@@ -21,8 +25,9 @@ $occupation = [
         'catch-copy' => '機械のスピードに合わせて、人の手で完璧に仕上げる',
         'work' => '食品製造',
         'fv_url' => 'job_food-manufacturing/firstview.jpg',
-        'meta_keyword' => '科の木,高卒特集',//職種のmeta情報のキーワード
-        'meta_desc' => '科の木では新卒を募集しています。',//職種のmeta情報のディスクリプション
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
+        'MBTI' => '',
     ],
     'job_machine-operator' => [
         'name' => '機械操作スタッフ',
@@ -30,8 +35,10 @@ $occupation = [
         'catch-copy' => '細かい調整が、不良品を減らすカギ',
         'work' => '機械操作',
         'fv_url' => 'job_machine-operator/firstview.jpg',
-        'meta_keyword' => '科の木,高卒特集',//職種のmeta情報のキーワード
-        'meta_desc' => '科の木では新卒を募集しています。',//職種のmeta情報のディスクリプション
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
+        'MBTI' => '',
+
     ],
     'job_quality-control' => [
         'name' => '品質管理スタッフ',
@@ -39,8 +46,9 @@ $occupation = [
         'catch-copy' => 'たった数グラムのかやく、一つのミスも見逃さない！',
         'work' => '品質管理',
         'fv_url' => 'job_quality-control/firstview.jpg',
-        'meta_keyword' => '科の木,高卒特集',//職種のmeta情報のキーワード
-        'meta_desc' => '科の木では新卒を募集しています。',//職種のmeta情報のディスクリプション
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
+        'MBTI' => '',
     ],
 ];
 

@@ -10,11 +10,8 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードをここに挿入
 $description = '株式会社あさまかい グループホームサンタクロースの応募前見学ページです。';//メタディスクリプションをここに挿入
-
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -29,9 +26,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -53,13 +47,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"name": "高卒求人特集",
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	}]
 }
 </script>
@@ -77,12 +71,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>自分の身長より大きい！？</span><br>
-		<span>製品の製造現場をのぞいてみよう！</span></p>
+	<p class="catchcopy"><span></span><br>
+		<span></span></p>
 	<p class="cont">
-		内藤工業所の応募前見学では、小さな部品の加工から大きな製品の溶接までを間近で見学しながら、仕事内容について説明します。<br>
-		工場内の雰囲気を実際に感じながら、社長から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、自分の身長の2倍ほどもある製品が溶接される、迫力満点の作業を見ることができるかもしれません。
+		「介護って大変そう」「自分に向いているかわからない」そんなふうに感じている人こそ、ぜひ一度、見学に来てみてください！<br>
+		どんな考えで運営しているのか、どんな人たちが働いているのか、じっくり話を聞ける貴重な時間です。<br>
+		そして実際に、スタッフが働く様子を間近で見られます。入居者さんとのやりとりやスタッフ同士の雰囲気を見てみると、“イメージがガラッと変わる”発見があるかもしれません。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
@@ -97,11 +91,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社案内・説明<span>30分</span></li>
-			<li>現場見学<span>75分</span></li>
+			<li>会社説明<span>20分</span></li>
+			<li>職場見学<span>40分</span></li>
 		</ul>
 	</div>
-	<a href="../apply/#entry" class="entry-btn">
+	<a href="" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">

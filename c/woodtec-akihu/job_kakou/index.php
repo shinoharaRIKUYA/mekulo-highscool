@@ -25,10 +25,10 @@ foreach ($occupation as $key => $job) {
 $title = $job_title . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 
-$keywords = $meta_keywords;
+
 $description = $meta_desc;
 
-$canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/' . $cur_page . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $cur_page . '/';
 
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -45,9 +45,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -69,17 +67,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		"@type": "ListItem",
 		"position": 2,
 		"name": "高卒求人特集",
-		"item": "https://works.mekulo.jp/highschool/"
+		"item": "https://works.mekulo.jp/hs/"
 	},{
 		"@type": "ListItem",
 		"position": 3,
 		"name": "<?= $co['company_name'] ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/"
 	},{
 		"@type": "ListItem",
 		"position": 4,
 		"name": "<?= $job_title ?>",
-		"item": "https://works.mekulo.jp/highschool/<?= $co['slug'] ?>/<?= $cur_page ?>/"
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/<?= $cur_page ?>/"
 	}]
 }
 </script>
