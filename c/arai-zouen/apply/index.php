@@ -8,10 +8,10 @@ include_once $highschool_base . 'circle.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードをここに挿入
-$description = '';//メタディスクリプションをここに挿入 
+$description = '株式会社荒井造園の応募前見学情報ページです。';//メタディスクリプションをここに挿入 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -65,12 +65,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool">
+<body class="highschool arai-zouen">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="apply\firstview.jpg">
+	<img alt="" class="fv_image" src="first-view.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
@@ -98,9 +98,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>現場見学<span>30分～60分程度</span></li>
 		</ul>
 	</div>
-	<a href="../apply/#entry" class="entry-btn">
+	<a href="" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募前見学情報を見る</span>
+		<span>応募する</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>

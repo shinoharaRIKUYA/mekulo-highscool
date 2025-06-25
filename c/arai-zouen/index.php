@@ -12,7 +12,7 @@ include_once $highschool_base . '!master-data.php';
 $title = $co['company_name'] . 'の新卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '荒井造園は、長野県坂城町を拠点に活動する若い職人チームの造園会社です。剪定や植栽、エクステリア工事を通じて、庭を快適な住空間としてデザイン。地域密着で、自然との調和を大切にした庭づくりを行っています。';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -66,7 +66,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool">
+<body class="highschool arai-zouen">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
@@ -365,8 +365,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 50, 'caption' => '新卒5', 'color' => '#2378C7'],
-						[ 'value' => 50, 'caption' => '中途5', 'color' => '#F34444'],
+						[ 'value' => 50, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 50, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -376,8 +376,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -399,7 +399,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -410,7 +410,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.01, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -762,7 +762,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
+					<dt>前年度の月平均所定外労働時間</dt>
 					<dd>0時間</dd>
 				</div>
 				<div>
@@ -828,15 +828,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 </section>
-<?php //include $base . '../footer.php' ?>
-<script src="<?= $highschool_base ?>animation.js"></script>
-<script src="<?= $highschool_base ?>lightbox.js"></script>
-<script src="<?= $highschool_base ?>NRGallery.js"></script>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
+<script src="<?= $highschool_base ?>animation.js"></script>
+<script src="<?= $highschool_base ?>NRGallery.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <?php //include $base . '../footer.php' ?>
 </body>

@@ -471,7 +471,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>1級建築板金（ダクト鈑金）技能士（実務経験7年以上）</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
+					<dt>前年度の月平均所定外労働時間</dt>
 					<dd>20時間</dd>
 				</div>
 				<div>

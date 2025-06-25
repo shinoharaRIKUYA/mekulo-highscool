@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '株式会社ファスコナガノは東御市で、切断・曲げ・溶接・仕上げを行う板金加工のプロフェッショナル。地域産業やお客様とのつながりを大切にし、多様な製品に柔軟対応。未経験でも安心の教育体制です。';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -412,7 +412,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '0', 'color' => '#2378C7'],
+						[ 'value' => 0.01, 'caption' => '取得者なし', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -423,7 +423,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 31, 'caption' => '中途31', 'color' => '#F34444'],
+						[ 'value' => 31, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -433,8 +433,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 24, 'caption' => '男性：24', 'color' => '#0062B5'],
-						[ 'value' => 7, 'caption' => '女性：7', 'color' => '#FF6E7E'],
+						[ 'value' => 24, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 7, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -458,7 +458,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "自転車", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "自転車100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -469,7 +469,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.01, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -814,7 +814,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
+					<dt>前年度の月平均所定外労働時間</dt>
 					<dd>15時間</dd>
 				</div>
 				<div>

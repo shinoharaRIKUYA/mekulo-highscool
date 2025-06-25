@@ -107,7 +107,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "新卒求人特集",
+		"name": "高卒特集",
 		"item": "https://works.mekulo.jp/highschool/"
 	}]
 }

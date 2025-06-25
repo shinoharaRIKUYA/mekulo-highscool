@@ -117,18 +117,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 	<h3>募集職種</h3>
-<div class="job_btn">
-    <?php foreach ($occupation as $job): ?>
-        <li>
-            <a href="<?= $company_base . $job['url'] ?>/">
-                <p class="job_name"><?= $job['name'] ?></p>
-            </a>
-            <div class="arrow">
-                <img src="<?= $highschool_base ?>polygon.png" alt="">
-            </div>
-        </li>
-    <?php endforeach; ?>
-</div>
+	<div class="job_btn">
+		<?php foreach ($occupation as $job): ?>
+			<li>
+				<a href="<?= $company_base . $job['url'] ?>/">
+					<p class="job_name"><?= $job['name'] ?></p>
+				</a>
+				<div class="arrow">
+					<img src="<?= $highschool_base ?>polygon.png" alt="">
+				</div>
+			</li>
+		<?php endforeach; ?>
+	</div>
 	<h3>取材担当者からのポイント！</h3>
 	<h4 class="point">「失敗歓迎!」な職場</h4>
 	<figure class="portrait">
@@ -423,7 +423,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="visit content">
     <h2>応募前見学について</h2>
-		<dl class="speclist">
+	<dl class="speclist">
     <?php foreach ($visit as $plan): ?>
     <div class="visit-item">
         <h3><?= $plan['about'] ?>について</h3>
@@ -451,7 +451,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
         </div>
     </div>
     <?php endforeach; ?>
-</dl>
+	</dl>
 	<a href="apply/#entry" class="flag_btn_entry">
 		<img src="<?= $highschool_base ?>flag.png" class="flag">
 		<span>

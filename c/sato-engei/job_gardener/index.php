@@ -517,7 +517,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
+					<dt>前年度の月平均所定外労働時間</dt>
 					<dd>10時間</dd>
 				</div>
 				<div>

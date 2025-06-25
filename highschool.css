@@ -2567,3 +2567,14 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 .aceworkers .company_nav .company_logo {
 	max-width: 180px;
 }
+
+/*荒井造園のロゴ*/
+
+
+.arai-zouen .company_name img {
+	height: 70px;
+}
+
+.arai-zouen .company_nav .company_logo {
+	height: 70px;
+}

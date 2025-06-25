@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '有限会社ファインフォーミングは上田市真田町にあるアルミ部品メーカー。自動車や自転車部品を製造し、全国でも希少な鋳造と鍛造の一貫生産を実現。繊細さとスピード感、あなたの得意が活きる職場です！';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -202,13 +202,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<img src="work01.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>鍛造</h3>
+					<h3>鋳造</h3>
 					<p>
-						熱した金蔵に、強い圧力をかけて形を整え、製品を製造する技法です。当社は鋳造された部品をさらに鍛造し、より強い部品を作っています。この鋳造×鍛造を組み合わせて開発した技法を「アルミ鋳造鍛造法」と名付け、全国で唯一当社のみが扱える技術です。
+						金属をドロドロに溶かし、型に流し込んで製品を製造する技法です。当社では、アルミを使っています。
 					</p>
 				</hgroup>
 			</div>
-			<p>鍛造</p>
+			<p>鋳造</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
@@ -277,8 +277,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 10, 'caption' => '新卒1', 'color' => '#2378C7'],
-						[ 'value' => 90, 'caption' => '中途9', 'color' => '#F34444'],
+						[ 'value' => 10, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 90, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -288,8 +288,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：7', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：3', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -312,7 +312,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -323,7 +323,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 							]); ?>
 					</svg>

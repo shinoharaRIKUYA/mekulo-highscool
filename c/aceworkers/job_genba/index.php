@@ -23,7 +23,7 @@ foreach ($occupation as $key => $job) {
 
 //========================================
 // ページのメタデータ
-$title = $name . ' - ' . $co['company_name'] . 'の新卒求人情報';
+$title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 
 $keywords = $meta_keywords;
@@ -69,7 +69,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "新卒求人特集",
+		"name": "高卒特集",
 		"item": "https://works.mekulo.jp/highschool/"
 	},{
 		"@type": "ListItem",
@@ -518,7 +518,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>前年度の月平均所定労働時間</dt>
+					<dt>前年度の月平均所定外労働時間</dt>
 					<dd>15時間</dd>
 				</div>
 				<div>
@@ -605,14 +605,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
             <?php endif; ?>
         <?php endforeach; ?>
     </ul>
-</section>			
-			</ul>
-		</section>
-	</main>
+</section>
+</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>
+<?php //include $base . '../footer.php' ?>
 </body>

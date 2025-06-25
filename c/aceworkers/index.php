@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = '株式会社エース・ワーカーズは、塗装工事とシーリング防水工事の両方を手がける職人集団です。長野県を中心に、建物の美しさと耐久性を高めるための確かな技術と真心で施工を行っています。技術力・心意気・人間力を大切に、街をもっとカッコよくします。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -243,7 +243,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '0%', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '取得者なし', 'color' => '#b1b1b1'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
@@ -255,7 +255,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 14, 'caption' => '中途14', 'color' => '#F34444'],
+						[ 'value' => 14, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -265,8 +265,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 4, 'caption' => '男性：4', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：10', 'color' => '#FF6E7E'],
+						[ 'value' => 4, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -280,8 +280,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					[ 'value' => 4, 'caption' => '20代', 'color' => '#0073B7'],
 					[ 'value' => 8, 'caption' => '30代', 'color' => '#00AEEF'],
 					[ 'value' => 2, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 0.001, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 0.001, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 0.001, 'caption' => '', 'color' => '#009F6B'],
+					[ 'value' => 0.001, 'caption' => '', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -290,7 +290,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>
@@ -301,7 +301,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
