@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = '上田市武石の建設会社で、地域インフラや公共施設を手がける施工管理の仕事。自然豊かな現場で、ドローンやICT技術を活用しながら、信頼される現場づくりを担います。地域を支える誇りある仕事です。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 

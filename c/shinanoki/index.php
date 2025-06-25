@@ -8,10 +8,10 @@ include_once $highschool_base . 'circle.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = $co['meta_keyword'];
-$description = $co['meta_desc']; 
+$description = '日本にわずか3社の、日清カップ麺のかやく製造会社です。多い日には1日40万食分を手掛け、安全・清潔な環境で具材投入から検査・梱包まで丁寧に作業。2021年には新工場を開設し、冷凍食品も扱っています。安定した環境で、食品製造に挑戦したい方に最適な職場です。'; 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -289,15 +289,21 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="circle">
 			<p>育児休暇率</p>
-			<div class="one">
-				<p class="num">対象者なし</p>
-			</div>
+			<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 45, [
+						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
+						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+					]); ?>
+			</svg>
 		</li>
 		<li class="circle">
-			<p>新卒・中途の比率</p>
-			<div class="two">
-				<p class="num"><span>1:9</span></p>
-			</div>
+				<p>新卒・中途の比率</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 45, [
+						[ 'value' => 90, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
+					]); ?>
+				</svg>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -306,8 +312,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 30, 'caption' => '男性：3', 'color' => '#0062B5'],
-						[ 'value' => 70, 'caption' => '女性：7', 'color' => '#FF6E7E'],
+						[ 'value' => 30, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 70, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>

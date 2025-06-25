@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = '信州の味を届ける食品加工会社「味のかけはし」。きのこやりんごなど地元食材を使い、炊き込みご飯の素やゼリーを自社一貫で製造。丁寧な手仕事で、地域の食文化と安心・安全を支える仕事です。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 

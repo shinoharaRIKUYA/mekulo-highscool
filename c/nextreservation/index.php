@@ -8,7 +8,7 @@ include_once $company_base . '!data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 
 $keywords = '';

@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '佐藤園芸は、お庭づくりと植物販売を通じて「緑ある暮らし」を支える会社です。剪定や植栽、エクステリア工事から、花や観葉植物の販売、オフィス緑化まで幅広く手掛けています。緑あふれる空間で人々の暮らしを豊かにし、心を癒す仕事に興味がある方を歓迎します。';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -349,8 +349,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 35, 'caption' => '新卒1', 'color' => '#2378C7'],
-						[ 'value' => 65, 'caption' => '中途2', 'color' => '#F34444'],
+						[ 'value' => 35, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 65, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -360,8 +360,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 55, 'caption' => '男性：5.5', 'color' => '#0062B5'],
-						[ 'value' => 45, 'caption' => '女性：4.5', 'color' => '#FF6E7E'],
+						[ 'value' => 55, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 45, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>

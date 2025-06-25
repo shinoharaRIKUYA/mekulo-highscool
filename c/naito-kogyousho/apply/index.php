@@ -11,7 +11,7 @@ include_once $highschool_base . 'circle.php';
 $title = $co['company_name'] . 'の新卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードをここに挿入
-$description = '';//メタディスクリプションをここに挿入 
+$description = '有式会社 内藤工業所の応募前見学ページです。';//メタディスクリプションをここに挿入 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -98,9 +98,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>工場見学<span>30分程度</span></li>
 		</ul>
 	</div>
-	<a href="../apply/#entry" class="entry-btn">
+	<a href="." class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募前見学情報を見る</span>
+		<span>応募する</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>

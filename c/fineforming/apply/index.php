@@ -8,10 +8,10 @@ include_once $highschool_base . 'circle.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードをここに挿入
-$description = '';//メタディスクリプションをここに挿入 
+$description = '有限会社ファインフォーミングの応募前見学ページです';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -77,12 +77,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>自分の身長より大きい！？</span><br>
-		<span>製品の製造現場をのぞいてみよう！</span></p>
+	<p class="catchcopy">
+		<span>鋳造×鍛造の世界を覗いてみよう </span></p>
 	<p class="cont">
-		内藤工業所の応募前見学では、小さな部品の加工から大きな製品の溶接までを間近で見学しながら、仕事内容について説明します。<br>
-		工場内の雰囲気を実際に感じながら、社長から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、自分の身長の2倍ほどもある製品が溶接される、迫力満点の作業を見ることができるかもしれません。
+		ファインフォーミングの応募前見学では、ドロドロに溶けたアルミが型に流れ込むダイナミックな鋳造の瞬間や、600t～1,000tの圧力で金属を叩き、強度を高める迫力満点の鍛造の工程を見学できます。 <br>
+		巨大な機械が動く様子は圧巻で、ものづくりの面白さを肌で感じられます！また、20代・30代の若手が活躍する職場の雰囲気もチェックでき、先輩職人からリアルな仕事の話を聞くチャンスも！ <br>
+		「自分にできるかな？」「どんな仕事なんだろう？」そんな疑問も、この見学でしっかり解決できます。ものづくりが好きな人、ダイナミックな仕事に興味がある人、大歓迎！実際の現場を見て、自分の未来を想像してみませんか？ 
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
@@ -100,7 +100,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 	<a href="../apply/#entry" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募前見学情報を見る</span>
+		<span>応募する</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>
@@ -110,5 +110,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>

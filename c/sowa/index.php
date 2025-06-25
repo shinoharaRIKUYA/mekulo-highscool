@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = '暮らしの当たり前を支える会社、相和。プラスチックの原料「ペレット」や自動車部品の鋳造に使う砂型「中子」を製造。車部品や食品包装、化粧品容器などに使われ、食品ロス削減にも貢献。約18名のチームでフォロー体制も充実。長野県東御市を拠点に、環境に配慮した機能性プラスチックを安定供給しています。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -282,8 +282,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 1, 'caption' => '新卒1', 'color' => '#2378C7'],
-						[ 'value' => 16, 'caption' => '中途16', 'color' => '#F34444'],
+						[ 'value' => 1, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 16, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -293,8 +293,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 13, 'caption' => '男性：13', 'color' => '#0062B5'],
-						[ 'value' => 4, 'caption' => '女性：4', 'color' => '#FF6E7E'],
+						[ 'value' => 13, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 4, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>

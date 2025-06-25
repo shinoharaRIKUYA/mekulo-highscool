@@ -8,10 +8,10 @@ include_once $highschool_base . 'circle.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードをここに挿入
-$description = '';//メタディスクリプションをここに挿入 
+$description = '株式会社柳澤鐵工所の応募前見学ページです。';//メタディスクリプションをここに挿入 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -76,17 +76,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
-<section id="visit1" class="content">
-	<p class="catchcopy"></p>
+<section id="content" class="content">
+	<p class="catchcopy"><span>普段は見られない、</span><br>
+		<span>『かやく』の製造工程を間近で見学できる！</span></p>
 	<p class="cont">
+		テキストサンプル
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			
+			<li>2025年7月30日（水） 10時30分～</li>
+			<li>2025年8月6日（水） 10時30分～</li>
 		</ul>
 	</div>
-	
+	<div class="flow">
+		<p>見学の流れ</p>
+		<ul>
+			<li>会社説明<span>20分程度</span></li>
+			<li>工場見学<span>40分程度</span></li>
+		</ul>
+	</div>
+	<a href="" class="entry-btn">
+		<img src="../../../flag.png" class="flag">
+		<span>応募する</span>
+		<img src="../../../arrow.svg">
+	</a>
 </section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>

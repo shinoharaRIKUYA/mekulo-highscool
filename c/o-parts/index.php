@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = 'アーチェリー部品や音響・半導体装置のパーツを手がける上田市の町工場・オーパーツ。設計からプログラム、工具製作まで、ものづくりの全工程に関われる職場です。0.001mm単位の精密加工で、最高の性能を追求します。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -324,8 +324,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '新卒0', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途5', 'color' => '#F34444'],
+						[ 'value' => 0.001, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -335,8 +335,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 2, 'caption' => '男性：2', 'color' => '#0062B5'],
-						[ 'value' => 3, 'caption' => '女性：3', 'color' => '#FF6E7E'],
+						[ 'value' => 2, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 3, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -360,7 +360,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>

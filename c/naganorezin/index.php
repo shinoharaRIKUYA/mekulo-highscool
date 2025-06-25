@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加 
+$description = '長野レジンは、車や医療部品、日用品などのプラスチック製品を射出成型で製造する会社。昼夜2交代制で安定した生産を行い、努力手当や夜勤手当など、がんばりがしっかり評価される職場です。';//メタディスクリプションの追加 
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -289,8 +289,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒-', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途-', 'color' => '#F34444'],
+						[ 'value' => 90, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -300,8 +300,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：-', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：-', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -325,7 +325,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
 					]); ?>
 				</svg>

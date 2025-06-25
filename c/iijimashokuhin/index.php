@@ -9,10 +9,10 @@ include_once $highschool_base . '!master-data.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $keywords = '';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = 'スーパーでおなじみの「なめ茸」を製造する飯島食品。毎朝届く新鮮なえのき茸を選別し、煮込み・瓶詰め・密封の工程で丁寧に加工。真面目さやチームワークを活かして働ける職場で、食品づくりの基本から学べます。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -339,7 +339,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途100', 'color' => '#F34444'],
+						[ 'value' => 100, 'caption' => '中途100%', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -349,8 +349,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 5, 'caption' => '男性：5', 'color' => '#0062B5'],
-						[ 'value' => 16, 'caption' => '女性：16', 'color' => '#FF6E7E'],
+						[ 'value' => 5, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 16, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
