@@ -402,6 +402,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				別日はご相談ください。
             </dd>
         </div>
         <div>

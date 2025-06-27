@@ -307,7 +307,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '0%', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '取得者なし', 'color' => '#d9d9d9'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
@@ -365,8 +365,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 95, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 5, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 95, 'caption' => "長野県内95%", 'color' => '#B2CF3E'],
+							[ 'value' => 5, 'caption' => '県外5%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -413,7 +413,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://sohfu.co.jp/">https://sohfu.co.jp/</a></dd>
+			<dd><a href="https://sohfu.co.jp/" target="<?= $co['slug'] ?>">https://sohfu.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>

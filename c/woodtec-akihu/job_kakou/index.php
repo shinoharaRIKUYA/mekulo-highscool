@@ -22,21 +22,17 @@ foreach ($occupation as $key => $job) {
 
 //========================================
 // ページのメタデータ
-$title = $job_title . ' - ' . $co['company_name'] . 'の高卒求人情報';
+$title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $cur_page . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -45,7 +41,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -332,8 +327,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			</div>
 			<p>建具職人 阿部さん</p>
 		</li>
-	</ul>
-	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<img src="nakamura.jpg" alt="">
@@ -341,17 +334,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<h3>中村さん(2021年入社)</h3>
 					<p>
 						高校の総合科に通っていた頃から、木に関わる仕事に興味を持ち、入社を決めました。<br>
-                        建具づくりを学んだあと、今年から家具づくりに挑戦しています。家具は建具より立体的で、また違った難しさがあります。建具や家具の図面は、高校で見た建築の図面とは全く違い、読みこなすまでに半年かかりました。今は家具の図面の勉強を続けている段階です。<br>
+						建具づくりを学んだあと、今年から家具づくりに挑戦しています。家具は建具より立体的で、また違った難しさがあります。建具や家具の図面は、高校で見た建築の図面とは全く違い、読みこなすまでに半年かかりました。今は家具の図面の勉強を続けている段階です。<br>
 						初めてデスクを仕上げたときは、「自分の手で全部完成させた」って感じがして、今でもよく覚えています。<br>
-                        職場の雰囲気は皆さんあたたかいです。わからないことがあれば丁寧に教えてくれます。<br>
+						職場の雰囲気は皆さんあたたかいです。わからないことがあれば丁寧に教えてくれます。<br>
 						休日は友達やクラブの仲間とバドミントンをして、体を動かして気分を切り替えています。
-			        </p>
+					</p>
 				</hgroup>
 			</div>
 			<p>家具職人 中村さん</p>
 		</li>
-	</ul>
-	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<img src="tanaka.jpg" alt="">
@@ -359,15 +350,14 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<h3>田中さん(2002年入社)</h3>
 					<p>
 						木工に興味を持ち、「面白そう！」と思って入社しました。実際に働いてみると、「想像よりずっと奥が深い世界なんだ」と思いびっくりしました。<br>
-                        難しいのは、サッシを寸法通りにきれいに仕上げること。特に斜めに部品をくっつけるときは、うまくいかなくて苦労しました。でも、完成したときに「思った通りにできた！」と実感できると、手ごたえがあります。先輩に教えてもらいながら、少しずつ経験を積むことで、だんだん自信をもってできるようになりました。<br>
+						難しいのは、サッシを寸法通りにきれいに仕上げること。特に斜めに部品をくっつけるときは、うまくいかなくて苦労しました。でも、完成したときに「思った通りにできた！」と実感できると、手ごたえがあります。先輩に教えてもらいながら、少しずつ経験を積むことで、だんだん自信をもってできるようになりました。<br>
 						作業でよく使う工具はインパクトドライバー。部品をしっかり固定するときに欠かせない道具で、作業の効率も上げてくれます。<br>				
-                        趣味は家庭菜園。休みの日は、野菜や花を育てながらゆったりと過ごしています。
-			        </p>
+						趣味は家庭菜園。休みの日は、野菜や花を育てながらゆったりと過ごしています。
+					</p>
 				</hgroup>
 			</div>
 			<p>サッシ職人 田中さん</p>
 		</li>
-	</ul>
 </section>
 <section class="g requirements" id="recruitment_requirements">
 	<h2>募集要項</h2>
@@ -685,7 +675,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>

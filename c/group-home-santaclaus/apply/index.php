@@ -71,8 +71,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span><br>
-		<span></span></p>
+	<p class="catchcopy"><span>新しい発見があるかも！？</span></p>
 	<p class="cont">
 		「介護って大変そう」「自分に向いているかわからない」そんなふうに感じている人こそ、ぜひ一度、見学に来てみてください！<br>
 		どんな考えで運営しているのか、どんな人たちが働いているのか、じっくり話を聞ける貴重な時間です。<br>
@@ -83,9 +82,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<ul>
 			<li>2025年7月28日（月）10時00分～</li>
 			<li>2025年7月30日（水）10時00分～</li>
-			<li>2025年8月4日（月）10時00分～</li>
-			<li>2025年8月6日（水）10時00分～</li>
-			<li>2025年8月8日（金）10時00分～</li>
+			<li>別日はご相談ください。</li>
 		</ul>
 	</div>
 	<div class="flow">

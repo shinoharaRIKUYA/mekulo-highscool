@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '株式会社 ウッドテック秋富の企業紹介ページです。株式会社 ウッドテックは、長野県上田市にある木製建具・家具を製造している会社です。ドアや棚、学校の家具などをオーダーメイドで作っています。地元の木を使い、昔ながらの技と新しい機械を合わせて、あたたかみのあるものづくりをしています。';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -314,7 +310,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 100, 'caption' => '', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '100%', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>

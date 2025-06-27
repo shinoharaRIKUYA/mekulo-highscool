@@ -5,7 +5,7 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['description'] ?? '';
@@ -20,24 +20,19 @@ foreach ($occupation as $key => $job) {
     }
 }
 
-
 //========================================
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -46,7 +41,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -83,7 +77,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool">
+<body class="newgrads highschool naganorezin">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
@@ -262,11 +256,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>屋内禁煙</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd></dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -498,8 +492,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年-月-日（-） 14時00分～<br>
-						2025年-月-日（-） 14時00分～
+						2025年7月29日（火）14時00分～<br>
+						2025年8月5日（火）14時00分～
 					</dd>
 				</div>
 				<div>
@@ -539,7 +533,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>
@@ -553,7 +547,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '千曲市を拠点に、水道・ガス・空調などの配管修理を手がける坂口設備。トラブルに“すぐ駆けつけ、サッと解決”する配管のかかりつけ医として、地域の暮らしを支えています。未経験から職人技術を身につけたい方、歓迎！';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -287,7 +283,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '中途100%', 'color' => '#2378C7'],
+						[ 'value' => 100, 'caption' => '中途', 'color' => '#2378C7'],
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#F34444'],
 					]); ?>
 				</svg>
@@ -333,8 +329,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 95, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 5, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 95, 'caption' => "長野県内95%", 'color' => '#B2CF3E'],
+							[ 'value' => 5, 'caption' => '県外5%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -372,16 +368,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>13名（2024年1月1日現在）</dd>
+			<dd>8名</8dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18586.82821317078!2d138.09972145837128!3d36.518250225082355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d9d1f3ba61f41%3A0x8b635be25eb1e1b8!2z77yI5pyJ77yJ5Z2C5Y-j6Kit5YKZ!5e0!3m2!1sja!2sjp!4v1745677392678!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-			</dd>
-			<dt>現場事務所</dt>
-			<dd>〒387-0007<br>長野県千曲市大字屋代1451<br>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18434.47615619484!2d138.12448414455605!3d36.5512405575859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d833e14e01c3f%3A0x2fcb3d5392379497!2z44CSMzg3LTAwMDcg6ZW36YeO55yM5Y2D5puy5biC5bGL5Luj77yR77yU77yV77yR!5e0!3m2!1sja!2sjp!4v1745677498806!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>

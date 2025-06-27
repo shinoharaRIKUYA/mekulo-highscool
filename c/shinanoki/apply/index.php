@@ -10,11 +10,8 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = $co['meta_keyword'];
 $description = '株式会社科の木の応募前見学ページです。'; 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,7 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -109,5 +105,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>

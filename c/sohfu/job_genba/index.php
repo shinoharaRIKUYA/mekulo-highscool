@@ -25,12 +25,8 @@ foreach ($occupation as $key => $job) {
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -46,7 +42,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -83,7 +78,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool">
+<body class="newgrads highschool sohfu">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
@@ -274,11 +269,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>会社内に喫煙室を設けています。</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -301,11 +296,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd>現行</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
@@ -313,23 +308,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>210,000円</dd>
+					<dd>円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -337,7 +332,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -356,7 +351,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時00分〜17時00分</dd>
+					<dd>時00分〜時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
@@ -364,26 +359,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日95日（2025年度計画）</dd>
+					<dd></dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -391,19 +386,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 			</dl>
 		</div>
@@ -412,19 +407,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
@@ -470,7 +465,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>7時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
@@ -482,19 +477,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>0%</dd>
+					<dd>%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>管工事業</dd>
+					<dd></dd>
 				</div>
 			</dl>
 		</div>
@@ -508,10 +503,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年7月31日（木） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年8月7日（木） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年8月21日（木） 10時00分～、<span class="br">13時30分～</span>
+						2025年7月29日（火） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年7月31日（木） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年8月7日（木） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年8月21日（木） 10時30分～、<span class="br">13時30分～</span>
 					</dd>
 				</div>
 				<div>
@@ -520,16 +515,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd>なし</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
+						<br>
 						
 					</dd>
 				</div>

@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-$description = '';//メタディスクリプションの追加 
-
+$description = '株式会社KOBAYASHIは、長野県千曲市を拠点に、安全・丁寧・正確な足場工事を提供。住宅からビルまで幅広い現場に対応し、若手職人の育成にも本気で取り組んでいます。';//メタディスクリプションの追加 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -216,6 +212,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		基本の作業に慣れたら、お客様との打ち合わせや現場のまとめ役にも挑戦できるようになります。時間をかけてじっくり経験を積んでいくことで、10年後には現場を任される“一人前の職人”になれます。
 	</p>
 </section>
+<?php /*
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
 	<ul class="Lightbox">
@@ -291,6 +288,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 	</ul>
 </section>
+*/ ?>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
 	<p class="remark">（2025年3月現在）</p>
@@ -342,7 +340,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途10', 'color' => '#F34444'],
+						[ 'value' => 100, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -352,8 +350,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -377,8 +375,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 60, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 40, 'caption' => '自転車', 'color' => '#D04255'],
+						[ 'value' => 60, 'caption' => "車・バイク60%", 'color' => '#E06A3A'],
+						[ 'value' => 40, 'caption' => '自転車40%', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -388,8 +386,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 60, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 40, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 60, 'caption' => "長野県内60%", 'color' => '#B2CF3E'],
+							[ 'value' => 40, 'caption' => '県外40%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -568,7 +566,7 @@ id="recruitment_requirements">
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>その他</dd>
+					<dd>その他（日給月給）</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
@@ -580,7 +578,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>10,000～15,000円</dd>
+					<dd>10,000～15,000円/日</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -777,7 +775,8 @@ id="recruitment_requirements">
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						あり （随時）
+						2025年7月29日（火）14時00分～<br>
+						2025年8月5日（火）14時00分～
 					</dd>
 				</div>
 				<div>

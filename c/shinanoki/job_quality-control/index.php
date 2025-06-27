@@ -5,12 +5,10 @@ $company_base = '../';
 include_once $company_base . '!data.php';
 $current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
 $last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
-$catch_copy = $occupation[$last_segment]['catch-copy'] ?? '職種が見つかりません';//値があるか確認
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
 $name = $occupation[$last_segment]['name'] ?? '不明な職種';
 $meta_keywords = $occupation[$last_segment]['meta_keyword'] ?? '';
 $meta_desc = $occupation[$last_segment]['meta_desc'] ?? '';
-
-
 // 現在のURLに一致しない職種を探す
 $next_job = null; // 初期値
 foreach ($occupation as $key => $job) {
@@ -25,12 +23,8 @@ foreach ($occupation as $key => $job) {
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -46,7 +40,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -233,167 +226,314 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 	</ul>
 		</section>
-		<section class="g requirements" id="recruitment_requirements">
-			<h2>募集要項</h2>
-			<div class="tabs">
-				<button class="tab1">募集要項</button>
-				<button class="ta2">キャリア形成</button>
-			</div>
-			<div class="requirement">
-				<div class="content recruitment">
-					<h3>募集要項</h3>
-					<dl>
-						<div>
-							<dt>募集職種</dt>
-							<dd>品質管理スタッフ</dd>
-						</div>
-						<div>
-							<dt>雇用形態</dt>
-							<dd>正社員</dd>
-						</div>
-						<div>
-							<dt>学歴上の応募資格</dt>
-							<dd>高卒以上、全学部全学科</dd>
-						</div>
-						<div>
-							<dt>応募資格</dt>
-							<dd>不問</dd>
-						</div>
-						<div>
-							<dt>募集人員</dt>
-							<dd>2名</dd>
-						</div>
-						<div>
-							<dt>選考方法</dt>
-							<dd>書類選考、面接</dd>
-						</div>
-					</dl>
-					<h3>採用後の待遇</h3>
-					<dl>
-						<div>
-							<dt>基本給</dt>
-							<dd>
-								162,000円～
-							</dd>
-						</div>
-						<div>
-							<dt>諸手当</dt>
-							<dd>通勤手当、残業手当</dd>
-						</div>
-						<div>
-							<dt>昇給</dt>
-							<dd>年1回</dd>
-						</div>
-						<div>
-							<dt>賞与</dt>
-							<dd>年2回</dd>
-						</div>
-						<div>
-							<dt>試用期間</dt>
-							<dd>3カ月（待遇の変更なし）</dd>
-						</div>
-						<div>
-							<dt>定年制度</dt>
-							<dd>あり（60歳）</dd>
-						</div>
-					</dl>
-					<h3>勤務に関する情報</h3>
-					<dl>
-						<div>
-							<dt>本社</dt>
-							<dd>
-								〒386-1101<br>
-								長野県上田市下之条42
-							</dd>
-						</div>
-						<div>
-							<dt>勤務時間</dt>
-							<dd>8:15～17:00</dd>
-						</div>
-						<div>
-							<dt>休憩時間</dt>
-							<dd>75分</dd>
-						</div>
-						<div>
-							<dt>休日・休暇</dt>
-							<dd>日・祝日・その他、年間休日120日（2025年度計画）</dd>
-						</div>
-						<div>
-							<dt>適用保険</dt>
-							<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
-						</div>
-						<div>
-							<dt>時間外勤務の状況</dt>
-							<dd>月平均8時間</dd>
-						</div>
-						<div>
-							<dt>就業場所における受動喫煙防止の取組</dt>
-							<dd>建物内喫煙不可</dd>
-						</div>
-					</dl>
-					<h3>募集・採用に関する情報</h3>
-					<dl>
-						<div>
-							<dt>前年度の採用実績</dt>
-							<dd>0名</dd>
-						</div>
-						<div>
-							<dt>直近3年間の新卒離職者数</dt>
-							<dd>1名</dd>
-						</div>
-						<div>
-							<dt>採用者の出身学校実績</dt>
-							<dd></dd>
-						</div>
-					</dl>
-					<h3>雇用管理状況（令和６年度実績）</h3>
-					<dl>
-						<div>
-							<dt>前年度の月平均所定外労働時間の実績</dt>
-							<dd>8時間</dd>
-						</div>
-						<div>
-							<dt>前年度の有給休暇の平均取得日数</dt>
-							<dd>7日</dd>
-						</div>
-						<div>
-							<dt>前年度の育児休業取得者数</dt>
-							<dd>0名</dd>
-						</div>
-						<div>
-							<dt>役員/管理職の女性比率</dt>
-							<dd>役員 33%、管理職 0%</dd>
-						</div>
-						<div>
-							<dt>平均勤続年数</dt>
-							<dd>16年</dd>
-						</div>
-					</dl>
+<section class="g requirements" id="recruitment_requirements">
+	<h2>募集要項</h2>
+	<div class="tabs">
+		<button class="tab1">募集要項</button>
+		<button class="tab2">青少年雇用情報</button>
+		<button class="tab3">選考方法</button>
+	</div>
+	<div class="requirement">
+		<div class="content recruitment">
+			<h3>仕事内容</h3>
+			<dl>
+				<div>
+					<dt>募集職種</dt>
+					<dd>品質管理スタッフ</dd>
 				</div>
-				<div class="content">
-					<h3>キャリア形成支援制度</h3>
-					<dl>
-						<div>
-							<dt>研修制度</dt>
-							<dd>〇1か月間の社内研修があります。</dd>
-						</div>
-						<div>
-							<dt>自己啓発支援制度</dt>
-							<dd>なし</dd>
+				<div>
+					<dt>雇用形態</dt>
+					<dd>正社員</dd>
+				</div>
+				<div>
+					<dt>雇用期間</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>契約更新の可能性</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>試用期間</dt>
+					<dd>あり（3か月）</dd>
+				</div>
+				<div>
+					<dt>試用期間中の労働条件</dt>
+					<dd>同条件</dd>
+				</div>
+				<div>
+					<dt>就業場所</dt>
+					<dd>〒386-1101<br>
+						長野県上田市下之条42
+					</dd>
+				</div>
+				<div>
+					<dt>アクセス</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策に関する特記事項</dt>
+					<dd>屋内禁煙</dd>
+				</div>
+				<div>
+					<dt>マイカー通勤</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>転勤の可能性</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>必要な知識・技能等</dt>
+					<dd>不問</dd>
+				</div>
+			</dl>
+			<h3>賃金・手当</h3>
+			<dl>
+				<div>
+					<dt>賃金形態</dt>
+					<dd>給</dd>
+				</div>
+				<div>
+					<dt>月平均労働日数</dt>
+					<dd>日</dd>
+				</div>
+				<div>
+					<dt>毎月の賃金</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>基本給</dt>
+					<dd>162,000円～</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当①</dt>
+					<dd>残業手当</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当②</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>固定残業代</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>初任給</dt>
+					<dd>162,000円</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当①</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当②</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>賃金締切日</dt>
+					<dd>毎月日</dd>
+				</div>
+				<div>
+					<dt>通勤手当</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>昇給</dt>
+					<dd>年1回</dd>
+				</div>
+				<div>
+					<dt>賞与</dt>
+					<dd>年2回</dd>
+				</div>
+			</dl>
+			<h3>労働時間</h3>
+			<dl>
+				<div>
+					<dt>就業時間</dt>
+					<dd>8:15～17:00</dd>
+				</div>
+				<div>
+					<dt>時間外労働</dt>
+					<dd>月平均8時間</dd>
+				</div>
+				<div>
+					<dt>休日</dt>
+					<dd>日・祝日・その他</dd>
+				</div>
+				<div>
+					<dt>その他休日</dt>
+					<dd>年間休日120日（2025年度計画）</dd>
+				</div>
+			</dl>
+			<h3>保険・年金・定年等</h3>
+			<dl>
+				<div>
+					<dt>加入保険等</dt>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+				</div>
+				<div>
+					<dt>企業年金</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>退職金制度</dt>
+					<dd>（勤続年数年以上）</dd>
+				</div>
+				<div>
+					<dt>定年制</dt>
+					<dd>あり（60歳）</dd>
+				</div>
+				<div>
+					<dt>一律定年制</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>再雇用制度</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>勤務延長</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>入居可能住宅</dt>
+					<dd>なし</dd>
+				</div>
+			</dl>
 		</div>
-		<div>
-			<dt>メンター制度</dt>
-			<dd>なし</dd>
-						</div>
-					</dl>
+		<div class="content career">
+			<h3>青少年雇用情報</h3>
+			<dl>
+				<div>
+					<dt>直近3年間の新卒者等採用者数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
-				<a href="<?= $company_base ?>apply/#entry" class="btn_entry">
-					<img src="<?= $highschool_base ?>flag.png" class="flag">
-					<span>応募前見学情報を見る</span>
-					<img src="<?= $highschool_base ?>arrow.svg">
-				</a>
-			</div>
-		</section>
+				<div>
+					<dt>直近3年間の新卒者等離職者数</dt>
+					<dd>前年度:人、2年度前：人、3年度前：人</dd>
+				</div>
+				<div>
+					<dt>男性の新卒者等採用数</dt>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>女性の新卒者等採用数</dt>
+					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>平均継続勤務年数</dt>
+					<dd>
+						16年
+					</dd>
+				</div>
+				<div>
+					<dt>従業員の平均年齢</dt>
+					<dd>36歳</dd>
+				</div>
+				<div>
+					<dt>研修の有無</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>研修内容</dt>
+					<dd>1か月間の社内研修</dd>
+				</div>
+				<div>
+					<dt>自己啓発支援の有無</dt>
+					<dd>
+						なし
+					</dd>
+				</div>
+				<div>
+					<dt>メンター制度の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>キャリアコンサルティング制度の有無</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>社内検定等の有無</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>前年度の月平均所定外労働時間</dt>
+					<dd>8時間</dd>
+				</div>
+				<div>
+					<dt>前事業年度の有給休暇の平均取得日数</dt>
+					<dd>7日</dd>
+				</div>
+				<div>
+					<dt>前事業年度の育児休業取得者数</dt>
+					<dd>女性：0人、男性：0人</dd>
+				</div>
+				<div>
+					<dt>前事業年度の出産者数</dt>
+					<dd>名</dd>
+				</div>
+				<div>
+					<dt>女性役員割合</dt>
+					<dd>33%</dd>
+				</div>
+				<div>
+					<dt>女性の管理職割合</dt>
+					<dd>0%</dd>
+				</div>
+				<div>
+					<dt>区分の名称</dt>
+					<dd></dd>
+				</div>
+			</dl>
+		</div>
+		<div class="content selection">
+			<h3>選考方法</h3>
+			<dl>
+				<div>
+					<dt>求人数</dt>
+					<dd>2名</dd>
+				</div>
+				<div>
+					<dt>応募前職場見学</dt>
+					<dd>
+						2025年7月30日（水） 10時30分～12時00分<br>
+						2025年8月6日（水）10時30分～12時00分
+					</dd>
+				</div>
+				<div>
+					<dt>選考方法</dt>
+					<dd>書類選考、面接</dd>
+				</div>
+				<div>
+					<dt>選考旅費</dt>
+					<dd></dd>
+				</div>
+				<div>
+					<dt>選考結果通知</dt>
+					<dd>面接後日以内</dd>
+				</div>
+				<div>
+					<dt>選考担当者</dt>
+					<dd>
+						
+					</dd>
+				</div>
+			</dl>
+		</div>
+	</div>
+	<div>
+		<a href="../apply/#entry" class="btn_entry">
+			<img src="../../../flag.png" class="flag">
+			<span>応募前見学情報を見る</span>
+			<img src="../../../arrow.svg">
+		</a>
+	</div>
+</section>
 		<section class="g nextpage">
     <h2>その他の職種を見てみる</h2>
     <ul class="image_navi">
@@ -402,7 +542,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>
@@ -416,7 +556,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

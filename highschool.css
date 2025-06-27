@@ -2569,8 +2569,6 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 }
 
 /*荒井造園のロゴ*/
-
-
 .arai-zouen .company_name img {
 	height: 70px;
 }
@@ -2586,6 +2584,28 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 }
 
 .kitazawa-doken .company_nav .company_logo {
+	height: 120px;
+	object-fit: contain;
+}
+
+/*長野レジンのロゴ*/
+.naganorezin .company_name img {
+	height: 130px;
+	object-fit: contain;
+}
+
+.naganorezin .company_nav .company_logo {
+	height: 120px;
+	object-fit: contain;
+}
+
+/*創風のロゴ*/
+.sohfu .company_name img {
+	height: 130px;
+	object-fit: contain;
+}
+
+.sohfu .company_nav .company_logo {
 	height: 120px;
 	object-fit: contain;
 }

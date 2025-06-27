@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = 'アーチェリー部品や音響・半導体装置のパーツを手がける上田市の町工場・オーパーツ。設計からプログラム、工具製作まで、ものづくりの全工程に関われる職場です。0.001mm単位の精密加工で、最高の性能を追求します。';//メタディスクリプションの追加
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -129,7 +125,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
     <?php endforeach; ?>
 </div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point"></h4>
 	<figure class="portrait" style="width: 20%;">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
@@ -322,7 +317,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 0.001, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 						[ 'value' => 100, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
@@ -369,8 +364,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 75, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-						[ 'value' => 25, 'caption' => '県外', 'color' => '#FEE929'],
+						[ 'value' => 75, 'caption' => "長野県内75%", 'color' => '#B2CF3E'],
+						[ 'value' => 25, 'caption' => '県外25%', 'color' => '#FEE929'],
 												]); ?>
 				</svg>
 			</div>

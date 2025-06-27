@@ -12,9 +12,7 @@ include_once $highschool_base . '!master-data.php';
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $description = '日本にわずか3社の、日清カップ麺のかやく製造会社です。多い日には1日40万食分を手掛け、安全・清潔な環境で具材投入から検査・梱包まで丁寧に作業。2021年には新工場を開設し、冷凍食品も扱っています。安定した環境で、食品製造に挑戦したい方に最適な職場です。'; 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -70,7 +67,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="fv_area">
 	<img alt="" class="fv_image" src="firstview.jpg">
 	<hgroup>
-		<h1 class="catch"><?= $co['catch-copy'] ?></h1>
+		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
 	</hgroup>
 </div>
@@ -274,8 +271,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>120</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="num"><span></span>日</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
@@ -286,15 +282,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p class="num"><span>6～7</span>日</p>
 		</li>
 		<li class="circle">
-			<p>育児休暇率</p>
-			<svg width="150" height="150" viewBox="0 0 200 200">
+			<div class="chart">
+				<p>育児休暇率</p>
+				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
+					[ 'value' => 100, 'caption' => '取得者なし', 'color' => '#d9d9d9'],
 					]); ?>
-			</svg>
+				</svg>
+			</div>
 		</li>
-		<li class="circle">
+		<li>
+			<div class="chart">
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
@@ -302,21 +301,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
+			</div>
 		</li>
-	</ul>
-	<ul class="fl_con">
 		<li>
 			<div class="chart">
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 30, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 70, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 3, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 8, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
 		</li>
-		<li>
 		<div class="chart">
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
@@ -334,9 +331,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 85, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 10, 'caption' => '徒歩', 'color' => '#009F6B'],
-						[ 'value' => 5, 'caption' => '自転車', 'color' => '#008C4A'],
+						[ 'value' => 85, 'caption' => "車・バイク85%", 'color' => '#E06A3A'],
+						[ 'value' => 10, 'caption' => '徒歩10%', 'color' => '#009F6B'],
+						[ 'value' => 5, 'caption' => '自転車5%', 'color' => '#008C4A'],
 					]); ?>
 				</svg>
 			</div>
@@ -344,13 +341,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<div class="chart">
 				<p>出身地の割合</p>
-					<svg width="150" height="150" viewBox="0 0 200 200">
-						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 95, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 5, 'caption' => '県外', 'color' => '#FEE929'],
-													]); ?>
-					</svg>
-				</div>
+				<svg width="150" height="150" viewBox="0 0 200 200">
+					<?php create_donut_graph(100, 100, 100, 40, [
+						[ 'value' => 95, 'caption' => "長野県内95%", 'color' => '#B2CF3E'],
+						[ 'value' => 5, 'caption' => '県外5%', 'color' => '#FEE929'],
+												]); ?>
+				</svg>
+			</div>
 		</li>
 	</ul>
 </section>
@@ -399,7 +396,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://p-shinanoki.co.jp/">https://p-shinanoki.co.jp/</a></dd>
+			<dd><a href="https://p-shinanoki.co.jp/" target="<?= $co['slug'] ?>">https://p-shinanoki.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
@@ -442,6 +439,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				<p>その他、ご連絡いただければいつでも見学可能です。お気軽にお問い合わせください。</p>
             </dd>
         </div>
         <div>

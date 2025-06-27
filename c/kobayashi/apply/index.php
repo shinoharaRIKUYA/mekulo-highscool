@@ -11,7 +11,7 @@ include_once $highschool_base . 'circle.php';
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 
-$description = '';//メタディスクリプションをここに挿入 
+$description = '株式会社KOBAYASHIの応募前見学ページです。';//メタディスクリプションをここに挿入 
 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 
@@ -21,7 +21,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -75,12 +75,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>自分の身長より大きい！？</span><br>
-		<span>製品の製造現場をのぞいてみよう！</span></p>
+	<p class="catchcopy"><span></span></p>
 	<p class="cont">
-		内藤工業所の応募前見学では、小さな部品の加工から大きな製品の溶接までを間近で見学しながら、仕事内容について説明します。<br>
-		工場内の雰囲気を実際に感じながら、社長や専務から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、自分の身長の2倍ほどもある製品が溶接される、迫力満点の作業を見ることができるかもしれません。
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
@@ -98,7 +95,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 	<a href="" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募前見学情報を見る</span>
+		<span>応募する</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>
@@ -108,5 +105,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 </body>

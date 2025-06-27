@@ -25,19 +25,15 @@ foreach ($occupation as $key => $job) {
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php include $base . '../tracking.php'; ?>
+<?php //include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -46,7 +42,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -327,35 +322,35 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>雇用期間</dt>
-					<dd>-</dd>
+					<dd>定めなし</dd>
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>-</dd>
+					<dd>あり（3カ月）</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>-</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒387-0007<br>長野県千曲市大字屋代1451</dd>
+					<dd>〒387-0017<br>長野県千曲市大字中233-3</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>屋代高校前駅から徒歩6分</dd>
+					<dd>屋代駅から車で10分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>喫煙室設置</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -374,11 +369,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>-</dd>
+					<dd>月給</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>-日</dd>
+					<dd>22日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -386,7 +381,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>-円～</dd>
+					<dd>195,800円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -398,11 +393,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>-円</dd>
+					<dd>195,800円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -414,26 +409,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月-日</dd>
+					<dd>毎月20日</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>ありorなし（上限-）</dd>
+					<dd>4200円</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>年-回</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年-回</dd>
+					<dd>あり</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>-</dd>
+					<dd>8:00~17:00</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
@@ -441,42 +436,44 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休-日制（土日・祝日・他）</dd>
+					<dd>日・他</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日100日（2025年度計画）</dd>
+					<dd>年間休日100日<br>
+						第2・第4の土曜日が休み
+					</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>-</dd>
+					<dd>あり（勤続年数3年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd>あり（65歳）</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -506,17 +503,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						13年<br>
-						※創業以降の実績
+						13年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>39.2歳</dd>
+					<dd>40歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
@@ -525,8 +521,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						あり<br>
+						高所作業に関する資格支援<br>
+						溶接技能に関する資格支援
 					</dd>
 				</div>
 				<div>
@@ -555,11 +552,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>0名</dd>
+					<dd>男性:2名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>0%</dd>
+					<dd>7%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -567,7 +564,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>建設業</dd>
+					<dd>-</dd>
 				</div>
 			</dl>
 		</div>
@@ -576,17 +573,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>1人</dd>
+					<dd>3人</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						-
+						2025年7月29日（火） 13時00分～、15時30分～<br>
+						2025年8月5日（火） 13時00分～、15時30分～
 					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>書類選考、面接</dd>
+					<dd>面接</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -594,12 +592,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後-日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						-
+						代表取締役<br>
+						坂口吉一
 					</dd>
 				</div>
 			</dl>
@@ -621,7 +620,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>
@@ -635,7 +634,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>
