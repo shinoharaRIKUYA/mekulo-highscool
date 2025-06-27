@@ -30,9 +30,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
-<?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
