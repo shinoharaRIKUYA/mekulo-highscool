@@ -11,8 +11,11 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
+
 $description = '佐久市で巨大な産業機械のフレームを製造する会社。一点物の鉄骨構造を切断・溶接・塗装まで一貫して手がけ、自分の身長を超えるスケールのモノづくりに挑めます。地域産業を支えるダイナミックな仕事です！';//メタディスクリプションの追加 
+
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
+
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -28,6 +31,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -60,7 +64,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool">
+<body class="highschool kyasuteku">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
@@ -89,16 +93,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <div class="about-com content" id="company_gallery">
 	<h2>
-		スケールが違う！バス並にデカい鉄の土台を作る仕事
+		形のない金属を、図面通りの部品に変える職人技
 	</h2>
-	<p>
-		私たちは、工場で使われている巨大な機械の土台を作っている会社です。<br>
-		デカい鉄骨に穴を開け、溶接で組み立て、最終的には自分の身長を超えるような巨大な土台（フレーム）を完成させます。<br>
-		そんな、超デカいものを作る仕事をやってみませんか？
-	</p>
 	<div class="images">
 		<img src="introduce1.jpg" class="scene" alt="">
 	</div>
+	<p>
+		私たちキャステクは青木村(本社)と丸子で、鋳造という、溶かした金属を型に流し込み、冷やして固める加工方法で製品を作る仕事をしています。<br>
+		鋳造で作った製品のことを「鋳物」と言い、鋳物は皆さんの身の回りで生活を支えています。例えば、マンホール、車のタイヤホイール、ドアノブなどがあります。<br>
+		さらに、鋳造技術を活かして電力、医療といった多分野に挑戦しています。<br>
+		本社工場では複雑な形に対応できる砂型鋳造、丸子工場では大量生産に適した金型鋳造を行っています。<br>
+		また、社員が「ここをこうした方がいい」と思ったことを会社に提案できる制度があります。いい提案には会社から賞金も出ることもあるのでみんなが積極的に意見を出しています。他にも、月に一度、工場の中をチェックしてきれいに保つ活動もしています。<br> 
+		今回は、本社工場の「砂型鋳造部門」または「加工部門」で、一緒に働いてくださる方を募集しています。
+	</p>
 	<div id="gallery">
 		<div class="gallery_window">
 			<img src="first.jpg" alt="" class="fs show">
@@ -127,47 +134,103 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<?php endforeach; ?>
 	</div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">「失敗歓迎!」な職場</h4>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		部活や授業で新しいことに挑戦するとき、最初から完璧にできる人は少ないですよね。学校では、先生や先輩がアドバイスをくれたり、一緒に練習してくれたりするから、少しずつ成長できます。<br>
-		職場でも同じです。社員のほとんどが未経験で入社している内藤工業所では、失敗しても怒られることはありません。代わりに、「次はどうすればいいか一緒に考えよう」という雰囲気があります。<br>
-		安心して挑戦できる環境で、自分の可能性を広げてみませんか。
+		鋳造の仕事は、まさに「職人の世界」です。<br>
+		作業は繰り返しが多く、すぐに成果が見えないこともありますが、コツコツ続けることで技術が身につきます。作業場は暑く、重い物を運ぶこともあるので体力は必要ですが、何より大切なのは「前向きな気持ち」です。失敗してもくよくよせず、次に活かすことが大事です。<br>
+		細かい確認や時間を守る力も、鋳物を完成させるためには大切で、「感覚」と「経験」が活きる仕事です。
+		最初は誰でもわからないことだらけ。でも大丈夫。先輩が一人ついてマンツーマンで指示して、教えてくれるので、安心してスタートできます！ <br>
+		自分の手で作った製品が、身の回りで使われているのを見ることがやりがいになります。
+		また、現場で働く社員さんへの安全の意識も高く、会社として安全対策（粉じんを通さない安全性の高いマスクの着用等）を行っており、安心して働ける環境が整っています。 
 	</p>
 </div>
 <section class="content" id="about_company">
 	<h2>会社情報記事</h2>
 	<h3>
-		一つひとつがオリジナル！巨大フレームを作り上げる仕事
+		キャステクでできること
 	</h3>
 	<p>
-		私たちは佐久市中込で、主に産業機械のフレームや筐体の製造、大型部品の加工を手掛けています。
+		私たちキャステクは、青木村にある本社工場と丸子にある丸子工場で、鋳造技術を活かしたさまざまな製品を作っています。<br>
+		また、自社の鋳造技術を活かした環境への取り組みも行っています。自然エネルギーを利用した発電システム機の開発を行い、実用化を目指しています。道の駅あおきにある「エネ空あおきタワー」、リフレッシュパーク青木にある「ミライズあおき」がその一例です。エネ空あおきタワーは風力と太陽光のハイブリッド発電システムが搭載され、ミライズあおきは水力と太陽光のハイブリッド発電システムが搭載されたタワーです。
 	</p>
 	<div class="images">
-		<img src="introduce1.jpg" class="scene" alt="">
 		<img src="introduce2.jpg" class="scene" alt="">
 	</div>
+	<h3 class="department">
+		砂型鋳造部門
+	</h3>
 	<p>
-		分厚い金属の板や鉄骨を設計図に合わせて切断し、四角形に組み上げて溶接したり、ボルトで止めたりして、フレームの形を作ります。<br>
-		言葉でいうと簡単ですが、鉄骨は1本あたり数十kgありますし、溶接をすると形が歪んでしまうこともあるので、設計図通りに作るにはいろいろな工夫が必要です。
+
+		砂型鋳造では、砂で作った型にドロドロに溶かした金属を流し込み、冷えて固まることで形を作ります。砂で型を作るため、複雑な形の製品にも対応できるのが特徴です。<br>
+		砂型の作り方には「手ごめ」と「機械」の2つの方法があります。「手ごめ」は職人が手で砂を込めて形を作る方法で、高い技術が必要です。その分、自分の技で丁寧に仕上げるので、やりがいも大きく、まるで芸術作品を作るような楽しさがあります。
+		一方、「機械」は型づくりを自動で行う方法で、たくさんの製品を効率よく大量に作るのに向いています 。<br>
+		例えば、キャステクでは、ガスタンクや電車、工場の設備などに使われる圧力計の部品を作ります。この部品は、金属を流し込んで作る「鋳造」という作業から、形を整える「加工」まで、すべての工程を自社で行っています。こうすることで、製品の品質を高く保ちつつ、ムダの少ない効率的な生産ができるのです。 
 	</p>
-	<div class="images grid-img">
-		<img src="job_yousetsu/yousetsu2.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu3.jpg" class="scene" alt="">
-		<img src="job_yousetsu/yousetsu1.jpg" class="scene" alt="">
+
+	<div class="images">
+		<img src="introduce3.jpg" class="scene" alt="">
 	</div>
 	<p>
-		最後に塗装をして完成です。
+		砂型鋳造の作業工程<br>
+		1.砂型を作成 
 	</p>
 	<div class="images">
-		<img src="fukitsuke.jpg" class="scene" alt="">
+		<img src="introduce4.jpg" class="scene" alt="">
 	</div>
 	<p>
-		作っているものは一点物ばかりなので、毎回みんなで考えながら作業に取り組んでいきます。新しいことに積極的に挑戦できる人や、困ったときにすぐ相談できる人に向いている仕事だと思います。<br>
-		主要取引先には、株式会社ステック、パナソニックコネクト株式会社、ミマキエンジニアリングなどがあり、ものづくりを通して地域産業の発展に貢献することを大切にしています。
+		2.地金を溶かす：インゴットを溶解炉に入れて、ドロドロに溶かします。
+	</p>
+	<div class="images">
+		<img src="introduce5.jpg" class="scene" alt="">
+	</div>
+	<p>
+		3.注湯：作成した砂型に溶かした金属を流し込みます。
+	</p>
+	<div class="images">
+		<img src="second.jpg" class="scene" alt="">
+	</div>
+	<p>
+		4.型をハンマーで叩いて壊す：冷えて固まったら型を壊して砂を崩し、鋳物を取り出します。
+	</p>
+	<div class="images">
+		<img src="introduce7.jpg" class="scene" alt="">
+	</div>
+	<p>
+		5.できた鋳物の型バラシ：型を壊した直後の鋳物は、プラモデルのランナーからパーツを切り離す前のような状態なので造形物から使用するパーツを切断して取り出します。<br>
+		6.バリ部分を取り除く工程（鋳仕上げ）：キャステクの青木工場は、鋳造から2次加工まで、一貫した生産ラインがあります。砂型工場の現場で製造された鋳物は、このあと、青木の加工工場でいくつかの工程を経て、圧力計の部品が完成します。
+	</p>
+	<div class="images">
+		<img src="introduce8.jpg" class="scene" alt="">
+	</div>
+	<p>
+		どの工程も、完成品をイメージして、作業に取り組むことが、早い成長へのカギになります。
+	</p>
+	<h3 class="department">
+		加工部門
+	</h3>
+	<p>
+		加工工場では、鋳造で作られた製品を、実際に機械に使えるような正確な部品に仕上げる仕事をしています。鋳造によってできた製品は、表面がぼこぼこしていたり、寸法が大まかだったりして、そのままでは使えません。また、ネジの穴なども開いていないため、機械を使って加工する必要があります。<br>
+		加工工場では、鋳造された製品を削り、磨き、検査して、精密で信頼できる部品に仕上げています。ものづくりにおいて、なくてはならない大切な工程です。<br> <br>
+		加工の作業工程<br>
+		1.切削工程：機械に指示を送って操作し、鋳造でできた材料を削ったり、穴を開けたりして、設計図通りの形や大きさに仕上げる作業です。たとえば、平らにすべき部分を正確に削ったり、角を滑らかに整えたりします。
+	</p>
+	<div class="images">
+		<img src="third.jpg" class="scene" alt="">
+	</div>
+	<p>
+		2.研磨工程:機械を使わずに自分の手で、切削だけでは出せないような細かい寸法を調整したり、表面を磨いてきれいに仕上げたりする工程です。見た目を整えるだけでなく、部品同士をぴったりと組み合わせるためにも必要な作業です。<br>
+		3.検査工程:ノギスや三次元測定機やバランスマシンなどの測定工具を使って、完成した部品が設計図通りの寸法や形状になっているかを確認します。不具合がないかをしっかりチェックすることで、安全で正確な製品を送り出すことができます。
+	</p>
+	<div class="images">
+		<img src="introduce10.jpg" class="scene" alt="">
+	</div>
+	<h3>入社後</h3>
+	<p>
+		入社後は、まず一つの工程から始めます。半年ほどで道具や作業の名前は覚えられますが、仕事を任されるには2～3年、全体を理解して自分の判断で動けるようになるには5～7年かかります。すぐに成長を実感するのは難しいかもしれませんが、粘り強く学び続けることで、必ず力になります。<br>
+		私たちの仕事は、学校ではなかなか学べない世界なので、スタートラインはみんな同じです。最初は不安でも、真面目に取り組むあなたなら、必ず成長できるでしょう。
 	</p>
 </section>
 <section id="business" class="content">
@@ -176,108 +239,65 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="seikan.jpg" alt="">
+					<img src="introduce11.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>製缶溶接</h3>
+					<h3>建設大型機械のトランスミッショントルクコンバーター部品</h3>
 					<p>
-						低温で一時的に溶接する「仮付け溶接」のあとに「本付け溶接」を行い、立体的な形を作っていきます。図面をもとに精密に仕上げる技術が求められます。
+						ショベルカーなどのエンジンとトランスミッションの間でエンジンの回転力をミッションに伝達する役割を担う一部の部品です。
 					</p>
 				</hgroup>
 			</div>
-			<p>製缶溶接</p>
+			<p>建設大型機械のトランスミッショントルクコンバーター部品</p>
 		</li>
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="gomen.jpg" alt="">
+					<img src="introduce12.jpg" alt="">
 				</div>
 				<hgroup>
-					<h3>五面加工</h3>
+					<h3>ミニチュア銅鐸(どうたく)</h3>
 					<p>
-						プログラムを書いて、指示通りに機械を動かします。加工素材の付け替えを一切行わずに、下の面以外の五面を全て加工できるのが特徴です。
+						伝統工芸を再現した鋳造技術のミニチュア模型です。
 					</p>
 				</hgroup>
 			</div>
-			<p>五面加工</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="anaake.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>穴あけ加工</h3>
-					<p>
-						ガバリという治具を使って、ポンチで印をつけてからドリルで穴を開けます。ラジアルボール盤という機械を使っています。
-					</p>
-				</hgroup>
-			</div>
-			<p>穴あけ加工</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="fukitsuke.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>吹き付け塗装</h3>
-					<p>
-						塗料に硬化剤を混ぜて、機械で霧状にして吹き付けながら塗装します。普段目につかない部分でも、綺麗に仕上げることを大切にしています。
-					</p>
-				</hgroup>
-			</div>
-			<p>吹き付け塗装</p>
-		</li>
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<div class="inner">
-					<img src="robot.jpg" alt="">
-				</div>
-				<hgroup>
-					<h3>ロボット溶接</h3>
-					<p>
-						溶接の一部はロボットが担当しています。手作業ほど細かい調整はできませんが、同じ製品を複数作る場合はとても役立ちます。
-					</p>
-				</hgroup>
-			</div>
-			<p>ロボット溶接</p>
+			<p>ミニチュア銅鐸(どうたく)</p>
 		</li>
 	</ul>
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<p class="remark">（2025年1月1日現在）</p>
+	<p class="remark">（2025年現在）</p>
 	<div class="large">
 		<p>売上高</p>
-		<p class="num"><span>3</span>億円</p>
+		<p class="num"><span>13</span>億<span>8000</span>万円</p>
 		<p class="year">※2024年実績</p>
 	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
-			<p class="num"><span>50</span>歳</p>
+			<p class="num"><span>45.1</span>歳</p>
 		</li>
 		<li class="small">
 			<p>平均勤続年数</p>
-			<p class="num"><span>10</span>年</p>
+			<p class="num"><span>11.3</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均残業時間</p>
-			<p class="num"><span>20</span>時間</p>
+			<p class="num">月平均<span>11</span>時間</p>
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span>113</span>日</p>
-			<p class="at">※2025年計画</p>
+			<p class="num"><span>117</span>日</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
-			<p class="num"><span>1961</span>年</p>
+			<p class="num"><span>1962</span>年</p>
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>10</span>日</p>
+			<p class="num"><span>9.3</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -287,7 +307,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '取得者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.01, 'caption' => '該当者なし', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -297,8 +317,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 90, 'caption' => '新卒', 'color' => '#2378C7'],
-						[ 'value' => 10, 'caption' => '中途', 'color' => '#F34444'],
+						[ 'value' => 2, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 8, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -344,8 +364,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内87%", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外23%', 'color' => '#FEE929'],
+							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>

@@ -2588,6 +2588,15 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	object-fit: contain;
 }
 
+/*キャステクの部門のCSS*/
+.kyasuteku .content .department {
+	color: black;
+}
+
+.kyasuteku .content .department::before {
+	display:none;
+}
+
 /*フレアオリジナルのロゴ*/
 .furea-original .company_name img {
 	height: 125px;
