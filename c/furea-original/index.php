@@ -128,13 +128,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<?php endforeach; ?>
 	</div>
 	<h3>取材担当者からのポイント！</h3>
-	<h4 class="point">TBD</h4>
 	<figure class="portrait">
 		<img src=<?= $highschool_base . WRITER['shomura']['image'] //担当者名をここに記入?> alt="">
 		<figcaption><span class="name"><?= WRITER['shomura']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
-		tbd
+		坂城町のフレアオリジナルは、社員10名ほどの小さな会社ですが、その最先端の仕事ぶりに驚かされました。<br>
+        ここではロボットの設計、組立、配線、プログラム、現場への導入まで、すべてを一貫して手がけています。<br>
+        フレアオリジナルの仕事は、“単なるモノづくり”とは一味違います。<br>
+        現場が違えば課題も違う。それぞれの現場の課題を読み取り、解決策を考え、それに合うロボットを構想し、形にしていく。最初から最後まで、試行錯誤を繰り返えすロボット造りをしています。<br>
+        指示を待つより、自分で考えたい。意味のある仕事に集中したい。そんな高校生には、きっとこの環境は心地よいはずです。<br>
+        静かだけど、芯の強い、モノづくり大好き人間たちが、ロボットで未来を変えようとしています。
 	</p>
 </div>
 <section class="content" id="about_company">

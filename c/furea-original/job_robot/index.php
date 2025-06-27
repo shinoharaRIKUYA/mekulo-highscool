@@ -227,23 +227,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 	</div>
 </section>
-<section class="g" id="employee_introduction">
-	<h2>社員紹介</h2>
-	<ul class="Lightbox">
-		<li class="thumbnails">
-			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
-				<hgroup>
-					<h3> さん</h3>
-					<p>
-						TBD
-					</p>
-				</hgroup>
-			</div>
-			<p>    年新卒入社<br> さん</p>
-		</li>
-	</ul>
-</section>
 <section class="g requirements" id="recruitment_requirements">
 	<h2>募集要項</h2>
 	<div class="tabs">
