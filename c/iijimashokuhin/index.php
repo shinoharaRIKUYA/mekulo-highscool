@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
