@@ -230,7 +230,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -238,7 +238,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>待遇の変更なし</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
@@ -257,7 +257,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>（屋内禁煙）</dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -358,7 +358,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd></dd>
+					<dd>厚生年金基金</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
@@ -370,7 +370,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd>あり（一律60歳）</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
@@ -391,15 +391,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:6人、2年度前：5人、3年度前：7人</dd>
+					<dd>前年度:6人、2年度前：5人、3年度前：5人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:1人、2年度前：0人、3年度前：1人</dd>
+					<dd>前年度:2人、2年度前：1人、3年度前：2人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:6人、2年度前：2人、3年度前：4人</dd>
+					<dd>前年度:6人、2年度前：2人、3年度前：2人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
@@ -422,8 +422,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>研修内容</dt>
 					<dd>
-						外部機関による研修・社内研修・メンタルヘルス教育・得意先、関連会
-					社の見学
+						外部機関による研修・社内研修・メンタルヘルス教育・得意先、関連会社の見学
 					</dd>
 				</div>
 				<div>
@@ -435,19 +434,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>28時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
@@ -459,7 +458,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>5名</dd>
+					<dd>女性：2人、男性：3人</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
@@ -471,7 +470,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd></dd>
+					<dd>製造業</dd>
 				</div>
 			</dl>
 		</div>
@@ -517,7 +516,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>	
+</section>		
 <section class="g nextpage">
     <h2>その他の職種を見てみる</h2>
     <ul class="image_navi">
