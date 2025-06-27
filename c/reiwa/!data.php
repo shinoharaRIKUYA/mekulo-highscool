@@ -1,0 +1,63 @@
+<?php
+$co = [
+    'slug' => 'nomuraya',
+    'image' => 'office.jpg',
+    'company_name' => '株式会社令和',
+    'catch_copy' => '心で組む、安全の土台',
+    'industry' => ['D'],
+    'post_code' => '386-2202',
+    'address' => '長野県上田市真田町本原1039',
+    'homepage' => '',
+    'logo_filename' => 'logo.png',
+    'latitude' => 36.426024,//緯度
+    'longitude' => 138.296597,//経度
+    'human' => [
+        'image' => 'ichikawa.png',
+        'name' => '市川 祐己',
+    ]
+];
+
+// 募集職種
+$occupation = [
+    'job_genba' => [
+        'name' => '足場とび',
+        'url' => 'job_kensetsu',
+        'catch_copy' => '電気を「ためて、使う」、新しいインフラを創造するチーム',
+        'work' => ['281'],
+        'image' => 'firstview.jpg',
+        'latitude' => 36.3694332,//緯度
+        'longitude' => 138.2142701,//経度    
+        'MBTI' =>  'isfp',
+    ],
+];
+
+// 応募前見学
+$visit = [
+    [
+        'about' => '応募前見学',
+        'date' => [
+            [
+                'name' => '2025年7月28日（月）9時00分～', 
+                'date' => '2025-07-28',
+                'deadline' => '2025-07-28',//募集締切日
+            ],
+            [
+                'name' => '2025年7月30日（水）9時00分～', 
+                'date' => '2025-07-30',
+                'deadline' => '2025-07-30',//募集締切日
+            ],
+        ],
+        'catch_copy' => '',
+        'visit_img' =>'firstview.jpg',
+        'content' => 'その他の日時等も随時受け付けております。',
+    ],
+];
+
+// 目次
+$toc = [
+    'top' => [
+        'name' => '企業TOP',
+        'icon' => 'company.png',
+        'url' => '',
+    ],
+];
