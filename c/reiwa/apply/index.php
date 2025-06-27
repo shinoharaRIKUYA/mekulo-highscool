@@ -11,9 +11,7 @@ include_once $highschool_base . 'circle.php';
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $description = '株式会社令和の応募前見学ページです。';//メタディスクリプションをここに挿入
-
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -28,8 +26,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -94,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>会社説明<span>30～60分</span></li>
 		</ul>
 	</div>
-	<a href="" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">

@@ -9,7 +9,7 @@ html {
  * 全体レイアウト
  */
  .highschool header {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	overflow: hidden;

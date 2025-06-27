@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>工場見学<span>50分</span></li>
 		</ul>
 	</div>
-	<a href="" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">
