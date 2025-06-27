@@ -1117,6 +1117,10 @@ li {
 	width: 18%;
 }
 
+#recruitment_requirements {
+	scroll-margin-top: 300px;
+}
+
 @media (min-width: 640px) {	
 	.requirements .requirement dl > div {
 		display: flex;
@@ -1585,7 +1589,6 @@ ol li a {
 	margin: 30px 8px;
 	background-color: #fff;
 	padding-bottom: 10px;
-	scroll-margin-top: 300px;
 }
 
 .content h2,

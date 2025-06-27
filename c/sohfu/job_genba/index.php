@@ -292,39 +292,39 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>月給</dd>
+					<dd>月給190,000円</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>日</dd>
+					<dd>22.5日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd></dd>
+					<dd>現行</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd></dd>
+					<dd>190,000円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当②</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>円</dd>
+					<dd>190,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -332,7 +332,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd></dd>
+					<dd>月末</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -351,54 +351,54 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>時00分〜時00分</dd>
+					<dd>8時30分〜17時30分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均7時間</dd>
+					<dd>月平均6時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd></dd>
+					<dd>日曜・土曜隔週</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd></dd>
+					<dd>当社カレンダーによる</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd></dd>
+					<dd>雇用保険、労災保険、健康保険、厚生年金保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd></dd>
+					<dd>あり（勤続3年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd></dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd></dd>
+					<dd>あり（70歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
-					<dd></dd>
+					<dd>nsapi_request_headers</dd>
 				</div>
 			</dl>
 		</div>
@@ -424,12 +424,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						17年
+						17.6年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>44歳</dd>
+					<dd>44.5歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -469,7 +469,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>19.5日</dd>
+					<dd>15.5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -477,19 +477,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
-					<dd>名</dd>
+					<dd>0名</dd>
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>%</dd>
+					<dd>50%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
-					<dd>%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd></dd>
+					<dd>現場作業員</dd>
 				</div>
 			</dl>
 		</div>
@@ -515,17 +515,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後日以内</dd>
+					<dd>面接後5日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						<br>
-						
+						金子 慎也
 					</dd>
 				</div>
 			</dl>

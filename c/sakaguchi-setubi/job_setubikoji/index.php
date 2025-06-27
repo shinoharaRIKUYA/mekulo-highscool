@@ -342,7 +342,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>屋代駅から車で10分</dd>
+					<dd>屋代駅から車で6分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -521,9 +521,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						あり<br>
-						高所作業に関する資格支援<br>
-						溶接技能に関する資格支援
+						なし
 					</dd>
 				</div>
 				<div>
@@ -556,7 +554,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>7%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
