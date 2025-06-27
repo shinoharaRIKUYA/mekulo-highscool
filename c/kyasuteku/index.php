@@ -11,7 +11,7 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '佐久市で巨大な産業機械のフレームを製造する会社。一点物の鉄骨構造を切断・溶接・塗装まで一貫して手がけ、自分の身長を超えるスケールのモノづくりに挑めます。地域産業を支えるダイナミックな仕事です！';//メタディスクリプションの追加 
+$description = '株式会社キャステクは長野県青木村・丸子を拠点に、熟練の鋳造技術で未来の暮らしを支える製品を製造しています。砂型・金型鋳造から加工まで一貫対応し、環境技術にも挑戦中です。';//メタディスクリプションの追加 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -65,7 +65,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="firstview.jpg">
+	<img alt="" class="fv_image" src="introduce1.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -116,23 +116,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="fourth.jpg" alt="" class="fo">
 		</div>
 	</div>
-	<h3>募集職種</h3>
-	<div class="job_btn">
-		<?php foreach ($occupation as $job): ?>
-			<li>
-				<a href="<?= $company_base . $job['url'] ?>/">
-					<p class="job_name"><?= $job['name'] ?></p>
-				</a>
-				<div class="arrow">
-					<img src="<?= $highschool_base ?>polygon.png" alt="">
-				</div>
-			</li>
-		<?php endforeach; ?>
-	</div>
 	<h3>取材担当者からのポイント！</h3>
 	<figure class="portrait">
-		<img src=<?= $highschool_base . WRITER['sato']['image'] //担当者名をここに記入?> alt="">
-		<figcaption><span class="name"><?= WRITER['sato']['name']//担当者名をここに記入 ?></span></figcaption>
+		<img src=<?= $highschool_base . WRITER['ichikawa']['image'] //担当者名をここに記入?> alt="">
+		<figcaption><span class="name"><?= WRITER['ichikawa']['name']//担当者名をここに記入 ?></span></figcaption>
 	</figure>
 	<p>
 		鋳造の仕事は、まさに「職人の世界」です。<br>
@@ -303,7 +290,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '該当者なし', 'color' => '#2378C7'],
+						[ 'value' => 0.01, 'caption' => '所得者なし', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -313,8 +300,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 75, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 12, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -324,12 +311,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 10, 'caption' => "10代", 'color' => '#808080'],
-					[ 'value' => 20, 'caption' => '20代', 'color' => '#0073B7'],
-					[ 'value' => 30, 'caption' => '30代', 'color' => '#00AEEF'],
-					[ 'value' => 40, 'caption' => '40代', 'color' => '#00B398'],
-					[ 'value' => 100, 'caption' => '50代', 'color' => '#009F6B'],
-					[ 'value' => 40, 'caption' => '60代', 'color' => '#008C4A'],
+					[ 'value' => 0.001, 'caption' => "", 'color' => '#808080'],
+					[ 'value' => 18, 'caption' => '20代', 'color' => '#0073B7'],
+					[ 'value' => 12, 'caption' => '30代', 'color' => '#00AEEF'],
+					[ 'value' => 20, 'caption' => '40代', 'color' => '#00B398'],
+					[ 'value' => 12, 'caption' => '50代', 'color' => '#009F6B'],
+					[ 'value' => 25, 'caption' => '60代', 'color' => '#008C4A'],
 				]); ?>
 			</svg>
 		</div>
@@ -338,8 +325,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 100, 'caption' => "車・バイク100%", 'color' => '#E06A3A'],
-						[ 'value' => 0.001, 'caption' => '', 'color' => '#D04255'],
+						[ 'value' => 90, 'caption' => "車・バイク", 'color' => '#E06A3A'],
+						[ 'value' => 10, 'caption' => '自転車', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -373,53 +360,48 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dt>事業内容</dt>
 			<dd>
 				<ul class="li_style">
-					<li>産業機械</li>
-					<li>工作機械</li>
-					<li>建設機械等各種機械のフレーム</li>
-					<li>架台の製作及び大型NC機械</li>
-					<li>マシニングセンターによる金属の機械加工</li>
+					<li>銅合金</li>
+					<li>アルミニウム軽合金製品の鋳造、加工</li>
+					<li>鉄鋳物製品の製造、加工</li>
 				</ul>
 			</dd>
 		</div>
 		<div>
 			<dt>代表者名</dt>
-			<dd>内藤央</dd>
+			<dd>増田公男</dd>
 		</div>
 		<div>
 			<dt>従業員数</dt>
-			<dd>16名（男性 11名／女性 5名、役員、パート・アルバイト含む）（2024年1月1日現在）</dd>
+			<dd>87名</dd>
 		</div>
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.802355936288!2d138.12601207631053!3d36.36556597237416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da1b7147d3687%3A0xdf53886df4281da9!2z44Kt44Oj44K544OG44KvIOacrOekvuW3peWgtA!5e0!3m2!1sja!2sjp!4v1751007208892!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
 			<dt>本社電話番号</dt>
-			<dd>0267-67-1800</dd>
+			<dd>0268-49-3737</dd>
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/" target="<?= $co['slug'] ?>">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://castec.jp/" target="<?= $co['slug'] ?>">https://castec.jp/</a></dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3>仕事はゲームと一緒！？</h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
-			<figcaption><span class="name">内藤央</span></figcaption>
+			<figcaption><span class="name">南波武男</span></figcaption>
 		</figure>
 		<p>
-			みなさんは、初めてスマホを使ったときや新しいゲームを始めたとき、「難しかったらどうしよう」と思ったことがありますか？「どんなことができるのかな」とわくわくした人が多いのではないでしょうか。<br>
-			簡単すぎるゲームが物足りないのと同じで、少しずつ挑戦しながらレベルアップしていくのが楽しいですよね。
-		</p>
-		<p>
-			実は、仕事もこれと似ています。ゲームのチュートリアルのように1つずつ新しいスキルを身につけながら挑戦を重ねることでどんどん成長していけます。機械の操作方法や溶接のコツを学び、自分の「レベル」を上げていけば、さらに面白いことに挑戦できます。<br>
-			一緒にスキルを高め合える仲間たちが、あなたを待っています！ 
+			鋳造には、4,000年以上の歴史があります。砂や粘土で型を作り、そこに溶かした金属を流し込んで、冷やして固め、取り出して整える。この手順は、時代が変わっても変わりません。鋳造は、人々の暮らしに必要な部品や製品をつくる仕事。今もこれからも、なくてはならない仕事の一つです。<br>
+			私たちの会社では、この長い歴史を大切にしながら、現代に合わせた挑戦も続けています。たとえば、新幹線や電子医療機器に使われる部品など、最先端の分野に使われる鋳物部品を作る技術を開拓していくことです。みんなが毎日使っているスマホや電車、自動車の中にも、私たちが作った部品が使われているかもしれません。<br>
+			社会の役に立つと同時に、会社の技術力や信頼も高めていきたいと考えています。<br>
+			私たちと一緒に、ものづくりの世界で力を発揮してみませんか。
 		</p>
 	</div>
 </section>
@@ -445,6 +427,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				その他の日時等も随時受け付けております。
             </dd>
         </div>
         <div>
@@ -463,26 +446,330 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="<?= $highschool_base ?>arrow.svg">
 	</a>
 </div>
-<section class="content" id="job_list">
-	<h2>募集職種</h2>
-	<ul class="image_navi">
-		<li>
-			<a href="<?= $company_base ?>job_kinzoku/">
-				<figure>
-					<img src="<?= $company_base ?>job_kinzoku/firstview.jpg" alt="">
-					<figcaption>金属加工</figcaption>
-				</figure>
-			</a>
-		</li>
-		<li>
-			<a href="<?= $company_base ?>job_yousetsu/">
-				<figure>
-					<img src="firstview.jpg" alt="">
-					<figcaption>溶接作業</figcaption>
-				</figure>
-			</a>
-		</li>
-	</ul>
+<section class="requirements g" id="recruitment_requirements">
+	<h2>募集要項</h2>
+	<div class="tabs">
+		<button class="tab1">募集要項</button>
+		<button class="tab2">青少年雇用情報</button>
+		<button class="tab3">選考方法</button>
+	</div>
+	<div class="requirement">
+		<div class="content recruitment">
+			<h3>仕事内容</h3>
+			<dl>
+				<div>
+					<dt>募集職種</dt>
+					<dd>砂型鋳造部門、加工部門</dd>
+				</div>
+				<div>
+					<dt>雇用形態</dt>
+					<dd>正社員</dd>
+				</div>
+				<div>
+					<dt>雇用期間</dt>
+					<dd>定めなし</dd>
+				</div>
+				<div>
+					<dt>契約更新の可能性</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>試用期間</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>試用期間中の労働条件</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>就業場所</dt>
+					<dd>〒386-1605<br>
+						長野県小県郡青木村大字夫神1282
+					</dd>
+				</div>
+				<div>
+					<dt>アクセス</dt>
+					<dd>青木バス停駅から徒歩で10分</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>受動喫煙対策に関する特記事項</dt>
+					<dd>屋内禁煙<br>
+						屋外での喫煙を許可している。
+					</dd>
+				</div>
+				<div>
+					<dt>マイカー通勤</dt>
+					<dd>可</dd>
+				</div>
+				<div>
+					<dt>転勤の可能性</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>必要な知識・技能等</dt>
+					<dd>あれば尚可<br>
+						普通自動車免許（MTだとなお良し）<br>
+						フォークリフト・クレーンの運転資格（入社後の取得可）
+					</dd>
+				</div>
+			</dl>
+			<h3>賃金・手当</h3>
+			<dl>
+				<div>
+					<dt>賃金形態</dt>
+					<dd>日給月給制</dd>
+				</div>
+				<div>
+					<dt>月平均労働日数</dt>
+					<dd>20日</dd>
+				</div>
+				<div>
+					<dt>毎月の賃金</dt>
+					<dd>現行</dd>
+				</div>
+				<div>
+					<dt>基本給</dt>
+					<dd>月額189,000円</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当①</dt>
+					<dd>職場手当(4000円)</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当②</dt>
+					<dd>職務手当(133000円)</dd>
+				</div>
+				<div>
+					<dt>定期的に支払われる手当③</dt>
+					<dd>物価高手当(8000円)</dd>
+				</div>
+				<div>
+					<dt>固定残業代</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>初任給</dt>
+					<dd>月額189,000円</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当①</dt>
+					<dd>皆勤手当(4000円)</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当②</dt>
+					<dd>資格手当(1000円)</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当③</dt>
+					<dd>溶解手当(5000円)</dd>
+				</div>
+				<div>
+					<dt>特別に支払われる手当④</dt>
+					<dd>扶養手当(3700円)</dd>
+				</div>
+				<div>
+					<dt>賃金締切日</dt>
+					<dd>月末</dd>
+				</div>
+				<div>
+					<dt>通勤手当</dt>
+					<dd>実費支給（上限なし）</dd>
+				</div>
+				<div>
+					<dt>昇給</dt>
+					<dd>あり（6%）</dd>
+				</div>
+				<div>
+					<dt>賞与</dt>
+					<dd>年2回または5.3か月分</dd>
+				</div>
+			</dl>
+			<h3>労働時間</h3>
+			<dl>
+				<div>
+					<dt>就業期間</dt>
+					<dd>8時00分〜17時00分
+					</dd>
+				</div>
+				<div>
+					<dt>時間外労働</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>休日</dt>
+					<dd>土、日、その他</dd>
+				</div>
+				<div>
+					<dt>その他休日</dt>
+					<dd>
+						祝日においては概ね休日となっているが、週中日の連続性の無い祝日は出勤となる。<br>
+						年末年始、お盆、ゴールデンウィークなど社会風習的な連休は全従業員が取得できるように計画されている。
+					</dd>
+				</div>
+			</dl>
+			<h3>保険・年金・定年等</h3>
+			<dl>
+				<div>
+					<dt>加入保険等</dt>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形保険</dd>
+				</div>
+				<div>
+					<dt>企業年金</dt>
+					<dd>-</dd>
+				</div>
+				<div>
+					<dt>退職金制度</dt>
+					<dd>あり（勤続年数3年以上）</dd>
+				</div>
+				<div>
+					<dt>定年制</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>一律定年制</dt>
+					<dd>あり(65歳)</dd>
+				</div>
+				<div>
+					<dt>再雇用制度</dt>
+					<dd>あり(75歳まで)</dd>
+				</div>
+				<div>
+					<dt>勤務延長</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>入居可能住宅</dt>
+					<dd>-</dd>
+				</div>
+			</dl>
+		</div>
+		<div class="content career">
+			<h3>青少年雇用情報</h3>
+			<dl>
+				<div>
+					<dt>直近3年間の新卒者等採用者数</dt>
+					<dd>前年度:1人、2年度前：1人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>直近3年間の新卒者等離職者数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>男性の新卒者等採用数</dt>
+					<dd>前年度:1人、2年度前：1人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>女性の新卒者等採用数</dt>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+				</div>
+				<div>
+					<dt>平均継続勤務年数</dt>
+					<dd>
+						11.3年
+					</dd>
+				</div>
+				<div>
+					<dt>従業員の平均年齢</dt>
+					<dd>45.1歳</dd>
+				</div>
+				<div>
+					<dt>研修の有無</dt>
+					<dd>あり</dd>
+				</div>
+				<div>
+					<dt>研修内容</dt>
+					<dd>外部の研修機関を利用し、2日程度の社会常識および作業安全教育を行う。</dd>
+				</div>
+				<div>
+					<dt>自己啓発支援の有無</dt>
+					<dd>
+						あり<br>
+						希望者に対し、専門知識の学習機会や外部専門機関（職業能力開発協会など）の研修参加機会の提供、資格取得費用の補助。
+					</dd>
+				</div>
+				<div>
+					<dt>メンター制度の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>キャリアコンサルティング制度の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>社内検定等の有無</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>前年度の月平均所定外労働時間</dt>
+					<dd>11時間</dd>
+				</div>
+				<div>
+					<dt>前事業年度の有給休暇の平均取得日数</dt>
+					<dd>9.3日</dd>
+				</div>
+				<div>
+					<dt>前事業年度の育児休業取得者数</dt>
+					<dd>女性：-人、男性：-人</dd>
+				</div>
+				<div>
+					<dt>前事業年度の出産者数</dt>
+					<dd>-名</dd>
+				</div>
+				<div>
+					<dt>女性役員割合</dt>
+					<dd>0%</dd>
+				</div>
+				<div>
+					<dt>女性の管理職割合</dt>
+					<dd>5%</dd>
+				</div>
+				<div>
+					<dt>区分の名称</dt>
+					<dd>製造業</dd>
+				</div>
+			</dl>
+		</div>
+		<div class="content selection">
+			<h3>選考方法</h3>
+			<dl>
+				<div>
+					<dt>求人数</dt>
+					<dd>2名</dd>
+				</div>
+				<div>
+					<dt>応募前職場見学</dt>
+					<dd>
+					    2025年7月28日（月）8時30分～<br>
+						2025年8月5日（火）8時30分～<br>
+						その他の日時等も随時受け付けております。
+					</dd>
+				</div>
+				<div>
+					<dt>選考方法</dt>
+					<dd>面接</dd>
+				</div>
+				<div>
+					<dt>選考旅費</dt>
+					<dd>なし</dd>
+				</div>
+				<div>
+					<dt>選考結果通知</dt>
+					<dd>面接後10日以内</dd>
+				</div>
+				<div>
+					<dt>選考担当者</dt>
+					<dd>
+						管理部　取締役管理部長<br>
+						長澤　隆弘
+					</dd>
+				</div>
+			</dl>
+		</div>
+	</div>
 </section>
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
@@ -490,5 +777,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php' ?>
+<script src="<?= $highschool_base ?>animation.js"></script>
+<?php //include $base . '../footer.php'; ?>
 </body>
