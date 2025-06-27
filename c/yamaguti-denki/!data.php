@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県長野市大字南掘24-1',
     'homepage' => 'https://yama-den.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.660478,//緯度
-    'longitude' => 138.24524926,//経度
+    'latitude' => 36.6604827,//緯度
+    'longitude' => 138.2452723,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '電気工事士は名探偵！？',
         'work' => ['67','542','552','679',],
         'fv_url' => 'job_electrician/firstview.jpg',
-        'latitude' => 36.660478,//緯度
-        'longitude' => 138.24524926,//経度    
-        'MBTI' => 'InTP',    
+        'latitude' => 36.6604827,//緯度
+        'longitude' => 138.2452723,//経度
+        'MBTI' => 'InTP',
     ],
 ];
 
@@ -37,12 +37,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月29日（火）9時00分～、14時00分～', 
+                'name' => '2025年7月29日（火）9時00分～、14時00分～',
                 'date' => '2025-07-29',
                 'deadline' => '2025-07-26',//募集締切日
             ],
             [
-                'name' => '2025年8月5日（火）9時00分～、14時00分～', 
+                'name' => '2025年8月5日（火）9時00分～、14時00分～',
                 'date' => '2025-08-05',
                 'deadline' => '2025-08-02',//募集締切日
             ],

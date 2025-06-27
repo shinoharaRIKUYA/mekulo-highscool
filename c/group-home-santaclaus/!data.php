@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県坂城町大字南条657-1',
     'homepage' => 'https://sakaki-santaclaus.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.4285709,//緯度
+    'longitude' => 138.1942394,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,8 +25,8 @@ $occupation = [
         'catch_copy' => 'お年寄りの毎日の暮らしを、そっとサポートする',
         'work' => ['036'],
         'fv_url' => 'third.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
+        'latitude' => 36.4285709,//緯度
+        'longitude' => 138.1942394,//経度
         'MBTI' =>  '-sfj',
     ],
 ];
@@ -37,7 +37,7 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月28日（月）10時00分～', 
+                'name' => '2025年7月28日（月）10時00分～',
                 'date' => '2025-07-28',
                 'deadline' => '2025-07-25',//募集締切日
             ],

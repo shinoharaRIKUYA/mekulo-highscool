@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県上田市真田町傍陽938',
     'homepage' => 'https://fine-f.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.456373,//緯度
-    'longitude' => 138.294950,//経度
+    'latitude' => 36.4563689,//緯度
+    'longitude' => 138.2950138,//経度
     'human' => [
     'image' => 'noguchi.png',
     'name' => '野口',
@@ -25,9 +25,9 @@ $occupation = [
         'catch-copy' => '熱く燃えろ！鋳造の世界で職人デビュー！',
         'work' => ['493','494'],
         'fv_url' => 'job_cyuzo/firstview.jpg',
-        'latitude' => 36.456373,//緯度
-        'longitude' => 138.294950,//経度
-        'MBTI' => 'i--P',    
+        'latitude' => 36.4563689,//緯度
+        'longitude' => 138.2950138,//経度
+        'MBTI' => 'i--P',
     ],
     'job_tanzo' => [
         'name' => '鍛造職人',
@@ -35,8 +35,8 @@ $occupation = [
         'catch-copy' => '実は奥が深い、迫力ある鍛造の世界',
         'work' => ['493','494'],
         'fv_url' => 'job_tanzo/firstview.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
+        'latitude' => 36.4563689,//緯度
+        'longitude' => 138.2950138,//経度
         'MBTI' => 'eN-P'
     ],
 ];
@@ -47,12 +47,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月30日（月） 10時30分～', 
+                'name' => '2025年7月30日（月） 10時30分～',
                 'date' => '2025-07-30',
                 'deadline' => '2025-03-10',//募集締切日
             ],
             [
-                'name' => '2025年8月6日（水） 10時30分～', 
+                'name' => '2025年8月6日（水） 10時30分～',
                 'date' => '2025-08-6',
                 'deadline' => '2025-8-6',//募集締切日
             ],
