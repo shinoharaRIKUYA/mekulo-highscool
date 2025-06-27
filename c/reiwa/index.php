@@ -11,8 +11,7 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '野村屋ホールディングスは、瓦から始まり100年以上。東日本大震災を機に自然エネルギー・不動産・建築へと事業を広げ、変化を恐れず挑戦し続けています。そんな私たちの姿勢と採用情報をご紹介します。';//メタキーワードの追加
-$description = '';//メタディスクリプションの追加
+$description = '株式会社令和は、長野県上田市で足場工事を手がける建設会社。仲間と成長し、安全と信頼を支える仕事です。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
 
@@ -54,7 +53,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
+		"name": "高卒求人特集",
 		"item": "https://works.mekulo.jp/highschool/"
 	},{
 		"@type": "ListItem",
