@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '柳澤鐵工所は、最大14メートルにもなる大型の鉄骨をオーダーメイドで製作しています。体育館や工場などの柱や骨組みに使われ、地域の建物を支える重要な役割を担います。設計図をもとに加工・溶接・検査・塗装を行い、現場での設置も担当。複雑な溶接技術が自慢で、初心者も資格なしで挑戦可能です。ものづくりに興味がある方を歓迎します。';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -268,8 +264,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 10, 'caption' => '新卒1', 'color' => '#2378C7'],
-						[ 'value' => 90, 'caption' => '中途9', 'color' => '#F34444'],
+						[ 'value' => 10, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 90, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -279,8 +275,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 80, 'caption' => '男性：8', 'color' => '#0062B5'],
-						[ 'value' => 20, 'caption' => '女性：2', 'color' => '#FF6E7E'],
+						[ 'value' => 80, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 20, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -316,7 +312,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 99, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.01, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -364,7 +360,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://yanatetu.com/">https://yanatetu.com/</a></dd>
+			<dd><a href="https://yanatetu.com/" target="<?= $co['slug'] ?>">https://yanatetu.com/</a></dd>
 		</div>
 	</dl>
 </section>

@@ -367,8 +367,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 0.01, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
+							[ 'value' => 0.01, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -425,7 +425,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.akifu.com">https://www.akifu.com</a></dd>
+			<dd><a href="https://www.akifu.com" target="<?= $co['slug'] ?>">https://www.akifu.com</a></dd>
 		</div>
 	</dl>
 </section>
@@ -469,6 +469,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				※その他の日程は相談して下さい。
             </dd>
         </div>
         <div>

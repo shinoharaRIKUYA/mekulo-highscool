@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '佐久市で巨大な産業機械のフレームを製造する会社。一点物の鉄骨構造を切断・溶接・塗装まで一貫して手がけ、自分の身長を超えるスケールのモノづくりに挑めます。地域産業を支えるダイナミックな仕事です！';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -314,17 +310,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li>
 			<div class="chart">
-				<p>新卒・中途の比率</p>
-				<svg width="150" height="150" viewBox="0 0 200 200">
-					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 2, 'caption' => '新卒', 'color' => '#2378C7'],
-						[ 'value' => 8, 'caption' => '中途', 'color' => '#F34444'],
-					]); ?>
-				</svg>
-			</div>
-		</li>
-		<li>
-			<div class="chart">
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
@@ -416,7 +401,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://sakucity-industrialpark.com/naitou/" target="<?= $co['slug'] ?>">https://sakucity-industrialpark.com/naitou/</a></dd>
 		</div>
 	</dl>
 </section>

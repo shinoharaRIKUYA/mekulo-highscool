@@ -81,9 +81,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年8月5日（火）13時30分～</li>
-			<li>2025年8月6日（水）13時30分～</li>
-			<li>2025年8月7日（木）13時30分～</li>
+			<li>2025年8月1日（金）10時00分～</li>
+			<li>2025年8月4日（月）13時30分～</li>
+			<li>別日でも対応可能です。ご相談ください。</li>
 		</ul>
 	</div>
 	<div class="flow">

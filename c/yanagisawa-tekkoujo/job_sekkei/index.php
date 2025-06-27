@@ -25,12 +25,8 @@ foreach ($occupation as $key => $job) {
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -46,7 +42,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -263,7 +258,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -437,8 +432,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						
 					</dd>
 				</div>
 				<div>

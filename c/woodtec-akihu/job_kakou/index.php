@@ -25,7 +25,7 @@ foreach ($occupation as $key => $job) {
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
 $description = $meta_desc;
-$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $cur_page . '/';
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -358,7 +358,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			</div>
 			<p>サッシ職人 田中さん</p>
 		</li>
-</section>
 <section class="g requirements" id="recruitment_requirements">
 	<h2>募集要項</h2>
 	<div class="tabs">
@@ -402,15 +401,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd>
+						真田工場：バス停「幸村の郷」から徒歩5分<br>
+						芳田工場：「バス停」 漆戸から徒歩5分
+					</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>あり(喫煙室設置)</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>喫煙室設置</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -473,7 +475,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>実費支給（上限あり）</dd>
+					<dd>実費支給（上限 18,000円）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -500,7 +502,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>お盆、年末年始等</dd>
+					<dd>
+						お盆、年末年始等<br>
+						祝日は出勤日となります。
+					</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
@@ -575,12 +580,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
+						あり<br>
 						技能検定等資格取得支援
 					</dd>
 				</div>
@@ -635,11 +640,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
-					<dd>随時</dd>
+					<dd>
+						2025年8月4日（月）10時00分～<br>
+						2025年8月5日（火）10時00分～<br>
+						※その他の日程は相談して下さい。
+					</dd>
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>書類選考、面接(1回)</dd>
+					<dd>面接(1回)</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -689,7 +698,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<?php include $base . '../footer.php' ?>
+<?php //include $base . '../footer.php' ?>
 <script src="<?= $highschool_base ?>animation.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>NRGallery.js"></script>

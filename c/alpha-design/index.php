@@ -421,7 +421,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.alpha-design.co.jp/">https://www.alpha-design.co.jp/</a></dd>
+			<dd><a href="https://www.alpha-design.co.jp/" target="<?= $co['slug'] ?>">https://www.alpha-design.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>

@@ -4,7 +4,7 @@ $co = [
     'image' => 'job_kakou/sanada.jpg',
     'company_name' => '株式会社 ウッドテック秋富',
     'catch_copy' => '木を使って、みんながいつも使うものをつくる',
-    'industry' => ['E','A'],
+    'industry' => ['E'],
     'post_code' => '386-2201',
     'address' => '長野県上田市真田町長5589',
     'homepage' => 'https://www.akifu.com',
@@ -24,7 +24,7 @@ $occupation = [
         'url' => 'job_kakou',
         'catch_copy' => '“ぴたっ”と決まる職人技！<br>機械と手仕事で木を組み上げる',
         'work' => ['536'],
-        'fv_url' => 'job_kakou/first-view.jpg',
+        'image' => 'job_kakou/first-view.jpg',
         'latitude' => 36.441304,//緯度
         'longitude' => 138.310133,//経度    
         'MBTI' => 'IS-j',    
@@ -34,7 +34,7 @@ $occupation = [
         'url' => 'job_tosou',
         'catch_copy' => '仕上げが勝負！見た目や手触りを整える職人',
         'work' => ['536'],
-        'fv_url' => 'job_tosou/first_view.jpg',
+        'image' => 'job_tosou/first_view.jpg',
         'latitude' => 36.441304,//緯度
         'longitude' => 138.310133,//経度    
         'MBTI' => 'I-fp',
@@ -44,7 +44,7 @@ $occupation = [
         'url' => 'job_sekkei',
         'catch_copy' => '使う場面を思い浮かべ、使いやすさを図面に込める',
         'work' => ['536'],
-        'fv_url' => 'job_sekkei/first_view.jpg',
+        'image' => 'job_sekkei/first_view.jpg',
         'latitude' => 36.441304,//緯度
         'longitude' => 138.310133,//経度    
         'MBTI' => 'Intj',
@@ -59,12 +59,12 @@ $visit = [
             [
                 'name' => '2025年8月4日（月）10時00分～', 
                 'date' => '2025-08-04',
-                'deadline' => '2025- -  ',//募集締切日
+                'deadline' => '2025-08-01',//募集締切日
             ],
             [
                 'name' => '2025年8月5日（火）10時00分～', 
                 'date' => '2025-08-05',
-                'deadline' => '2025- -  ',//募集締切日
+                'deadline' => '2025-08-02',//募集締切日
             ],
         ],
         'catch_copy' => '応募前見学',

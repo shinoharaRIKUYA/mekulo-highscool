@@ -28,6 +28,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -181,7 +182,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>コンセント</h3>
 					<p>
-						壁に穴を開けて、中に通した配線をコンセントの差し込み口に繋ぎます。
+						電線を繋ぎ、コンセントを設置します。
 					</p>
 				</hgroup>
 			</div>
@@ -237,7 +238,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<hgroup>
 					<h3>照明</h3>
 					<p>
-						LED照明への交換を希望されるお客様が多いです。
+						LEDへの変更を希望されるお客様が多いです。
 					</p>
 				</hgroup>
 			</div>
@@ -287,7 +288,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 100, 'caption' => '', 'color' => '#d9d9d9'],
-						[ 'value' => 0.01, 'caption' => '対象者無し', 'color' => '#2378C7'],
+						[ 'value' => 0.01, 'caption' => '所得者なし', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
 			</div>
@@ -297,8 +298,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>新卒・中途の比率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 10, 'caption' => '新卒1', 'color' => '#2378C7'],
-						[ 'value' => 90, 'caption' => '中途9', 'color' => '#F34444'],
+						[ 'value' => 10, 'caption' => '新卒', 'color' => '#2378C7'],
+						[ 'value' => 90, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -308,8 +309,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -341,7 +342,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -389,7 +390,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://yama-den.co.jp/">https://yama-den.co.jp/</a></dd>
+			<dd><a href="https://yama-den.co.jp/" target="<?= $co['slug'] ?>">https://yama-den.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>

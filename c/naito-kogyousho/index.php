@@ -396,7 +396,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://sakucity-industrialpark.com/naitou/" target="<?= $co['slug'] ?>">https://sakucity-industrialpark.com/naitou/</a></dd>
 		</div>
 	</dl>
 </section>

@@ -427,7 +427,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修の有無</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>研修内容</dt>
@@ -436,21 +436,20 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						例）資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						なし
 					</dd>
 				</div>
 				<div>
 					<dt>メンター制度の有無</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>キャリアコンサルティング制度の有無</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>

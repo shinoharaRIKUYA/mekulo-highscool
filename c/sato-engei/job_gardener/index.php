@@ -494,7 +494,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						あり<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						資格取得支援
 					</dd>
 				</div>
 				<div>
@@ -582,7 +582,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<img src="../../../arrow.svg">
 		</a>
 	</div>
-</section>	
+</section>
 <section class="g nextpage">
     <h2>その他の職種を見てみる</h2>
     <ul class="image_navi">

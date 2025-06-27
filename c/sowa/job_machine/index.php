@@ -227,7 +227,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -235,7 +235,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>待遇の変更なし</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
@@ -250,11 +250,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>あり（屋内禁煙）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -366,7 +366,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>健康保険、厚生保険、雇用保険、労災保険</dd>
+					<dd>健康保険、厚生年金保険、雇用保険、労災保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
@@ -378,11 +378,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（一律60歳）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd>一律60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
@@ -419,11 +419,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
-					<dd>10.5年</dd>
+					<dd>6年</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>41.5歳</dd>
+					<dd>42.5歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -456,11 +456,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>10.4時間</dd>
+					<dd> 19.7時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>12日</dd>
+					<dd>9日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -480,7 +480,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd></dd>
+					<dd>製造業</dd>
 				</div>
 			</dl>
 		</div>
