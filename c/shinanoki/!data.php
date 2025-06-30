@@ -9,8 +9,8 @@ $co = [
     'adress' => '長野県上田市下之条42',
     'homepage' => 'https://p-shinanoki.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.39712976,//緯度
-    'longitude' => 138.21962598,//経度
+    'latitude' => 36.3970269,//緯度
+    'longitude' => 138.2196892,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '機械のスピードに合わせて、人の手で完璧に仕上げる',
         'work' => '食品製造',
         'image' => 'job_food-manufacturing/firstview.jpg',
-        'latitude' => 36.39712976,//緯度
-        'longitude' => 138.21962598,//経度
-        'MBTI' => '',
+        'latitude' => 36.3970269,//緯度
+        'longitude' => 138.2196892,//経度
+        'MBTI' => 'IS-J',
     ],
     'job_machine-operator' => [
         'name' => '機械操作スタッフ',
@@ -35,9 +35,9 @@ $occupation = [
         'catch_copy' => '細かい調整が、不良品を減らすカギ',
         'work' => '機械操作',
         'image' => 'job_machine-operator/firstview.jpg',
-        'latitude' => 36.39712976,//緯度
-        'longitude' => 138.21962598,//経度
-        'MBTI' => '',
+        'latitude' => 36.3970269,//緯度
+        'longitude' => 138.2196892,//経度
+        'MBTI' => 'IS-J',
     ],
     'job_quality-control' => [
         'name' => '品質管理スタッフ',
@@ -45,9 +45,9 @@ $occupation = [
         'catch_copy' => 'たった数グラムのかやく、一つのミスも見逃さない！',
         'work' => '品質管理',
         'image' => 'job_quality-control/firstview.jpg',
-        'latitude' => 36.39712976,//緯度
-        'longitude' => 138.21962598,//経度
-        'MBTI' => '',
+        'latitude' => 36.3970269,//緯度
+        'longitude' => 138.2196892,//経度
+        'MBTI' => 'IS-J',
     ],
 ];
 
@@ -57,12 +57,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月30日（水） 10時30分～12時00分', 
+                'name' => '2025年7月30日（水） 10時30分～12時00分',
                 'date' => '2025-07-30',
                 'deadline' => '2025-07-27',//募集締切日
             ],
             [
-                'name' => '2025年8月6日（水）10時30分～12時00分', 
+                'name' => '2025年8月6日（水）10時30分～12時00分',
                 'date' => '2025-08-06',
                 'deadline' => '2025-08-03',//募集締切日
             ],

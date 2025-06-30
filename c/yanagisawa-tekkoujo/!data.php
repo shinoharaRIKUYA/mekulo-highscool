@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県佐久市中込3400-7',
     'homepage' => 'https://yanatetu.com/',
     'logo_filename' => 'yanatetsu-logo.svg',
-    'latitude' => 36.253712,//緯度
-    'longitude' => 138.4726,//経度
+    'latitude' => 36.2537328,//緯度
+    'longitude' => 138.4726499,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '図面を形に！建物の“骨組み”を作る仕事',
         'work' => ['493','494'],
         'image' => 'job_seizou/firstview.jpg',
-        'latitude' => 36.253712,//緯度
-        'longitude' => 138.4726,//経度    
-        'MBTI' => 'istp',    
+        'latitude' => 36.2537328,//緯度
+        'longitude' => 138.4726499,//経度
+        'MBTI' => 'ISTP',
     ],
     'job_sekkei' => [
         'name' => '鉄骨設計職',
@@ -35,9 +35,9 @@ $occupation = [
         'catch_copy' => '図面を描くだけじゃない！とことん考えて、物事を組み立てる',
         'work' => ['493','494'],
         'image' => 'job_sekkei/firstview.jpg',
-        'latitude' => 36.253712,//緯度
-        'longitude' => 138.4726,//経度    
-        'MBTI' => 'intj',
+        'latitude' => 36.2537328,//緯度
+        'longitude' => 138.4726499,//経度
+        'MBTI' => 'INTJ',
     ],
 ];
 
@@ -47,12 +47,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '    年 月 日（ ）時  分～', 
+                'name' => '    年 月 日（ ）時  分～',
                 'date' => '2025-07-29',
                 'deadline' => '2025-07-26',//募集締切日
             ],
             [
-                'name' => '   年 月 日（ ）  時  分～', 
+                'name' => '   年 月 日（ ）  時  分～',
                 'date' => '2025-08-05',
                 'deadline' => '2025-08-02',//募集締切日
             ],
@@ -61,7 +61,6 @@ $visit = [
         'visit_img' =>'firstview.jpg',
         'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],
-    
 ];
 
 // 目次

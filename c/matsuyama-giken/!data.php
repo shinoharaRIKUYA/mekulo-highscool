@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県上田市長瀬1050',
     'homepage' => 'https://www.matsuyama-giken.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.3397664,//緯度
+    'longitude' => 138.2873170,//経度
     'human' => [
         'image' => 'shomura.png',
         'name' => '正村 欣生',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '熱で金属の硬さが変わるって知ってた？',
         'work' => ['529'],
         'image' => 'introduce2.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' =>  '',
+        'latitude' => 36.3636172,//緯度
+        'longitude' => 138.2915830,//経度
+        'MBTI' => 'Is-j',
     ],
     'job_hyoumen' => [
         'name' => '表面処理事業',
@@ -35,9 +35,9 @@ $occupation = [
         'catch_copy' => 'よく遊び、よく働く',
         'work' => ['529'],
         'image' => 'job_hyoumen/fv.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' => '',
+        'latitude' => 36.3399857,//緯度
+        'longitude' => 138.2872583,//経度
+        'MBTI' => 'Is-j',
     ],
     'job_shinku' => [
         'name' => '真空炉事業',
@@ -45,9 +45,9 @@ $occupation = [
         'catch_copy' => '熱と冷却で構造を組み替える',
         'work' => ['529'],
         'image' => 'second.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' =>  '',
+        'latitude' => 36.3389298,//緯度
+        'longitude' => 138.2859450,//経度
+        'MBTI' => 'Is-j',
     ],
     'job_coating' => [
         'name' => 'コーティング事業',
@@ -55,9 +55,9 @@ $occupation = [
         'catch_copy' => '硬く、滑らかな金属コーティングを部品に',
         'work' => ['529'],
         'image' => 'job_coating/work4.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' =>  '',
+        'latitude' => 36.3388164,//緯度
+        'longitude' => 138.2866194,//経度
+        'MBTI' => 'Is-j',
     ],
 ];
 

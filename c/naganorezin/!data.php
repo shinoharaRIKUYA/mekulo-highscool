@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県上田市上室賀 1518',
     'homepage' => 'http://www.nagano-resin.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.408334,//緯度
-    'longitude' => 138.152182,//経度
+    'latitude' => 36.4083197,//緯度
+    'longitude' => 138.1521952,//経度
     'human' => [
         'image' => 'shomura.png',
         'name' => '正村',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '様々な条件から最適解を導きだせ！',
         'work' => ['493','494'],
         'fv_url' => 'job_machineoperater/firstview.jpg',
-        'latitude' => 36.408334,//緯度
-        'longitude' => 138.152182,//経度    
-        'MBTI' => ''
+        'latitude' => 36.4083197,//緯度
+        'longitude' => 138.1521952,//経度
+        'MBTI' => 'Istp'
     ],
 ];
 
@@ -37,12 +37,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年7月29日（火）14時00分～', 
+                'name' => '2025年7月29日（火）14時00分～',
                 'date' => '2025-07-29',
                 'deadline' => '2025-07-26',//募集締切日
             ],
             [
-                'name' => '2025年8月5日（火）14時00分～', 
+                'name' => '2025年8月5日（火）14時00分～',
                 'date' => '2025-08-05',
                 'deadline' => '2025-08-02',//募集締切日
             ],
