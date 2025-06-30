@@ -330,7 +330,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>あり（3カ月）</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
@@ -413,7 +413,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>4200円</dd>
+					<dd>実費支給（上限なし）</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -428,7 +428,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8:00~17:00</dd>
+					<dd>8:00～17:00</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
@@ -449,7 +449,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、雇用保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
@@ -457,7 +457,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>あり（勤続年数3年以上）</dd>
+					<dd>あり（勤続年数1年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -465,11 +465,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>あり（65歳）</dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>なし</dd>
+					<dd>あり（65歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
@@ -516,12 +516,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>研修内容</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						あり<br>
 						高所作業に関する資格支援<br>
 						溶接技能に関する資格支援
 					</dd>
@@ -564,7 +563,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>-</dd>
+					<dd>配管工</dd>
 				</div>
 			</dl>
 		</div>

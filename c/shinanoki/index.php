@@ -271,7 +271,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>年間休日</p>
-			<p class="num"><span></span>日</p>
+			<p class="num"><span>108</span>日</p>
 		</li>
 		<li class="small">
 			<p>設立年</p>
@@ -308,8 +308,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 3, 'caption' => '男性', 'color' => '#0062B5'],
-						[ 'value' => 8, 'caption' => '女性', 'color' => '#FF6E7E'],
+						[ 'value' => 12, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 32, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -490,8 +490,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </main>
 <?php include $highschool_base . 'tmpl_navi.php' ?>
 </div>
-<script src="../tab.js"></script>
-<script src="../page_nav.js"></script>
+<script src="<?= $highschool_base ?>tab.js"></script>
+<script src="<?= $highschool_base ?>page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <?php //include $base . '../footer.php' ?>
 </body>

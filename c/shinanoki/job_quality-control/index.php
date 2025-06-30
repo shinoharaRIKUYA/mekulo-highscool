@@ -247,11 +247,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>雇用期間</dt>
-					<dd></dd>
+					<dd>定めなし</dd>
 				</div>
 				<div>
 					<dt>契約更新の可能性</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>試用期間</dt>
@@ -269,7 +269,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd></dd>
+					<dd>別所線上田原駅から徒歩10分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -281,11 +281,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
-					<dd></dd>
+					<dd>可</dd>
 				</div>
 				<div>
 					<dt>転勤の可能性</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>必要な知識・技能等</dt>
@@ -296,15 +296,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>給</dd>
+					<dd>月給</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>日</dd>
+					<dd>21.6日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd></dd>
+					<dd>現行</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
@@ -320,7 +320,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
@@ -336,11 +336,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月日</dd>
+					<dd>毎月月末</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり</dd>
+					<dd>あり(上限月額15,000円)</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -374,31 +374,31 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、雇用保険、労災保険</dd>
+					<dd>厚生年金保険、健康保険、雇用保険、労災保険、財形</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>（勤続年数年以上）</dd>
+					<dd>（勤続年数3年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd></dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd></dd>
+					<dd>あり（上限65歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd></dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -496,7 +496,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>2名</dd>
+					<dd>3名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
@@ -511,16 +511,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						
+						原田 孝子
 					</dd>
 				</div>
 			</dl>

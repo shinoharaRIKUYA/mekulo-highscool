@@ -297,7 +297,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>19.5</span>日</p>
+			<p class="num"><span>15.1</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
