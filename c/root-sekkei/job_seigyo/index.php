@@ -90,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 	<div class="fv_area">
-    <img alt="" class="fv_image" src="../seikan.jpg">
+    <img alt="" class="fv_image" src="../first_view.jpg">
     <hgroup>
         <h1 class="catch"><?= $catch_copy ?></h1>
         <p class="fv-tag"><?= $name ?></p>
@@ -138,10 +138,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 設計には大きく分けて２つの分野があります。機械そのものの形を考える「機械設計」と、その機械をどう動かすかを決める「制御設計」。<br>
 入社後の研修を終えたら、あなたの適性や希望に応じて、どちらかの分野に配属されます。
 	</p>
-	<div class="images">
-		<img src="../firstview.jpg" alt="" class="scene">
-		<img src="yousetsu1.jpg" alt="" class="scene">
-	</div>
 	<h4>
 		機械設計
 	</h4>
@@ -160,6 +156,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		1年のうち、約4割は現場での調整作業。うまく動かないときは原因を探り、プログラムを修正して、思い通りの動きを実現していきます。<br>
 		自分の組んだプログラムで、想像通りに機械が動く。その瞬間は、何度経験してもワクワクするものです。
 </p>
+<div class="images">
+		<img src="../contents03.jpg" alt="" class="scene">
+	</div>
 <h3>
 	機械の知識を、技術の武器に変える研修
 </h3>
@@ -167,7 +166,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	入社後は、1か月間の社内研修「機械設計教室」で、図面の読み方やCADソフト（設計ソフト）の使い方、制御の基礎などをじっくり学びます。<br>
 	その後は、先輩がマンツーマンでサポートするOJT研修に入り、実際の業務を通してスキルを身につけていきます。現場経験を重ねながら、いずれはお客様との打ち合わせや、自分が中心となって設計を担当することも目指せます。
 </p>
-	
+<div class="images">
+		<img src="seigyo01.jpg" alt="" class="scene">
+</div>
 </section>
 <section class="g">
 	<h2>写真で雰囲気を知る</h2>
@@ -175,19 +176,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div class="image_area">
 			<ul class="slides">
 			<li>
-		<img src="yousetsu1.jpg" alt="">
+		<img src="seigyo02.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu2.jpg" alt="">
+		<img src="../first_view.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu3.jpg" alt="">
+		<img src="../contents03.jpg" alt="">
 	</li>
 	<li>
-		<img src="yousetsu7.jpg" alt="">
-	</li>
-	<li>
-		<img src="../robot.jpg" alt="">
+		<img src="seigyo03.jpg" alt="">
 	</li>
 		</ul>
 		<div class="button left_btn">&lt;</div>
@@ -200,7 +198,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="shiokawa.jpg" alt="">
+				<img src="takeuchi.jpg" alt="">
 				<hgroup>
 					<h3>竹内駿さん</h3>
 					<p>

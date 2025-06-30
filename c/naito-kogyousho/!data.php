@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県佐久市中込3368-3',
     'homepage' => 'https://sakucity-industrialpark.com/naitou/',
     'logo_filename' => 'logo.svg',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.2542324,//緯度
+    'longitude' => 138.4701630,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => 'いろいろな機械を操り、巨大な材料を加工せよ！',
         'work' => ['493','494'],
         'image' => 'job_kinzoku/firstview.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' => 'IStp',    
+        'latitude' => 36.2542324,//緯度
+        'longitude' => 138.4701630,//経度
+        'MBTI' => 'Istp',
     ],
     'job_yousetsu' => [
         'name' => '溶接作業',
@@ -35,9 +35,9 @@ $occupation = [
         'catch_copy' => '巨大なフレームの決め手は溶接！',
         'work' => ['493','494'],
         'image' => 'seikan.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' => 'IStp'
+        'latitude' => 36.2542324,//緯度
+        'longitude' => 138.4701630,//経度
+        'MBTI' => 'Istj'
     ],
 ];
 

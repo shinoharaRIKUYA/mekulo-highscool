@@ -19,7 +19,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -92,8 +93,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		自分より大きな機械を組み上げる 
 	</h2>
 	<p>
-		みなさんは、機械の中身を見たことがありますか？ 機械の中には、数えきれないほどの部品や配線が組み込まれていて、それぞれが大切な役割を果たしています。 坂口製作所の仕事は、そんな“機械の中身”を作ること。 
-ドライバーやレンチなどの工具を使って一つひとつの部品を組み立て、ケーブルを繋ぎ、やがて自分よりも大きな機械が目の前で動き出す──そんな瞬間に立ち会える仕事です。  
+		みなさんは、機械の中身を見たことがありますか？ 機械の中には、数えきれないほどの部品や配線が組み込まれていて、それぞれが大切な役割を果たしています。 坂口製作所の仕事は、そんな“機械”を組み立てること。<br>
+		ドライバーやレンチなどの工具を使って一つひとつの部品を組み立て、ケーブルを繋ぎ、やがて自分よりも大きな機械が目の前で完成していく──そんな瞬間に立ち会える仕事です。
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
@@ -127,7 +128,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		プラスチック製品の“もと”を作る 
 	</h3>
 	<p>
-		坂口製作所では、工場などで使われる機械の組み立てや修理を行なっています。 
+		坂口製作所では、工場などで使われる機械の組み立てを行なっています。 
 	</p>
 	<div class="images">
 		<img src="gallery2.jpg" class="scene" alt="">
@@ -223,6 +224,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		失敗しても大丈夫！先輩の中には、「部品を１つ入れ忘れた！」なんて人もいます。そんなときも、怒られるようなことはないので安心してください。失敗したときは、一緒に改善策を考えましょう。 
 	</p>
 </section>
+<!--
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
 	<ul class="Lightbox">
@@ -270,6 +272,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 	</ul>
 </section>
+-->
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
 	<p class="remark">（2025年1月1日現在）</p>
@@ -487,7 +490,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>募集職種</dt>
-					<dd>加工職</dd>
+					<dd>射出成形機の組立</dd>
 				</div>
 				<div>
 					<dt>雇用形態</dt>
@@ -575,7 +578,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>勤労手当(6,000円)</dd>
+					<dd>皆勤手当(6,000円)</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
@@ -591,11 +594,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>なし</dd>
+					<dd>年1回（7月）</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回または1.8か月分</dd>
+					<dd>年2回、1.8か月分</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -629,7 +632,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>なし</dd>
+					<dd>実績あり</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -779,5 +782,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>animation.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>

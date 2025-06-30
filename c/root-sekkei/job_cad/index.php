@@ -89,7 +89,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 	<main>
 		<div class="fv_area">
-			<img alt="" class="fv_image" src="firstview.jpg">
+			<img alt="" class="fv_image" src="first_view.jpg">
 			<hgroup>
 				<h1 class="catch"><?= $catch_copy ?></h1>
 				<p class="fv-tag"><?= $name ?></p>
@@ -138,7 +138,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				部品は、１つの機械に何百と使われています。とても数が多いので、作成した後のチェックが欠かせません。
 			</p>
 			<div class="images">
-				<img src="../introduce1.jpg" alt="" class="scene">
+				<img src="../contents03.jpg" alt="" class="scene">
 			</div>
 			<p>
 			図面に漏れがないか、数字や形状に矛盾がないかチェックする。そうした細かい確認が、現場でのスムーズな組み立てや完成品の精度に直結しています。<br><br>
@@ -146,8 +146,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			機械科出身でなくても、新しいことにチャレンジをすることが好きな方、納得しながら理屈を理解して行動できる方は大歓迎です！
 			</p>
 			<div class="images">
-				<img src="../introduce1.jpg" alt="" class="scene">
-				<img src="../introduce1.jpg" alt="" class="scene">
+				<img src="cad01.jpg" alt="" class="scene">
+				<img src="cad02.jpg" alt="" class="scene">
 			</div>
 			<h3>
 				機械設計が初めてでも安心！
@@ -174,13 +174,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div class="image_area">
 					<ul class="slides">
 						<li>
-							<img src="gallery1.jpg" alt="">
+							<img src="cad03.jpg" alt="">
 						</li>
 						<li>
-							<img src="gallery2.jpg" alt="">
+							<img src="cad04.jpg" alt="">
 						</li>
 						<li>
-							<img src="gallery3.jpg" alt="">
+							<img src="cad05.jpg" alt="">
+						</li>
+						<li>
+							<img src="cad06.jpg" alt="">
+						</li>
+						<li>
+							<img src="cad07.jpg" alt="">
 						</li>
 					</ul>
 					<div class="button left_btn">&lt;</div>

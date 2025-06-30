@@ -26,8 +26,8 @@ $occupation = [
         'work' => ['349'],
         'fv_url' => 'job_planner/first_view.jpg',
         'latitude' => 36.36858,//緯度
-        'longitude' => 138.302658,//経度    
-        'MBTI' => '-nfp'
+        'longitude' => 138.302658,//経度
+        'MBTI' => '-sfj'
     ],
 ];
 
@@ -37,12 +37,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年 月  日（ ）  時  分～', 
+                'name' => '2025年 月  日（ ）  時  分～',
                 'date' => '2025-0 -  ',
                 'deadline' => '2025-0 -  ',//募集締切日
             ],
             [
-                'name' => '2025年 月  日（ ）  時  分～', 
+                'name' => '2025年 月  日（ ）  時  分～',
                 'date' => '2025-0 -  ',
                 'deadline' => '2025-0 -  ',//募集締切日
             ],
@@ -51,7 +51,6 @@ $visit = [
         'visit_img' =>'first_view.jpg',
         'content' => '店舗をご案内しながら、仕事内容について詳しくご説明致します。',
     ],
-    
 ];
 
 // 目次

@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県上田市真田町傍陽938',
     'homepage' => 'https://fine-f.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.456373,//緯度
-    'longitude' => 138.294950,//経度
+    'latitude' => 36.4563689,//緯度
+    'longitude' => 138.2950138,//経度
     'human' => [
     'image' => 'noguchi.png',
     'name' => '野口',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '熱く燃えろ！鋳造の世界で職人デビュー！',
         'work' => ['493','494'],
         'fv_url' => 'job_cyuzo/firstview.jpg',
-        'latitude' => 36.456373,//緯度
-        'longitude' => 138.294950,//経度
-        'MBTI' => 'i--P',    
+        'latitude' => 36.4563689,//緯度
+        'longitude' => 138.2950138,//経度
+        'MBTI' => 'Is-j',
     ],
     'job_tanzo' => [
         'name' => '鍛造職人',
@@ -35,9 +35,9 @@ $occupation = [
         'catch_copy' => '実は奥が深い、迫力ある鍛造の世界',
         'work' => ['493','494'],
         'fv_url' => 'job_tanzo/firstview.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' => 'eN-P'
+        'latitude' => 36.4563689,//緯度
+        'longitude' => 138.2950138,//経度
+        'MBTI' => 'Is-j',
     ],
 ];
 

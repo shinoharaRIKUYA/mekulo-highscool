@@ -22,7 +22,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<?php //include $base . '../tracking.php'; ?>
+<?php include $base . '../tracking.php'; ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="<?= $highschool_base ?>highschool.css?v=2">
 <link rel="icon" href="<?= $base ?>mekulo-works-mark.png">
@@ -71,7 +71,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_area">
-	<img alt="" class="fv_image" src="firstview.jpg">
+	<img alt="" class="fv_image" src="first_view.jpg">
 	<hgroup>
 		<h1 class="catch"><?= $co['catch_copy'] ?></h1>
 		<p class="fv-tag"><?= INDUSTRIES[$co['industry'][0]] ?></p>
@@ -108,16 +108,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</p>
 	<div id="gallery">
 		<div class="gallery_window">
-			<img src="first.jpg" alt="" class="fs show">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs show">
+			<img src="contents03.jpg" alt="" class="sc">
+			<img src="gallery02.jpg" alt="" class="th">
+			<img src="job_cad/cad04.jpg" alt="" class="fo">
 		</div>
 		<div class="gallery_index">
-			<img src="first.jpg" alt="" class="fs">
-			<img src="second.jpg" alt="" class="sc">
-			<img src="third.jpg" alt="" class="th">
-			<img src="fourth.jpg" alt="" class="fo">
+			<img src="gallery01.jpg" alt="" class="fs">
+			<img src="contents03.jpg" alt="" class="sc">
+			<img src="gallery02.jpg" alt="" class="th">
+			<img src="job_cad/cad04.jpg" alt="" class="fo">
 		</div>
 	</div>
 	<h3>募集職種</h3>
@@ -155,7 +155,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		ルート設計株式会社では、産業用機械の設計図を作っています。
 	</p>
 	<div class="images">
-		<img src="introduce2.jpg" class="scene" alt="">
+		<img src="contents01.jpg" class="scene" alt="">
 	</div>
 	<p>
 		設計は、機械の目的や機能、構造、使う素材まで、一つひとつ論理的に組み立てていくしごとです。そのため、「構想」「基本」「詳細」と３段階に分けて設計していきます。<br>
@@ -170,7 +170,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		機械が正しく動くためには、機械の構造と内部のプログラムが密接に連携している必要があります。だから当社では、「機械設計」と「制御設計」の両方を担います。
 	</p>
 	<div class="images">
-		<img src="introduce2.jpg" class="scene" alt="">
+		<img src="contents02.jpg" class="scene" alt="">
 	</div>
 	<p>
 		機械のしくみを決める人と、機械の動かし方を設計する人が、同じ目線でやりとりできる。それが、私たちの強みです。<br>
@@ -184,7 +184,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		機械を構成する何百という部品を、ひとつずつ図面に起こし、正確に寸法を記載します。
 	</p>
 	<div class="images">
-		<img src="introduce2.jpg" class="scene" alt="">
+		<img src="contents03.jpg" class="scene" alt="">
 	</div>
 	<p>
 		すべての部品には“理由”があります。<br>
@@ -199,6 +199,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		「なぜ？」を見過ごさず、自分で調べ、仮説を立て、構造を理解していく。その姿勢こそが、優れた設計者の土台になります。<br>
 		ルート設計では、設計未経験者でも安心して仕事を始められるように、1か月間の研修期間を用意しています。設計図の読み方やルール、チェック方法まで、会長自らが丁寧に教えてくださいます。
 	</p>
+	<div class="images">
+		<img src="contents04.jpg" class="scene" alt="">
+		<img src="contents05.jpg" class="scene" alt="">
+	</div>
 </section>
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
@@ -206,7 +210,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="seikan.jpg" alt="">
+					<img src="busi01.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>部品図</h3>
@@ -218,7 +222,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="thumbnails">
 			<div class="thumbnail">
 				<div class="inner">
-					<img src="gomen.jpg" alt="">
+					<img src="busi02.jpg" alt="">
 				</div>
 				<hgroup>
 					<h3>制御図</h3>
@@ -338,7 +342,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -370,7 +374,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<div>
 			<dt>本社所在地</dt>
 			<dd>〒<?= $co['post_code']?><br><?= $co['address']?><br>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3217.3819080239614!2d138.46759807650105!3d36.254505972407784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dcb5aeb822259%3A0xbdfb0d798128c345!2z5YaF6Jek5bel5qWt5omA!5e0!3m2!1sja!2sjp!4v1738231241938!5m2!1sja!2sjp" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3212.9661417819393!2d138.233056!3d36.361599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601da3565e35beab%3A0x58023ab3a0a3db9!2z44Or44O844OI6Kit6KiI!5e0!3m2!1sja!2sjp!4v1751283019731!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</dd>
 		</div>
 		<div>
@@ -388,7 +392,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<div class="pre_con">
 		<h3></h3>
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="boss_sp.jpg" alt="">
 			<figcaption><span class="name">大井雄司</span></figcaption>
 		</figure>
 		<p>
@@ -448,16 +452,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_kinzoku/">
 				<figure>
-					<img src="<?= $company_base ?>job_kinzoku/firstview.jpg" alt="">
-					<figcaption>金属加工</figcaption>
+					<img src="<?= $company_base ?>job_cad/first_view.jpg" alt="">
+					<figcaption>機械CADオペレーター</figcaption>
 				</figure>
 			</a>
 		</li>
 		<li>
-			<a href="<?= $company_base ?>job_yousetsu/">
+			<a href="<?= $company_base ?>job_seigyo/">
 				<figure>
-					<img src="firstview.jpg" alt="">
-					<figcaption>溶接作業</figcaption>
+					<img src="first_view.jpg" alt="">
+					<figcaption>機械設計・制御設計</figcaption>
 				</figure>
 			</a>
 		</li>
@@ -469,5 +473,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../tab.js"></script>
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>
