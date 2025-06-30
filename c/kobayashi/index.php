@@ -97,7 +97,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		足場は、大工さんや塗装屋さんなどの職人さんたちが、安全に作業をするための“土台”です。高い場所で安心して作業ができるのは、しっかりとした足場があるからです。<br>
 		足場工事と聞くと、「力仕事」のイメージが強いかもしれません。確かに、足場に使う資材は1枚15キロほどあり、ときにはそれを何枚も運びます。<br>
 		でも、それだけではありません。<br>
-		足場は、そこで作業する大工さんや塗装屋さんなど、多くの職人さんの命を預かる土台。「まあいいか」「このくらい大丈夫でしょ」という気のゆるみが、大きな事故につながってしまうこともあります。<br>
+		足場は、そこで作業する数多くの職人さんの命を預かる土台。「まあいいか」「このくらい大丈夫でしょ」という気のゆるみが、大きな事故につながってしまうこともあります。<br>
 		だからこそ、私たちは丁寧に、安全に、正確に組み上げることを大切にしています。現場でしっかり仕事をすれば、「また頼むよ」「次もお願いね」と声をかけてもらえる。そんな信頼の積み重ねが、私たちの原動力です。<br>
 	</p>
 	<div id="gallery">
@@ -171,8 +171,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		夏の暑い日には「顔赤いけど大丈夫か？無理するなよ」と仲間を気遣う声が自然と出るのも、現場の空気の良さを物語っています。<br>
 		また、安全教育のオンライン講習も定期的に受けながら、「人の命を守る足場」を作っているという自覚をもって、日々の仕事に向き合っています。
 	</p>
-	<div class="images grid-img">
-		<img src="introduce8.jpg" class="scene" alt="">
+	<div class="images">
 		<img src="introduce9.jpg" class="scene" alt="">
 		<img src="introduce10.jpg" class="scene" alt="">
 	</div>
@@ -180,8 +179,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		本気で育てる現場
 	</h3>
 	<p>
-		小林社長は18歳でこの仕事を始め、21歳で独立。25年かけて、今のKOBAYASHIをつくり上げてきました。<br>
-		//使用写真：社長
+		小林社長は18歳でこの仕事を始め、21歳で独立。25年かけて、今のKOBAYASHIをつくり上げてきました。
+	</p>
+	<div class="images">
+		<img src="third.jpg" class="scene" alt="">
+	</div>
+	<p>
 		「厳しいと思われるかもしれないが、本気で教える。どこへ行っても通用するような一人前に育てたい」
 		そう話す姿からは、現場への真剣な想いと、人を育てる覚悟が伝わってきます。<br>
 		実際、現場は決してラクな仕事ではありません。夏は暑いし冬は寒い。重い資材もあるし、集中力も必要。それでも、誰かが“本気で向き合ってくれる場所”は、そう多くありません。<br>
@@ -320,7 +323,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>1</span>日</p>
+			<p class="num"><span>5</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -397,7 +400,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -444,7 +447,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="shacyo.jpg" alt="">
 			<figcaption><span class="name">小林旭洋</span></figcaption>
 		</figure>
 		<p>
@@ -742,7 +745,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>1日</dd>
+					<dd>5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>

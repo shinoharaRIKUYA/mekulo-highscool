@@ -68,29 +68,30 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../firstview.jpg">
+	<img alt="" class="fv_image" src="fv.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span></p>
+	<p class="catchcopy"><span>どんな資材を使って組み立てる？</span></p>
 	<p class="cont">
-		
+		KOBAYASHIの応募前見学では、仕事内容について詳しくご説明いたします。
+		資材置き場にある事務所での説明になりますので、足場に使う資材はどんな種類があるのか、記事に出てきた「サブロク」はどれか、実際に見ることができるかもしれません。<br>
+		気になったことは、どんどん質問してくださいね。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 14時00分～</li>
-			<li>2025年8月5日（火） 14時00分～</li>
+			<li>2025年〇月〇日（） ー時ー分～</li>
+			<li>2025年〇月〇日（） ー時ー分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>10分程度</span></li>
-			<li>工場見学<span>30分程度</span></li>
+			<li>会社説明<span>〇分程度</span></li>
 		</ul>
 	</div>
 	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
