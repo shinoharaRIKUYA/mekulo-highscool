@@ -362,7 +362,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>就業場所</dt>
 					<dd>〒389-0603<br>
-					長野県埴科郡坂城町大字中条657-1</dd>
+					長野県埴科郡坂城町大字南条657-1</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
