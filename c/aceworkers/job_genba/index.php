@@ -235,7 +235,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<ul class="Lightbox">
 		<li class="thumbnails">
 			<div class="thumbnail">
-				<img src="employee1.jpg" alt="">
+				<img src="hsan.jpg" alt="">
 				<hgroup>
 					<h3>Hさん</h3>
 					<p>
