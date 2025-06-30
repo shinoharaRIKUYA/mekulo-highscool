@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県千曲市大字粟佐1555',
     'homepage' => 'https://www.aceworkers.co.jp/ ',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.5362352,//緯度
-    'longitude' => 138.1218597,//経度
+    'latitude' => 36.3694332,//緯度
+    'longitude' => 138.2142701,//経度
     'human' => [
         'image' => 'ichikawa.png',
         'name' => '市川 祐己',
@@ -25,8 +25,8 @@ $occupation = [
         'catch_copy' => '塗装と防水、二刀流の職人集団 ',
         'work' => ['669'],
         'image' => 'firstview.jpg',
-        'latitude' => 36.5362352,//緯度
-        'longitude' => 138.1218597,//経度
+        'latitude' => 36.3694332,//緯度
+        'longitude' => 138.2142701,//経度    
         'MBTI' =>  'isfp',
     ],
 ];
@@ -37,12 +37,12 @@ $visit = [
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '2025年8月4日（月）10時00分～',
+                'name' => '2025年8月4日（月）10時00分～', 
                 'date' => '2025-08-04',
                 'deadline' => '2025-08-1',//募集締切日
             ],
             [
-                'name' => '2025年8月5日（火）10時00分～',
+                'name' => '2025年8月5日（火）10時00分～', 
                 'date' => '2025-08-05',
                 'deadline' => '2025-08-02',//募集締切日
             ],

@@ -9,8 +9,8 @@ $co = [
     'adress' => '長野県上田市下之条42',
     'homepage' => 'https://p-shinanoki.co.jp/',
     'logo_filename' => 'logo.png',
-    'latitude' => 36.3970269,//緯度
-    'longitude' => 138.2196892,//経度
+    'latitude' => 36.39712976,//緯度
+    'longitude' => 138.21962598,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,8 +25,8 @@ $occupation = [
         'catch-copy' => '機械のスピードに合わせて、人の手で完璧に仕上げる',
         'work' => '食品製造',
         'fv_url' => 'job_food-manufacturing/firstview.jpg',
-        'latitude' => 36.3970269,//緯度
-        'longitude' => 138.2196892,//経度
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
         'MBTI' => '',
     ],
     'job_machine-operator' => [
@@ -35,8 +35,8 @@ $occupation = [
         'catch-copy' => '細かい調整が、不良品を減らすカギ',
         'work' => '機械操作',
         'fv_url' => 'job_machine-operator/firstview.jpg',
-        'latitude' => 36.3970269,//緯度
-        'longitude' => 138.2196892,//経度
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
         'MBTI' => '',
 
     ],
@@ -46,8 +46,8 @@ $occupation = [
         'catch-copy' => 'たった数グラムのかやく、一つのミスも見逃さない！',
         'work' => '品質管理',
         'fv_url' => 'job_quality-control/firstview.jpg',
-        'latitude' => 36.3970269,//緯度
-        'longitude' => 138.2196892,//経度
+        'latitude' => 36.39712976,//緯度
+        'longitude' => 138.21962598,//経度
         'MBTI' => '',
     ],
 ];
@@ -55,7 +55,7 @@ $occupation = [
 // 応募前見学
 $visit = [
      [
-        'about' => '応募前見学',//応募前見学、オープンファクトリーなど
+        'about' => '応募前見学',//応募前見学、オープンファクトリーなど      
         'date' => '2025年7月30日（水） 10時30分～12時00分<br>2025年8月6日（水）10時30分～12時00分<br>その他、ご連絡いただければいつでも見学可能です。お気軽にお問い合わせください。',//開催日時（表示形式）
         'date_num' => '2025-07-30',//開催日
         'deadline' => '2025-07-23',//募集締め切り日
