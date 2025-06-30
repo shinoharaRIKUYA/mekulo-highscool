@@ -1,16 +1,16 @@
 <?php
 $co = [
     'slug' => 'root-sekkei',
-    'image' => 'office.jpg',
+    'image' => 'company.jpg',
     'company_name' => 'ルート設計 株式会社',
     'catch_copy' => '設計図は、思考と確実な作業の集大成',
     'industry' => ['E'],
     'post_code' => '386-1211',
     'address' => '長野県上田市下之郷813-83',
     'homepage' => 'https://root-design.securesite.jp/',
-    'logo_filename' => 'logo.svg',
-    'latitude' => 36.36158694,//緯度
-    'longitude' => 138.23307618,//経度
+    'logo_filename' => 'root-logo.svg',
+    'latitude' => 36.36159808,//緯度
+    'longitude' => 138.23305673,//経度
     'human' => [
         'image' => 'ichikawa.png',
         'name' => '市川 祐己',
@@ -24,19 +24,19 @@ $occupation = [
         'url' => 'job_cad',
         'catch_copy' => '設計者を支えながら自らも成長していく、頭脳系サポーター！',
         'work' => ['591'],
-        'fv_url' => 'job_kinzoku/firstview.jpg',
-        'latitude' => 36.36158694,//緯度
-        'longitude' => 138.23307618,//経度
-        'MBTI' => '',
+        'fv_url' => 'job_cad/first_view.jpg',
+        'latitude' => 36.36159808,//緯度
+        'longitude' => 138.23305673,//経度
+        'MBTI' => '',    
     ],
     'job_seigyo' => [
         'name' => '機械設計・制御設計',
         'url' => 'job_seigyo',
         'catch_copy' => '「カタチ」を生み出すのが機械設計、「うごき」を命じるのが制御設計！',
         'work' => ['083'],
-        'fv_url' => 'seikan.jpg',
-        'latitude' => 36.36158694,//緯度
-        'longitude' => 138.23307618,//経度
+        'fv_url' => 'first_view.jpg',
+        'latitude' => 36.36159808,//緯度
+        'longitude' => 138.23305673,//経度  
         'MBTI' => ''
     ],
 ];
