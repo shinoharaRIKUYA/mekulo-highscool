@@ -71,22 +71,17 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span><br>
-		<span></span></p>
-	<p class="cont">
-	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li></li>
-			<li></li>
+			<li>2025年8月4日(金)10時30分～12時00分</li>
+			<li>2025年8月20日(水)10時30分～12時00分</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span></span></li>
-			<li>工場見学<span></span></li>
+			<li>工場見学<span>90分</span></li>
 		</ul>
 	</div>
 	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
@@ -101,5 +96,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../tab.js"></script>
 <script src="../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>
