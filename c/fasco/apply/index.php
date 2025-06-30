@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '株式会社ファスコナガノの応募前見学情報ページです。';//メタディスクリプションをここに挿入 
+$description = '株式会社ファスコナガノの応募前見学ページです。';//メタディスクリプションをここに挿入 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -64,23 +64,26 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <div class="content_area">
 <main>
 <div class="fv_wr">
-	<img alt="" class="fv_image" src="../introduce12.jpg">
+	<img alt="" class="fv_image" src="firstview.jpg">
 	<div class="apply">
 		<h1 class="catch"><?= $co['company_name'] ?></h1>
 		<p class="tag">応募前見学ページ</p>
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span></p>
+	<p class="catchcopy"><span>間近で見学してみよう！</span></p>
 	<p class="cont">
-		
+		ファスコナガノの応募前見学では、実際の作業現場を間近で見ることができます。<br>
+		機械の動きや先輩たちの作業風景を見ながら、「これって何してるの？」「どうやって動いてるの？」など、気になることがあればどんどん質問してください！<br>
+		見学の最後には、キーホルダーやフック作りの体験もご用意しています。<br>
+		自分の手で金属を加工してみると、ものづくりの楽しさや、働くイメージがぐっと身近に感じられるはずです。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年8月5日（火）13時30分～</li>
-			<li>2025年8月6日（水）13時30分～</li>
-			<li>2025年8月7日（木）13時30分～</li>
+			<li>2025年8月1日（金）10時00分～</li>
+			<li>2025年8月4日（月）13時30分～</li>
+			<li>別日でも対応可能です。ご相談ください。</li>
 		</ul>
 	</div>
 	<div class="flow">
@@ -91,7 +94,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>体験<span>60分</span></li>
 		</ul>
 	</div>
-	<a href="" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">

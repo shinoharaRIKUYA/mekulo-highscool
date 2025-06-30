@@ -25,12 +25,8 @@ foreach ($occupation as $key => $job) {
 // ページのメタデータ
 $title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-
 $description = $meta_desc;
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -46,7 +42,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -83,7 +78,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 }
 </script>
 </head>
-<body class="newgrads highschool">
+<body class="newgrads highschool sohfu">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
@@ -130,7 +125,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>仕事内容</h2>
 	<h3>ダクト設置のプロ</h3>
 	<p>
-		ダクト職人は、県内に約300人しかいない珍しい仕事です。<br>
+		ダクト職人は、県内に約200人しかいない珍しい仕事です。<br>
 		一枚の金属板を筒の形に組み立てて、それを現場で繋げていく。簡単そうに聞こえますが、現場ごとにダクトの形も設置方法も違い、同じ作業はひとつもありません。<br>
 		設計図を見ながらチームで考えて、試行錯誤しながら形にしていく。「知らない」「わからない」ことにワクワクできる人なら、きっとこの仕事を楽しめるはずです。
 	</p>
@@ -270,15 +265,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd>上田駅から上田バス菅平線（渋沢線）湯の平バス停から徒歩5分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>会社内に喫煙室を設けています。</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -297,11 +292,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>月給</dd>
+					<dd>月給190,000円</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>22.5日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -309,7 +304,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd></dd>
+					<dd>190,000円</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -325,7 +320,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>210,000円</dd>
+					<dd>190,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -337,7 +332,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>-</dd>
+					<dd>月末</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -356,50 +351,50 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時00分〜17時00分</dd>
+					<dd>8時30分〜17時30分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均7時間</dd>
+					<dd>月平均6時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
+					<dd>日曜・土曜隔週</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日95日（2025年度計画）</dd>
+					<dd>当社カレンダーによる</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+					<dd>雇用保険、労災保険、健康保険、厚生年金保険</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>-</dd>
+					<dd>あり（勤続3年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd>あり（60歳）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
-					<dd>-</dd>
+					<dd>60歳</dd>
 				</div>
 				<div>
 					<dt>再雇用制度</dt>
-					<dd>-</dd>
+					<dd>あり（70歳まで）</dd>
 				</div>
 				<div>
 					<dt>勤務延長</dt>
-					<dd>-</dd>
+					<dd>なし</dd>
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
@@ -429,12 +424,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						17年
+						17.6年
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>44歳</dd>
+					<dd>44.5歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
@@ -445,8 +440,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>
 						〇雇入時教育<br>
 						〇特別教育<br>
-						〇技能講習<br>
-						玉掛け、高所作業車、など
+						〇技能講習（玉掛け、高所作業車　など）
 					</dd>
 				</div>
 				<div>
@@ -466,15 +460,18 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>1級建築板金（ダクト鈑金）技能士（実務経験7年以上）</dd>
+					<dd>
+						1級建築板金（ダクト鈑金）<br>
+						技能士（実務経験7年以上）
+					</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>7時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>19.5日</dd>
+					<dd>15.1日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -486,7 +483,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>50%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -494,7 +491,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>管工事業</dd>
+					<dd>現場作業員</dd>
 				</div>
 			</dl>
 		</div>
@@ -503,15 +500,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						2025年7月29日（火） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年7月31日（木） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年8月7日（木） 10時00分～、<span class="br">13時30分～</span><br>
-						2025年8月21日（木） 10時00分～、<span class="br">13時30分～</span>
+						2025年7月29日（火） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年7月31日（木） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年8月7日（木） 10時30分～、<span class="br">13時30分～</span><br>
+						2025年8月21日（木） 10時30分～、<span class="br">13時30分～</span>
 					</dd>
 				</div>
 				<div>
@@ -520,17 +517,16 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd>なし</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後5日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
-						
+						金子 慎也
 					</dd>
 				</div>
 			</dl>

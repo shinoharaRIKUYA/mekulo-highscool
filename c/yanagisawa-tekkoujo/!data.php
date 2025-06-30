@@ -4,7 +4,7 @@ $co = [
     'image' => 'company.jpg',
     'company_name' => '株式会社 柳澤鐵工所',
     'catch_copy' => '建物を支える“鉄骨”、作っています！',
-    'industry' => ['E','A'],
+    'industry' => ['E'],
     'post_code' => '385-0051',
     'address' => '長野県佐久市中込3400-7',
     'homepage' => 'https://yanatetu.com/',
@@ -22,9 +22,9 @@ $occupation = [
     'job_seizou' => [
         'name' => '鉄骨製造職',
         'url' => 'job_seizou',
-        'catch-copy' => '図面を形に！建物の“骨組み”を作る仕事',
+        'catch_copy' => '図面を形に！建物の“骨組み”を作る仕事',
         'work' => ['493','494'],
-        'fv_url' => 'job_seizou/firstview.jpg',
+        'image' => 'job_seizou/firstview.jpg',
         'latitude' => 36.253712,//緯度
         'longitude' => 138.4726,//経度    
         'MBTI' => 'istp',    
@@ -32,9 +32,9 @@ $occupation = [
     'job_sekkei' => [
         'name' => '鉄骨設計職',
         'url' => 'job_sekkei',
-        'catch-copy' => '図面を描くだけじゃない！とことん考えて、物事を組み立てる',
+        'catch_copy' => '図面を描くだけじゃない！とことん考えて、物事を組み立てる',
         'work' => ['493','494'],
-        'fv_url' => 'job_sekkei/firstview.jpg',
+        'image' => 'job_sekkei/firstview.jpg',
         'latitude' => 36.253712,//緯度
         'longitude' => 138.4726,//経度    
         'MBTI' => 'intj',
@@ -59,7 +59,7 @@ $visit = [
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '',
+        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],
     
 ];

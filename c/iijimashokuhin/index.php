@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -427,7 +428,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.iijimashokuhin.com/">https://www.iijimashokuhin.com/</a></dd>
+			<dd><a href="https://www.iijimashokuhin.com/" target="<?= $co['slug'] ?>">https://www.iijimashokuhin.com/</a></dd>
 		</div>
 	</dl>
 </section>

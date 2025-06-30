@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '株式会社アルファーシステムズの応募前見学情報ページです。';//メタディスクリプションをここに挿入
+$description = '株式会社アルファーシステムズの応募前見学ページです。';//メタディスクリプションをここに挿入
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -89,7 +89,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>工場見学<span>60分</span></li>
 		</ul>
 	</div>
-	<a href="" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">

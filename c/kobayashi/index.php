@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
-$description = '';//メタディスクリプションの追加 
-
+$description = '株式会社KOBAYASHIは、長野県千曲市を拠点に、安全・丁寧・正確な足場工事を提供。住宅からビルまで幅広い現場に対応し、若手職人の育成にも本気で取り組んでいます。';//メタディスクリプションの追加 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -89,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -100,7 +97,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		足場は、大工さんや塗装屋さんなどの職人さんたちが、安全に作業をするための“土台”です。高い場所で安心して作業ができるのは、しっかりとした足場があるからです。<br>
 		足場工事と聞くと、「力仕事」のイメージが強いかもしれません。確かに、足場に使う資材は1枚15キロほどあり、ときにはそれを何枚も運びます。<br>
 		でも、それだけではありません。<br>
-		足場は、そこで作業する大工さんや塗装屋さんなど、多くの職人さんの命を預かる土台。「まあいいか」「このくらい大丈夫でしょ」という気のゆるみが、大きな事故につながってしまうこともあります。<br>
+		足場は、そこで作業する数多くの職人さんの命を預かる土台。「まあいいか」「このくらい大丈夫でしょ」という気のゆるみが、大きな事故につながってしまうこともあります。<br>
 		だからこそ、私たちは丁寧に、安全に、正確に組み上げることを大切にしています。現場でしっかり仕事をすれば、「また頼むよ」「次もお願いね」と声をかけてもらえる。そんな信頼の積み重ねが、私たちの原動力です。<br>
 	</p>
 	<div id="gallery">
@@ -174,8 +171,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		夏の暑い日には「顔赤いけど大丈夫か？無理するなよ」と仲間を気遣う声が自然と出るのも、現場の空気の良さを物語っています。<br>
 		また、安全教育のオンライン講習も定期的に受けながら、「人の命を守る足場」を作っているという自覚をもって、日々の仕事に向き合っています。
 	</p>
-	<div class="images grid-img">
-		<img src="introduce8.jpg" class="scene" alt="">
+	<div class="images">
 		<img src="introduce9.jpg" class="scene" alt="">
 		<img src="introduce10.jpg" class="scene" alt="">
 	</div>
@@ -183,8 +179,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		本気で育てる現場
 	</h3>
 	<p>
-		小林社長は18歳でこの仕事を始め、21歳で独立。25年かけて、今のKOBAYASHIをつくり上げてきました。<br>
-		//使用写真：社長
+		小林社長は18歳でこの仕事を始め、21歳で独立。25年かけて、今のKOBAYASHIをつくり上げてきました。
+	</p>
+	<div class="images">
+		<img src="third.jpg" class="scene" alt="">
+	</div>
+	<p>
 		「厳しいと思われるかもしれないが、本気で教える。どこへ行っても通用するような一人前に育てたい」
 		そう話す姿からは、現場への真剣な想いと、人を育てる覚悟が伝わってきます。<br>
 		実際、現場は決してラクな仕事ではありません。夏は暑いし冬は寒い。重い資材もあるし、集中力も必要。それでも、誰かが“本気で向き合ってくれる場所”は、そう多くありません。<br>
@@ -216,6 +216,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		基本の作業に慣れたら、お客様との打ち合わせや現場のまとめ役にも挑戦できるようになります。時間をかけてじっくり経験を積んでいくことで、10年後には現場を任される“一人前の職人”になれます。
 	</p>
 </section>
+<?php /*
 <section id="business" class="content">
 	<h2>私たちのビジネス</h2>
 	<ul class="Lightbox">
@@ -291,6 +292,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 	</ul>
 </section>
+*/ ?>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
 	<p class="remark">（2025年3月現在）</p>
@@ -321,7 +323,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>1</span>日</p>
+			<p class="num"><span>5</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -342,7 +344,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
 						[ 'value' => 0.01, 'caption' => '', 'color' => '#2378C7'],
-						[ 'value' => 100, 'caption' => '中途10', 'color' => '#F34444'],
+						[ 'value' => 100, 'caption' => '中途', 'color' => '#F34444'],
 					]); ?>
 				</svg>
 			</div>
@@ -352,8 +354,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>男女比</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 90, 'caption' => '男性：9', 'color' => '#0062B5'],
-						[ 'value' => 10, 'caption' => '女性：1', 'color' => '#FF6E7E'],
+						[ 'value' => 90, 'caption' => '男性', 'color' => '#0062B5'],
+						[ 'value' => 10, 'caption' => '女性', 'color' => '#FF6E7E'],
 					]); ?>
 				</svg>
 			</div>
@@ -377,8 +379,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 60, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 40, 'caption' => '自転車', 'color' => '#D04255'],
+						[ 'value' => 60, 'caption' => "車・バイク60%", 'color' => '#E06A3A'],
+						[ 'value' => 40, 'caption' => '自転車40%', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -388,8 +390,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 60, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 40, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 60, 'caption' => "長野県内60%", 'color' => '#B2CF3E'],
+							[ 'value' => 40, 'caption' => '県外40%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -398,7 +400,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="office.jpg" alt="" class="scene">
+	<img src="company.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -437,7 +439,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.kobayashi-k-k.com">https://www.kobayashi-k-k.com</a></dd>
+			<dd><a href="https://www.kobayashi-k-k.com" target="<?= $co['slug'] ?>">https://www.kobayashi-k-k.com</a></dd>
 		</div>
 	</dl>
 </section>
@@ -445,7 +447,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
 		<figure class="portrait">
-			<img src="president_p.jpg" alt="">
+			<img src="shacyo.jpg" alt="">
 			<figcaption><span class="name">小林旭洋</span></figcaption>
 		</figure>
 		<p>
@@ -568,7 +570,7 @@ id="recruitment_requirements">
 			<dl>
 				<div>
 					<dt>賃金形態</dt>
-					<dd>その他</dd>
+					<dd>その他（日給月給）</dd>
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
@@ -576,11 +578,11 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
-					<dd>-</dd>
+					<dd>円</dd>
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>10,000～15,000円</dd>
+					<dd>10,000～15,000円/日</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -592,11 +594,11 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>固定残業代</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>-</dd>
+					<dd>円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -612,7 +614,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>-</dd>
+					<dd></dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -743,7 +745,7 @@ id="recruitment_requirements">
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>1日</dd>
+					<dd>5日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -777,7 +779,8 @@ id="recruitment_requirements">
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						あり （随時）
+						2025年7月29日（火）14時00分～<br>
+						2025年8月5日（火）14時00分～
 					</dd>
 				</div>
 				<div>

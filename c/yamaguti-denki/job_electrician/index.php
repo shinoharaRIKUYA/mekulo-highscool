@@ -2,18 +2,29 @@
 $base = '../../../../';
 $highschool_base = '../../../';
 $company_base = '../';
-
-$cur_page = 'job_electrician';
-$job_title = '電気工事士';
-
 include_once $company_base . '!data.php';
+$current_url = $_SERVER['REQUEST_URI']; //現在のページのURLを表示
+$last_segment = basename($current_url);//現在のURLから末尾の職種URLの綴りを取得
+$catch_copy = $occupation[$last_segment]['catch_copy'] ?? '職種が見つかりません';//値があるか確認
+$name = $occupation[$last_segment]['name'] ?? '不明な職種';
+$meta_keywords = $occupation[$last_segment]['keyword'] ?? '';
+$meta_desc = $occupation[$last_segment]['description'] ?? '';
 
+
+// 現在のURLに一致しない職種を探す
+$next_job = null; // 初期値
+foreach ($occupation as $key => $job) {
+    if ($key !== $last_segment) {
+        $next_job = $job; // 最初に見つかった異なる職種をセット
+        break; // ループを終了
+    }
+}
 //========================================
 // ページのメタデータ
-$title = $job_title . ' - ' . $co['company_name'] . 'の新卒求人情報';
+$title = $name . ' - ' . $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '';//TBD
-$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $cur_page . '/';
+$description = $meta_desc;
+$canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/' . $last_segment . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -59,136 +70,136 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 4,
-		"name": "<?= $job_title ?>",
-		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/<?= $cur_page ?>/"
+		"name": "<?= $name ?>",
+		"item": "https://works.mekulo.jp/hs/<?= $co['slug'] ?>/<?= $last_segment ?>/"
 	}]
 }
 </script>
 </head>
-<body class="highschool">
+<body class="newgrads highschool">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 	<main>
-		<div class="fv_area">
-			<img alt="" class="fv_image" src="firstview.jpg">
-			<hgroup>
-				<h1 class="catch">
-					電気工事士は名探偵！？
-				</h1>
-				<p class="fv-tag"><?= $job_title ?></p>
-			</hgroup>
-			<a href="<?= $company_base ?>job_yousetsu/" class="btn">次の職種を見る</a>
+	<div class="fv_area">
+    <img alt="" class="fv_image" src="firstview.jpg">
+    <hgroup>
+        <h1 class="catch"><?= $catch_copy ?></h1>
+        <p class="fv-tag"><?= $name ?></p>
+    </hgroup>
+    <?php if (count($occupation) >= 2): // 配列数が2以上か確認し、無い場合は非表示にする ?>
+        <a href="<?= $company_base . $next_job['url'] ?>/" class="btn">次の職種を見る</a>
+    <?php endif; ?>
+</div>
+<section class="page-nav">
+	<a href="#job_detail">
+		<div class="btn">
+			<img src="<?= $highschool_base ?>icon-1.png">
+			<p>仕事内容</p>
 		</div>
-		<section class="page-nav">
-			<a href="#job_detail">
-				<div class="btn">
-					<img src="<?= $highschool_base ?>icon-1.png">
-					<p>仕事内容</p>
-				</div>
-				<div class="btn-af">
-					<span></span>
-				</div>
-			</a>
-			<a href="#employee_introduction">
-				<div class="btn">
-					<img src="<?= $highschool_base ?>icon-2.png">
-					<p>社員紹介</p>
-				</div>
-				<div class="btn-af">
-					<span></span>
-				</div>
-			</a>
-			<a href="#recruitment_requirements">
-				<div class="btn">
-					<img src="<?= $highschool_base ?>icon-3.png">
-					<p>募集要項</p>
-				</div>
-				<div class="btn-af">
-					<span></span>
-				</div>
-			</a>
-		</section>
-		<section class="g" id="job_detail">
-			<h2>仕事内容</h2>
-			<h3>
-				ただの作業じゃない！電気工事士の職人技
-			</h3>
-			<p>
-				電気工事とは、電気が安全に使えるように配線や設備を整える専門技術の仕事です。照明やコンセントなど建物の中にある電気設備を設置し、点検したり、壊れたところを修理したりするのが主な仕事です。
-			</p>
-			<div class="images">
-				<img src="../gallery1.jpg" alt="" class="scene">
-			</div>
-			<p>
-				当社で一番多い相談は、「電気がつかなくなった」というもの。<br>
-				でも、いきなり現場で作業を始めるわけではありません。まずは事前調査を行い、作業計画を立ててから、チームで現場へ向かいます。
-			</p>
-			<div class="images">
-				<img src="contents02.jpg" alt="" class="scene">
-			</div>
-			<p>
-				事前調査では、テスター(電圧計)という機械を使って、建物の外から家の中まで、どこまで電気が通っているかを調べます。<br>
-				例えば、電気メーター、分電盤、コンセントなどいろいろなポイントで測定して、どこに問題があるかを探っていきます。
-			</p>
-			<div class="images">
-				<img src=".jpg" alt="" class="scene">
-			</div>
-			<p>
-				調査が終わったら、社内で図面や資料を確認し、ケーブルの加工や必要な工具の積み込みを行います。ケーブルの加工では、ケーブルカッターやニッパーでケーブルを必要な長さに切断したり、圧着工具で圧着端子を取り付けたりします。
-			</p>
-			<div class="images">
-				<img src="contents04.jpg" alt="" class="scene">
-				<img src="contents05.jpg" alt="" class="scene">
-			</div>
-			<p>
-				基本的な工具は車に入っているので、現場に向かうときに特殊なものだけ積み込みます。
-			</p>
-			<div class="images glid-images">
-				<img src="contents06.jpg" alt="" class="scene">
-				<img src="contents07.jpg" alt="" class="scene">
-				<img src="contents08.jpg" alt="" class="scene">
-			</div>
-			<p>
-				現場に到着したら、作業内容や役割、安全を確認してから工事に取り掛かります。1人で集中して作業を行うこともあれば、チームで協力して作業を進めることも。大きい分電盤や重い電線を設置するときは、2～3人のチームで工事を行います。
-			</p>
-			<div class="images">
-				<img src="../gallery3.jpg" alt="" class="scene">
-				<img src="contents10.jpg" alt="" class="scene">
-			</div>
-			<p>
-				私たちの仕事は毎日変わります。ある日は一般住宅の電気の増設工事、ある日は街灯の取り換えなど、全く違う作業を行うこともあります。
-			</p>
-			<div class="images">
-				<img src="contents11.jpg" alt="" class="scene">
-				<img src="contents12.jpg" alt="" class="scene">
-			</div>
-			<p>
-				また、当社では民間工事がほとんどで、お客様と直接やり取りをする機会があります。その中で「助かりました」「ありがとう」と感謝の言葉をいただくことも多く、自分の仕事が役に立っていることを実感できます。
-			</p>
-			<h3>
-				手厚い教育体制で確実にスキルアップ
-			</h3>
-			<p>
-				入社後は腰道具をつけてみて、仕事で使う工具の名前を覚えることから始めます。<br>
-				腰道具は意外と重いので、はじめてつけたときはびっくりするかもしれません。でも、職人らしくてかっこいいですよね。
-			</p>
-			<div class="images">
-				<img src="contents13.jpg" alt="" class="scene">
-			</div>
-			<p>
-				電気工事士が持っている工具は、ペンチ、ドライバー、電工ナイフ、ニッパー、プライヤー、ラチェットなど、人それぞれ。「これは工具箱の中」「これは腰道具に着けておきたい」など、自分で使いやすいように工夫しています。
-			</p>
-			<p>
-				工具の使い方を覚えたら先輩と一緒に現場に出て、こんな時はこの工具を使うなど、実際の作業を一つずつ学んでいきます。電気工事は適切に行えば安全な仕事ですが、不注意や準備不足から感電などのリスクにつながることもあります。そういった危険を防ぐためには、入念な準備と繰り返しの練習が欠かせません。安全に作業できるようになるまで、先輩がしっかりサポートします。
-			</p>
-			<div class="images">
-				<img src="contents14.jpg" alt="" class="scene">
-				<img src="contents15.jpg" alt="" class="scene">
-			</div>
-			<p>
-				基礎を身につけることで、自然と応用力も養われていきます。3年くらいで一通りの電気工事を経験でき、早い人ならその頃には、一人前の電気工事士として活躍できるでしょう。
-			</p>
-		</section>
+		<div class="btn-af">
+			<span></span>
+		</div>
+	</a>
+	<a href="#employee_introduction">
+		<div class="btn">
+			<img src="<?= $highschool_base ?>icon-2.png">
+			<p>社員紹介</p>
+		</div>
+		<div class="btn-af">
+			<span></span>
+		</div>
+	</a>
+	<a href="#recruitment_requirements">
+		<div class="btn">
+			<img src="<?= $highschool_base ?>icon-3.png">
+			<p>募集要項</p>
+		</div>
+		<div class="btn-af">
+			<span></span>
+		</div>
+	</a>
+</section>
+<section class="g" id="job_detail">
+	<h2>仕事内容</h2>
+	<h3>
+		ただの作業じゃない！電気工事士の職人技
+	</h3>
+	<p>
+		電気工事とは、電気が安全に使えるように配線や設備を整える専門技術の仕事です。照明やコンセントなど建物の中にある電気設備を設置し、点検したり、壊れたところを修理したりするのが主な仕事です。
+	</p>
+	<div class="images">
+		<img src="../gallery1.jpg" alt="" class="scene">
+	</div>
+	<p>
+		当社で一番多い相談は、「電気がつかなくなった」というもの。<br>
+		でも、いきなり現場で作業を始めるわけではありません。まずは事前調査を行い、作業計画を立ててから、チームで現場へ向かいます。
+	</p>
+	<div class="images">
+		<img src="contents02.jpg" alt="" class="scene">
+	</div>
+	<p>
+		事前調査では、テスター(電圧計)という機械を使って、建物の外から家の中まで、どこまで電気が通っているかを調べます。<br>
+		例えば、電気メーター、分電盤、コンセントなどいろいろなポイントで測定して、どこに問題があるかを探っていきます。
+	</p>
+	<div class="images">
+		<img src=".jpg" alt="" class="scene">
+	</div>
+	<p>
+		調査が終わったら、社内で図面や資料を確認し、ケーブルの加工や必要な工具の積み込みを行います。ケーブルの加工では、ケーブルカッターやニッパーでケーブルを必要な長さに切断したり、圧着工具で圧着端子を取り付けたりします。
+	</p>
+	<div class="images">
+		<img src="contents04.jpg" alt="" class="scene">
+		<img src="contents05.jpg" alt="" class="scene">
+	</div>
+	<p>
+		基本的な工具は車に入っているので、現場に向かうときに特殊なものだけ積み込みます。
+	</p>
+	<div class="images glid-images">
+		<img src="contents06.jpg" alt="" class="scene">
+		<img src="contents07.jpg" alt="" class="scene">
+		<img src="contents08.jpg" alt="" class="scene">
+	</div>
+	<p>
+		現場に到着したら、作業内容や役割、安全を確認してから工事に取り掛かります。1人で集中して作業を行うこともあれば、チームで協力して作業を進めることも。大きい分電盤や重い電線を設置するときは、2～3人のチームで工事を行います。
+	</p>
+	<div class="images">
+		<img src="../gallery3.jpg" alt="" class="scene">
+		<img src="contents10.jpg" alt="" class="scene">
+	</div>
+	<p>
+		私たちの仕事は毎日変わります。ある日は一般住宅の電気の増設工事、ある日は街灯の取り換えなど、全く違う作業を行うこともあります。
+	</p>
+	<div class="images">
+		<img src="contents11.jpg" alt="" class="scene">
+		<img src="contents12.jpg" alt="" class="scene">
+	</div>
+	<p>
+		また、当社では民間工事がほとんどで、お客様と直接やり取りをする機会があります。その中で「助かりました」「ありがとう」と感謝の言葉をいただくことも多く、自分の仕事が役に立っていることを実感できます。
+	</p>
+	<h3>
+		手厚い教育体制で確実にスキルアップ
+	</h3>
+	<p>
+		入社後は腰道具をつけてみて、仕事で使う工具の名前を覚えることから始めます。<br>
+		腰道具は意外と重いので、はじめてつけたときはびっくりするかもしれません。でも、職人らしくてかっこいいですよね。
+	</p>
+	<div class="images">
+		<img src="contents13.jpg" alt="" class="scene">
+	</div>
+	<p>
+		電気工事士が持っている工具は、ペンチ、ドライバー、電工ナイフ、ニッパー、プライヤー、ラチェットなど、人それぞれ。「これは工具箱の中」「これは腰道具に着けておきたい」など、自分で使いやすいように工夫しています。
+	</p>
+	<p>
+		工具の使い方を覚えたら先輩と一緒に現場に出て、こんな時はこの工具を使うなど、実際の作業を一つずつ学んでいきます。電気工事は適切に行えば安全な仕事ですが、不注意や準備不足から感電などのリスクにつながることもあります。そういった危険を防ぐためには、入念な準備と繰り返しの練習が欠かせません。安全に作業できるようになるまで、先輩がしっかりサポートします。
+	</p>
+	<div class="images">
+		<img src="contents14.jpg" alt="" class="scene">
+		<img src="contents15.jpg" alt="" class="scene">
+	</div>
+	<p>
+		基礎を身につけることで、自然と応用力も養われていきます。3年くらいで一通りの電気工事を経験でき、早い人ならその頃には、一人前の電気工事士として活躍できるでしょう。
+	</p>
+</section>
 		<section class="g">
 	<h2>写真で雰囲気を知る</h2>
 	<div class="NRGallery" data-width="640" data-height="480">
@@ -464,8 +475,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
-						〇資格取得支援<br>
-						業務に関係するの資格取得にかかる費用について、会社承認の上で、100%補助を行っています。
+						資格取得支援
 					</dd>
 				</div>
 				<div>

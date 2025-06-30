@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -396,7 +397,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>1.5</span>日</p>
+			<p class="num"><span>18</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -516,7 +517,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.fasco-n.co.jp">https://www.fasco-n.co.jp</a></dd>
+			<dd><a href="https://www.fasco-n.co.jp" target="<?= $co['slug'] ?>">https://www.fasco-n.co.jp</a></dd>
 		</div>
 	</dl>
 </section>
@@ -558,6 +559,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				別日でも対応可能です。ご相談ください。
             </dd>
         </div>
         <div>
@@ -649,7 +651,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>20日</dd>
+					<dd>21日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -689,7 +691,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>通勤手当</dt>
-					<dd>あり（月額10,000円）</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>昇給</dt>
@@ -697,7 +699,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（賞与月数1.7ヶ月分）</dd>
+					<dd>年2回（3.4ヶ月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -813,7 +815,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>1.5日</dd>
+					<dd>18日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -847,7 +849,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>応募前職場見学</dt>
 					<dd>
-						あり
+						2025年8月1日（金）10時00分～<br>
+						2025年8月4日（月）13時30分～<br>
+						別日でも対応可能です。ご相談ください。
 					</dd>
 				</div>
 				<div>

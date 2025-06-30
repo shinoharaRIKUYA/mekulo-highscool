@@ -85,6 +85,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li class="num-d"><a href="#numeric_data">数字で見る当社</a></li>
 		<li class="f-pre"><a href="#from_president">社長メッセージ</a></li>
 		<li class="com-in"><a href="#company_info">会社概要</a></li>
+		<li class="jobs"><a href="#recruitment_requirements">募集要項</a></li>
 	</ol>
 </section>
 <div class="about-com content" id="company_gallery">
@@ -421,7 +422,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.alpha-design.co.jp/">https://www.alpha-design.co.jp/</a></dd>
+			<dd><a href="https://www.alpha-design.co.jp/" target="<?= $co['slug'] ?>">https://www.alpha-design.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
@@ -625,7 +626,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>土 日 祝 その他</dd>
+					<dd>土 日 祝 その他<br>
+					年間休日121日
+				</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>

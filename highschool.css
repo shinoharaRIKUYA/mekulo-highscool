@@ -9,7 +9,7 @@ html {
  * 全体レイアウト
  */
  .highschool header {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	width: 100%;
 	overflow: hidden;
@@ -131,7 +131,7 @@ footer {
 	float: left;
 	display: block;
 	margin: 4px;
-	width: 50%;
+	width: fit-content;
 	line-height: 1;
 	font-size: 16px;
 	text-align: center;
@@ -142,6 +142,8 @@ footer {
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	max-height: 70px;
+	object-fit: cover;
 }
 
 .highschool .btn_return {
@@ -236,7 +238,6 @@ footer {
 
 @media all and (min-width: 640px) {
 	.highschool header .company_name {
-		width: 320px;
 		margin: 8px;
 	}
 
@@ -510,6 +511,7 @@ footer {
 	.highschool .company_nav .company_logo {
 		display: block;
 		width: 80%;
+		max-width: 180px;
 		height: auto;
 		margin: 8px auto;
 	}
@@ -910,8 +912,6 @@ li {
 
 #employee_introduction .Lightbox .thumbnails .thumbnail img {
 	max-width: 220px;
-	aspect-ratio: 3 / 2;
-    object-fit: cover;
 }
 
 .thumbnails img.glass,
@@ -1007,7 +1007,7 @@ li {
 @media (min-width: 640px) {
 	#theLightbox.active {
 		height: 100vh;
-		top: 70%;
+		top: 55%;
 		overflow: auto;
 	}
 
@@ -1099,7 +1099,7 @@ li {
 	margin: 32px auto;
 	padding: 4px;
 	width: 100%;
-	max-width: 320px;
+	max-width: 270px;
 	color: white;
 	text-align: center;
 	font-weight: bold;
@@ -1115,6 +1115,10 @@ li {
 
 .requirements .btn_entry .flag {
 	width: 18%;
+}
+
+#recruitment_requirements {
+	scroll-margin-top: 300px;
 }
 
 @media (min-width: 640px) {	
@@ -1311,6 +1315,15 @@ li {
 
 .toc .pro::before {
 	background: url(hummer.png) no-repeat center;	
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	content: "";
+	display: block;
+}
+
+.toc .jobs::before {
+	background: url(jobs.png) no-repeat center;	
 	background-size: contain;
 	width: 20px;
 	height: 20px;
@@ -1576,7 +1589,6 @@ ol li a {
 	margin: 30px 8px;
 	background-color: #fff;
 	padding-bottom: 10px;
-	scroll-margin-top: 240px;
 }
 
 .content h2,
@@ -1958,10 +1970,6 @@ dl.speclist > div > dd iframe {
 dl.speclist > div {
 	border-bottom: 1px solid black;
 	padding: 18px;
-}
-
-dl.speclist .hp a {
-	word-break: break-all;
 }
 
 .li_style li {
@@ -2544,48 +2552,4 @@ font-size: clamp(1.25rem, 1.0227rem + 0.9697vw, 1.75rem);
 	text-decoration: none;
 	text-shadow: 0px 1px 2px black;
 	background: repeating-linear-gradient(130deg, #1C9E96, #1C9E96 10px,#188B8A 10px, #188B8A 20px);
-}
-/*fascoのロゴ*/
-.fasco .company_name img {
-	height: 70px;
-}
-
-.fasco .company_nav .company_logo {
-	height: 70px;
-}
-
-/*aceworkersのロゴ*/
-.aceworkers .company_name a {
-	display: block;
-    text-align: left;
-}
-
-.aceworkers .company_name img {
-	max-width: 150px;
-}
-
-.aceworkers .company_nav .company_logo {
-	max-width: 180px;
-}
-
-/*荒井造園のロゴ*/
-
-
-.arai-zouen .company_name img {
-	height: 70px;
-}
-
-.arai-zouen .company_nav .company_logo {
-	height: 70px;
-}
-
-/*北澤土建のロゴ*/
-.kitazawa-doken .company_name img {
-	height: 130px;
-	object-fit: contain;
-}
-
-.kitazawa-doken .company_nav .company_logo {
-	height: 120px;
-	object-fit: contain;
 }

@@ -362,7 +362,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakaki-santaclaus.jp/">https://sakaki-santaclaus.jp/</a></dd>
+			<dd><a href="https://sakaki-santaclaus.jp/" target="<?= $co['slug'] ?>">https://sakaki-santaclaus.jp/</a></dd>
 		</div>
 	</dl>
 </section>
@@ -402,6 +402,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 						}
 						?>
 				</ul>
+				別日はご相談ください。
             </dd>
         </div>
         <div>

@@ -11,7 +11,6 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '建物の裏側で空気の通り道をつくる仕事です。金属板からダクトを設計・製造・取り付けまで一貫して行い、学校や商業施設、工場などに快適な空調環境を届けます。設計図をもとにパズルのように組み立て、チームで効率よく現場設置。図形やものづくりが好きな方にぴったりの職場です。';//メタディスクリプションの追加
 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
@@ -298,7 +297,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</li>
 		<li class="small">
 			<p>平均有給取得日数</p>
-			<p class="num"><span>19.5</span>日</p>
+			<p class="num"><span>15.1</span>日</p>
 		</li>
 	</ul>
 	<ul class="fl_con">
@@ -307,7 +306,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>育児休暇率</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 45, [
-						[ 'value' => 100, 'caption' => '0%', 'color' => '#d9d9d9'],
+						[ 'value' => 100, 'caption' => '取得者なし', 'color' => '#d9d9d9'],
 						[ 'value' => 0.001, 'caption' => '', 'color' => '#2378C7'],
 					]); ?>
 				</svg>
@@ -365,8 +364,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 95, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 5, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 95, 'caption' => "長野県内95%", 'color' => '#B2CF3E'],
+							[ 'value' => 5, 'caption' => '県外5%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -413,7 +412,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://sohfu.co.jp/">https://sohfu.co.jp/</a></dd>
+			<dd><a href="https://sohfu.co.jp/" target="<?= $co['slug'] ?>">https://sohfu.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>

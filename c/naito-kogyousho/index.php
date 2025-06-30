@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '佐久市で巨大な産業機械のフレームを製造する会社。一点物の鉄骨構造を切断・溶接・塗装まで一貫して手がけ、自分の身長を超えるスケールのモノづくりに挑めます。地域産業を支えるダイナミックな仕事です！';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -100,6 +96,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		デカい鉄骨に穴を開け、溶接で組み立て、最終的には自分の身長を超えるような巨大な土台（フレーム）を完成させます。<br>
 		そんな、超デカいものを作る仕事をやってみませんか？
 	</p>
+	<div class="images">
+		<img src="introduce1.jpg" class="scene" alt="">
+	</div>
 	<div id="gallery">
 		<div class="gallery_window">
 			<img src="first.jpg" alt="" class="fs show">
@@ -345,8 +344,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 87, 'caption' => "長野県内87%", 'color' => '#B2CF3E'],
+							[ 'value' => 23, 'caption' => '県外23%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -397,7 +396,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="https://sakucity-industrialpark.com/naitou/">https://sakucity-industrialpark.com/naitou/</a></dd>
+			<dd><a href="https://sakucity-industrialpark.com/naitou/" target="<?= $co['slug'] ?>">https://sakucity-industrialpark.com/naitou/</a></dd>
 		</div>
 	</dl>
 </section>

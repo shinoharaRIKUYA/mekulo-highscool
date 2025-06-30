@@ -10,11 +10,8 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '株式会社山口電気の応募前見学ページです。';//メタディスクリプションをここに挿入 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,7 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -77,7 +73,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <section id="visit1" class="content">
 	<p class="catchcopy"><span>電気工事士の仕事を見てみよう！</span></p>
 	<p class="cont">
-		サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+		
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
@@ -94,7 +90,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>体験<span>30分程度</span></li>
 		</ul>
 	</div>
-	<a href="" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
 		<span>応募する</span>
 		<img src="../../../arrow.svg">

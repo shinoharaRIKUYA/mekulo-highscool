@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '長野レジンは、車や医療部品、日用品などのプラスチック製品を射出成型で製造する会社。昼夜2交代制で安定した生産を行い、努力手当や夜勤手当など、がんばりがしっかり評価される職場です。';//メタディスクリプションの追加 
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -64,7 +60,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </script>
 
 </head>
-<body class="highschool">
+<body class="highschool naganorezin">
 <?php include $highschool_base . 'tmpl_header.php'; ?>
 <div class="content_area">
 <main>
@@ -334,8 +330,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 87, 'caption' => "長野県内", 'color' => '#B2CF3E'],
-							[ 'value' => 23, 'caption' => '県外', 'color' => '#FEE929'],
+							[ 'value' => 87, 'caption' => "長野県内87%", 'color' => '#B2CF3E'],
+							[ 'value' => 23, 'caption' => '県外23%', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
 				</div>
@@ -344,7 +340,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="company_info">
 	<h2>会社概要</h2>
-	<img src="factory.jpg" alt="" class="scene">
+	<img src="office.jpg" alt="" class="scene">
 	<dl class="speclist">
 		<div>
 			<dt>会社名</dt>
@@ -382,14 +378,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div>
 			<dt>ホームページ</dt>
-			<dd><a href="http://www.nagano-resin.co.jp/"></a>http://www.nagano-resin.co.jp/</dd>
+			<dd><a href="http://www.nagano-resin.co.jp/" target="<?= $co['slug'] ?>">http://www.nagano-resin.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
 <section class="content" id="from_president">
 	<h2>会社からのメッセージ</h2>
 	<div class="pre_con">
-		<h3></h3>
 		<figure class="portrait">
 			<img src="president_p.jpg" alt="">
 			<figcaption><span class="name">西澤文康</span></figcaption>

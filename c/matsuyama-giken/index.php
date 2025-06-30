@@ -11,11 +11,8 @@ include_once $highschool_base . '!master-data.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '松山技研は、金属の硬さやしなやかさ、耐久性を自在に変える加工技術で、自動車やロボットなどの部品製造を支える会社。熱処理や表面処理を通じて、まるで“エンチャント”のように金属の特性を引き出します。';//メタディスクリプションの追加
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -31,7 +28,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -288,7 +284,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<p>年齢構成</p>
 			<svg width="150" height="150" viewBox="0 0 200 200">
 				<?php create_donut_graph(100, 100, 100, 40, [
-					[ 'value' => 3, 'caption' => "", 'color' => '#808080'],
+					[ 'value' => 3, 'caption' => "10代", 'color' => '#808080'],
 					[ 'value' => 39, 'caption' => '20代', 'color' => '#0073B7'],
 					[ 'value' => 39, 'caption' => '30代', 'color' => '#00AEEF'],
 					[ 'value' => 36, 'caption' => '40代', 'color' => '#00B398'],
@@ -302,8 +298,8 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>通勤手段の割合</p>
 				<svg width="150" height="150" viewBox="0 0 200 200">
 					<?php create_donut_graph(100, 100, 100, 40, [
-						[ 'value' => 151, 'caption' => "車・バイク", 'color' => '#E06A3A'],
-						[ 'value' => 1, 'caption' => '電車・バス', 'color' => '#D04255'],
+						[ 'value' => 151, 'caption' => "車・バイク99%", 'color' => '#E06A3A'],
+						[ 'value' => 1, 'caption' => '電車・バス1%', 'color' => '#D04255'],
 					]); ?>
 				</svg>
 			</div>
@@ -313,7 +309,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<p>出身地の割合</p>
 					<svg width="150" height="150" viewBox="0 0 200 200">
 						<?php create_donut_graph(100, 100, 100, 40, [
-							[ 'value' => 100, 'caption' => "長野県内", 'color' => '#B2CF3E'],
+							[ 'value' => 100, 'caption' => "長野県内100%", 'color' => '#B2CF3E'],
 							[ 'value' => 0.001, 'caption' => '', 'color' => '#FEE929'],
 													]); ?>
 					</svg>
@@ -361,7 +357,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		</div>
 		<div class="hp">
 			<dt>ホームページ</dt>
-			<dd><a href="https://www.matsuyama-giken.co.jp/">https://www.matsuyama-giken.co.jp/</a></dd>
+			<dd><a href="https://www.matsuyama-giken.co.jp/" target="<?= $co['slug'] ?>">https://www.matsuyama-giken.co.jp/</a></dd>
 		</div>
 	</dl>
 </section>
@@ -436,7 +432,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<li>
 			<a href="<?= $company_base ?>job_hyoumen/">
 				<figure>
-					<img src="job_hyoumen/fv.jpg" alt="">
+					<img src="job_hyoumen/fv.jpg" alt="" style="aspect-ratio: 3 / 2; object-fit: cover;">
 					<figcaption>表面処理事業</figcaption>
 				</figure>
 			</a>
