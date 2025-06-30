@@ -10,7 +10,7 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$description = '有限会社坂口設備の応募前見学ページです。';//メタディスクリプションをここに挿入 
+$description = '信電工株式会社の応募前見学ページです。';//メタディスクリプションをここに挿入 
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
@@ -71,23 +71,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>配管の加工方法を見てみよう！</span></p>
+	<p class="catchcopy"><span>リアルな仕事現場を見られるかも！</span></p>
 	<p class="cont">
-		坂口設備の応募前見学では、加工場での作業を間近で見学し、社内の雰囲気を感じながら、社長や専務から会社のことを直接聞くことができます。<br>
-		タイミングが合えば、溶接体験もできるかもしれません。開催日以外でも対応できますので、お気軽にご連絡ください。
+		見学では、信電工の仕事について、詳しくご説明します。
+		その日に行なっている工事の内容によっては、実際の現場に足を運び、作業の様子を間近で見ることができる場合もあります。
+		教科書や映像ではわからない、現場ならではのリアルな空気を感じてみてください。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 13時00分～、15時30分～</li>
-			<li>2025年8月5日（火） 13時00分～、15時30分～</li>
+			<li>2025年8月7日（木）9時30分～</li>
+			<li>2025年8月8日（金）9時30分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li>会社説明<span>10分程度</span></li>
-			<li>見学・体験<span>30分程度</span></li>
+			<li>会社の説明<span>１５分～３０分</span></li>
 		</ul>
 	</div>
 	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
