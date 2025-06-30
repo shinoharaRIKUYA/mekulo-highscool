@@ -26,7 +26,7 @@ $occupation = [
         'work' => ['281'],
         'image' => '.jpg',
         'latitude' => 36.34221711,//緯度
-        'longitude' => 138.3444284,//経度  
+        'longitude' => 138.3444284,//経度
         'MBTI' =>  'estJ',
     ],
     'job_conmane' => [
@@ -36,7 +36,7 @@ $occupation = [
         'work' => ['669'],
         'image' => '.jpg',
         'latitude' => 36.34221711,//緯度
-        'longitude' => 138.3444284,//経度  
+        'longitude' => 138.3444284,//経度
         'MBTI' => '-StJ',
     ],
     'job_carpenter' => [
@@ -46,7 +46,7 @@ $occupation = [
         'work' => ['661'],
         'image' => '.jpg',
         'latitude' => 36.34221711,//緯度
-        'longitude' => 138.3444284,//経度    
+        'longitude' => 138.3444284,//経度
         'MBTI' =>  'Istp',
     ],
     'job_delivery' => [
@@ -56,7 +56,7 @@ $occupation = [
         'work' => ['669'],
         'image' => '.jpg',
         'latitude' => 36.34221711,//緯度
-        'longitude' => 138.3444284,//経度   
+        'longitude' => 138.3444284,//経度
         'MBTI' =>  'Isfp',
     ],
     'job_processing' => [
@@ -66,7 +66,7 @@ $occupation = [
         'work' => ['536'],
         'image' => '.jpg',
         'latitude' => 36.34221711,//緯度
-        'longitude' => 138.3444284,//経度   
+        'longitude' => 138.3444284,//経度
         'MBTI' =>  'I--P',
     ],
 ];

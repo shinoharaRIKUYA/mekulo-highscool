@@ -26,8 +26,8 @@ $occupation = [
         'work' => ['541','73'],
         'fv_url' => 'job_robot/firstview.jpg',
         'latitude' => 36.4558151,//緯度
-        'longitude' => 138.1860619,//経度    
-        'MBTI' => 'Int-', 
+        'longitude' => 138.1860619,//経度
+        'MBTI' => 'IStj', 
     ],
 ];
 
