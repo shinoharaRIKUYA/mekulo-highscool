@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県千曲市大字屋代1451',
     'homepage' => 'https://ssb-haikanya.co.jp',
     'logo_filename' => 'logo.webp',
-    'latitude' => 36.5175525,//緯度
-    'longitude' => 138.1208322,//経度
+    'latitude' => 36.51758116,//緯度
+    'longitude' => 138.1207672,//経度
     'human' => [
         'image' => 'sato.png',
         'name' => '佐藤',
@@ -25,8 +25,8 @@ $occupation = [
         'catch_copy' => '修理方法を見極める！配管職人の世界',
         'work' => ['666'],
         'fv_url' => 'job_setubikoji/firstview.jpg',
-        'latitude' => 36.5175525,//緯度
-        'longitude' => 138.1208322,//経度
+        'latitude' => 36.51758116,//緯度
+        'longitude' => 138.1207672,//経度 
         'MBTI' => 'is-P'
     ],
 ];
@@ -37,12 +37,12 @@ $visit = [//あとで入れる
         'about' => '応募前見学',
         'date' => [
             [
-                'name' => '例：2025年7月29日（火）13時00分～、15時30分～',
+                'name' => '例：2025年7月29日（火）13時00分～、15時30分～', 
                 'date' => '2025-07-29',
                 'deadline' => '2025-07-26',//募集締切日
             ],
             [
-                'name' => '例：2025年8月5日（火）13時00分～、15時30分～',
+                'name' => '例：2025年8月5日（火）13時00分～、15時30分～', 
                 'date' => '2025-08-05',
                 'deadline' => '2025-08-02',//募集締切日
             ],
