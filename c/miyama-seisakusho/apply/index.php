@@ -8,13 +8,10 @@ include_once $highschool_base . 'circle.php';
 
 //====================
 // ページのメタデータ
-$title = $co['company_name'] . 'の新卒求人情報';
+$title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-$keywords = '';//メタキーワードをここに挿入
-$description = '';//メタディスクリプションをここに挿入
-
+$description = '株式会社ミヤマ製作所の応募前見学ページです。';//メタディスクリプションをここに挿入
 $canonical_url = 'https://works.mekulo.jp/highschool/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -29,9 +26,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <title><?= $title_with_site ?></title>
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
-<?php } ?>
-<?php if ($keywords) { ?>
-<meta name="keywords" content="<?= $keywords ?>">
 <?php } ?>
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
@@ -53,7 +47,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	},{
 		"@type": "ListItem",
 		"position": 2,
-		"name": "高卒特集",
+		"name": "高卒求人特集",
 		"item": "https://works.mekulo.jp/highschool/"
 	},{
 		"@type": "ListItem",
@@ -77,19 +71,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span>ダクト作りを覗いてみよう！</span></p>
+	<p class="catchcopy"><span></span></p>
 	<p class="cont">
-		創風の応募前見学では、一枚の金属板が機械によってさまざまな形に切り取られていく様子や、ダクトの形に組み立てられていく工程を間近で見学できます。<br>
-		ハンマーで叩くときの「カンカン」という音や、身体を使って金属板を曲げていく様子は創風ならでは。職場の雰囲気をチェックできるほか、先輩から直接仕事の話を聞けるかもしれません。<br>
-		また、ダクト作り体験も行います。実際に手を動かしてみることで、仕事のイメージが具体的になるでしょう。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li>2025年7月29日（火） 10時00分～、<span class="br">13時30分～</span></li>
-			<li>2025年7月31日（木） 10時00分～、<span class="br">13時30分～</span></li>
-			<li>2025年8月7日（木） 10時00分～、<span class="br">13時30分～</span></li>
-			<li>2025年8月21日（木） 10時00分～、<span class="br">13時30分～</span></li>
+			<li><span class="br"></span></li>
 		</ul>
 	</div>
 	<div class="flow">
@@ -99,9 +87,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<li>現場見学<span>分</span></li>
 		</ul>
 	</div>
-	<a href="../apply/#entry" class="entry-btn">
+	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">
 		<img src="../../../flag.png" class="flag">
-		<span>応募前見学情報を見る</span>
+		<span>応募する</span>
 		<img src="../../../arrow.svg">
 	</a>
 </section>

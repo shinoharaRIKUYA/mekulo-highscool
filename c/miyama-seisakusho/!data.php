@@ -9,8 +9,8 @@ $co = [
     'address' => '長野県上田市上田原１７８４',
     'homepage' => 'https://miyamass.jp/',
     'logo_filename' => 'logo.svg',
-    'latitude' => 36.3694332,//緯度
-    'longitude' => 138.2142701,//経度
+    'latitude' => 36.3855759193,//緯度
+    'longitude' => 138.2310452864,//経度
     'human' => [
         'image' => 'shomura.png',
         'name' => '正村 欣生',
@@ -25,9 +25,9 @@ $occupation = [
         'catch_copy' => '切粉の数だけ磨かれる職人技',
         'work' => ['562'],
         'fv_url' => 'first.jpg',
-        'latitude' => 36.3694332,//緯度
-        'longitude' => 138.2142701,//経度    
-        'MBTI' =>  '',
+        'latitude' => 36.3855759193,//緯度
+        'longitude' => 138.2310452864,//経度
+        'MBTI' =>  'IStJ',
     ],
 ];
 
