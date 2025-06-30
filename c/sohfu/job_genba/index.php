@@ -125,7 +125,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	<h2>仕事内容</h2>
 	<h3>ダクト設置のプロ</h3>
 	<p>
-		ダクト職人は、県内に約300人しかいない珍しい仕事です。<br>
+		ダクト職人は、県内に約200人しかいない珍しい仕事です。<br>
 		一枚の金属板を筒の形に組み立てて、それを現場で繋げていく。簡単そうに聞こえますが、現場ごとにダクトの形も設置方法も違い、同じ作業はひとつもありません。<br>
 		設計図を見ながらチームで考えて、試行錯誤しながら形にしていく。「知らない」「わからない」ことにワクワクできる人なら、きっとこの仕事を楽しめるはずです。
 	</p>
@@ -265,7 +265,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd>上田駅から上田バス菅平線（渋沢線）湯の平バス停から徒歩5分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
@@ -398,7 +398,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>入居可能住宅</dt>
-					<dd>nsapi_request_headers</dd>
+					<dd>なし</dd>
 				</div>
 			</dl>
 		</div>
@@ -407,19 +407,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
@@ -440,8 +440,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 					<dd>
 						〇雇入時教育<br>
 						〇特別教育<br>
-						〇技能講習<br>
-						玉掛け、高所作業車、など
+						〇技能講習（玉掛け、高所作業車　など）
 					</dd>
 				</div>
 				<div>
@@ -461,7 +460,10 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>社内検定等の有無</dt>
-					<dd>1級建築板金（ダクト鈑金）技能士（実務経験7年以上）</dd>
+					<dd>
+						1級建築板金（ダクト鈑金）<br>
+						技能士（実務経験7年以上）
+					</dd>
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
@@ -469,7 +471,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>15.5日</dd>
+					<dd>15.1日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -498,7 +500,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
