@@ -353,28 +353,28 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd></dd>
+					<dd>3か月</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
-					<dd>-</dd>
+					<dd>同条件</dd>
 				</div>
 				<div>
 					<dt>就業場所</dt>
-					<dd>〒389-0502<br>
-					長野県上田市武石沖471-1</dd>
+					<dd>〒389-0603<br>
+					長野県埴科郡坂城町大字中条657-1</dd>
 				</div>
 				<div>
 					<dt>アクセス</dt>
-					<dd>-</dd>
+					<dd>しなの鉄道テクノさかき駅から車で5分</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>-</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
-					<dd>-</dd>
+					<dd>屋内禁煙</dd>
 				</div>
 				<div>
 					<dt>マイカー通勤</dt>
@@ -397,7 +397,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21日</dd>
+					<dd>21.4日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -425,15 +425,15 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
-					<dd>-</dd>
+					<dd>夜勤手当（3,000円）</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当②</dt>
-					<dd>-</dd>
+					<dd>会議手当（1回500円）</dd>
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>-</dd>
+					<dd>月末</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -441,41 +441,41 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd></dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd></dd>
+					<dd>年2回（2か月分）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8時00分〜17時00分</dd>
+					<dd>シフト制<br>①7時00分〜16時00分<br>②9時00分〜18時00分<br>③11時00分〜20時00分<br>④17時00分〜翌10時00分</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均10時間</dd>
+					<dd>0時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>週休2日制（土日・祝日・夏季休暇）</dd>
+					<dd>週休2日制（シフト制）</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
-					<dd>年間休日120日（2025年度計画）</dd>
+					<dd>年間休日108日（2025年度計画）</dd>
 				</div>
 			</dl>
 			<h3>保険・年金・定年等</h3>
 			<dl>
 				<div>
 					<dt>加入保険等</dt>
-					<dd>厚生年金保険、健康保険、介護保険、雇用保険、労災保険</dd>
+					<dd>健康保険、雇用保険、労災保険、厚生年金</dd>
 				</div>
 				<div>
 					<dt>企業年金</dt>
-					<dd>企業年金基金</dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>退職金制度</dt>
@@ -483,7 +483,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>定年制</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>一律定年制</dt>
@@ -525,29 +525,23 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>平均継続勤務年数</dt>
 					<dd>
-						17年<br>
+						10年<br>
 						※創業以降の実績
 					</dd>
 				</div>
 				<div>
 					<dt>従業員の平均年齢</dt>
-					<dd>48歳</dd>
+					<dd>51歳</dd>
 				</div>
 				<div>
 					<dt>研修の有無</dt>
 					<dd>なし</dd>
 				</div>
 				<div>
-					<dt>研修内容</dt>
-					<dd>なし</dd>
-				</div>
-				<div>
 					<dt>自己啓発支援の有無</dt>
 					<dd>
 						〇資格取得支援<br>
-						仕事に必要な資格について、取得費用を全額補助いたします。
-						〇各種講習会への参加<br>
-						協会などが主催する「1級土木施工管理試験の講習」「ドローンの操縦方法」など。1日のときもあれば3～4日のときもある。
+						仕事に必要な資格について、取得費用を半額補助いたします。
 					</dd>
 				</div>
 				<div>
@@ -564,11 +558,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前年度の月平均所定外労働時間</dt>
-					<dd>20時間</dd>
+					<dd>0時間</dd>
 				</div>
 				<div>
 					<dt>前事業年度の有給休暇の平均取得日数</dt>
-					<dd>10日</dd>
+					<dd>6.7日</dd>
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
@@ -580,7 +574,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>66%</dd>
+					<dd>0%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -588,7 +582,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>区分の名称</dt>
-					<dd>建設業</dd>
+					<dd>老人福祉・介護事業</dd>
 				</div>
 			</dl>
 		</div>
@@ -609,7 +603,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考方法</dt>
-					<dd>書類選考、面接</dd>
+					<dd>面接</dd>
 				</div>
 				<div>
 					<dt>選考旅費</dt>
@@ -617,13 +611,13 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
-						北澤隆洋
+						代表<br>
+						高山賢仁
 					</dd>
 				</div>
 			</dl>
