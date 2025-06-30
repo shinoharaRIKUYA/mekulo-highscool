@@ -269,7 +269,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>試用期間</dt>
-					<dd>3か月</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>試用期間中の労働条件</dt>
@@ -288,8 +288,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>受動喫煙対策</dt>
-					<dd>あり
-				</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>受動喫煙対策に関する特記事項</dt>
@@ -316,7 +315,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>月平均労働日数</dt>
-					<dd>21.4日</dd>
+					<dd>21.1日</dd>
 				</div>
 				<div>
 					<dt>毎月の賃金</dt>
@@ -324,7 +323,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>基本給</dt>
-					<dd>高卒以上170,000～　1か月160時間勤務の場合、残業代別</dd>
+					<dd>高卒以上171,000～　1か月160時間勤務の場合、残業代別</dd>
 				</div>
 				<div>
 					<dt>定期的に支払われる手当①</dt>
@@ -340,7 +339,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>初任給</dt>
-					<dd>170,000円</dd>
+					<dd>171,000円</dd>
 				</div>
 				<div>
 					<dt>特別に支払われる手当①</dt>
@@ -360,11 +359,11 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>昇給</dt>
-					<dd>年1回　2024年実績平均8,000円程度</dd>
+					<dd>あり</dd>
 				</div>
 				<div>
 					<dt>賞与</dt>
-					<dd>年2回（2.5カ月）</dd>
+					<dd>年2回（3カ月）</dd>
 				</div>
 			</dl>
 			<h3>労働時間</h3>
@@ -398,7 +397,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>退職金制度</dt>
-					<dd>退職金共済</dd>
+					<dd>退職金共済（勤続１年以上）</dd>
 				</div>
 				<div>
 					<dt>定年制</dt>
@@ -427,19 +426,19 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>直近3年間の新卒者等採用者数</dt>
-					<dd>前年度:0人、2年度前：2人、3年度前：0人</dd>
+					<dd>前年度:2人、2年度前：0人、3年度前：1人</dd>
 				</div>
 				<div>
 					<dt>直近3年間の新卒者等離職者数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:1人、2年度前：0人、3年度前：4人</dd>
 				</div>
 				<div>
 					<dt>男性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：0人、3年度前：0人</dd>
+					<dd>前年度:0人、2年度前：0人、3年度前：2人</dd>
 				</div>
 				<div>
 					<dt>女性の新卒者等採用数</dt>
-					<dd>前年度:0人、2年度前：2人、3年度前：0人</dd>
+					<dd>前年度:2人、2年度前：0人、3年度前：2人</dd>
 				</div>
 				<div>
 					<dt>平均継続勤務年数</dt>
@@ -491,7 +490,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>前事業年度の育児休業取得者数</dt>
-					<dd>女性：1人、男性：0人</dd>
+					<dd>女性：0人、男性：0人</dd>
 				</div>
 				<div>
 					<dt>前事業年度の出産者数</dt>
@@ -499,7 +498,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>女性役員割合</dt>
-					<dd>0%</dd>
+					<dd>30%</dd>
 				</div>
 				<div>
 					<dt>女性の管理職割合</dt>
@@ -516,7 +515,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>求人数</dt>
-					<dd>3名</dd>
+					<dd>2名</dd>
 				</div>
 				<div>
 					<dt>応募前職場見学</dt>
@@ -537,13 +536,12 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
-					<dd>面接後５日以内</dd>
+					<dd>面接後7日以内</dd>
 				</div>
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						代表取締役社長<br>
-						
+						総務 久保田
 					</dd>
 				</div>
 			</dl>
