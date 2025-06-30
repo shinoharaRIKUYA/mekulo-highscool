@@ -148,7 +148,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 		<img src="firstview.jpg" class="scene" alt="">
 	</div>
 	<p>
-		半導体って、じつは身の回りのほとんどの電化製品に使われています。その『超ちっちゃい半導体チップを、ナノ単位のズレもなく、ぴったり基板に置いて接着する装置』などを作っています。スマホやAIチップの心臓部をつくる超精密マシンに関わることができる会社です。<br>
+		半導体って、じつは身の回りのほとんどの電化製品に使われています。その『半導体チップを、マイクロ単位の精度で、ぴったり基板に置いて接着する装置』などを作っています。スマホやAIチップの心臓部をつくる超精密マシンに関わることができる会社です。<br>
 		また、電子基板にチップを差し込む装置も作っています。この装置は、間違った位置に挿入されない工夫があり、チップを差し込んだ後、リードを切る、リードをかるく曲げて固定（クリンチ）する、といった工程を自動で行うことができるものです。<br>
 		最先端を「産業機械」を設計・開発し、製造現場の効率化を技術で支えている会社です。
 	</p>
@@ -802,5 +802,5 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <script src="../../page_nav.js"></script>
 <script src="<?= $highschool_base ?>lightbox.js"></script>
 <script src="<?= $highschool_base ?>animation.js"></script>
-<?php //include $base . '../footer.php' ?>
+<?php include $base . '../footer.php' ?>
 </body>

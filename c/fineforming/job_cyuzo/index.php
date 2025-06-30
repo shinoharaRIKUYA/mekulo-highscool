@@ -578,7 +578,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
                 <li>
                     <a href="<?= $company_base . $prop['url'] ?>">
                         <figure>
-                            <img src="<?= $company_base . $prop['image'] ?>" alt="">
+                            <img src="<?= $company_base . $prop['fv_url'] ?>" alt="">
                             <figcaption><?= $prop['name'] ?></figcaption>
                         </figure>
                     </a>

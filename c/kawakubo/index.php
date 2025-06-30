@@ -243,10 +243,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 </section>
 <section class="content" id="numeric_data">
 	<h2>数字で見る当社</h2>
-	<div class="large">
-		<p>売上高</p>
-		<p class="num"><span></span>億円</p>
-	</div>
 	<ul class="gr_con">
 		<li class="small">
 			<p>平均年齢</p>
