@@ -36,6 +36,7 @@ $visit = [
         'visit_img' =>'firstview.jpg',
         'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],
+
 ];
 
 // 目次
