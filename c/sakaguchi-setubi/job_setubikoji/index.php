@@ -428,7 +428,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 			<dl>
 				<div>
 					<dt>就業期間</dt>
-					<dd>8:00~17:00</dd>
+					<dd>8:00～17:00</dd>
 				</div>
 				<div>
 					<dt>時間外労働</dt>
