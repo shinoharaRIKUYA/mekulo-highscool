@@ -626,7 +626,9 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>休日</dt>
-					<dd>土 日 祝 その他</dd>
+					<dd>土 日 祝 その他<br>
+					年間休日121日
+				</dd>
 				</div>
 				<div>
 					<dt>その他休日</dt>
