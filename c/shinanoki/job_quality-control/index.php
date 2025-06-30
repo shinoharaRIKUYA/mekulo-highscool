@@ -336,7 +336,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>賃金締切日</dt>
-					<dd>毎月10日</dd>
+					<dd>毎月月末</dd>
 				</div>
 				<div>
 					<dt>通勤手当</dt>
@@ -359,7 +359,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>時間外労働</dt>
-					<dd>月平均13時間</dd>
+					<dd>月平均8時間</dd>
 				</div>
 				<div>
 					<dt>休日</dt>
@@ -511,7 +511,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				</div>
 				<div>
 					<dt>選考旅費</dt>
-					<dd></dd>
+					<dd>-</dd>
 				</div>
 				<div>
 					<dt>選考結果通知</dt>
@@ -520,7 +520,7 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 				<div>
 					<dt>選考担当者</dt>
 					<dd>
-						原田
+						原田 孝子
 					</dd>
 				</div>
 			</dl>
