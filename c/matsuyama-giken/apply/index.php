@@ -10,11 +10,8 @@ include_once $highschool_base . 'circle.php';
 // ページのメタデータ
 $title = $co['company_name'] . 'の高卒求人情報';
 $title_with_site = $title . ' | めくろうワークス';
-
 $description = '株式会社松山技研の応募前見学ページです。';//メタディスクリプションをここに挿入
-
 $canonical_url = 'https://works.mekulo.jp/hs/' . $co['slug'] . '/';
-
 $og_image = 'https://works.mekulo.jp/ogp-image.png';
 ?>
 <!DOCTYPE html>
@@ -30,7 +27,6 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 <?php if ($description) { ?>
 <meta name="description" content="<?= $description ?>">
 <?php } ?>
-
 <meta property="og:type" content="article">
 <meta property="og:title" content="<?= $title_with_site ?>">
 <?php if ($description) { ?>
@@ -75,22 +71,27 @@ $og_image = 'https://works.mekulo.jp/ogp-image.png';
 	</div>
 </div>
 <section id="visit1" class="content">
-	<p class="catchcopy"><span></span><br>
-		<span></span></p>
+	<p class="catchcopy"><span>松山技研工場見学</span></p>
 	<p class="cont">
-		
+		松山技研の応募前見学では、4つあるすべての工場を見ていただきます。<br>
+		私たちの仕事は「金属加工」といっても、切ったり、繋げたり、折り曲げたりする仕事ではありません。<br>
+		金属が持つ本来の力を引き出したり、新しい性能を加えたりする――そんな“金属に魔法をかけるような”仕事をしています。<br>
+		それぞれの工場で活躍する先輩たちの姿を、ぜひ自分の目で見てください。<br>
+		初めて見ると、何をしているのか分からないかもしれません。でも、黙々と真剣に働く大人たちの姿は、きっと心に残るはずです。
 	</p>
 	<div class="opendate">
 		<p>開催日時</p>
 		<ul>
-			<li></li>
+			<li>2025年8月01日（金）14時00分～</li>
+			<li>2025年8月07日（木）14時00分～</li>
 		</ul>
 	</div>
 	<div class="flow">
 		<p>見学の流れ</p>
 		<ul>
-			<li><span></span></li>
-			<li><span></span></li>
+			<li>会社説明<span>20分</span></li>
+			<li>各工場見学<span>60分</span></li>
+			<li>まとめと質疑応答<span>10分</span></li>
 		</ul>
 	</div>
 	<a href="../../../entry?company=<?= $co['slug'] ?>" class="entry-btn">

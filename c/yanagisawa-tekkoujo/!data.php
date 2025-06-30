@@ -59,7 +59,7 @@ $visit = [
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '',
+        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],
     
 ];

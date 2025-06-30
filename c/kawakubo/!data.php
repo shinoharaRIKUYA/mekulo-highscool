@@ -8,7 +8,7 @@ $co = [
     'post_code' => '386-0005',
     'address' => '長野県上田市古里1988-1',
     'homepage' => '',
-    'logo_filename' => 'logo.jpg',
+    'logo_filename' => 'logo.svg',
     'latitude' => 36.3694332,//緯度
     'longitude' => 138.2142701,//経度
     'human' => [
@@ -41,7 +41,7 @@ $visit = [
         ],
         'catch_copy' => '',
         'visit_img' =>'firstview.jpg',
-        'content' => '',
+        'content' => '応募前見学として参加する方は参加申し込みをしてください。',
     ],
 ];
 
